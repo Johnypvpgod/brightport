@@ -210,7 +210,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFtAYhcgPtAvqCUf+OAloAS/mBdgF1wCFFBob5cgwJxGBq2rtfkZqmjdpLDXvfAdV+VETlf0DCH0kwi5C9AYoI8z8D8Sc0ex4D8SMojS5Hjr3n5BBmfIaaDQA+6C7M
+   eJxjYBgFtAYhcgPtAvqCUf+OAloAS/mBdgF1wCFFBoZ5csRhaoL9itQ1b9Reyu19B1T7URGV/wEJfyTBLEL2BigizP8MxJ/Q7HkMxI+gNLocOfaek0OY8RlqNgBOBysC
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="18">
