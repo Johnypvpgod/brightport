@@ -228,11 +228,11 @@
  <tileset firstgid="9905" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="30" columns="6">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="192" height="160"/>
+ <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="224" height="160"/>
  </tileset>
- <tileset firstgid="10063" name="map_brightport" tilewidth="32" tileheight="32" tilecount="30" columns="6">
-  <image source="../drawable/map_brightport.png" width="192" height="160"/>
+ <tileset firstgid="10068" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
+  <image source="../drawable/map_brightport.png" width="224" height="160"/>
  </tileset>
  <layer id="9" name="Base" width="24" height="15">
   <data encoding="base64" compression="zlib">
@@ -244,14 +244,14 @@
    eJyzVGRgsBxGeCkSHormb0XCAxmO1Wi4G0oTq9+MA5UmZH41ieYTwo8UsGNqmf9JATumxEwPQcrk6YkHyi2DKQzogQEi8Y25
   </data>
  </layer>
- <layer id="2" name="Objects" width="24" height="15" visible="0">
+ <layer id="2" name="Objects" width="24" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVVL1OAzEMto4BtlMGhuqkowMSTwAzC5B2QAiWLohOUKpDqliASl0KHemzdIUFXoGFF2HiZ8BWbNXnS6/qJ1lOnM+fnbi9ogFwg/bsAKZoBe8Jsra+hfaSA7zm9byCuZrTUTWGaj3D9VcK8JHOY7EaEov1eYUaT2iPbII2rwfsZ+aedO7dXPt2E+BgO3A0jzDmGmOl6U2tN9R4z6u5nymUoM+l9oS1J67MHai9N2fenF00q7OQ+WqeaLZVnGLnyD/diZvoUQ5p6hpUd3cDYA9tmECX/HES9rafM9RqJNAkr00g7xH7DRya+1ttQi8DuDbWz8K9v1Hvh+cTm4XgxJXra94dat2zra0H/5CV8zsLZharRei7akzjyFXzpzU5PsKPnS/LH7HXb9GrybX1fjHnLw963pX7Gi3pgXCp/q8txY/1ID3KW+1vLb6/ne2q0N+HVb39jtm9+H81SH0w
+   eJyVVL1Ow0AMtsIAW3QDQxUpdEDiCWBmAa4dEBtZEExQqiBVLEClLoWO9Fm6wgKvwMKLMPEzYOts1XGuqfpJlu98nz/7zm3KFsAN2rMDmKKVvCfI2voO2ksO8Jo380rmak6hagzVeobrrxTgI53HYjUkFuvzCjWe0B7ZBF1eD9jPzD3p3Lu59u0mwMF24GgeYcw1xkrTm1pvqPGe13M/U6hAn0vtCWtPXJU7UHtvzrw5O2/XZyHz1TzR7Ko4xc6Qf7oTN9GjHNLUNaju7gbAHtowgQvyx0nY234K1Gol0CavTSDvEfsNHJr7W21CLwO4NtbPwr2/Ue+H5xObheDEVetr3h1q3bOtrQf/kFXziwUzi9Ui9F09pnHk6vnThhwf4cfOl+WP2Ou36DXk2nq/mPOXBz3vqn2NlvRAuFT/147ix3qQHuWt9rcW39/OdlXo78Oq3n7H7F78P+vcfWc=
   </data>
  </layer>
  <layer id="3" name="Above" width="24" height="15">
   <data encoding="base64" compression="zlib">
-   eJyzlGQAgxggHUuADQMwsZlyDAyz5LCLETKDEMCmB9k+mBpyzJ4PNGOBHG69uUyYbkC3mxJgr4Awmxz34wPo5iHbAbKXkD4Q/ZAdU55ZAEI/gsrBwgNbGshiYkioYmJYAKQXVDAxOKD7lZEDtzuYgHI3gebdgsYPLn/BALY0AVOnIAOhP7NBaHZgvDqL4babkF3IQBxoloEMhAYBTigdJEZ6nFIrDRCbRtHtuw3UcweLvhga+AHdjQryxMctqQC5fCCVRi/H0PnYygZLIP82EN9BK/dg9E0gvoXE7xTCXk7+BOJfUHUAWhZSjg==
+   eJyzlGQAgxggHUuADQMwsZlyDAyz5LCLETKDEMCmB9k+mBpyzJ4PNGOBHG69uUyYbkC3mxJgr4Awmxz34wPo5iHbAbKXkD4Q/ZAdU55ZAEI/gsrBwgNbGshiYkioYmJYAKQXVDAxOKD7lZEDoj5CHdMeJqDcTaB5t6Dxg8tfMIAtTcDUKchA6M9sEJodGK/OYrjDgJBdyEAcaJaBDIQGAU4oHSRGepxSKw0Qm0bR7bsN1HMHi74YGvgB3Y0K8sTHLakAuXwglUYvx9D52MoGSyD/NhDfQSv3YPRNIL6FxO8Uwl5O/gTiX1B1AOjaUw0=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="24" height="15" visible="0">

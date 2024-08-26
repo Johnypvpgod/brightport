@@ -237,12 +237,12 @@
  <tileset firstgid="10281" name="map_roof_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_roof_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10409" name="map_brightport" tilewidth="32" tileheight="32" tilecount="30" columns="6">
-  <image source="../drawable/map_brightport.png" width="192" height="160"/>
+ <tileset firstgid="10409" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
+  <image source="../drawable/map_brightport.png" width="224" height="160"/>
  </tileset>
  <layer id="1" name="Ground" width="29" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHGI4EvCCEwNM4jBj5AwIbW47HwkTBrercHAsAeI92oQVkusP/doYGJkcw4C+YeA+DCaOLoekJuI9echDUy8G8ksZH8im4+u5zAeO9H96SwNwSlcCPZBJLOQ/YlsPkwtMibWnzBxkJ0wNrI5SVwQjOwmfOZjw7uJjAMYRraT3LxykMg4oCYmNg5G8ShGxwAsfUnE
+   eJzbyMnAsHGI4EvCCEwNM4jBj5AwIbW47HwkTBrep8HAsB+ID2gQVkusP/droGJ0s48C+ceA+LgGdrcg6yPWn8c0UDHIbGS/4WIfxaKPWH86S0NwCheCjew3XGyYWmRMrD9h4iA7YWxkc5K4IBjZTfjMx4b3ERkHMIxsJ7l55SiRcUBNTGwcjOJRjI4BHbpKeg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="29" height="15">
@@ -255,7 +255,7 @@
    eJytVTsOwjAMDSzthDohdavUU8AN4HZwEy6QhRt0A8EAI7DA2IkYEeE+vSRKxZOixvHn2ZaTnmvzwcl9z27Z+rfHr8CC7GFJHC1rH+bPzrV8KYa21yLtI9g0xmwbHiOFSTmUpyW3w5wEu28ez0xOxH4e12NOfcs5Z2CHtWl0ipPVrHOS/goY52tk7axmPAv1VnOmepfi7KBOmS3WN+nRojJmWQ19UjzMVs+rgN0TH2fl+NZVnC/EE8PBzdCx5ZwIzHcMJEaozpzcc3Nh79A/6mHwcfVbGOoz4uZm+q7WI+Ne6XrYW+z1qOuBA+UQh9+n/iMxXSx3gVV2vody9gZzRnZ/
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="15">
+ <layer id="4" name="Walkable" width="29" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEUD3kMAvS0CxnQw22k2EfITlLMIMZebIAYt+NTR8iN1AToZhITbuTaQUx4EauWEoDuJ2qYg8wnxe20iFN0txDKT/S0lxruwmYeACB40eM=
   </data>
