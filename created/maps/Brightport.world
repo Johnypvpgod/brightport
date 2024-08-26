@@ -1,0 +1,314 @@
+{
+    "maps": [
+        {
+            "fileName": "brightport1.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "brightport2.tmx",
+            "height": 480,
+            "width": 928,
+            "x": 0,
+            "y": -544
+        },
+        {
+            "fileName": "brightport3.tmx",
+            "height": 960,
+            "width": 544,
+            "x": 960,
+            "y": -224
+        },
+        {
+            "fileName": "brightport4.tmx",
+            "height": 448,
+            "width": 544,
+            "x": 960,
+            "y": -704
+        },
+        {
+            "fileName": "brightport5.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1536,
+            "y": -224
+        },
+        {
+            "fileName": "brightport6.tmx",
+            "height": 448,
+            "width": 960,
+            "x": 1536,
+            "y": -704
+        },
+        {
+            "fileName": "waytobrightport20.tmx",
+            "height": 576,
+            "width": 960,
+            "x": -992,
+            "y": 192
+        },
+        {
+            "fileName": "waytobrightport19.tmx",
+            "height": 512,
+            "width": 832,
+            "x": -992,
+            "y": 1568
+        },
+        {
+            "fileName": "waytobrightport16.tmx",
+            "height": 736,
+            "width": 960,
+            "x": -992,
+            "y": 800
+        },
+        {
+            "fileName": "waytobrightport17.tmx",
+            "height": 544,
+            "width": 640,
+            "x": 0,
+            "y": 992
+        },
+        {
+            "fileName": "waytobrightport18.tmx",
+            "height": 512,
+            "width": 800,
+            "x": -128,
+            "y": 1568
+        },
+        {
+            "fileName": "waytobrightport15.tmx",
+            "height": 640,
+            "width": 800,
+            "x": -1824,
+            "y": 896
+        },
+        {
+            "fileName": "waytobrightport14.tmx",
+            "height": 512,
+            "width": 800,
+            "x": -1824,
+            "y": 1568
+        },
+        {
+            "fileName": "waytobrightport13.tmx",
+            "height": 576,
+            "width": 896,
+            "x": -2752,
+            "y": 1696
+        },
+        {
+            "fileName": "waytobrightport12.tmx",
+            "height": 576,
+            "width": 896,
+            "x": -2752,
+            "y": 1088
+        },
+        {
+            "fileName": "waytobrightport11.tmx",
+            "height": 544,
+            "width": 640,
+            "x": -3424,
+            "y": 2304
+        },
+        {
+            "fileName": "waytobrightport10.tmx",
+            "height": 256,
+            "width": 896,
+            "x": -3680,
+            "y": 1024
+        },
+        {
+            "fileName": "waytobrightport7.tmx",
+            "height": 576,
+            "width": 640,
+            "x": -3424,
+            "y": 1696
+        },
+        {
+            "fileName": "waytobrightport9.tmx",
+            "height": 352,
+            "width": 640,
+            "x": -3424,
+            "y": 1312
+        },
+        {
+            "fileName": "waytobrightport6.tmx",
+            "height": 224,
+            "width": 640,
+            "x": -3424,
+            "y": 2880
+        },
+        {
+            "fileName": "waytobrightport5.tmx",
+            "height": 608,
+            "width": 544,
+            "x": -4000,
+            "y": 1312
+        },
+        {
+            "fileName": "waytobrightport4.tmx",
+            "height": 640,
+            "width": 640,
+            "x": -4096,
+            "y": 1952
+        },
+        {
+            "fileName": "waytobrightport3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -4096,
+            "y": 2624
+        },
+        {
+            "fileName": "waytobrightport2.tmx",
+            "height": 256,
+            "width": 640,
+            "x": -4352,
+            "y": 1024
+        },
+        {
+            "fileName": "waytobrightport1.tmx",
+            "height": 256,
+            "width": 608,
+            "x": -4992,
+            "y": 1024
+        },
+        {
+            "fileName": "waytobrightport0.tmx",
+            "height": 608,
+            "width": 960,
+            "x": -4992,
+            "y": 1312
+        },
+        {
+            "fileName": "brightportwild1.tmx",
+            "height": 800,
+            "width": 480,
+            "x": -2753,
+            "y": 2305
+        },
+        {
+            "fileName": "brightportwild2.tmx",
+            "height": 800,
+            "width": 384,
+            "x": -2241,
+            "y": 2305
+        },
+        {
+            "fileName": "brightportwild3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -1839,
+            "y": 2613
+        },
+        {
+            "fileName": "brightportwild7.tmx",
+            "height": 480,
+            "width": 832,
+            "x": -129,
+            "y": 2105
+        },
+        {
+            "fileName": "brightportwild8.tmx",
+            "height": 480,
+            "width": 768,
+            "x": -1160,
+            "y": 2109
+        },
+        {
+            "fileName": "brightportwild6.tmx",
+            "height": 128,
+            "width": 512,
+            "x": -488,
+            "y": 2621
+        },
+        {
+            "fileName": "brightportwild9.tmx",
+            "height": 480,
+            "width": 192,
+            "x": -360,
+            "y": 2109
+        },
+        {
+            "fileName": "brightportwild10.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 728,
+            "y": 2269
+        },
+        {
+            "fileName": "brightportwild11.tmx",
+            "height": 320,
+            "width": 512,
+            "x": -488,
+            "y": 2781
+        },
+        {
+            "fileName": "brightportwild12.tmx",
+            "height": 448,
+            "width": 640,
+            "x": 56,
+            "y": 2621
+        },
+        {
+            "fileName": "brightportwild14.tmx",
+            "height": 288,
+            "width": 800,
+            "x": -1327,
+            "y": 3413
+        },
+        {
+            "fileName": "brightportwild13.tmx",
+            "height": 256,
+            "width": 512,
+            "x": -1327,
+            "y": 3125
+        },
+        {
+            "fileName": "brightportwild4.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -1167,
+            "y": 2613
+        },
+        {
+            "fileName": "brightportwild5.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -1839,
+            "y": 2101
+        },
+        {
+            "fileName": "brightportwild18.tmx",
+            "height": 640,
+            "width": 480,
+            "x": -3279,
+            "y": 373
+        },
+        {
+            "fileName": "brightportwild17.tmx",
+            "height": 608,
+            "width": 640,
+            "x": 46,
+            "y": 3105
+        },
+        {
+            "fileName": "brightportwild16.tmx",
+            "height": 576,
+            "width": 512,
+            "x": -498,
+            "y": 3137
+        },
+        {
+            "fileName": "brightportwild15.tmx",
+            "height": 256,
+            "width": 256,
+            "x": -786,
+            "y": 3137
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
