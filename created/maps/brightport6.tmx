@@ -192,9 +192,12 @@
  <tileset firstgid="7941" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8069" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="224" height="160"/>
+ </tileset>
  <layer id="1" name="Ground" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJyTlGNgkKQRvg7EN4D4GBZMKztB+CUQvwLio3S2F4T/4PA3re3F5W962Avz90DYi57O6GkvcnjT017k8Ka3vZKj9o7aSyMMyscA0fB5Mw==
+   eJyTlGNgkKQRvg7EN4D4GBZMKztB+CUQvwLio3S2F4T/4PA3re3F5W+YHDGAUn8PhL3o6Yye9iKHNz3tRQ5veqQrdDxq76i9tMCgfAwAvPZxdw==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="14">
