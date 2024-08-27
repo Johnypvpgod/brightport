@@ -186,8 +186,8 @@
  <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <tileset firstgid="8249" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="224" height="160"/>
+ <tileset firstgid="8249" name="map_brightport" tilewidth="32" tileheight="32" tilecount="40" columns="8">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="256" height="160"/>
  </tileset>
  <layer id="9" name="Base" width="17" height="14">
   <data encoding="base64" compression="zlib">
@@ -196,12 +196,12 @@
  </layer>
  <layer id="1" name="Ground" width="17" height="14">
   <data encoding="base64" compression="zlib">
-   eJyTlGFgkKQC9pPFL38MhzyyuD4WNSD5a7L49V8jYAYIBwnjxuhqcZmRJIwbE2uGnwIDgz8WHKBAvBmhQLVhWHA4CWbQE1sC3WUFxdZY3EgMdgDq05WBYCcyzZCUQZhBiX+obcZpCfzpE1s6BQAMV0FA
+   eJyTlGFgkKQC9pPFL38MhzyyuD4WNSD5a7L49V8jYAYIBwnjxuhqcZmRJIwbE2tGoALQTiw4WIF4MyKBaqOw4GgSzKAntgS6ywqKrbG4kRjsCNSnKwPBzmSaISmDMIMS/1DbjNMS+NMntnQKAHR3QXM=
   </data>
  </layer>
  <layer id="2" name="Objects" width="17" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYECALEEGhiuyDAxXZUmj5YBYGYgDZRFmWcoxMFgB8UsJBoZXEhAxkHqY+Gmg2Bkk8TCg3fJA2gBqhpsgAwYAqYOZB7MfBjglITSyGSAAUyfJhGoWiD9PGGEusnnIZmRA3ZEGpTnRzEEGHoII89DdgQykpSH0RTagO6QRfElguEjJQdySIYhpBizscoFukIW64yHQDE2gfm0grmNCqAHRfkC9/kAchBQ32MIVBBRlUf0J808cUNwZiJ2AOFEWoQ5ZjzsWM+2g6QKEV8lCzAHp78ERJsh2ooN0oFiUAoIfpIAaXzA/EwKRSGZEKEDSHDJA9juymbA0ABJDNwOb/R44zIG5Gd0MKRxuB6VPWBoFgd3AdL8HmmcAEVlFuw==
+   eJxjYECALEEGhiuyDAxXZUmj5YBYGYgDZRFmWcoxMFgB8UsJBoZXEhAxkHqY+Gmg2Bkk8TCg3fJA2gBqhpsgAwYAqYOZB7MfBjglITSyGSAAUyfJhGoWiD9PGGEusnnIZmRA3ZEGpTnRzEEGHoII89DdgQykpSH0RTagO6QRfElguEjJQdySIYhpBizscoFukIW64yHQDE2gfm0grmNCqAHRfkC9/kAchBQ32MIVBBRlUf0J808cUNwZiJ2AOFEWoQ5ZjzsWM+2g6QKEV8lCzAHp78ERJsh2ooN0kDsUEPxQBdT4gvmZEIhFMiNGAZLmkAGy35HNhKUBkBi6Gdjs98BhDszN6GZI4XA7KH3C0igI7Aam+z3QPAMAJNVF2g==
   </data>
  </layer>
  <layer id="3" name="Above" width="17" height="14">

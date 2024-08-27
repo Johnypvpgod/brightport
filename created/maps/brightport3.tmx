@@ -228,8 +228,8 @@
  <tileset firstgid="9913" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
-  <image source="../drawable/map_brightport.png" width="224" height="160"/>
+ <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="40" columns="8">
+  <image source="../drawable/map_brightport.png" width="256" height="160"/>
  </tileset>
  <layer id="9" name="Base" width="17" height="30">
   <data encoding="base64" compression="zlib">
@@ -238,17 +238,17 @@
  </layer>
  <layer id="1" name="Ground" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAcBWIjwLxRih+JEwYb+RExUfxmOGmzsDgjoY91FH1W6hjmuGGpNYXiP3QsD8RZvjiUIsPo5tBKkZ2hxUJ9mJzB3rcUOqOS8IITG544EsHuDC6P4gBhNxBrhlXsaQx5HQJot1wpFNs7kBPm/5QGjntWSpTN40RY4YRNP6NcKTBowTwVSLUUKIehl8JorrLQR2RZpHTKy78XBDTb8eRxMgpz9Axcjr5IcXgAGOTYgZyOgGaAWcjp7UcVgaGE5wQjM0MIS4EbkFio5dz+MxAxiAzsJlNihn4MEj/CzHKzdiMBeNTfwJNHzIfG/sEDv241A51DABR4WO1
+   eJzbyMnAcBWIjwLxRih+JEwYb+RExUfxmOGpzsDgBcUwtrc6qn5LdUwzkNUGAnEQFMPYwUSYgUstPoxuBqkY2R3WJNiLzR3ocUOpOy4JIzC54YEvHeDC6P4gBhByB7lmXMWSxryQ0hq+dIrNHchpE5bW0NOppTJ10xgxZhhB498IRxo8SgBfJUINJeph+JUgqruc1BFpFjm94sLPBTH9dhxJjJzyDB0jp5MfUgwOMDYpZiCnE6AZcDZyWsthZWA4wQnB2MwQ4kLgFiQ2ejmHzwxkDDIDm9mkmIEPg/S/EKPcjM1YMD71J9D0IfOxsU/g0I9L7VDHAPoOZHI=
   </data>
  </layer>
  <layer id="2" name="Objects" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVL1OAkEQ3orEjjvkEkNClCuuFhslMaK+gMQn8BmsjKVGnwHeACw1JvaGv9hItIEKCsCjQQsCnTPZHXcYuUDJl0x2dm/m47u5jy0E6g9nkOd8tRIed5R6gnjOKFUQHC/J6L73mM0LcdgDRwviXHA4rs6L2/a8YvIucJRMfgkcY0epN4jbDVtbd2xeNrUJd14L1fRhbUJ8wLvsCx0Ih/WFpmdsVldwSmSBYy+Y7yHU2D4bt7nUgciJ/SKcAMeBb79hg/Hnof9YcPBa1EZ6kq59Lr/tovdtiPfCuSIffVvOQTNvJZbHayZaxwB4eonlgbP8zGiOvjPPQSCP0Uoepf2Wb2clddD8yJvktW5sfv+QtrWSg7hpNlVYdwPrHTz/hjn+7Nh5HDIO9ORp8D/IQzlxTvXrAvQmRlPpIN35CI3pTR0E7CEPDsx6FCz2fBTQa1+e9Qq/By/Mf7OY0iv6g3IO9FoIHENPc5Hf8PtVTV4xfeiPMuMgPtTRht4ORN1bTTuhlLI6sLfmaT2ohb9PTfxfh2KPaHmWA/XMPOvPAavn9yzNbeTo82tf//7Es3MZsvncwVzv2b3XFzUUOIsbVtczd1Ao+LB/ZPROTR/Gla81dMw82yKn2pD1z8xz6puy/dQ85zl/xs8IE8axDvgF9j67+w==
+   eJzNVL1KA0EQ3kqwy13MgghCcsXVxioGBCM+gKBY+wxWYqnoM+gbxFYRrJX8YWPQJqlMkZ9LEy1C0jnD7rhzY46kzAfDzu7OfDc7+90eh+oPR+DvBGohPGSVegR7yil1LDieM8l57yvOP0zBHDiaYCeCw/ONf7vh1u+t/wUcd9Y/A46Rp9Qb2NWqi615zi/b2LQfr4ViujA2wD7gLAVRB8JjeZHNGdnRF5wSeeDYDuM5hCqb51POl3UgimI+CyXgKATuDuuMvwT5+4KDx2JtVE/Gd/vybmedty7OhX1FPrpbzkE9b6bn22suuY4e8HTS8w17+ZkzHF0vzkEgjdFIGqX5euB6Jeug/pE2y0yjfP6iXazkIG7qTQXGrdBpB9e/oY8/WdePXcaBmjwI/xtpqCjWKX5ZgNpEayhjVHcpocbNNWMEzCEN9uy4F87WfBJQawPttMLfwVP7b3J98HeJgFqLgKOvDRfpDe+vYn3+hpUZB/FhHS3IbYPVLM+ioDcR68Dcqjb1DHT8PFXxv/bFHNHUjgPrmWqnzx6L5+8s9W3omfWLwHx/rF1f+qw/19DXG/budUUMGfbiksV17BsUCT7MH9p6JzYP7TwwNbRtL1vCp9iI5U/tPuVN2Hxi97nP9/gaYcw4lgG/wqa9RQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJyTUmaAA0sg+yM7A1GAiYOB4aAiA8MhILZSRpVj5EDlv5JhYJipgODD2KvlEGI5qvjtQ1aLDHZBxY8oMTBIIbkjQB23WnwA3S+kApA7kP3ig8UduICkMsIPPQTCA1ktLvkgJLu9gOyTMqhqTqHxkQEsbpcooorfRNPzCo8ZMHdsQTIDFC/oZsBAmyym+44qQcxABy8J2IvsPlhYBSKFB6HwQwagtAdTewjJL6D8Qow5D4F6Hiki7L2kiF89qcAGRxpzgYo7ock7k5AmiQGkhCUuAApLWN7zhroPPb3iAqB0Asp3sLSC7BZi08ktoLorSghzkMEWWex60M2G5QWQOVeVMNUTA9DLOUJhi61cBIlFAvVEQfVZEogbULmIbk80kF0JxFUUxisuECaAXTwWaF8ckp2RaG6KweEeZH21QLpOGbueaiC7BocZyPqQAS49zTj8gA2QopYeAADPlEiq
+   eJyTUmaAA0sg+yM7A1GAiYOB4aAiA8MhILZSRpVj5MBUO1MawYexD4shxFI48duHrBYZXIKKH1FiYJBCckeIOm61+AC6X0gFIHcg+8UfiztwAUllhB9aCIQHslpc8mFIdvsC2Q/R4vYRnriGxe0SRVRx9PTBhBbX2NyxBckMULzgSmNyIpjuO6oEMeMSmjvQ0xguAHIfLKxCkcKDUPghA1Dag6k9hOQOUH4hxpyHQD2PFBH2ovuFUmCLI425QcVd0ORdSUiTxABSwhIXAIUlLO/5Qd2Hnl5xAVA6AeU7WFpBdgux6eQT0IwrSghzkMEZUex6sJVzIAAy56oSpnpiAHo5RyhssZWLILFIoJ4oqD5LAnEDKhfR7YkGsiuBuIrCeMUFwgSwi8cC7YtDsjMSzU0xONyDrK8WSNcpY9dTDWTX4DADWR8ywKWnGYcfsAFS1NIDAACcakKq
   </data>
  </layer>
  <layer id="4" name="Walkable" width="17" height="30" visible="0">
