@@ -307,6 +307,13 @@
             "width": 256,
             "x": -786,
             "y": 3137
+        },
+        {
+            "fileName": "brightport7.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1530,
+            "y": 781
         }
     ],
     "onlyShowAdjacentMaps": false,
