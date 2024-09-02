@@ -115,8 +115,8 @@
         {
             "fileName": "waytobrightport10.tmx",
             "height": 256,
-            "width": 896,
-            "x": -3680,
+            "width": 992,
+            "x": -3776,
             "y": 1024
         },
         {
@@ -143,8 +143,8 @@
         {
             "fileName": "waytobrightport5.tmx",
             "height": 608,
-            "width": 544,
-            "x": -4000,
+            "width": 768,
+            "x": -4224,
             "y": 1312
         },
         {
@@ -164,22 +164,22 @@
         {
             "fileName": "waytobrightport2.tmx",
             "height": 256,
-            "width": 640,
-            "x": -4352,
+            "width": 768,
+            "x": -4576,
             "y": 1024
         },
         {
             "fileName": "waytobrightport1.tmx",
             "height": 256,
             "width": 608,
-            "x": -4992,
+            "x": -5216,
             "y": 1024
         },
         {
             "fileName": "waytobrightport0.tmx",
             "height": 608,
             "width": 960,
-            "x": -4992,
+            "x": -5216,
             "y": 1312
         },
         {
@@ -281,13 +281,6 @@
             "y": 2101
         },
         {
-            "fileName": "brightportwild18.tmx",
-            "height": 640,
-            "width": 480,
-            "x": -3279,
-            "y": 373
-        },
-        {
             "fileName": "brightportwild17.tmx",
             "height": 608,
             "width": 640,
@@ -314,6 +307,34 @@
             "width": 960,
             "x": 1530,
             "y": 781
+        },
+        {
+            "fileName": "brightportwild18.tmx",
+            "height": 640,
+            "width": 480,
+            "x": -3270,
+            "y": 365
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -3616,
+            "y": 3136
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -2944,
+            "y": 3136
+        },
+        {
+            "fileName": "waytobrightport8.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -4288,
+            "y": 3136
         }
     ],
     "onlyShowAdjacentMaps": false,

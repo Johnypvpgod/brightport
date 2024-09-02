@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,37 +180,95 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="7577" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_rock_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7705" name="map_plant_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_plant_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7833" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7961" name="map_broken_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_broken_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8089" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7705" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8217" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7833" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8345" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8473" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_outdoor_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8601" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsHEUj+JRPIqHAAYAqVTZ+Q==
+   eJybqcjAMHMUj2Ii8WwKMLXNw2YuLntI8RstwmvUPOqYBwAy+9pT
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFUzkOwjAQ3C8YKgo7EvwgvBq6dFQcTUgkSmjygATxAzpsyaNM1k4YKfJqj9nJei0i8l2JPK3Iy45nQGMkwRB9hcvXsN1S/cWl8cqO8ULFcdaR4+Dto51qCOi8vfW1Tn170veI+b1JNTCgB1r4/7Wuc8zRPIhzbeCrM71hs/4lfZt1flaVugPWz/5B3Wdjpvkd5X/M6EMc/6v1VUpr6fN3VIM+PF89T+a8urRHSTNibvDd6D5ynAD77iblxu5Ar+ZqzfwOazQ0Q9QwV26/lmygXdhLnD3lcJ93tE8u32dufnqX/r0hXbN0J0B4U3qXda8f+wOTfw==
+   eJylU1FqAkEMnZ96C93ZC6hnsN+C3QNI/fRIPUIVtCirgiDsVgTtV0urXkT9NY9N2Oww2loDIclm8uYlkx1ZY/ak34ExP6QH8o8qvmQh4u/o/CvZHumE/JR0YPMzW9KVsqh55/xW3YW6h9CYUpjlxrZ435BrVg6m5vLGZ0Tk+9TBilXfPn7AkfualWIteos596FmIj37+ElOpBv6eY55ftDZlXeA9J345MzypWxMy/5fn2zOe0Q2YX/h9OKTmedMpHBT5qplXSnGVSfvkw3V1G32VnOub5D/fKM+Kr4Rc8RuAqtj811I+R+BHbKV7zHHmFnbwQTHZZBhyY5+UvwV/G7lrpqDJ/PD//dXLLEQwcN7Am8eZLsucgtW4uGXqD29hx/2oM49ngF1C7L2
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVkzEOwCAIRV07d+7B24274L3qQkLIhw8kRiPwfSLqs9Y+IzN1fgFx5teg8571V+iyszr7iIdxRZ1MG/mnfNeN4wRwdXmm8agGVd28+bhYz6g55UZ8SGOiK4kW62FkltPh6vRIzKvuzHIzvupNun9oyod6mdWmOiPTsvkHIX9rxA==
+   eJxjYEAFR+QZGI7KY9LY1GAD+OSIUYcsjstudEDIHHLdiA/gcz8u983GEp7UcAu9ADa/jSRwEOj/Q/KEaWqaRQszCYHZJLiLkJnIcpSaBUp/AF9PTiA=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBELJgZg00NIP7paYswkxlxC7sPlBnRxYsxCdxcxZmOTx+cOYtxHTLyRGm7Euh9fGODTi80casQ3ephSIzyIcRu5ZuFLN+TkJ0ryLz5z8Pmb3DRKTvqC8QFxY1yC
+   eJyTVGAAA0kF6mFkQEgdLj42OVxmousjZD8x7sNlDjIflxsJmYWsH5seYt1HDJ9aAJ9fKDFzqJlHSpwSkicnP+Eyj5I8Sg33EZv3KHUfABNOHvQ=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="256">
+   <properties>
+    <property name="map" value="cabin_norcity_road2"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="2" name="south" type="mapchange" x="448" y="448" width="160" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road4"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Spawn">
+  <object id="3" name="duleian_hornet_sapwn1" type="spawn" x="32" y="0" width="96" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object id="4" name="duleian_hornet_sapwn2" type="spawn" x="544" y="224" width="64" height="32">
+   <properties>
+    <property name="spawngroup" value="duleian_hornet"/>
+   </properties>
+  </object>
+  <object id="5" name="duleian_mountain_cat_spawn" type="spawn" x="320" y="96" width="128" height="64">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object id="6" name="yelllow_tooth_spawn" type="spawn" x="512" y="96" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+  <object id="7" name="yellow_tooth_spawn2" type="spawn" x="576" y="160" width="32" height="160">
+   <properties>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
 </map>
