@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="9">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="15" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -233,13 +233,7 @@
    eJy9k+EKACEIg3uVe9je++jfkG1NOU4QIv1sae1nrQ1eDffTHBX7wpwGjDNXvGNYb5KzFOs4rF21ujNZH5K7qby0Lyov0dntfVfbdAYJO+Unmm+sm0FHL+Z15oQxtq58YqyW0/aHdf6L4tw7VHvTN3P8BR2sjLc=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="2" x="448" y="224" width="32" height="96"/>
-  <object id="4" x="0" y="640" width="32" height="128"/>
-  <object id="6" x="448" y="576" width="32" height="128"/>
-  <object id="7" x="0" y="512" width="32" height="32"/>
-  <object id="8" x="192" y="0" width="288" height="32"/>
- </objectgroup>
+ <objectgroup id="5" name="Mapevents"/>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
