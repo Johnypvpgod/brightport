@@ -228,8 +228,8 @@
  <tileset firstgid="9913" name="map_wall_3" tilewidth="32" tileheight="32" tilecount="120" columns="15">
   <image source="../drawable/map_wall_3.png" width="480" height="256"/>
  </tileset>
- <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="40" columns="8">
-  <image source="../drawable/map_brightport.png" width="256" height="160"/>
+ <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <layer id="9" name="Base" width="17" height="30">
   <data encoding="base64" compression="zlib">
@@ -238,17 +238,17 @@
  </layer>
  <layer id="1" name="Ground" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAcBWIjwLxRih+JEwYb+RExUfxmOGpzsDgBcUwtrc6qn5LdUwzkNUGAnEQFMPYwUSYgUstPoxuBqkY2R3WJNiLzR3ocUOpOy4JIzC54YEvHeDC6P4gBhByB7lmXMWSxryQ0hq+dIrNHchpE5bW0NOppTJ10xgxZhhB498IRxo8SgBfJUINJeph+JUgqruc1BFpFjm94sLPBTH9dhxJjJzyDB0jp5MfUgwOMDYpZiCnE6AZcDZyWsthZWA4wQnB2MwQ4kLgFiQ2ejmHzwxkDDIDm9mkmIEPg/S/EKPcjM1YMD71J9D0IfOxsU/g0I9L7VDHAPoOZHI=
+   eJzbyMnAcBWIjwLxRih+JEwYb+RExUfxmJGozsCQBMUwdrI6qn5HdUwzkNUWAnERFMPYxUSYgUstPoxuBqkY2R3OJNiLzR3ocUOpOy4JIzC54YEvHeDC6P4gBhByB7lmXMWSxpKQ0hq+dIrNHchpE5bW0NOppTJ10xgxZhhB498IRxo8SgBfJUINJeph+JUgqruC1BFpFjm94sLPBTH9dhxJjJzyDB0jp5MfUgwOMDYpZiCnE6AZcDZyWsthZWA4wQnB2MwQ4kLgFiQ2ejmHzwxkDDIDm9mkmIEPg/S/EKPcjM1YMD71J9D0IfOxsU/g0I9L7VDHALIwamo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJzNVL1KA0EQ3kqwy13MgghCcsXVxioGBCM+gKBY+wxWYqnoM+gbxFYRrJX8YWPQJqlMkZ9LEy1C0jnD7rhzY46kzAfDzu7OfDc7+90eh+oPR+DvBGohPGSVegR7yil1LDieM8l57yvOP0zBHDiaYCeCw/ONf7vh1u+t/wUcd9Y/A46Rp9Qb2NWqi615zi/b2LQfr4ViujA2wD7gLAVRB8JjeZHNGdnRF5wSeeDYDuM5hCqb51POl3UgimI+CyXgKATuDuuMvwT5+4KDx2JtVE/Gd/vybmedty7OhX1FPrpbzkE9b6bn22suuY4e8HTS8w17+ZkzHF0vzkEgjdFIGqX5euB6Jeug/pE2y0yjfP6iXazkIG7qTQXGrdBpB9e/oY8/WdePXcaBmjwI/xtpqCjWKX5ZgNpEayhjVHcpocbNNWMEzCEN9uy4F87WfBJQawPttMLfwVP7b3J98HeJgFqLgKOvDRfpDe+vYn3+hpUZB/FhHS3IbYPVLM+ioDcR68Dcqjb1DHT8PFXxv/bFHNHUjgPrmWqnzx6L5+8s9W3omfWLwHx/rF1f+qw/19DXG/budUUMGfbiksV17BsUCT7MH9p6JzYP7TwwNbRtL1vCp9iI5U/tPuVN2Hxi97nP9/gaYcw4lgG/wqa9RQ==
+   eJzNVL1KA0EQ3kqwy13MgghCcsXVxko7Ddgn4gP4DBpELBV9Bn2D2CqCtZI/bAzaJJUp8ttEi5B0zrA77tyYIynzwbCzuzPfzc5+t8VQ/eEU/N1ALYSHtFKPYE8ZpYqC4zkVn/e+4vx8AubA0QA7Exyeb/zbDbd+b/0v4Liz/glwjDyl3sCuVl1s1XN+ycYm/WgtFNOBsQ72AWfZE3UgPJY3sDkjO/qCUyILHNthNIdQYfNswvmyDkROzGdhHzh2AneHNcZfgPxDwcFjsTaqJ+W7fXm3s85bE+fCviIf3S3noJ43kvPtNRNfRxd42sn5hr38zBiOjhflIJDGaCSN0nw9cL2SdVD/SJslplE+f9EuVnIQN/WmDONW6LSD69/Qx5+068cB40BNHoX/jTSUE+sUvyxAbaLVlTGquxBT4+aaMQLmkAa7dsyHszUfB9RaXzut8Hfw2P6bXB/8XSKg1gbA0dOGi/SG91e2Pn/DSoyD+LCOJuS2wKqWZ1HQm4h1YG5Fm3r6Onqeivhfe2KOaGjHgfVMtdNnl8Xzd5b6NvTM+kVgvj/Wri891p9r6OsNe/c6IoYMe3HJ4tr2DRoIPswf2nonNg/tPDA1tGwvm8Kn2AHLn9p9ypuw+cTuc5/v8TXCmHEsA34BMGPArQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="17" height="30">
   <data encoding="base64" compression="zlib">
-   eJyTUmaAA0sg+yM7A1GAiYOB4aAiA8MhILZSRpVj5MBUO1MawYexD4shxFI48duHrBYZXIKKH1FiYJBCckeIOm61+AC6X0gFIHcg+8UfiztwAUllhB9aCIQHslpc8mFIdvsC2Q/R4vYRnriGxe0SRVRx9PTBhBbX2NyxBckMULzgSmNyIpjuO6oEMeMSmjvQ0xguAHIfLKxCkcKDUPghA1Dag6k9hOQOUH4hxpyHQD2PFBH2ovuFUmCLI425QcVd0ORdSUiTxABSwhIXAIUlLO/5Qd2Hnl5xAVA6AeU7WFpBdgux6eQT0IwrSghzkMEZUex6sJVzIAAy56oSpnpiAHo5RyhssZWLILFIoJ4oqD5LAnEDKhfR7YkGsiuBuIrCeMUFwgSwi8cC7YtDsjMSzU0xONyDrK8WSNcpY9dTDWTX4DADWR8ywKWnGYcfsAFS1NIDAACcakKq
+   eJyTUmaAA0sg+yM7A1GAiYOB4aAiA8MhILZSRpVj5MBUO1MawYexD4shxFI48duHrBYZXIKKH1FiYJBCckeJOm61+AC6X0gFIHcg+yUdiztwAUllhB9aCIQHslpc8mVIdqcC2Q/R4vYRnriGxe0SRVRx9PTBhBbX2NyxBckMULzgSmNyIpjuO6oEMeMSmjvQ0xguAHIfLKxKkcKDUPghA1Dag6k9hOQOUH4hxpyHQD2PFBH2ovuFUuCKI42FQcVD0ORDSUiTxABSwhIXAIUlLO+lQd2Hnl5xAVA6AeU7WFpBdgux6eQT0IwrSghzkMEZUex6sJVzIAAy56oSpnpiAHo5RyhssZWLILFIoJ4oqD5LAnEDKhfR7YkGsiuBuIrCeMUFwgSwi8cC7YtDsjMSzU0xONyDrK8WSNcpY9dTDWTX4DADWR8ywKWnGYcfsAFS1NIDAAD8tUOq
   </data>
  </layer>
  <layer id="4" name="Walkable" width="17" height="30" visible="0">
