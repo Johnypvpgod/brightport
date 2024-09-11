@@ -193,13 +193,13 @@
   <image source="../drawable/map_chair_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8521" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <tileset firstgid="8633" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_plant_1.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8761" name="map_entrance_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_entrance_1.png" width="512" height="256"/>
+  <image source="../drawable/map_entrance_1.png" width="512" height="256"/>
  </tileset>
  <layer id="16" name="Base" width="500" height="400">
   <data encoding="base64" compression="zlib">

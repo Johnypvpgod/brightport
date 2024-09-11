@@ -193,16 +193,16 @@
   <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8069" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <tileset firstgid="8181" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8309" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="8853" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_pillar_1.png" width="512" height="256"/>
+  <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="30" height="14">
   <data encoding="base64" compression="zlib">

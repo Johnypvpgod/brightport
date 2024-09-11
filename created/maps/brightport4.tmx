@@ -187,7 +187,7 @@
   <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
  <tileset firstgid="8249" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <layer id="9" name="Base" width="17" height="14">
   <data encoding="base64" compression="zlib">

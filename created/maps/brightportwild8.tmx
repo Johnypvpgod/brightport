@@ -229,7 +229,7 @@
   <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <tileset firstgid="10145" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
