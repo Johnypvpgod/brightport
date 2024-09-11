@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="12" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="12" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -238,7 +238,26 @@
    eJy1km0KACAIQz1Kl+3e/YggYm9WlCD4MXVaERG1dB2i7BVDMcoPm+YoP+u7quOc4TMs5RyebjfHaSfam/Buv5MaeuMfNSd3fMXvB14J9XGS4R2/Ha5q1s0tXJ3ifvMfSBvKdH+f
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="352" y="608" width="32" height="64">
+   <properties>
+    <property name="map" value="brightportwild3"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="2" name=" north" type="mapchange" x="96" y="0" width="224" height="32">
+   <properties>
+    <property name="map" value="waytobrightport13"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object id="3" name="west" type="mapchange" x="0" y="32" width="32" height="736">
+   <properties>
+    <property name="map" value="brightportwild1"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

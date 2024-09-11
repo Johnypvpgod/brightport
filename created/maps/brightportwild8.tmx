@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -228,11 +228,11 @@
  <tileset firstgid="9905" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="224" height="160"/>
+ <tileset firstgid="10033" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
- <tileset firstgid="10068" name="map_brightport" tilewidth="32" tileheight="32" tilecount="35" columns="7">
-  <image source="../drawable/map_brightport.png" width="224" height="160"/>
+ <tileset firstgid="10145" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <layer id="9" name="Base" width="24" height="15">
   <data encoding="base64" compression="zlib">
@@ -246,12 +246,12 @@
  </layer>
  <layer id="2" name="Objects" width="24" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVVL1Ow0AMtsIAW3QDQxUpdEDiCWBmAa4dEBtZEExQqiBVLEClLoWO9Fm6wgKvwMKLMPEzYOts1XGuqfpJlu98nz/7zm3KFsAN2rMDmKKVvCfI2voO2ksO8Jo380rmak6hagzVeobrrxTgI53HYjUkFuvzCjWe0B7ZBF1eD9jPzD3p3Lu59u0mwMF24GgeYcw1xkrTm1pvqPGe13M/U6hAn0vtCWtPXJU7UHtvzrw5O2/XZyHz1TzR7Ko4xc6Qf7oTN9GjHNLUNaju7gbAHtowgQvyx0nY234K1Gol0CavTSDvEfsNHJr7W21CLwO4NtbPwr2/Ue+H5xObheDEVetr3h1q3bOtrQf/kFXziwUzi9Ui9F09pnHk6vnThhwf4cfOl+WP2Ou36DXk2nq/mPOXBz3vqn2NlvRAuFT/147ix3qQHuWt9rcW39/OdlXo78Oq3n7H7F78P+vcfWc=
+   eJyVVL1OAzEMto4BtlMGhuqkowMSTwAzC5B2QIxdEEy0VIdUsQCVuhQ60qeAvSss8AosvAgTPwO2Yqs+X3pVP8ly4nz+7MTtFQ2AK7RHBzBFK3hPkLX1LbSXHOA1r+cVzNWcjqoxVOsZrr9SgI90HovVkFiszy5qPKDdswnavB6wn5l70rl3c+3rTYCD7cDRPMKYa4yVpje13lDjPa/mfqZQgj6X2hPWnrgyd6D23px5c3bWrM5C5qt5otlWcYqdIv9pJ26iRzmkqWtQ3d0NgD20YQLn5I+TsLf9PKNWI4EmeW0CeY/Yb+DQ3N9qE3oZwKWxfhbu/Y16Pzyf2CwEJ65cX/NuUOuWbW09+LusnN9ZMLNYLULfVWMaR66aP63J8RF+7HxZ/oi9foteTa6t94s5f3nQ867c12hJD4QL9X9tKX6sB+lR3mp/a/H97WxXhf4+rOrtd8zuxf8D6DWAtg==
   </data>
  </layer>
  <layer id="3" name="Above" width="24" height="15">
   <data encoding="base64" compression="zlib">
-   eJyzlGQAgxggHUuADQMwsZlyDAyz5LCLETKDEMCmB9k+mBpyzJ4PNGOBHG69uUyYbkC3mxJgr4Awmxz34wPo5iHbAbKXkD4Q/ZAdU55ZAEI/gsrBwgNbGshiYkioYmJYAKQXVDAxOKD7lZEDoj5CHdMeJqDcTaB5t6Dxg8tfMIAtTcDUKchA6M9sEJodGK/OYrjDgJBdyEAcaJaBDIQGAU4oHSRGepxSKw0Qm0bR7bsN1HMHi74YGvgB3Y0K8sTHLakAuXwglUYvx9D52MoGSyD/NhDfQSv3YPRNIL6FxO8Uwl5O/gTiX1B1AOjaUw0=
+   eJyzlGQAgxggHUuADQMwsZlyDAyz5LCLETKDEMCmB9k+mBpyzJ4PNGOBHG69uUyYbkC3mxJgr4Awmxz34wPo5iHbAbKXkD4Q/ZAdU55ZAEI/gsrBwgNbGshiYkioYmJYAKQXVDAxOKD7lZEDon6pOqY9TEC5m0DzbkHjB5e/YABbmoCpU5CB0J/ZIDQ7MF6dxXCHASG7kIE40CwDGQgNApxQOkiM9DilVhogNo2i23cbqOcOFn0xNPADuhsV5ImPW1IBcvlAKo1ejqHzsZUNlkD+bSC+g1buweibQHwLid8phL2c/AnEv6DqANq9U1o=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="24" height="15" visible="0">
@@ -259,7 +259,26 @@
    eJwzFGNgMCQTwwCpekgRJySH7hZsAJs8utnYxIg1H5fZ2MIJnxtItYdY+wn5A1/40Bvjsh9fGFGSltDNwGU2vnDBpx9XeFMS19jSLi3tI9UcUsKWXnYTE7ekAnrkBwBc4DHt
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="736" y="256" width="32" height="96">
+   <properties>
+    <property name="map" value="brightportwild9"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="160">
+   <properties>
+    <property name="map" value="brightportwild5"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object id="3" name="forest" type="mapchange" x="544" y="256" width="32" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road2"/>
+    <property name="place" value="entrance"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

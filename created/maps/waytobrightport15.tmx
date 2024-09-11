@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -227,12 +227,25 @@
    eJytVdsJwjAUzSQtzQIK0jF8jOAGDiCiP7qKHyJIPxV3aDeom5hrPXobb5M09UDIJWnOua+kVaZUaUZlBmGfKnVIGxvrRdZe74Mya/OMtFJj3dbktoSiY88+18WDdZ+OD4iB4xIYgw0pnyXLcwifzeE6Y+cgJhehZ2qBP7bGXT5wvqnpp5ke5retL+kM7R+Jv+hZj4njDuaOvZBeAXeXBvhvye/eSrv993FzgN+OZ2s0zkItbM5aq51f5fXdRwf1P0bkxQfEQzP8fvzhPeI4Jd8Z/QT+uYlzwe5HaH5cGuDmvbt03MEYDbwjlCvpTRmiQbVArmrGSTb1WEyt0U/EfX3z0yzV+s7sdU+tTdrwEnL2ryDfn1pIiDo=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="20">
+ <layer id="4" name="Walkable" width="25" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzdVDEOACEI8yX+29/eZGIM0BZwORMmoC0grDnGEs17p++MvXM9H8KPeJFeRbuFbdWB4tUavHy2BkaL2u87JsqpzhHhV7Rtv4Kr/h+ml108zG5m9re6/8wNyN4ajz+LbfF0aEY8yqyq+K/r+Yt1zyHieMnzAQ8w3lI=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="south" type="mapchange" x="32" y="608" width="64" height="32">
+   <properties>
+    <property name="map" value="waytobrightport14"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="2" name="west" type="mapchange" x="0" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrightport12"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

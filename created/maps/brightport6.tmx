@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -224,7 +224,14 @@
    eJzbKMbAsHEUDwgmFmDTQw934RJDZxNjHjFsYvxLrP+pBYgNe+TwoJaduNxBjD/R3USIxmYPPrvR9VLqd1z+ISWcSfUrIbcQm55JAbjijp55mdS8RE8MAAqL1Dg=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="west" type="mapchange" x="0" y="224" width="32" height="128">
+   <properties>
+    <property name="map" value="brightport4"/>
+    <property name="place" value="east"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
