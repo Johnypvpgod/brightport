@@ -277,19 +277,19 @@
   </object>
   <object id="4" name="armor" type="mapchange" x="352" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_armor"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="5" name="forenza" type="mapchange" x="320" y="384" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_forenza"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="6" name="weapon" type="mapchange" x="320" y="640" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_weapon"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

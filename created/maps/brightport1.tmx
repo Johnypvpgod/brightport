@@ -301,25 +301,25 @@
   </object>
   <object id="4" name="thievesguild" type="mapchange" x="320" y="448" width="64" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_thievesguild"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="5" name="thievesguild1" type="mapchange" x="480" y="448" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_thievesguild"/>
     <property name="place" value="entrance1"/>
    </properties>
   </object>
   <object id="6" name="stanwick" type="mapchange" x="256" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_stanwick"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="7" name="house" type="mapchange" x="736" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_house"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

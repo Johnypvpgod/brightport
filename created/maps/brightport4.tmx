@@ -229,7 +229,7 @@
   </object>
   <object id="3" name="benbyr" type="mapchange" x="320" y="192" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_benbyr"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
