@@ -203,22 +203,22 @@
  </tileset>
  <layer id="1" name="Ground" width="20" height="7">
   <data encoding="base64" compression="zlib">
-   eJyTlGdgkBzFo5hIDACvax6h
+   eJzbyMnAsHEUj2IiMQAQhGW5
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="7">
   <data encoding="base64" compression="zlib">
-   eJx1UDsOwjAMNRdJcge4Rge4CtyIHRokYEdipUIU1JWBI8DSAZ6RrbgWRLJsy36f+J3o+9pIdEV0qdSac6TBG5led/bCcw5EU8QM0aSyV0tdIc8xW4SCXRqtHesZDx6fJXeG23rKDsN+tG4cr3KsHJfnZizzXn5ob1A/3P4B/Ri6k1B8/+PXeSve1Iv6rJ3nrfQ3xBFxkn2+y93cdG00/H96p5HjUOOJ+ctg9Ka88wHP20jn
+   eJwTF2IAgzeSDAxvgfikJIKNLIYMJIURbJia84IQ/kugeYFyDAxBQPxcEKHuBJSdCpQvBsqVyCH07kay6xzIPkFMN8D0p0Dd+wHJbGQ3IbsVpOelEIL9HMlcEPgJlTuGZtYNBVQ+SC/I3NdI6mD2nwLST4Hq/yLJ3QKyjYH+M0ELA2zmw/z1Buo2mPuuyDMwXJWHyCO7+SyU/w6I7wLxM0FIeIH88hApTI9DzT0sifAnzN3CeOIcBHiB8nxI4QwLU5AaANTiULM=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="7">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgcJRjYHACYlwgGSiXAsRH5BkYjspDxGDsZWh8YsFHqH0LCegh1VwYIGQuOlAGukcFTxhgA0fkUdnoYYNNDpsZxPoPppaQ3xYiuYMUe/C5eyaQngXEAE9bH6U=
+   eJxjYGBgcJRjYHACYlwgGSiXAsR3JBkY7kpCxGDsfWh8ZDX4AKcwhN5JQC2x5qEDQuaiA2Wg/1TwhAE2cAfJv0fkGRiOyiPEkd2Mzw/ocpvxuBumlpDfdiLFCTFuwKUG5ieY+CwgGwCXpiZt
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="7">
+ <layer id="4" name="Walkable" width="20" height="7" visible="0">
   <data encoding="base64" compression="zlib">
-   eJybKcvAMBMJg8BMWUwMA9jkcKnBBfCZge4GYgGyPkLqSDEX3XxixI/Ik2cPrjCEsZHNxWY2tjAkZB8xYY8sDgAq8ypN
+   eJzbKMbAsJFKGATQ+dgATH6mLHHm4DML2UxkmpDdxKjFZj4x4nckiXc3NrfBwgaEkcWRzcVmNnJ4optHyD5s+tD9CKIBqqU2gw==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents"/>
