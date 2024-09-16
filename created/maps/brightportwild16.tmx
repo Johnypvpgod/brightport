@@ -207,6 +207,9 @@
  <tileset firstgid="8581" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8709" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_brightport.png" width="512" height="224"/>
+ </tileset>
  <layer id="9" name="Base" width="16" height="18">
   <data encoding="base64" compression="zlib">
    eJxjYBgFo2AU0BLMlB1oFwxeAADOSwC3
@@ -214,7 +217,7 @@
  </layer>
  <layer id="1" name="Ground" width="16" height="18">
   <data encoding="base64" compression="zlib">
-   eJy7q8DAcA+KzyDhu0ji6Pg+krqZsgh8F4s5hDCyfnRz7uGQvw91Hy79hPAsRQaG91AzyNUPot8TqR89/FYpYle3Aii+Eg3jUjuKhw7upDAO75KYf/CZg5wOSdF/GovdD0i0H1tZAgB4uN2n
+   eJy7q8DAcA+KzyDhu0ji6Pg+krqZsgh8F4s5hDCyfnRz7uGQvw91Hy79hHCKEgPDe6gZ5OoH0e+J1F+shIpLlLCrK1IiXu0oHjq4U5Ey/XdJzD/4zEHOx6ToP43F7gck2o+tLAEAvQraJg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="16" height="18">

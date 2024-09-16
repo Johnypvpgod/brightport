@@ -201,7 +201,7 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="608" y="64" width="32" height="160">
+  <object id="1" name="east" type="mapchange" x="608" y="128" width="32" height="64">
    <properties>
     <property name="map" value="cabin_norcity_road2"/>
     <property name="place" value="west"/>

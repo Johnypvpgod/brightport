@@ -235,8 +235,8 @@
             "fileName": "brightportwild10.tmx",
             "height": 800,
             "width": 640,
-            "x": 728,
-            "y": 2269
+            "x": 735,
+            "y": 2259
         },
         {
             "fileName": "brightportwild11.tmx",
@@ -391,6 +391,76 @@
             "width": 576,
             "x": 3012,
             "y": 1360
+        },
+        {
+            "fileName": "brightport_forest.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 767,
+            "y": 1811
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -3617,
+            "y": 3123
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -2945,
+            "y": 3123
+        },
+        {
+            "fileName": "brightport8.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 2504,
+            "y": 346
+        },
+        {
+            "fileName": "brightport_abandoned.tmx",
+            "height": 384,
+            "width": 512,
+            "x": 3336,
+            "y": 954
+        },
+        {
+            "fileName": "brightport_cave.tmx",
+            "height": 480,
+            "width": 800,
+            "x": -1848,
+            "y": 4058
+        },
+        {
+            "fileName": "brightport_cave1.tmx",
+            "height": 640,
+            "width": 288,
+            "x": -1784,
+            "y": 4570
+        },
+        {
+            "fileName": "brightport_cave2.tmx",
+            "height": 448,
+            "width": 480,
+            "x": -1336,
+            "y": 4570
+        },
+        {
+            "fileName": "brightport_cave3.tmx",
+            "height": 352,
+            "width": 800,
+            "x": -1304,
+            "y": 5050
+        },
+        {
+            "fileName": "brightport_cave4.tmx",
+            "height": 256,
+            "width": 416,
+            "x": -472,
+            "y": 5082
         }
     ],
     "onlyShowAdjacentMaps": false,
