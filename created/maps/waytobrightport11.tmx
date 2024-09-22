@@ -214,7 +214,7 @@
  </layer>
  <layer id="1" name="Ground" width="20" height="17">
   <data encoding="base64" compression="zlib">
-   eJybKcvAMHMQ4DmKtFE7iodOvA4mPBuKqWUOCPvIUccsbzmIWbjMmy2PUL9OnrCZsQTMA+H18oTNguF8OYiZcRT6F93MAiqaRysMAPQA7zc=
+   eJybKcvAMHMQ4DmKtFE7iodOvA4mPBuKqWUOCFvIUccsb6A5PlCMVZ08Qv06ecJmxgLNUcNjHgivlydsFgzny0HMjKPQv+hmFlDRPFphAJ2A7v0=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="17">

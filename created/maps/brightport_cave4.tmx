@@ -187,7 +187,7 @@
  </layer>
  <layer id="1" name="Ground" width="13" height="8">
   <data encoding="base64" compression="zlib">
-   eJz7wczA8AMP/g6lf6KJc7HgxpxQmpsFoR6ZDcPHxRgYNnNCsDRQXgaqD5970LEeVD0nkj5OMeL1f8fiN0rxSxLsh/kflzwAbjtVfg==
+   eJz7wczA8AMP/g6lfyKJXQRiLhbcmBNKc7Mg9CCzYfi4GAPDZk4IlgbKy0D1XSLgJmSsBzWXE0kfpxjx+r+j+Y0Y/ASIH+ORfymGqhZdHlkvzP+41AMA1KRUpQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="13" height="8">
