@@ -213,7 +213,7 @@
   <object id="2" name="entrance1" type="mapchange" x="224" y="64" width="32" height="32">
    <properties>
     <property name="map" value="brightportwild8"/>
-    <property name="place" value="forest"/>
+    <property name="place" value="forest1"/>
    </properties>
   </object>
  </objectgroup>

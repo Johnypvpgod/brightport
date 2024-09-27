@@ -233,7 +233,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name=" north" type="mapchange" x="32" y="0" width="128" height="32">
+  <object id="2" name="north" type="mapchange" x="32" y="0" width="128" height="32">
    <properties>
     <property name="map" value="waytobrightport4"/>
     <property name="place" value="south1"/>

@@ -211,7 +211,7 @@
  </layer>
  <layer id="2" name="Objects" width="16" height="4">
   <data encoding="base64" compression="zlib">
-   eJy7K8/AcA+IHRQYGByB+LQSgq2qyMCgBsQL0cRhbGQwB4nvBTTvAJQ/VwGhbzeSGpgYCFxEMwubmej6YDQIW8kxMFjLQdy7QAG7emx6QQAAxKYVWw==
+   eJy7K8/AcA+IHRQYGByB+LQSgq2qyMCgBsQL0cRBbFkgjQzmIPG9gOYdgPLnKiD07UZSAxMDgYtoZmEzE10fjAZhKzkGBms5iHsXKGBXj00vCAAAqU4VOA==
   </data>
  </layer>
  <layer id="3" name="Above" width="16" height="4">
@@ -225,10 +225,10 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="64" width="32" height="32">
+  <object id="1" name="west1" type="mapchange" x="0" y="64" width="32" height="32">
    <properties>
     <property name="map" value="brightportwild4"/>
-    <property name="place" value="east"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
   <object id="2" name="cave" type="mapchange" x="160" y="32" width="32" height="32">

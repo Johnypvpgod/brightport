@@ -207,7 +207,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="17">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DgQIA8A0OgPHXNDKKBmQZA8/zkIe6FYXLsSADqcZaHmKcPxLdkIWJ3ZCHuJtXcDXIQc0B6g6HmwsRAZt+WhZhNrJkbgXrj5CFuAuFEIA5FEgO5/ZIcxB5yAch9ILAeai7InaSaBzNjkxzEHGSgL0+Z+5CBH1K4EgMAxf0dpw==
+   eJxjYBgFo2DgQIA8A0OgPHXNDKKBmQZA8/zkIe6FYXLsSADqcZaHmKcPxLdkIWJ3ZCHuJtXcDXIQc0B6g6HmwsRAZt+WhZhNrJkbgXrj5CFuAuFEIA5FEgO5/ZIcxB5iwTFBTDeDwHqouSB3kmIeshmb5CDmIAN9eeLNQ3cburgfUrgSAwD+RSAs
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="17">
@@ -229,7 +229,7 @@
   </object>
   <object id="2" name="west" type="mapchange" x="0" y="320" width="32" height="192">
    <properties>
-    <property name="map" value="waytobrigtport16"/>
+    <property name="map" value="waytobrightport16"/>
     <property name="place" value="east"/>
    </properties>
   </object>

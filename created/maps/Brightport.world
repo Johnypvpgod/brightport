@@ -352,7 +352,7 @@
         },
         {
             "fileName": "brightport_forenza.tmx",
-            "height": 448,
+            "height": 512,
             "width": 576,
             "x": 1811,
             "y": 1264
@@ -375,8 +375,8 @@
             "fileName": "brightport_thievesguild.tmx",
             "height": 320,
             "width": 832,
-            "x": 1903,
-            "y": 1757
+            "x": 1907,
+            "y": 1904
         },
         {
             "fileName": "brightport_temple1.tmx",
@@ -458,9 +458,37 @@
         {
             "fileName": "brightport_cave4.tmx",
             "height": 256,
-            "width": 416,
+            "width": 672,
             "x": -472,
             "y": 5082
+        },
+        {
+            "fileName": "brightport_cave5.tmx",
+            "height": 480,
+            "width": 544,
+            "x": -1048,
+            "y": 5434
+        },
+        {
+            "fileName": "brightport_cave6.tmx",
+            "height": 320,
+            "width": 224,
+            "x": -1304,
+            "y": 5434
+        },
+        {
+            "fileName": "brightport_cave7.tmx",
+            "height": 352,
+            "width": 352,
+            "x": -472,
+            "y": 5370
+        },
+        {
+            "fileName": "brightport_cave8.tmx",
+            "height": 480,
+            "width": 288,
+            "x": -88,
+            "y": 5338
         }
     ],
     "onlyShowAdjacentMaps": false,

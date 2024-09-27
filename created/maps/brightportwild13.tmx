@@ -242,7 +242,7 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name=" north" type="mapchange" x="256" y="0" width="160" height="32">
+  <object id="2" name="north" type="mapchange" x="256" y="0" width="160" height="32">
    <properties>
     <property name="map" value="brightportwild4"/>
     <property name="place" value="south"/>

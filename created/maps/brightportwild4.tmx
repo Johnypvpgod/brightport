@@ -263,12 +263,12 @@
   <object id="4" name="east1" type="mapchange" x="608" y="64" width="32" height="32">
    <properties>
     <property name="map" value="brightportwild6"/>
-    <property name="place" value="west"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
   <object id="5" name="west" type="mapchange" x="0" y="64" width="32" height="224">
    <properties>
-    <property name="map" value="brightpordwild3"/>
+    <property name="map" value="brightportwild3"/>
     <property name="place" value="east"/>
    </properties>
   </object>

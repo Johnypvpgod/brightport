@@ -225,7 +225,7 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name=" north" type="mapchange" x="96" y="0" width="64" height="32">
+  <object id="1" name="north" type="mapchange" x="96" y="0" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport10"/>
     <property name="place" value="south"/>

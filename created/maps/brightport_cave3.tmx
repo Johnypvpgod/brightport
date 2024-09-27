@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -184,7 +184,7 @@
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
  <tileset firstgid="7689" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/andors-trail-master/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer id="10" name="Base" width="25" height="11">
   <data encoding="base64" compression="zlib">
@@ -222,6 +222,12 @@
    <properties>
     <property name="map" value="brightport_cave4"/>
     <property name="place" value="entrance"/>
+   </properties>
+  </object>
+  <object id="3" name="south" type="mapchange" x="512" y="320" width="64" height="32">
+   <properties>
+    <property name="map" value="brightport_cave5"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

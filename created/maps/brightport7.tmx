@@ -188,7 +188,7 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcIIGeDMQb8SDaWEnMh4IO0l1F7rcZWH8mNrhsREaT4+F8WNaxAUIX5XCj5HdSE17n0rhx+jhQy17hbgQuAWKkcUoTa/48hsMw+yldt4kxm5iMKn2EipnaGUvzG5kTC97SQ2LzVjsIzdPkeMmethDKQYAHddilg==
+   eJw7wcnAcIIGeDMQb8SDaWEnMh4IO0l1F7rcZWH8mNrhsREaT4+F8WNaxAUIX5XCj5HdSE17n0rhx+jhQy17hbgQuAWKkcUoTa/48hsMw+yldt4kxm5iMKn2EipnaGUvzG5kTC97iQ0LbOLIYtS0G5+b6GEPpRgAU2NixA==
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="15">

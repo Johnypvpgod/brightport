@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="6">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -198,12 +198,12 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFtAZXZAbaBfQFo/4dBbQAlrID7QLqgEPyDAz7iMTUBPupbN6ovZTb+w6o9qM8Kv8DEv5IglmE7A2QR5j/GYg/odnzGIgfQWl0OXLt/YBkH8hsAMg1LJY=
+   eJxjYBgFtAZXZAbaBfQFo/4dBbQAlrID7QLqgEPyDAz7iMTUBPupbN6ovZTb+w6o9qM8Kv8DEv5IglmE7A2QR5j/GYg/odnzGIgfQWl0OXLsRfbLZ6jZAN0aLaM=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBg54IjMQLuAvmDUv6OAFkBSdqBdMApGAe1AJDB9R9ExjcPsqwTiKjraSyv7QOXwURxlMQAHmQjM
+   eJxjYBg54IjMQLuAvmDUv6OAFkBSdqBdMApGAogEprMoOqY1mH2VQFxFR3vpbR+tAagcPoqjLAYAABcIzA==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="18">
@@ -214,7 +214,7 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="south" type="mapchange" x="384" y="544" width="352" height="32">
    <properties>
-    <property name="map" value="waytobrightport19"/>
+    <property name="map" value="waytobrightport16"/>
     <property name="place" value="north"/>
    </properties>
   </object>
@@ -222,6 +222,12 @@
    <properties>
     <property name="map" value="brightport1"/>
     <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="6" name="south" type="mapchange" x="0" y="544" width="192" height="32">
+   <properties>
+    <property name="map" value="waytobrightport16"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>
