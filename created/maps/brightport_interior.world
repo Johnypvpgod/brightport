@@ -223,6 +223,13 @@
             "width": 352,
             "x": 608,
             "y": -480
+        },
+        {
+            "fileName": "brightport_school11.tmx",
+            "height": 288,
+            "width": 512,
+            "x": -768,
+            "y": -480
         }
     ],
     "onlyShowAdjacentMaps": false,
