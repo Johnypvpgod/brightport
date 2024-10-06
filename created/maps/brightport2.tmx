@@ -247,12 +247,12 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="15">
   <data encoding="base64" compression="zlib">
-   eJydVUtKA0EQrUVwJKCkRw1EXATiwpt4Br2CnwOoJ1DXrj2CuhHdiWCcGAT3utBFNMFAjmAV00W/6akhgw+K6ulUv6pXU9PZWyfaZ/t2RL8doinbayesl1Ki5TQ8qxdgnHrkUX/dJbrphmexYUW+2I9d+B3R9/sC5JkY+THGwsWWvV8HePad+T9A74Br+Ur/x3u5US9OdYnuB79+ceW4xzbRHXO+LeTewlXFvsar/4n4m5v5e7dwz2c+OWcG3MpzlBAds50kxX2BxmdGTdJfwbAip4WB5znlXGds50mobx5GPs/Uv995eK5Z13aDvz22A7bDRvmc6MS5lf5oj7DfDmZMvovVaObWjBmU3JhH5lWB34n0Dd/BTotot5WvZ4bO23buVUvqc6POvivGCMY9nuFemQ+h8XG9mjPmxLXqnQGH6pQ5kjrjuR5FPZaz2nfNGdeCOgVp1HvrHlIO7OeT0SPUiVomrqhRzylv4T6FPq+kQX8VJCdqyCpisU68/6y7OP4/UN9cDDmFT58tYN91/Qf6FqZr
+   eJydVUtKA0EQrUVwJKCkWw1EXATiwpt4Br2CnwNoTqCuXXsEdSO6k4BxYhDc60IX0QSFHMEqZop+01ODgw+K6ulUv6pXU9PZWyfaZ/t0RN8doh+2505YL3miZR+e1QswTj3yqL/qEl13w7PYuCJf7Kcu/I4Y5vsC5JkZ+THGwvmWvV8HePaV+Qegd8S1fPj/8V5s1ItTXaL7Pl8/uXLcoE10y5wvC5m3cFmxr/HqvyL+5mb23i3c8Zl3zpkCt/IcJUTHbP2kuC/Q+NSoSforGFfktDDKeU441ynbWRLq+wuTPI/09q1ihhCPNevabvC3x3bAdtgonxOdOLfSH+0R9tvBjMl3sRrN3Joxg5Ib88i8KvA7kb7hO9hpEe22svXc0HnTzrxq8Xlu1Dl0xRjBtMcz3CvzITQ+rldzxpy4Vr1z4FCdMkdSZzzXk6jHclb7rjnjWlCnwEe9t+4h5cB+Phg9Qp2oZeaKGvWc8hbuU+jzig/6qyA5UUNaEYt14v1n3cXx/4H65mLIKXz6bAH7rutfa36mUQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="15">
   <data encoding="base64" compression="zlib">
-   eJytVTsOwjAMDSzthDohdavUU8AN4HZwEy6QhRt0A8EAI7DA2IkYEeE+vSRKxZOixvHn2ZaTnmvzwcl9z27Z+rfHr8CC7GFJHC1rH+bPzrV8KYa21yLtI9g0xmwbHiOFSTmUpyW3w5wEu28ez0xOxH4e12NOfcs5Z2CHtWl0ipPVrHOS/goY52tk7axmPAv1VnOmepfi7KBOmS3WN+nRojJmWQ19UjzMVs+rgN0TH2fl+NZVnC/EE8PBzdCx5ZwIzHcMJEaozpzcc3Nh79A/6mHwcfVbGOoz4uZm+q7WI+Ne6XrYW+z1qOuBA+UQh9+n/iMxXSx3gVV2vody9gZzRnZ/
+   eJytVTsOwjAMDSzthDohdavUU8AN4HZwE8SehRt0A9EBRmCBsRMxwsKxXhKl4klV4vjzbMtJ+9p8cHZr7z5b//Z6JVglMyyII2Xpg/zRuZQvhW97LdI+e7duGmO2DY6RwqT05WmJ7WROzL375vHM5NQ4zON6ndPQYs6ZstO1SXSCE9Usc6L+EhDna2TtqGZ9Fuqt5Ez1LsXZqTpptlDfqEeLyphl5fukeJCtnFcCuiccZ+X41lWcL8QTw9HN0KnFnBo63zGgGKE6c3LPzQW9Q/+oB4Hjyrcw1GeNm5vpu/geGfdK1oPeYtZr3aA4tBzi4H3qPxLTxXInWGHHPaSzN3QSeEE=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="15" visible="0">
@@ -269,13 +269,13 @@
   </object>
   <object id="2" name="school" type="mapchange" x="480" y="192" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_school"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="3" name="school1" type="mapchange" x="256" y="160" width="32" height="32">
    <properties>
-    <property name="map" value="cabin_norcity_road2"/>
+    <property name="map" value="brightport_school3"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

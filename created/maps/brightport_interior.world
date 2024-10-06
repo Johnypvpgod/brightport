@@ -1,0 +1,230 @@
+{
+    "maps": [
+        {
+            "fileName": "brightport_school2.tmx",
+            "height": 288,
+            "width": 160,
+            "x": -128,
+            "y": 0
+        },
+        {
+            "fileName": "brightport_school1.tmx",
+            "height": 288,
+            "width": 608,
+            "x": 608,
+            "y": 0
+        },
+        {
+            "fileName": "brightport_school3.tmx",
+            "height": 352,
+            "width": 384,
+            "x": -544,
+            "y": -64
+        },
+        {
+            "fileName": "brightport_school4.tmx",
+            "height": 384,
+            "width": 288,
+            "x": -224,
+            "y": -480
+        },
+        {
+            "fileName": "brightport_school.tmx",
+            "height": 384,
+            "width": 512,
+            "x": 64,
+            "y": -64
+        },
+        {
+            "fileName": "brightport_weapon.tmx",
+            "height": 352,
+            "width": 576,
+            "x": 1408,
+            "y": -672
+        },
+        {
+            "fileName": "brightport_thievesguild.tmx",
+            "height": 320,
+            "width": 832,
+            "x": 2016,
+            "y": -928
+        },
+        {
+            "fileName": "brightport_temple1.tmx",
+            "height": 384,
+            "width": 576,
+            "x": 1408,
+            "y": -288
+        },
+        {
+            "fileName": "brightport_temple.tmx",
+            "height": 320,
+            "width": 512,
+            "x": 864,
+            "y": -1120
+        },
+        {
+            "fileName": "brightport_stanwick.tmx",
+            "height": 256,
+            "width": 448,
+            "x": 928,
+            "y": -768
+        },
+        {
+            "fileName": "brightport_benbyr.tmx",
+            "height": 256,
+            "width": 480,
+            "x": 2016,
+            "y": -576
+        },
+        {
+            "fileName": "brightport_armorer.tmx",
+            "height": 384,
+            "width": 576,
+            "x": 1408,
+            "y": -1088
+        },
+        {
+            "fileName": "brightport_abandoned.tmx",
+            "height": 384,
+            "width": 512,
+            "x": 1408,
+            "y": 128
+        },
+        {
+            "fileName": "brightport_forenza.tmx",
+            "height": 512,
+            "width": 576,
+            "x": 2592,
+            "y": -288
+        },
+        {
+            "fileName": "brightport_house.tmx",
+            "height": 256,
+            "width": 576,
+            "x": 2528,
+            "y": -576
+        },
+        {
+            "fileName": "brightport_inn.tmx",
+            "height": 448,
+            "width": 544,
+            "x": 2016,
+            "y": -288
+        },
+        {
+            "fileName": "brightport_forest.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 1952,
+            "y": 192
+        },
+        {
+            "fileName": "brightport_cave8.tmx",
+            "height": 480,
+            "width": 288,
+            "x": 2784,
+            "y": 1888
+        },
+        {
+            "fileName": "brightport_cave7.tmx",
+            "height": 352,
+            "width": 352,
+            "x": 2400,
+            "y": 1920
+        },
+        {
+            "fileName": "brightport_cave6.tmx",
+            "height": 320,
+            "width": 224,
+            "x": 1568,
+            "y": 1984
+        },
+        {
+            "fileName": "brightport_cave5.tmx",
+            "height": 480,
+            "width": 544,
+            "x": 1824,
+            "y": 1984
+        },
+        {
+            "fileName": "brightport_cave4.tmx",
+            "height": 256,
+            "width": 672,
+            "x": 2400,
+            "y": 1600
+        },
+        {
+            "fileName": "brightport_cave3.tmx",
+            "height": 352,
+            "width": 800,
+            "x": 1568,
+            "y": 1600
+        },
+        {
+            "fileName": "brightport_cave2.tmx",
+            "height": 448,
+            "width": 480,
+            "x": 1536,
+            "y": 1120
+        },
+        {
+            "fileName": "brightport_cave1.tmx",
+            "height": 640,
+            "width": 288,
+            "x": 1120,
+            "y": 1120
+        },
+        {
+            "fileName": "brightport_cave.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 1056,
+            "y": 608
+        },
+        {
+            "fileName": "brightport_school5.tmx",
+            "height": 864,
+            "width": 320,
+            "x": -896,
+            "y": 0
+        },
+        {
+            "fileName": "brightport_school6.tmx",
+            "height": 256,
+            "width": 288,
+            "x": -544,
+            "y": 320
+        },
+        {
+            "fileName": "brightport_school7.tmx",
+            "height": 256,
+            "width": 288,
+            "x": -224,
+            "y": 320
+        },
+        {
+            "fileName": "brightport_school8.tmx",
+            "height": 256,
+            "width": 288,
+            "x": -544,
+            "y": 608
+        },
+        {
+            "fileName": "brightport_school9.tmx",
+            "height": 352,
+            "width": 384,
+            "x": 128,
+            "y": -448
+        },
+        {
+            "fileName": "brightport_school10.tmx",
+            "height": 448,
+            "width": 352,
+            "x": 608,
+            "y": -480
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

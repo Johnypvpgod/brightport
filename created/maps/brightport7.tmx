@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -203,7 +203,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBENgwC6GCmYGIBLHyX2EmM/Le3F5Q5y3UVtd5BrNyXuo9RecsMIX7jjiyNK7cXnb1LspUU8kwLItZfUNEcteykB5IY1tdxBbt6iNEyoaS+xYTVYMQA2fek1
+   eJzbKMbAsBENgwC6GCkYHWATx6WPEntx2U8ve3G5g1x3Udsd5NpNifsotZfcMMIX7vjiiFJ78fmbFHtpEc+kAHLtJTXNUcteSgC5YU0td5CbtygNE2raS2xYDVYMAIbD6sM=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -219,7 +219,19 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="3" name="north1" type="mapchange" x="768" y="0" width="160" height="32">
+  <object id="3" name="north1" type="mapchange" x="896" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport5"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object id="4" name="north1" type="mapchange" x="768" y="0" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport5"/>
+    <property name="place" value="south1"/>
+   </properties>
+  </object>
+  <object id="5" name="north1" type="mapchange" x="672" y="0" width="32" height="32">
    <properties>
     <property name="map" value="brightport5"/>
     <property name="place" value="south1"/>
