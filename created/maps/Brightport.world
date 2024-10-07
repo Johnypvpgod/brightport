@@ -283,9 +283,9 @@
         {
             "fileName": "brightportwild18.tmx",
             "height": 640,
-            "width": 480,
-            "x": -3279,
-            "y": 373
+            "width": 288,
+            "x": 973,
+            "y": -1377
         },
         {
             "fileName": "brightportwild17.tmx",
@@ -342,6 +342,48 @@
             "width": 800,
             "x": 2504,
             "y": 346
+        },
+        {
+            "fileName": "waytobrightport21.tmx",
+            "height": 576,
+            "width": 992,
+            "x": -1016,
+            "y": -1638
+        },
+        {
+            "fileName": "waytobrightport22.tmx",
+            "height": 576,
+            "width": 928,
+            "x": 8,
+            "y": -1638
+        },
+        {
+            "fileName": "waytobrightport23.tmx",
+            "height": 480,
+            "width": 928,
+            "x": 8,
+            "y": -1030
+        },
+        {
+            "fileName": "brightportwild19.tmx",
+            "height": 608,
+            "width": 256,
+            "x": 968,
+            "y": -2022
+        },
+        {
+            "fileName": "../../altered/maps/waterway_forest2.tmx",
+            "height": 576,
+            "width": 960,
+            "x": -24,
+            "y": -2246
+        },
+        {
+            "fileName": "../../altered/maps/korhald_cave_outdoor1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": -1016,
+            "y": -2246
         }
     ],
     "onlyShowAdjacentMaps": false,
