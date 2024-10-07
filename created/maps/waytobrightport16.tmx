@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="23" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -230,13 +230,13 @@
    eJzNVMENwjAM9CSV0o7SLgJPYAyWgCdMAQPkwwQUwatsUL6orsAiCsS4wQFOqlTVqc/2XQwQj0UGsMzC8dYAXMzr2CQHmOIzy4fzbpBzy/D+I86BOaRGY3S5D4XsnGW0j8FOyEu9fuKvWN539yEFr7a+9YB+NfWVwt45ub4ptkLt147+FaPNEWMnJk45W/P8zY3ReznAB1fnbOi/PucItRkXtxkQj3V8p6nHvHjMWsvb0hyN08e39qZbm8/Jec1G1Of7UPsOE/bIUzN+8uHXoaF5iT6qvJ2Sql8OHF+MhlL8otceKTlpD0kg2dPS8xw6TTxcTQ==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="23">
+ <layer id="4" name="Walkable" width="30" height="23" visible="0">
   <data encoding="base64" compression="zlib">
    eJzNk8ENwDAIA7NL9x+g2/VVqQ9MbGJQLeVV4jOUrBXrvuKjCHkgn6z+e4fJknlEXizb1S/LZTKoc6uek9k5uNU5TXNPe/7DXXW31H3YSWFG9aiXE3bkmbEVFsPe1bDMLEd1b7q5DobK7pL6npCHK4Nbam70BpwZJv4rylH55uBO9/pyO72R/wMAaxI0
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="32" y="704" width="800" height="32">
+  <object id="1" name="south" type="mapchange" x="32" y="704" width="96" height="32">
    <properties>
     <property name="map" value="waytobrightport19"/>
     <property name="place" value="north"/>
@@ -264,6 +264,30 @@
    <properties>
     <property name="map" value="waytobrightport20"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="7" name="south" type="mapchange" x="192" y="704" width="160" height="32">
+   <properties>
+    <property name="map" value="waytobrightport19"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="8" name="south" type="mapchange" x="416" y="704" width="96" height="32">
+   <properties>
+    <property name="map" value="waytobrightport19"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="9" name="south" type="mapchange" x="640" y="704" width="96" height="32">
+   <properties>
+    <property name="map" value="waytobrightport19"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
+  <object id="10" name="south" type="mapchange" x="800" y="704" width="32" height="32">
+   <properties>
+    <property name="map" value="waytobrightport19"/>
+    <property name="place" value="north"/>
    </properties>
   </object>
  </objectgroup>

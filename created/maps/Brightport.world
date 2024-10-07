@@ -44,10 +44,10 @@
         },
         {
             "fileName": "waytobrightport20.tmx",
-            "height": 576,
+            "height": 480,
             "width": 960,
             "x": -992,
-            "y": 192
+            "y": 288
         },
         {
             "fileName": "waytobrightport19.tmx",
@@ -73,7 +73,7 @@
         {
             "fileName": "waytobrightport18.tmx",
             "height": 512,
-            "width": 800,
+            "width": 832,
             "x": -128,
             "y": 1568
         },
@@ -347,8 +347,8 @@
             "fileName": "waytobrightport21.tmx",
             "height": 576,
             "width": 992,
-            "x": -1016,
-            "y": -1638
+            "x": -992,
+            "y": -1632
         },
         {
             "fileName": "waytobrightport22.tmx",
