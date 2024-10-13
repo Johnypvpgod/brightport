@@ -230,13 +230,13 @@
    eJxjYMANpstjirEr4pcnpB9d3hDJPGSzQWAZHv0gtdZyuOW3Y9FriUc9ul6QWnzmw4CuEgODnhKmPTC/LCcQBjBgoIgaFjBAKAxBemB6sZlByA8AfUUMog==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="16" height="8" visible="0">
+ <layer id="4" name="Walkable" width="16" height="8">
   <data encoding="base64" compression="zlib">
    eJxrVWBgaMWDsQF86qmlF5d+etlPqV5s5pDid1zuwGYHOWEIAwBP+zbK
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="320" y="224" width="192" height="32">
+  <object id="1" name="south" type="mapchange" x="288" y="224" width="224" height="32">
    <properties>
     <property name="map" value="brightportwild14"/>
     <property name="place" value="north"/>

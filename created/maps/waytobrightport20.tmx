@@ -224,10 +224,10 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="6" name="south" type="mapchange" x="0" y="448" width="192" height="32">
+  <object id="6" name="south1" type="mapchange" x="0" y="448" width="192" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north1"/>
    </properties>
   </object>
  </objectgroup>

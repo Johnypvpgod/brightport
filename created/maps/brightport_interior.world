@@ -79,10 +79,10 @@
         },
         {
             "fileName": "brightport_armorer.tmx",
-            "height": 384,
+            "height": 352,
             "width": 576,
             "x": 1408,
-            "y": -1088
+            "y": -1056
         },
         {
             "fileName": "brightport_abandoned.tmx",

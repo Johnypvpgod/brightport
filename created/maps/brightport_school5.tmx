@@ -224,7 +224,7 @@
   <object id="3" name="dorm1" type="mapchange" x="192" y="544" width="32" height="32">
    <properties>
     <property name="map" value="brightport_school7"/>
-    <property name="place" value="entrancce"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
   <object id="4" name="dorm2" type="mapchange" x="192" y="768" width="32" height="32">

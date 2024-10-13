@@ -232,9 +232,9 @@
    eJxjYBgFo4B64CvzQLtgFAwmAAAD+wD5
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="14" visible="0">
+ <layer id="4" name="Walkable" width="20" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYGBg2CgGwcgAJoaM8QF8aog1ixh1MDFy3EaKOkJqCZmDy0xcfiLWTlLDEZcbRjFpmNS4ImQOLQClaZySsMAlDwAh6Hxh
+   eJxjYGBg2CgGwcgAJoaM8QF8aog1ixh1MDFy3EaKOkJqCZmDy0xcfiLWTlLDEZcebO4abJja7qTEPFLjitT8Qw1AaRqnJCxwyQMAAc15RQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -262,10 +262,10 @@
     <property name="place" value="outside"/>
    </properties>
   </object>
-  <object id="5" name="north" type="mapchange" x="96" y="0" width="96" height="32">
+  <object id="5" name="north1" type="mapchange" x="96" y="0" width="96" height="32">
    <properties>
     <property name="map" value="brightportwild7"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
  </objectgroup>

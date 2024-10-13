@@ -217,7 +217,7 @@
   </object>
   <object id="2" name="class" type="mapchange" x="96" y="64" width="32" height="32">
    <properties>
-    <property name="map" value="brightport_school9"/>
+    <property name="map" value="brightport_school10"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

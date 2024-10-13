@@ -193,7 +193,7 @@
  </layer>
  <layer id="2" name="Objects" width="30" height="15">
   <data encoding="base64" compression="zlib">
-   eJy1VLEOwiAQPT+BhammX+NH6+Jm6+SsDm5NS/em3eSEC9crpEXjS15S7oD3esABLHHYRYIbMWiAp2VraSw7y+Me4GTZKoDG52L4RZe0R69vvA6xt3x43UbkULfxXjnkPJlP6Y/MB2pO2u1FHiiHuj3zuoY1fe5j0uGb6oHrB+FvC0xGDaQP1Ki1O3seH/0+58LxXjrSGME9mkztit27ymtfmYdb4dhZTVOGMaJWwftnnKkbm1+rZSy6Xs3rlqNLNUppXURczsM832cL5P2SNU95oXlyn63/TO8JId86eefnXSX+/aXSZxYD7zESsXcS6yEU63X+vZY9Rr5lo+f9jsdlLOd+5fiZdDhP0qQY5f+Jb3TeK9O0pg==
+   eJy1VLEOwiAQPT+BhammX+NH6+Jmq4uzOrg1lu5Nu8lZLlyvkILGl7yk3AHv9YADWGK3CQQT0WuAh+XL0li2lvstwMHyogAalwvhF13SHpy+cTrEzvLudBuRQ93GeeWQ82Q+pj8wH6g56mkv8kA51O2Y1zWs6XMfo/bfVA9c3wt/KTAZNZA+UKPGtWoeH9w+x2LirZxIYwT3aDK1K3bvKqd9Zh6uxcTWaprSjxG18t4/40zd0PxaLWPB9WpetxxdqlFM6yTich7m+T4pkPdL1jzmhebJfVL/md4TQr518s7Pu4r8+1PFzywE3mMkQu8k1EMo1un8ey17jHzLRs/7HY/LWM79yvEzan+epEkxyv8T3+i8AWV8tIg=
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="15">
@@ -203,7 +203,7 @@
  </layer>
  <layer id="4" name="Walkable" width="30" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsBENgwC6GCkYHWATx6WPEntx2U8ve3G5g1x3Udsd5NpNifsotZfcMMIX7vjiiFJ78fmbFHtpEc+kAHLtJTXNUcteSgC5YU0td5CbtygNE2raS2xYDVYMAIbD6sM=
+   eJzbKMbAsBENgwC6GKkYGWATx6WHUnvR7UYHtLQXlzvIdRe13UGu3ZS4j1J7yQ0jfOFOKD1SI24I+ZeQvbSIZ1IAufaSmuaoZS8lgNywppY7yM1blIYJNe0lNqwGKwYA4F3sUQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -219,19 +219,13 @@
     <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="3" name="north1" type="mapchange" x="896" y="0" width="32" height="32">
+  <object id="3" name="north3" type="mapchange" x="896" y="0" width="32" height="32">
    <properties>
     <property name="map" value="brightport5"/>
-    <property name="place" value="south1"/>
+    <property name="place" value="south3"/>
    </properties>
   </object>
   <object id="4" name="north1" type="mapchange" x="768" y="0" width="32" height="32">
-   <properties>
-    <property name="map" value="brightport5"/>
-    <property name="place" value="south1"/>
-   </properties>
-  </object>
-  <object id="5" name="north1" type="mapchange" x="672" y="0" width="32" height="32">
    <properties>
     <property name="map" value="brightport5"/>
     <property name="place" value="south1"/>

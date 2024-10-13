@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="5">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="26" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="8">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -210,17 +210,17 @@
  </layer>
  <layer id="2" name="Objects" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJyVVDtOw0AQ3Sv4ADbxMUIDLRSQIGqKHAAQx+FzCqgxokACKhN6uhAJGiBQMyPvaF9eZhN4kjX2zOybN7O7DiFh1AthVofwXXffu70wB4xZHH1NzB/Aureis229yP1ehAVcUE3jOgV/A+8nlG+w/AHFD+mbe0RNVodz2nJ+DgyvL8Wt8Fw7zxj4Te+Iah7Dd47H4/Nw5sQ9zdr/XaYXxCvk7ERu2/exzOq5TPG/6t2LPt6//yK3/mgFr/aEa4ekB+cyWTEjPD98ZxDa8734HyjWVF2+nQlc/7LWWbwfBs+X03tA3Gy5bg56HznP2wP9H/Slr/Uq5Q+dvGmRelTY3Ddk3Wa1XMs+aPmSMziL59Bm7Ok6d3wGm/80atiS+ttRQ25mOQ7Fpei5ipoel+R7e8CzU3wI12eZ5tU6nJr/I88kWj1bN8TTr/x+zHp7hz79Pz6VqYZZT/8vfH2aQA==
+   eJyVVDtOw0AQ3SukpPCSHCNpoIUCEkRN4QMAog0n4XMKqDGiQApUjtOnC5GggYTUmVF22OdhNoEnWWvP582b2V0PttwP8qZz85Zz363V92HT1YA+8aOtCPFdyHtv2Pmc+wE+wa2qKVxXYC/g/YLe+965S1/Pk3jUwjhV37pH1CR1dEyZ1eegYfXFeCKeB+OpgF/05qrmOXyneCw+C9eG39LM/T8nekG8QcxB4JZ9r2hWoyz6/6r3KNj0/v0XqfyzDbzcE+b2lB6cy2TDjPD86DuD4J4HZH9RPj7fHC9nAvPH26sV74fAsqX0nihuveq6KfB91HHWHpTkb1NfHR/je0bctBF7ZMjcdyhv1/+ORxyDlhmdwXk4hzJjS9eNYRPI/KdBwx7V3w8aUjNLcTDuSM990PS6Jt7aAz07xidxfWVxXqXByfELeiZhLYjjUfG0vd2PrNbeoY3/j8Ms1pDV0r8Eko+bHw==
   </data>
  </layer>
  <layer id="3" name="Above" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJw7qMjA8ASInwLxUAcHZYeHP+gBDgPD6ojsQLticAF8+WAnUHwXmtx8OVT1yPr3y9PGbeg0IXdjMwMfOAiUlwT6S0qOsHpsfpQH6lOQI94tj4Fp8Ak0HWILY3KAJtB+LagbcIUZPrAY6J4lUDftxqMeWxxgC7uHQLMeySLC6yAWM9HdCEpbC9DMkZTD7h8YjS3ukMVA5eMhtDyPy/0gNsi9xNiFzf1PsPgRW9gDAMscXlw=
+   eJxjYGBgeKLIwPAUiKkNouUYGGLkqG8uLnBQljb+GI7gMDCsjsgOtCsGF8CXD3YCxXehyYHSN7J6ZP375WnjNnSakLuxmYEPHATKSwL9JSVHWD02P8oD9SkQkedhZj8GpsEn0HSILYzJAZpA+7WgbsAVZvjAYqB7lkDdtBuPemxxgC3sHgLNeiSLCK+DWMxEd+N8oBkL0MyRlMPuHxiNLe6QxUDl4yG0PI/L/SA2yL3E2IXN/U+w+BFb2AMAAjVeKQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFOxUgGBvAJodPPTZ1xKgd7GC4+IMegNywGs7hiytMcOURdDFkPrXDCdkN6O4hNa+TYg8htdSwg1R/EALYzCSlnCM2HgnZg00Ol5m49A8UBgA+Tlnb
+   eJzbqcCAAnYqQDA2gE0On3pi9A9FMFz8QQ9AblgN5/DFFSYwcUJ5DJlP7XBCdgO6e4iNS2LU4bIDl1pq2kGt/IvNTGL8g0s/ufZgk8NlJi79A4UBQaxatA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -230,10 +230,10 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="32" y="0" width="704" height="32">
+  <object id="2" name="north1" type="mapchange" x="32" y="0" width="96" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
   <object id="3" name="west" type="mapchange" x="0" y="128" width="32" height="160">
@@ -242,10 +242,28 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="4" name="north" type="mapchange" x="800" y="0" width="32" height="32">
+  <object id="4" name="north5" type="mapchange" x="800" y="0" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south5"/>
+   </properties>
+  </object>
+  <object id="5" name="north2" type="mapchange" x="192" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="waytobrightport16"/>
+    <property name="place" value="south2"/>
+   </properties>
+  </object>
+  <object id="6" name="north3" type="mapchange" x="416" y="0" width="96" height="32">
+   <properties>
+    <property name="map" value="waytobrightport16"/>
+    <property name="place" value="south3"/>
+   </properties>
+  </object>
+  <object id="7" name="north4" type="mapchange" x="576" y="0" width="160" height="32">
+   <properties>
+    <property name="map" value="waytobrightport16"/>
+    <property name="place" value="south4"/>
    </properties>
   </object>
  </objectgroup>

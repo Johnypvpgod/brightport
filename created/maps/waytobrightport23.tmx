@@ -195,7 +195,7 @@
  </layer>
  <layer id="3" name="Above" width="29" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAN2CeJKXYHKHYXivGBO0SoQQeRUgwMUVLY+dFSmGaSYgcxapHVILOxhQM2gE8dyP0xUpji6kKYbsAFZjMxMMxlgrAvi2HXTy6wkULYD/P3dUFUNTC7KQHVQHtqpPD7ExnA/EkMqASaW4UljLuBYj0k2HlYjHS7QQA9/YLAPiLTLMxOGI0rLc2UZWCYJUvYLbjseYYUp5fQ7AQBbH4gFqDbh8sNoHCF2U2sf8gFMDdcIjEuSTGbHHXElinI6mHmkFvuwcoKXOUcOh+5zIKJ78NiPzZ3YXPvHSxisPiH8QE+xGIr
+   eJxjYKAN2CeJKXYHKHYXivGBO0SoQQeRUgwMUVLY+dFSmGaSYgcxapHVILOxhQM2gE8dyP0xUpji6kKYbsAFZjMxMMxlgrAvi2HXTy6wkULYD/P3dUFUNTC7KQHVQHtqpPD7ExnA/EkMqASaW4UljLuBYj0k2HlYjHS7QQA9/YLAPiLTLMxOGI0rLc2UZWCYJUvYLbjseYYUp5fQ7AQBbH4gFqDbh8sNoHCF2U2sf8gFMDdcIjEuSTGbHHXElinI6mHmkFvuwcoKXOUcOh+5zIKJ78NiPzZ34XIvuhgs/mF8ABxpYTY=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="29" height="15" visible="0">
