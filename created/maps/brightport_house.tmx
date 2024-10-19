@@ -229,12 +229,12 @@
  </layer>
  <layer id="2" name="Objects" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFf5QZMICiIm41MDkYvR1I58gxMOSqIPhsyhAxEACJv0VTCxNHBzVy+MUeK2IXB7kF5MaXshA+jL4HVGMNFI+Sh/A3yEL4MGALdIMdENsD8SJ5hPhPWVSaXOCrgGD3Ac3vl8eplChQBdQ/D4jnYzFnClBsCRTvAuI7QHwXiHcjqUWPV1wAnzoAfFUhqA==
+   eJxjYEAFf5QZMICiIm41MDkYvR1I58gxMOSqIPhsyhAxEACJv0VTCxNHBzVy+MUeK2IXB7kF5MaXshA+jL4HVGMNFI+Sh/A3yEL4F8UgfFugG+yA2B6IF8kjzPspi0qTC3wVEHb1Ac3vl8ernCCoAuqfB8Tz5RHmwsAUoNgSKN4FxHeA+C4Q70ayEz1ecQF86gDBTSRd
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="8">
   <data encoding="base64" compression="zlib">
-   eJxjYKAemK1AG3POyVHHHFxgJQF11PQXIbvQwRl5BoazQLxaHr978JlLqp2kAADT6wsU
+   eJxjYKAemK1AG3POyVHHHHLBQJpzRp6B4SwQr5Yn35yVZNhLLAAA2okIuQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="18" height="8" visible="0">

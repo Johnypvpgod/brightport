@@ -185,12 +185,12 @@
  </tileset>
  <layer id="11" name="Base" width="16" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYKAeOCVLmZpbROgnRs0oGAXEAgBciwO9
+   eJxjYKAeOCVLmZpbROgnRg01wGdO+tgz2ACx/saljhj9IDW00k8qAACq9AyZ
   </data>
  </layer>
  <layer id="1" name="Ground" width="16" height="12">
   <data encoding="base64" compression="zlib">
-   eJz7xMnA8IlCfEoWgv/IINgg/B+IGeRQxZDVwPTfkoVgHlkE+xaSfmQxZDUwuz9zYscw/bjkT0HNwaf/Px55kN46bgaGeiy4gRsiB6NxqZkHxPOx4AVQuQUE1HzC4TYQhtmPSx4W/rjk+4B6JxDQjy/8CeknFP4w/+ML/5ecuDFMHT41ADr/qDk=
+   eJz7xMnA8IlCfEoWgv/IINgg/B+IGeRQxZDVwPTfkoVgHlkE+xaSfmQxZDUwuz9zYscw/bjkT0HNwSZ3UQyi/z8e80F667gZGOqx4AZuiByMxqVmHhDPx4IXQOUWEFDzCYfbQBhmPy55WPgji7GJI9h9QL0TcOgHqcMW/ofFiNMPUoct/MWQ7If5H5t+kDqQ3pecuDFMLT41ANOzpII=
   </data>
  </layer>
  <layer id="2" name="Objects" width="16" height="12">
@@ -208,7 +208,7 @@
    eJxjYKA9YObAL39YjLb2CxGwnxBQolD/KBi8AAC/sAEp
   </data>
  </layer>
- <layer id="4" name="Walkable" width="16" height="12">
+ <layer id="4" name="Walkable" width="16" height="12" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJFGGAbooR9ZLbIeXICQPcQAYtXRElDiBkJhSax6auvHZgat0g8AH0BQ2Q==
   </data>
