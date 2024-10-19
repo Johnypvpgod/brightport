@@ -1,0 +1,126 @@
+[
+    {
+        "id":"Stanwickquest",
+        "name":"No rest for the wicked",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"5 - I arrived at Brightport's school,  to be told that Stanwick is under investigation and that he is not allowed visitors."
+            },
+            {
+                "progress":10,
+                "logText":"Janwick, Stanwick's grandfather mistook me for Andor and asked me to deliver some fresh fruit to Stanwick."
+            },
+            {
+                "progress":15,
+                "logText":"I was allowed to visit Stanwick."
+            },
+            {
+                "progress":16,
+                "logText":"Stanwick has something important to tell me about Andor but I must help him first."
+            },
+            {
+                "progress":20,
+                "logText":"Stanwick is currently under investigation as the main suspect in the disappearance of an important scroll from the school library."
+            },
+            {
+                "progress":25,
+                "logText":"I agreed to help Stanwick find the culprit of the theft, i should look for clues around the school."
+            },
+            {
+                "progress":30,
+                "logText":"Milena, the school cook, claims that she noticed a student, from the living quarters sneaking off at night"
+            },
+            {
+                "progress":31,
+                "logText":"Dibella the Lady from the desk at the entrance, has told me that, as a honor student Stanwick's reputation is respectable but even so, as the student library supervisor he must be considered a suspect."
+            },
+            {
+                "progress":35,
+                "logText":"Oswald, the Headmaster, has expressed his disbelief in Stanwick being guilty of the theft, and told me of the importance of the stolen scroll and that it must be returned to him."
+            },
+            {
+                "progress":40,
+                "logText":"Frederich the history teacher who moved in from Feygard believes Stanwick is associated with \"Those Nor city savages\" and was told by them to steal the document."
+            },
+            {
+                "progress":45,
+                "logText":"Franz the math teacher had told me that the most\n logical thing to do is to investigate the library, which is sealed. I must find a way to access it."
+            },
+            {
+                "progress":46,
+                "logText":"I asked the principal for access to the library, and he denied me "
+            },
+            {
+                "progress":47,
+                "logText":"I stole the library's key from a shelf while the principal was distracted. This will have consequences."
+            },
+            {
+                "progress":50,
+                "logText":"Counterfeit, a thieves guild member in the basement of the Brightport warehouse gave me a copy of the library key. "
+            },
+            {
+                "progress":55,
+                "logText":"In the library's basement archive I found a record of a now retired baker requesting to read the secret scroll, but having been denied. I should seek out their whereabouts."
+            },
+            {
+                "progress":60,
+                "logText":"Richimor, the old man sitting by the lake shore in Brightport was an acquittance of Bryma, he said she left Brightport many years ago and did not inform him of her destination, but she left a large part of her research material at his house, I should check it."
+            },
+            {
+                "progress":65,
+                "logText":"Inside Richimor's house i found a bundle of papers left by Bryma, In there amongst the trivial writings, one paper stood out to as it talked about strange statues in the vicinity of brightport."
+            },
+            {
+                "progress":66,
+                "logText":"I discovered a strange statue in the forest south of Brightport, perhaps this is one of the statues mentioned in the writings of Bryma, I should look for more."
+            },
+            {
+                "progress":70,
+                "logText":"I discovered a statue north of Brightport."
+            },
+            {
+                "progress":75,
+                "logText":" I discovered a statue southeast of the forest statue."
+            },
+            {
+                "progress":80,
+                "logText":"I discovered a statue far southwest of brightport."
+            },
+            {
+                "progress":85,
+                "logText":"I activated the statue in the forest and can now move further."
+            },
+            {
+                "progress":86,
+                "logText":"Inside the forest was a cabin, in which i found Bryma and some strange golems made of bread."
+            },
+            {
+                "progress":90,
+                "logText":"I found out from Braema that Andor came to visit and gave her the scroll, in exchange for her knowledge on alchemy."
+            },
+            {
+                "progress":92,
+                "logText":"I received the secret scroll from Bryma."
+            },
+            {
+                "progress":95,
+                "logText":"I threatened Bryma to hand me over the scroll, she gave it to me as she did not intend to keep it."
+            },
+            {
+                "progress":96,
+                "logText":"I returned the secret scroll to the Headmaster, and Stanwick was cleared of all accusations.",
+                "finishesQuest":1
+            },
+            {
+                "progress":97,
+                "logText":"Although, i did not receive any reward."
+            },
+            {
+                "progress":100,
+                "logText":"I received a reward from the Headmaster for having returned the scroll."
+            }
+        ]
+    }
+]

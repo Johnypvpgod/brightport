@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="19" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="4">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="21" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="2">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -183,48 +183,36 @@
  <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
- <layer id="1" name="Ground" width="19" height="9">
+ <layer id="1" name="Ground" width="21" height="13">
   <data encoding="base64" compression="zlib">
-   eJz7xMnA8IlK+JQsdTDIrFuy1MEgs+q4GRjq8eAGbuLUgMyaB6Tn48ELuIlTA/PnZyrgW9Bwe8lJHQwyb7MYdTDIPGqZBQAfg5CE
+   eJzbzsnAsJ0G2FQaE+MSJyQPM9NFGhObYREjRh5mJh8XJnaVxi5OSB6fmeRifGYSsgufPmRMivuJjXeYelNoHBAyk5h4h6kHsQnFkSkZ8U4Iu+CJd1MC7iEVm0rjto9cDDLvISf1MQDsv12q
   </data>
  </layer>
- <layer id="2" name="Objects" width="19" height="9">
+ <layer id="2" name="Objects" width="21" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYMAOJJlwSOAAKsIMDFf5GBiE+SH8W2wMDLz8EDF7NggNE9fFIa7Gj+CDgDLUrFdsCDF/JDYx4uQCUX5UfiQL6WGCy1x3oFlqwhD+OVYInQMUywXiPBaE3Y5A9nlWCA0DyOpA4Dwr5W4aKgAAQC8UPQ==
+   eJxjYKAtuMqHW4xRjIFBjR+7Gmx6g1kZGHYDcQkQlwJxCCtEPBZIxwHxZSAWFMM0ByR+BWgWD5DNC8SRrAi5ZCD7NBC3AHErEKdA5XKBdB4QPwZiRSQzK6DyIPEMIJYBsmWBOBPJTBBIRONTCkJwmOfOgl8c2a8gNi712MAeflS+PZF6keMNmd2Eph/klnksmOpAQBbJ7ssk+B3dDjOg3ptAfBHNjMdo/Goi48sIaL4bUO1LIH4IxK9kEXL3+CH4Pj9u/cSAn0hmfuJH4CCgfR1AnAN0Qy4Q50H9asECCYtiJD+A0mYYEItC3VJM5fSIDAA80Czs
   </data>
  </layer>
- <layer id="3" name="Above" width="19" height="9">
+ <layer id="3" name="Above" width="21" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFpIJ9rPjl95Mgf1iMcvfQwqzBCADTgQP+
+   eJxjYKANOCxGmjiy/HM+6ptJqtwlAmbikyfkHnIALjMvU+B3XGZQ4n6YXnQziDHzOjTedfix60UPc0JxBAJ3SExLlIBz/ITVkApo4U5qAwAz4Be4
   </data>
  </layer>
- <layer id="11" name="Top" width="19" height="9">
+ <layer id="12" name="Top" width="21" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwkuiw20C4YOAAATsQDq
+   eJxjYBgFo2DgwWGxoWHmJTxm0sK+oQAAegQDdA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="19" height="9" visible="0">
+ <layer id="4" name="Walkable" width="21" height="13" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHGQYxCgRJwagJpmIZuHz73EiA103NATAwBqrmK6
+   eJzbKMbAsHGAMAgMFTNhgBQ3UAPgcgcxdqDrwxU+uNTjcwuxYUZMmFBiJjaziDUTmz58gNw0Qw4gN72j6yfH7aRiAEMxi+0=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="64">
+  <object id="1" name="entrance" type="mapchange" x="320" y="32" width="32" height="32">
    <properties>
-    <property name="map" value="brightport_school"/>
-    <property name="place" value="east"/>
-   </properties>
-  </object>
-  <object id="2" name="class" type="mapchange" x="96" y="64" width="32" height="32">
-   <properties>
-    <property name="map" value="brightport_school10"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="3" name="class1" type="mapchange" x="480" y="64" width="32" height="32">
-   <properties>
-    <property name="map" value="brightport_school12"/>
-    <property name="place" value="entrance"/>
+    <property name="map" value="brightport_thievesguild"/>
+    <property name="place" value="thieves"/>
    </properties>
   </object>
  </objectgroup>
