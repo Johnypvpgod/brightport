@@ -96,35 +96,35 @@
             "height": 576,
             "width": 896,
             "x": -2752,
-            "y": 1696
+            "y": 1664
         },
         {
             "fileName": "waytobrightport12.tmx",
             "height": 576,
             "width": 896,
-            "x": -2752,
-            "y": 1088
+            "x": -2734,
+            "y": 1026
         },
         {
             "fileName": "waytobrightport11.tmx",
             "height": 544,
             "width": 640,
-            "x": -3424,
-            "y": 2304
+            "x": -3438,
+            "y": 2274
         },
         {
             "fileName": "waytobrightport10.tmx",
             "height": 256,
             "width": 992,
-            "x": -3777,
-            "y": 1025
+            "x": -3776,
+            "y": 1056
         },
         {
             "fileName": "waytobrightport7.tmx",
             "height": 576,
             "width": 640,
-            "x": -3424,
-            "y": 1696
+            "x": -3438,
+            "y": 1666
         },
         {
             "fileName": "waytobrightport9.tmx",
@@ -137,15 +137,15 @@
             "fileName": "waytobrightport6.tmx",
             "height": 224,
             "width": 640,
-            "x": -3424,
-            "y": 2880
+            "x": -3438,
+            "y": 2850
         },
         {
             "fileName": "waytobrightport5.tmx",
             "height": 608,
             "width": 768,
             "x": -4224,
-            "y": 1312
+            "y": 1344
         },
         {
             "fileName": "waytobrightport4.tmx",
@@ -159,42 +159,42 @@
             "height": 480,
             "width": 640,
             "x": -4096,
-            "y": 2624
+            "y": 2592
         },
         {
             "fileName": "waytobrightport2.tmx",
             "height": 256,
             "width": 768,
             "x": -4576,
-            "y": 1024
+            "y": 1056
         },
         {
             "fileName": "waytobrightport1.tmx",
             "height": 256,
             "width": 608,
-            "x": -5217,
-            "y": 1025
+            "x": -5216,
+            "y": 1056
         },
         {
             "fileName": "waytobrightport0.tmx",
             "height": 608,
             "width": 960,
-            "x": -5217,
-            "y": 1313
+            "x": -5216,
+            "y": 1344
         },
         {
             "fileName": "brightportwild1.tmx",
             "height": 800,
             "width": 480,
-            "x": -2753,
-            "y": 2305
+            "x": -2752,
+            "y": 2272
         },
         {
             "fileName": "brightportwild2.tmx",
             "height": 800,
             "width": 384,
             "x": -2241,
-            "y": 2305
+            "y": 2273
         },
         {
             "fileName": "brightportwild3.tmx",
@@ -319,22 +319,22 @@
             "fileName": "waytobrightport8.tmx",
             "height": 480,
             "width": 640,
-            "x": -4293,
-            "y": 3119
+            "x": -4302,
+            "y": 3106
         },
         {
             "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
             "height": 480,
             "width": 640,
-            "x": -3617,
-            "y": 3123
+            "x": -3630,
+            "y": 3106
         },
         {
             "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
             "height": 480,
             "width": 640,
-            "x": -2945,
-            "y": 3123
+            "x": -2958,
+            "y": 3106
         },
         {
             "fileName": "brightport8.tmx",
@@ -384,6 +384,223 @@
             "width": 960,
             "x": -1016,
             "y": -2246
+        },
+        {
+            "fileName": "../../altered/maps/lostmine0.tmx",
+            "height": 640,
+            "width": 640,
+            "x": -5220,
+            "y": 378
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytominingtown1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -7886,
+            "y": 1282
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/road5.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -4302,
+            "y": 3618
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/road4.tmx",
+            "height": 640,
+            "width": 800,
+            "x": -5134,
+            "y": 3362
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/road3.tmx",
+            "height": 480,
+            "width": 800,
+            "x": -5966,
+            "y": 3522
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/road2.tmx",
+            "height": 608,
+            "width": 640,
+            "x": -6638,
+            "y": 3394
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/road1.tmx",
+            "height": 800,
+            "width": 800,
+            "x": -7470,
+            "y": 3074
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/roadbeforecrossroads9.tmx",
+            "height": 768,
+            "width": 800,
+            "x": -7470,
+            "y": 2274
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytominingtown1a.tmx",
+            "height": 384,
+            "width": 640,
+            "x": -6894,
+            "y": 1858
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytominingtown2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": -6894,
+            "y": 1186
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/cabin_norcity_road1.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -3620,
+            "y": 3610
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytolostmine0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -6212,
+            "y": -70
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytominingtown3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -6212,
+            "y": 922
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytolostmine1.tmx",
+            "height": 864,
+            "width": 960,
+            "x": -6212,
+            "y": -966
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytolostmine2.tmx",
+            "height": 896,
+            "width": 960,
+            "x": -5220,
+            "y": -1542
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytolostmine3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -5220,
+            "y": -614
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/brimhaven8.tmx",
+            "height": 320,
+            "width": 960,
+            "x": -5220,
+            "y": -1894
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/brimhaven1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -5220,
+            "y": -2886
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -2016,
+            "y": -3840
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway7.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -5220,
+            "y": -3878
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway12.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -4224,
+            "y": -3872
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway13.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -3236,
+            "y": -3878
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -1024,
+            "y": -3840
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway10.tmx",
+            "height": 576,
+            "width": 960,
+            "x": -1024,
+            "y": -2848
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway_forest1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": -32,
+            "y": -2848
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -36,
+            "y": -3846
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway11_east.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 960,
+            "y": -3808
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waterway_forest3.tmx",
+            "height": 928,
+            "width": 448,
+            "x": 960,
+            "y": -2976
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytomountaincave1.tmx",
+            "height": 608,
+            "width": 864,
+            "x": 1248,
+            "y": -2016
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytomountaincave0.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 1440,
+            "y": -2976
+        },
+        {
+            "fileName": "../../../../ATsource/andors-trail-master/AndorsTrail/res/xml/waytomountaincave2.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 1280,
+            "y": -1376
         }
     ],
     "onlyShowAdjacentMaps": false,

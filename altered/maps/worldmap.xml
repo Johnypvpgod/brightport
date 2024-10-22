@@ -67,7 +67,7 @@
     <map id="lodar9" x="343" y="277"/>
     <map id="loneford1" x="210" y="278"/>
     <map area="loneford" id="loneford2" x="238" y="251"/>
-    <map id="lostmine0" x="426" y="359"/>
+    <map id="lostmine0" x="426" y="361"/>
     <map id="mountainlake0" x="702" y="159"/>
     <map id="mountainlake1" x="702" y="128"/>
     <map id="mountainlake10" x="732" y="0"/>
@@ -387,50 +387,57 @@
     <map id="waterway_forest1" x="581" y="259"/>
     <map id="waterway_forest2" x="581" y="278"/>
     <map id="waterway_forest3" x="612" y="255"/>
-    <map id="brightport1" x="589" y="348"/>
-    <map id="brightport2" x="589" y="332"/>
-    <map id="brightport3" x="619" y="341"/>
-    <map id="brightport4" x="619" y="326"/>
-    <map id="brightport5" x="637" y="341"/>
-    <map id="brightport6" x="637" y="326"/>
-    <map id="waytobrightport20" x="558" y="357"/>
-    <map id="waytobrightport19" x="558" y="397"/>
-    <map id="waytobrightport16" x="558" y="373"/>
-    <map id="waytobrightport17" x="589" y="379"/>
-    <map id="waytobrightport18" x="585" y="397"/>
-    <map id="waytobrightport15" x="532" y="376"/>
-    <map id="waytobrightport14" x="532" y="397"/>
+    <map id="waytobrightport21" x="550" y="297"/>
+    <map id="waytobrightport22" x="582" y="297"/>
+    <map id="waytobrightport23" x="582" y="316"/>
+    <map id="brightport2" x="582" y="332"/>
+    <map id="brightport1" x="582" y="348"/>
+    <map id="brightport3" x="612" y="341"/>
+    <map id="brightport4" x="612" y="326"/>
+    <map id="brightport5" x="630" y="341"/>
+    <map id="brightport6" x="630" y="326"/>
+    <map id="brightport7" x="630" y="372"/>
+    <map id="brightport8" x="661" y="359"/>
+    <map id="brightportwild19" x="612" y="285"/>
+    <map id="brightportwild18" x="612" y="305"/>
+    <map id="waytobrightport20" x="551" y="357"/>
+    <map id="waytobrightport17" x="590" y="379"/>
+    <map id="waytobrightport16" x="551" y="373"/>
+    <map id="waytobrightport19" x="557" y="397"/>
+    <map id="waytobrightport18" x="584" y="397"/>
+    <map id="waytobrightport15" x="525" y="376"/>
+    <map id="waytobrightport14" x="531" y="397"/>
     <map id="waytobrightport13" x="503" y="401"/>
-    <map id="waytobrightport12" x="503" y="382"/>
-    <map id="waytobrightport11" x="482" y="420"/>
-    <map id="waytobrightport10" x="471" y="380"/>
+    <map id="waytobrightport12" x="498" y="382"/>
+    <map id="waytobrightport9" x="477" y="389"/>
     <map id="waytobrightport7" x="482" y="401"/>
-    <map id="waytobrightport9" x="482" y="389"/>
+    <map id="waytobrightport11" x="482" y="420"/>
+    <map id="waytobrightport10" x="471" y="373"/>
     <map id="waytobrightport6" x="482" y="438"/>
-    <map id="waytobrightport5" x="457" y="389"/>
+    <map id="waytobrightport8" x="455" y="446"/>
+    <map id="waytobrightport5" x="457" y="391"/>
     <map id="waytobrightport4" x="461" y="409"/>
     <map id="waytobrightport3" x="461" y="430"/>
-    <map id="waytobrightport2" x="446" y="380"/>
-    <map id="waytobrightport1" x="426" y="380"/>
-    <map id="waytobrightport0" x="426" y="389"/>
-    <map id="brightportwild1" x="503" y="420"/>
-    <map id="brightportwild2" x="519" y="420"/>
-    <map id="brightportwild3" x="532" y="430"/>
-    <map id="brightportwild7" x="585" y="414"/>
-    <map id="brightportwild8" x="553" y="414"/>
-    <map id="brightportwild6" x="568" y="430"/>
-    <map id="brightportwild9" x="578" y="414"/>
-    <map id="brightportwild10" x="612" y="419"/>
-    <map id="brightportwild11" x="574" y="435"/>
-    <map id="brightportwild12" x="591" y="430"/>
-    <map id="brightportwild14" x="548" y="455"/>
-    <map id="brightportwild13" x="548" y="446"/>
-    <map id="brightportwild4" x="553" y="430"/>
-    <map id="brightportwild5" x="532" y="414"/>
-    <map id="brightportwild18" x="486" y="359"/>
-    <map id="brightportwild17" x="591" y="445"/>
-    <map id="brightportwild16" x="574" y="446"/>
-    <map id="brightportwild15" x="565" y="446"/>
+    <map id="waytobrightport0" x="426" y="391"/>
+    <map id="waytobrightport1" x="426" y="382"/>
+    <map id="waytobrightport2" x="446" y="382"/>
+    <map id="brightportwild1" x="502" y="420"/>
+    <map id="brightportwild2" x="518" y="420"/>
+    <map id="brightportwild3" x="531" y="430"/>
+    <map id="brightportwild4" x="552" y="430"/>
+    <map id="brightportwild5" x="531" y="414"/>
+    <map id="brightportwild6" x="573" y="430"/>
+    <map id="brightportwild7" x="584" y="414"/>
+    <map id="brightportwild8" x="552" y="414"/>
+    <map id="brightportwild9" x="577" y="414"/>
+    <map id="brightportwild11" x="573" y="435"/>
+    <map id="brightportwild12" x="590" y="430"/>
+    <map id="brightportwild10" x="611" y="419"/>
+    <map id="brightportwild13" x="547" y="446"/>
+    <map id="brightportwild14" x="547" y="455"/>
+    <map id="brightportwild15" x="564" y="446"/>
+    <map id="brightportwild16" x="573" y="446"/>
+    <map id="brightportwild17" x="590" y="445"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>

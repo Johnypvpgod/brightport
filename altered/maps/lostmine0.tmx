@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
-<map version="1.0" orientation="orthogonal" width="20" height="18" tilewidth="32" tileheight="32">
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -181,69 +184,101 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_sign_ladder_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_sign_ladder_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7705" name="map_tree_3" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
- </tileset>
- <tileset firstgid="8249" name="map_broken_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_broken_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8377" name="map_plant_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8505" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8633" name="map_rock_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8761" name="map_tree_2" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_2.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8889" name="map_ground_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="9017" name="map_tree_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <layer name="Base" width="20" height="18">
+ <layer name="Ground" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C+YKcS7cyzVKRMPzogxzx8ANk8fPbikoOJw2iQeTA8VAE2v1KaRijRT45eZD2E9JNiPgCGoA4X
+   eJy1lFEOwiAQRBv/9GCeslcQ4gkqRxCuwEHsRjZOJrukIn680MD0lZ2PhtOyBOJhwBkvz/tpJzfqzvXyZnO+g/kMLt0vzVPJ96T3spMXV4R9nkV9gd6rTl59vX68vrzzaGQ9EnXa83G3Xl/YqeVL1GGP+/njk+ebcbfSVjn/Fp45wTrik5nxjqW5yqCPZ44/unjm0d545m2iD3uc5dMeZ/vCH3zCCnh5znrnFphbOzl1H/kvHc0hL455H9s=
   </data>
  </layer>
- <layer name="Ground" width="20" height="18">
+ <layer name="Objects" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJzbqcTAsJNIXKbMwJCmjEoTq5eQmch8Ss0cxYMbX1AYXOZR2z3UsBeXHEx8oNxMr3AYyDglRy+yHkL6STEfAGM6Mu4=
+   eJyFVM8vA1EQfnmigqjdPVSK/0H/Ff6DcsbBGX9I4+Sot7o6VeJSJZG0NN31K7QSJQhX5subMS+7LZNMZve9b7/5Zt68TYrGDMifR0RYK/x7P73WJY95T2zeGlO0JmMN4m6H7rkUKXaTsXEqF2yK9xYpdkJdn+QcG1Z5xHbpedo6nhpzzdF7dYimHnHee3p3rOYEHvUl5C9cZ72Y5UlYc4v1nXNshyZjwpWk6hzWa9gVc/Q5PnGsM/YlpQ8mNa+zzgWKXzljPnIu+n2DSe1+rb6+OsdtwtXo3A7JcxPGjE24iHf07cGq3gOb1ecbergSEDd9exy5eegW9P2C8PvjDnsbOaz0STiFB4b9VfKYOI7Ir8lvyN95znqs65LjapCt2bfffeK4Y20D5k54DfZIfGfk5SBbc9WbI+hDHc2C8n7m3VqX15qsQeY8XfNrqFzQh5kAH+YOHLhf36HmAE440E+pSTj9vi1xPfi2H6qmDvN1Q4fzOVa4ZuljzDkkp68F8c3LUQ5UH2Ya/cS36IH0UeYP6w16PmU+7Alvm9e2AtU3G+lZ49yXA9VXL7jzEsO3J8xR8vRVSMOedXmhdY19hjD5SM8k9v6BqGHPKofchYpVjETghLNis3dPuHHmwlkZcU/TOobt+zj5l1z8g03HH53s7yI=
   </data>
  </layer>
- <layer name="Objects" width="20" height="18">
+ <layer name="Above" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJx1VEtOwzAQ9SVAohWR7ZwCFkWEE4Sg7pFQ90DKPYDTcAmgiHMUWtgi4Sf7yeNJMpIVZzwz783H7mtjHsJape8yLMhK6Ndh9Uk/Jn2yaZO/9MH3pDLmtIr/xNjZrIdoDO37a6P+PXw3YXXemCufsSCtwLwPZ70vuREHMXYu8pi5qP+22ZY4rwmT2PiHHn7bxP/NlrWgDeVLnTN2K3LdCJ+FK9dF4resh77Y34Yc73z8309gkQe4XrohxrUruUCaEbuFMwOhPWQr9ueujNG5zGee9qzvY+D/FNbnCH/6vBwbczaCj5wlLubrRsxgq+aP/W0EJ/Bp67Jv2D/74T3gGWM1I/lpcb7kx1iYK/aPvWOOsq6MixmdqdqRR6VqM8ULM8C7QZ2cRejkHE3Fgc+f4og8yQt2nS9jTNWJ/ZP9mY/0+sfmGLx38p5yjiBHwh82xJBvDoR1lnyIvVdnso9a5DvwYXMueqbIje/EQdgfujgLenZg8w/h0I9O
+   eJxjYKA9uCxGHfUw8UskmgdSf0eSgeGuJKpZyOagy5MKDiPZcYdIczbjUXuYBD8SE74w89DVBrKRZzdIDXoYgkAi0LzNQqhihOILZg4pfibkNmQaBHiBbuITwq4eBsSZsItfwuFXGNgIjMNN0HjcR0Tc4zJrD1TvQSB9CIc5Olj8gB5ul6F6z2Ax45YgA4MBgXAgNR5uCCLYbwUxwwBm3h4kcXz57bogdnFC7nuLZN5NqBmgON1DIE7mosX7XhLKAX0CYTncAQAcdTjt
   </data>
  </layer>
- <layer name="Above" width="20" height="18">
+ <layer name="Above_opened" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJytlM0NwyAMhb1Cj+0hamGAzIBSZY+2dJAkHTwgxYp5AsRPvxvGL9j4kVlTwNetrwPRbThj85GDcc73WB3XMpMieqpQY/Sp+7g9K/aNDnNlHYyFdQpZfyum8Cw8E7Uv1+NbtdfhGR99+l4WV//a2QOD/jHCQxyLEZvHJvyD2ty3kEumt3/Mrxb5Njy1XkxpsM+psi+809+9Tl/io9T/pITcHJESf7S+O1+H9LcE/YR5O4uZIss=
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
   </data>
  </layer>
- <layer name="Walkable" width="20" height="18" visible="0">
+ <layer name="Walkable" width="20" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJyzVGRgsBwADAKkqkcG5JgHU4NsBjYzCQFsZpEKSNWLy93EunkwA3zxTIlZxKYlmD5izEKXI9ZN2Mwk1RxcZpNqBja/kGMvITFy0jg1woJWdpAS36SUJfjUAQBLIScH
+   eJzbKMbAsBEPhgF8akjBg9E8bIBSc/CZTa5dyOpxsQc6THHpI8c8XO4gJ9zQ2eTGA7GAGmkPm1uJ9Ss2GpvZlPiV1DjB5R9yzcMVv7j0kRqO+PxLSVqm1CxS4pDWGAA28uen
   </data>
  </layer>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
-  <object name="Object" type="key" x="320" y="256" width="32" height="32">
+ <objectgroup name="Mapevents" visible="0">
+  <object name="north" type="mapchange" x="256" y="0" width="64" height="32">
    <properties>
-    <property name="phrase" value="brightport_sign"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
+    <property name="map" value="waytolostmine3"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object name="down lostmine0" type="mapchange" x="256" y="224" width="32" height="32">
+   <properties>
+    <property name="map" value="lostmine1"/>
+    <property name="place" value="up lostmine1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace"/>
+ <objectgroup name="Spawn" visible="0">
+  <object name="charwdg3" type="spawn" x="256" y="64" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="charwdg3"/>
+   </properties>
+  </object>
+  <object name="mazarth2" type="spawn" x="384" y="128" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="mazarth2"/>
+   </properties>
+  </object>
+  <object name="charwdg3_1" type="spawn" x="416" y="192" width="64" height="32">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="charwdg3"/>
+   </properties>
+  </object>
+  <object name="charwdg3_2" type="spawn" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="charwdg3"/>
+   </properties>
+  </object>
+  <object name="charwdg2" type="spawn" x="96" y="320" width="480" height="288">
+   <properties>
+    <property name="quantity" value="6"/>
+    <property name="spawngroup" value="charwdg2"/>
+   </properties>
+  </object>
+  <object name="charwdg2_1" type="spawn" x="96" y="96" width="288" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="charwdg2"/>
+   </properties>
+  </object>
+  <object name="mazarth1" type="spawn" x="128" y="320" width="384" height="256">
+   <properties>
+    <property name="spawngroup" value="mazarth1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
+  <object name="charwood2:15" type="key" x="224" y="224" width="96" height="32">
+   <properties>
+    <property name="phrase" value="sign_lostmine0"/>
+    <property name="requireId" value="charwood2"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Replace">
+  <object name="charwood2:15" type="replace" x="256" y="192" width="32" height="64">
+   <properties>
+    <property name="above" value="Above_opened"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
