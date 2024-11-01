@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="bpcave" x="9" y="22">
+    <map id="brightport_cave" x="9" y="25"/>
+    <map id="brightport_cave1" x="11" y="41"/>
+    <map id="brightport_cave2" x="26" y="41"/>
+    <map id="brightport_cave3" x="27" y="57"/>
+    <map id="brightport_cave5" x="35" y="69"/>
+    <map id="brightport_cave6" x="27" y="69"/>
+    <map id="brightport_cave7" x="53" y="67"/>
+    <map id="brightport_cave8" x="65" y="66"/>
+  </segment>
+</worldmap>

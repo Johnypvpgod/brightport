@@ -117,7 +117,7 @@
     },
     {
         "id":"brightportinnvisitor1",
-        "name":"Evelinard",
+        "name":"Elynard",
         "iconID":"monsters_karvis2:7"
     },
     {
@@ -139,5 +139,110 @@
         "id":"brightportbakery3",
         "name":"Gunther",
         "iconID":"monsters_fatboy73:45"
+    },
+    {
+        "id":"brightportcitizen",
+        "name":"Brightport commoner",
+        "iconID":"monsters_ld1:37"
+    },
+    {
+        "id":"brightportcitizen1",
+        "name":"Brightport commoner",
+        "iconID":"monsters_ld1:12"
+    },
+    {
+        "id":"breadgolem",
+        "name":"Bread golem",
+        "iconID":"monsters_rltiles1:1"
+    },
+    {
+        "id":"breadgolem1",
+        "name":"Writhing bread",
+        "iconID":"monsters_tometik10:5"
+    },
+    {
+        "id":"brightportchurch",
+        "name":"Chapelgoer ",
+        "iconID":"monsters_ld1:19"
+    },
+    {
+        "id":"brightportchurch1",
+        "name":"Praying woman",
+        "iconID":"monsters_men:6"
+    },
+    {
+        "id":"brightportthieves",
+        "name":"Loudmouth",
+        "iconID":"monsters_ld2:193"
+    },
+    {
+        "id":"brightportthieves3",
+        "name":"Rowdy thief",
+        "iconID":"monsters_karvis2:2"
+    },
+    {
+        "id":"brightportthieves4",
+        "name":"Watchdog",
+        "iconID":"monsters_ld1:4"
+    },
+    {
+        "id":"Brightportthieves5",
+        "name":"Oseanpry",
+        "iconID":"monsters_ld1:41"
+    },
+    {
+        "id":"brightportstudent",
+        "name":"Agnese",
+        "iconID":"monsters_ld1:32"
+    },
+    {
+        "id":"brightportstudent3",
+        "name":"Cavill",
+        "iconID":"monsters_ld1:1"
+    },
+    {
+        "id":"brightportstudent1",
+        "name":"Thaddeus",
+        "iconID":"monsters_ld1:19"
+    },
+    {
+        "id":"brightportstudent2",
+        "name":"Ysolde",
+        "iconID":"monsters_ld1:145"
+    },
+    {
+        "id":"brightportstudent4",
+        "name":"brightport student ",
+        "iconID":"monsters_ld1:80"
+    },
+    {
+        "id":"brightportstudent5",
+        "name":"brightport student",
+        "iconID":"monsters_ld1:1"
+    },
+    {
+        "id":"brightportstudent6",
+        "name":"Cedric",
+        "iconID":"monsters_ld1:6"
+    },
+    {
+        "id":"brightportstudent7",
+        "name":"Dietrich",
+        "iconID":"monsters_ld1:11"
+    },
+    {
+        "id":"brightportstudent8",
+        "name":"Aurelia",
+        "iconID":"monsters_ld1:193"
+    },
+    {
+        "id":"brightportstudent9",
+        "name":"Evelina",
+        "iconID":"monsters_ld1:152"
+    },
+    {
+        "id":"brightportgoons",
+        "name":"Bynves",
+        "iconID":"monsters_ld1:63"
     }
 ]

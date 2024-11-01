@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="5">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -208,9 +208,9 @@
    eJxjYKA9YObAL39YjLb2CxGwnxBQolD/KBi8AAC/sAEp
   </data>
  </layer>
- <layer id="4" name="Walkable" width="16" height="12" visible="0">
+ <layer id="4" name="Walkable" width="16" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFGGAbooR9ZLbIeXICQPcQAYtXRElDiBkJhSax6auvHZgat0g8AH0BQ2Q==
+   eJzbKMbAsJFGGAbooR8d4BLHZiY+MXyAWHW0BJS4gdiwxKaelvrxxSe10w8AZtVOhA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -239,7 +239,18 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="5" name="brightportnpc3" type="spawn" x="64" y="96" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="brightportnpc3"/>
+   </properties>
+  </object>
+  <object id="6" name="brightportstudent3" type="spawn" x="448" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportstudent3"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>

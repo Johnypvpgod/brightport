@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="4">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="9">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -200,7 +200,7 @@
  </layer>
  <layer id="3" name="Above" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AIXxSB4Oz/xemagqS0lQS+pYCceszOQ5DKR2A9kaeeekQZ2oIX/YRrE9QEaxNchGqZJdAAAhWoJuw==
+   eJxjYBgF9AIXxSB4Oz/xemagqS0lQS8hsAPNrJ14zM5AkstEYj+QxW/HAQLyowA3OEzFuKYlOERHdwIAFdcJuw==
   </data>
  </layer>
  <layer id="12" name="Top" width="25" height="12">
@@ -210,7 +210,7 @@
  </layer>
  <layer id="4" name="Walkable" width="25" height="12" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEU0wSDADFqYIBUs8kB1HY/sf5Al6MGoJY5A2kHtrDGJ0eOeyiNT1zm0SK/EDIfAIH9kJc=
+   eJzbKMbAsHEU0wSDADY2uhoYINVscgAh9+ByPynuweV/bHxKALXMGUg78IUlrnighh2UpC9a5hdC5gMAhvCP0A==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -233,7 +233,28 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn" class="brightportbakeryvisitor">
+  <object id="4" name="brightportbakery" type="spawn" x="160" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value=""/>
+   </properties>
+  </object>
+  <object id="5" name="brightportbakeryvisitor" type="spawn" x="160" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakeryvisitor"/>
+   </properties>
+  </object>
+  <object id="6" name="brightportbakery1" type="spawn" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value=""/>
+   </properties>
+  </object>
+  <object id="7" name="brightportbakery2" type="spawn" x="448" y="128" width="192" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakery2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>
