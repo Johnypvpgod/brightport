@@ -23,7 +23,8 @@
     {
         "id":"brightportnpc4",
         "name":"Franz",
-        "iconID":"monsters_karvis2:6"
+        "iconID":"monsters_karvis2:6",
+        "phraseID":"brightport_franz1"
     },
     {
         "id":"brightportnpc5",
@@ -58,7 +59,8 @@
     {
         "id":"brightportpriest",
         "name":"Othinus",
-        "iconID":"monsters_ld1:2"
+        "iconID":"monsters_ld1:2",
+        "phraseID":"brightport_othinus_1"
     },
     {
         "id":"brightportarmor",
@@ -73,7 +75,8 @@
     {
         "id":"brightportitem",
         "name":"Alain",
-        "iconID":"monsters_fatboy73:22"
+        "iconID":"monsters_fatboy73:22",
+        "phraseID":"brightport_alain1"
     },
     {
         "id":"brigtportthieves",
@@ -212,12 +215,12 @@
     },
     {
         "id":"brightportstudent4",
-        "name":"brightport student ",
+        "name":"Brightport student ",
         "iconID":"monsters_ld1:80"
     },
     {
         "id":"brightportstudent5",
-        "name":"brightport student",
+        "name":"Brightport student",
         "iconID":"monsters_ld1:1"
     },
     {
@@ -238,11 +241,40 @@
     {
         "id":"brightportstudent9",
         "name":"Evelina",
-        "iconID":"monsters_ld1:152"
+        "iconID":"monsters_ld1:152",
+        "phraseID":"brightport_student_4"
     },
     {
         "id":"brightportgoons",
         "name":"Bynves",
         "iconID":"monsters_ld1:63"
+    },
+    {
+        "id":"brightportgoons1",
+        "name":"Bertherd",
+        "iconID":"monsters_ld1:64"
+    },
+    {
+        "id":"brightportnpc9",
+        "name":"Baltimor",
+        "iconID":"monsters_ld1:134"
+    },
+    {
+        "id":"brightportstudent10",
+        "name":"Laurenz",
+        "iconID":"monsters_ld1:134",
+        "spawnGroup":"",
+        "phraseID":"brightport_student_2"
+    },
+    {
+        "id":"brightportstudent11",
+        "name":"Blau ",
+        "iconID":"monsters_ld1:124",
+        "phraseID":"brightport_student_1"
+    },
+    {
+        "id":"brightportstudent12",
+        "name":"Elfeyn",
+        "iconID":"monsters_ld1:81"
     }
 ]

@@ -1,0 +1,96 @@
+[
+    {
+        "id":"brightport_franz1",
+        "message":"I am currently busy grading today's assignment papers, if you have any question please write it down and bring it to me.",
+        "replies":[
+            {
+                "text":"Nevermind, that's quite a hassle.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_1",
+        "message":"Sigh. My friends convinced me to run off to the bakery to get some snacks, and now im stuck in this dusty room doing additional tasks for being late to class.",
+        "switchToNPC":"brightportstudent11",
+        "replies":[
+            {
+                "text":"Where is that bakery?",
+                "nextPhraseID":"brightport_student_1_reply"
+            },
+            {
+                "text":"That's too bad, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_1_reply",
+        "message":"Shh, i don't need additional punishment for chit chat."
+    },
+    {
+        "id":"brightport_student_2",
+        "message":"I would rather work on these terrible assignments, than be in that Feygard proffessor's history class.",
+        "switchToNPC":"brightportstudent10",
+        "replies":[
+            {
+                "text":"Can you tell me who this proffessor person is?",
+                "nextPhraseID":"brightport_student_2_reply"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_2_reply",
+        "message":"His name is Frederich, he got sent here as a teacher after Lord Geomyr took the throne, though, that was way before I came here, I only heard about it from my upperclassmen.",
+        "switchToNPC":"brightportstudent10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_student_2_reply1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_3",
+        "message":"Excuse me but i don't have time to play around, can't you see that im studying.",
+        "switchToNPC":"brightportstudent12"
+    },
+    {
+        "id":"brightport_alain1",
+        "message":"Welcome, to Alain's general store and warehouse,  is there anyithing you need?",
+        "switchToNPC":"brightportitem",
+        "replies":[
+            {
+                "text":"Please show me your wares.",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Not really, thanks..",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_othinus_1",
+        "message":"Please don't distract me, Im in the middle of an important ritual, if you need anything talk with my steward Stiyl.",
+        "switchToNPC":"brightportpriest"
+    },
+    {
+        "id":"brightport_student_2_reply1",
+        "message":"If those Feygard folk are anything like him then you'd better steer clear.",
+        "switchToNPC":"brightportstudent10",
+        "replies":[
+            {
+                "text":"Hmph, another peasant who doesn't understand the glory of Feygard.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_4"
+    }
+]
