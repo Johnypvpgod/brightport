@@ -12,7 +12,7 @@
     },
     {
         "id":"brightport_student_1",
-        "message":"Sigh. My friends convinced me to run to the bakery for some snacks, and now I\u2019m stuck in this dusty room doing extra tasks because I was late to class.",
+        "message":"Sigh. My friends convinced me to run to the bakery for some snacks, and now I'm stuck in this dusty room doing extra tasks because I was late to class.",
         "switchToNPC":"brightportstudent11",
         "replies":[
             {
@@ -42,7 +42,7 @@
     },
     {
         "id":"brightport_student_2_reply",
-        "message":"His name is Frederich. He was sent here as a teacher after Lord Geomyr took the throne\u2014though that was long before I came here. I only heard about it from my upperclassmen.",
+        "message":"His name is Frederich. He was sent here as a teacher after Lord Geomyr took the throne--though that was long before I came here. I only heard about it from my upperclassmen.",
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
@@ -53,7 +53,7 @@
     },
     {
         "id":"brightport_student_3",
-        "message":"Excuse me, but I don\u2019t have time to play around. Can\u2019t you see that I\u2019m studying?",
+        "message":"Excuse me, but I don't have time to play around. Can't you see that I'm studying?",
         "switchToNPC":"brightportstudent12"
     },
     {
@@ -105,7 +105,7 @@
                 "nextPhraseID":"brightport_student_4_reply"
             },
             {
-                "text":"I\u2019d better not bother her.",
+                "text":"I'd better not bother her.",
                 "nextPhraseID":"X"
             }
         ]
@@ -128,7 +128,7 @@
                 "nextPhraseID":"brightport_priest_1_reply2"
             },
             {
-                "text":"Bah, all this shadow stuff\u2014what a bunch of nonsense.",
+                "text":"Bah, all this shadow stuff--what a bunch of nonsense.",
                 "nextPhraseID":"brightport_priest_1_reply"
             }
         ]
@@ -152,7 +152,7 @@
                 "nextPhraseID":"brightport_priest_1_reply2"
             },
             {
-                "text":"Bah, all this shadow stuff\u2014what a bunch of nonsense.",
+                "text":"Bah, all this shadow stuff--what a bunch of nonsense.",
                 "nextPhraseID":"brightport_priest_1_reply"
             }
         ]
@@ -238,5 +238,6 @@
     },
     {
         "id":"brightport_student_5"
+		"message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. How can I help you.",
     }
 ]
