@@ -70,7 +70,8 @@
     {
         "id":"brightportsmith",
         "name":"Fiamma",
-        "iconID":"monsters_ld1:219"
+        "iconID":"monsters_ld1:219",
+        "phraseID":"brightport_smith"
     },
     {
         "id":"brightportitem",
@@ -96,7 +97,8 @@
     {
         "id":"brightportpriest1",
         "name":"Stiyl",
-        "iconID":"monsters_ld1:10"
+        "iconID":"monsters_men:4",
+        "phraseID":"brightport_priest_1_Initial"
     },
     {
         "id":"brightportinn",
@@ -181,7 +183,8 @@
     {
         "id":"brightportthieves3",
         "name":"Rowdy thief",
-        "iconID":"monsters_karvis2:2"
+        "iconID":"monsters_karvis2:2",
+        "phraseID":"brightport_rowdythief"
     },
     {
         "id":"brightportthieves4",

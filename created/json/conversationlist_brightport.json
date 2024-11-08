@@ -1,17 +1,18 @@
 [
     {
         "id":"brightport_franz1",
-        "message":"I am currently busy grading today's assignment papers, if you have any question please write it down and bring it to me.",
+        "message":"I am currently busy grading today's assignment papers. If you have any questions, please write them down and bring them to me.",
+        "switchToNPC":"brightportnpc4",
         "replies":[
             {
-                "text":"Nevermind, that's quite a hassle.",
+                "text":"Never mind, that's quite a hassle.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brightport_student_1",
-        "message":"Sigh. My friends convinced me to run off to the bakery to get some snacks, and now im stuck in this dusty room doing additional tasks for being late to class.",
+        "message":"Sigh. My friends convinced me to run to the bakery for some snacks, and now I\u2019m stuck in this dusty room doing extra tasks because I was late to class.",
         "switchToNPC":"brightportstudent11",
         "replies":[
             {
@@ -26,22 +27,22 @@
     },
     {
         "id":"brightport_student_1_reply",
-        "message":"Shh, i don't need additional punishment for chit chat."
+        "message":"Shh, I don't need any additional punishment for chit-chat."
     },
     {
         "id":"brightport_student_2",
-        "message":"I would rather work on these terrible assignments, than be in that Feygard proffessor's history class.",
+        "message":"I would rather work on these terrible assignments than be in that Feygard professor's history class.",
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
-                "text":"Can you tell me who this proffessor person is?",
+                "text":"Can you tell me who this professor is",
                 "nextPhraseID":"brightport_student_2_reply"
             }
         ]
     },
     {
         "id":"brightport_student_2_reply",
-        "message":"His name is Frederich, he got sent here as a teacher after Lord Geomyr took the throne, though, that was way before I came here, I only heard about it from my upperclassmen.",
+        "message":"His name is Frederich. He was sent here as a teacher after Lord Geomyr took the throne\u2014though that was long before I came here. I only heard about it from my upperclassmen.",
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
@@ -52,12 +53,12 @@
     },
     {
         "id":"brightport_student_3",
-        "message":"Excuse me but i don't have time to play around, can't you see that im studying.",
+        "message":"Excuse me, but I don\u2019t have time to play around. Can\u2019t you see that I\u2019m studying?",
         "switchToNPC":"brightportstudent12"
     },
     {
         "id":"brightport_alain1",
-        "message":"Welcome, to Alain's general store and warehouse,  is there anyithing you need?",
+        "message":"Welcome to Alain's General Store and Warehouse. Is there anything you need?",
         "switchToNPC":"brightportitem",
         "replies":[
             {
@@ -65,19 +66,24 @@
                 "nextPhraseID":"S"
             },
             {
-                "text":"Not really, thanks..",
+                "text":"Not really, thanks.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brightport_othinus_1",
-        "message":"Please don't distract me, Im in the middle of an important ritual, if you need anything talk with my steward Stiyl.",
-        "switchToNPC":"brightportpriest"
+        "message":"I'm in the middle of an important ritual. If you require something, please consult with my steward, Stiyl.",
+        "switchToNPC":"brightportpriest",
+        "rewards":[
+            {
+                "rewardType":"questProgress"
+            }
+        ]
     },
     {
         "id":"brightport_student_2_reply1",
-        "message":"If those Feygard folk are anything like him then you'd better steer clear.",
+        "message":"If those Feygard folk are anything like him, you'd better steer clear.",
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
@@ -91,6 +97,146 @@
         ]
     },
     {
-        "id":"brightport_student_4"
+        "id":"brightport_student_4",
+        "message":"[You see a young girl sitting at the table with her arms resting on it and her head lowered.]",
+        "replies":[
+            {
+                "text":"Umm, excuse me...",
+                "nextPhraseID":"brightport_student_4_reply"
+            },
+            {
+                "text":"I\u2019d better not bother her.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_4_reply",
+        "message":"[Upon closer inspection, you notice the girl is fast asleep.]"
+    },
+    {
+        "id":"brightport_priest_1_Initial",
+        "message":"Hello there, child. I have not seen you before. Are you perhaps interested in following the shadow?",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"I'm searching for my brother, Andor. Have you seen him?",
+                "nextPhraseID":"brightport_priest_1_reply1"
+            },
+            {
+                "text":"How do I follow the shadow?",
+                "nextPhraseID":"brightport_priest_1_reply2"
+            },
+            {
+                "text":"Bah, all this shadow stuff\u2014what a bunch of nonsense.",
+                "nextPhraseID":"brightport_priest_1_reply"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_1_reply",
+        "message":"Even so, the shadow most certainly watches over you.",
+        "switchToNPC":"brightportpriest1"
+    },
+    {
+        "id":"brightport_priest_1",
+        "message":"Hello there, child. Are you perhaps interested in following the shadow?",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"I'm searching for my brother, Andor. Have you seen him?",
+                "nextPhraseID":"brightport_priest_1_reply1"
+            },
+            {
+                "text":"How do I follow the shadow?",
+                "nextPhraseID":"brightport_priest_1_reply2"
+            },
+            {
+                "text":"Bah, all this shadow stuff\u2014what a bunch of nonsense.",
+                "nextPhraseID":"brightport_priest_1_reply"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_1_reply1",
+        "message":"I'm sorry, there are many students from the academy frolicking, and their faces are not imprinted on my memory.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"Can you tell me how to follow the shadow?",
+                "nextPhraseID":"brightport_priest_1_reply2"
+            },
+            {
+                "text":"Thanks. I must go now.",
+                "nextPhraseID":"brightportpriest_1_reply1goodbye"
+            }
+        ]
+    },
+    {
+        "id":"brightportpriest_1_reply1goodbye",
+        "message":"May the shadow assist you on your journey",
+        "switchToNPC":"brightportpriest1"
+    },
+    {
+        "id":"brightport_priest_1_reply2",
+        "message":"The shadow speaks to us. It watches over our thoughts, and guides us.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_priest_1_reply2_1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_1_reply2_1",
+        "message":"To follow the shadow, one must listen to its voice and direct their gaze toward its wisdom.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_priest_1_reply2_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_1_reply2_2",
+        "message":"Walk the path of one's destiny, and as the clouded roads reveal themselves, follow the guiding voice of the shadow.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"Thanks, may the shadow be with you.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"None of this makes any sense, but sure.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rowdythief",
+        "message":"Hey kid, come and drink with us!",
+        "switchToNPC":"brightportthieves3",
+        "replies":[
+            {
+                "text":"No thanks, maybe later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smith",
+        "message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. How can I help you.",
+        "switchToNPC":"brightportsmith",
+        "replies":[
+            {
+                "text":"Please show me your wares.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"brightport_student_5"
     }
 ]
