@@ -236,16 +236,16 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="3" name="tiny_rat" type="spawn" x="96" y="64" width="192" height="96">
+  <object id="3" name="duleian_hornet1" type="spawn" x="96" y="64" width="192" height="96">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="4" name="tiny_rat" type="spawn" x="352" y="64" width="192" height="128">
+  <object id="4" name="duleian_hornet" type="spawn" x="352" y="64" width="192" height="128">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
  </objectgroup>

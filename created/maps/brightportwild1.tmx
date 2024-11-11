@@ -220,7 +220,7 @@
  </layer>
  <layer id="2" name="Objects" width="15" height="25">
   <data encoding="base64" compression="zlib">
-   eJx9VL1OwzAQtgQDax4gjssDsFMEr8ATQMvMzp7CzshWMZS1SQozQkGCjYaqlXgChu4wAAN3sk/5cgl80in2/X53dvxpjTnoGbOMjVmRTGmPED1jv+d9EaVt6me0z0OOOX0T0rtgq8DGyFUtQWbb9sLWfJziwH4F6XedMf1/ZM81+1nYOkb3+rFhzLHzMlecpdYRyYAkDfaR86LXjMNtyg9zScl2DvYT62d5IVyCj+SY2ZoXQnK8RaYF7o/74f74u7Xp9TtJs/YC+vuGdR98hKPMqAhzOk3McBlm8qjOc0rxGUlOcqXODIF3hMHzvKeYS5JxiGfcxL7Pua3r88wGFDtU+SX+WvUgMSnovyCfgHt8ULGl6q+Iu+eu/5O/7gTau/R8Rrdw75mT8P4J+jXVP4O7wsJxzFX+5dI27zZC6++Uzzr0l6oaEpdB7hzWk7i+s7nyEZ2ggDWfrXBAbqwfgd8LrJ8Cx66zeI7ab5rUn6he8Xz12yRvI/tUgaOenezfo2bf2o61RPdqu/1WUEd/K9vWYfwvRCOlxw==
+   eJx9VDtOw0AQXQkKWh/A6w0HoCcIrsAJIHAJegcqGkq6iCK0sR2oETISdNhEROIEFOmhAApmtDvy89jwpJF35/tmdr2f1pi9gTGvsTFLkhntEaJn7A68L6K0bf2c9nnIUdE3Ib0LthpsjFzVEmS2ay9sw8cpDuxXkH7bGTP8R3Zcu5+FbWJ0rx9rxhw6L5XiLLUOSEYkabCPnRe9ZuxvUn6YS0q2U7AfWz/LM+ESfCTH3Da8EJLjLTIdcH/cD/fH3411r99K2rUX0N83rIfgIxxlRkWY03niufL+QZ3njOIzkpzkUp0ZAu8Ig+d5RzEXJJMQz7iOfZ+VberzzEYUe6TyS/yV6kFiUtB/QT4B93ivYkvVXxH3z13/J3/dCbT36fmMbuDeMyfh/RP0K6p/AneFheOYq/zLpW3fbYTW3yqfVegvVTUkLoPcOayncXNnc+UjOkEBaz5b4YDcWD8Gv2dYPwaOfWfxFHXfNKk/Vb3i+eq3Sd5G9qkDRz072b9H7b61HWuJ7sX2+y2hjv7WtqvD+F9amKWG
   </data>
  </layer>
  <layer id="3" name="Above" width="15" height="25">
@@ -258,48 +258,48 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="8" name="north" type="mapchange" x="416" y="0" width="64" height="32">
+  <object id="8" name="north2" type="mapchange" x="416" y="0" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport13"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south2"/>
    </properties>
   </object>
-  <object id="9" name="east" type="mapchange" x="448" y="64" width="32" height="64">
+  <object id="9" name="east1" type="mapchange" x="448" y="32" width="32" height="96">
    <properties>
     <property name="map" value="brightportwild2"/>
-    <property name="place" value="west"/>
+    <property name="place" value="west1"/>
    </properties>
   </object>
-  <object id="10" name="tiny_rat" type="spawn" x="64" y="608" width="224" height="96">
+  <object id="10" name="duleian_mountain_cat" type="spawn" x="64" y="608" width="224" height="96">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="11" name="tiny_rat" type="spawn" x="384" y="608" width="32" height="96">
+  <object id="11" name="duleian_mountain_cat" type="spawn" x="384" y="608" width="32" height="96">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
-  <object id="12" name="tiny_rat" type="spawn" x="224" y="512" width="96" height="64">
+  <object id="12" name="duleian_mountain_cat" type="spawn" x="224" y="512" width="96" height="64">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
-  <object id="13" name="tiny_rat" type="spawn" x="256" y="192" width="96" height="64">
+  <object id="13" name="duleian_mountain_cat" type="spawn" x="320" y="192" width="32" height="64">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
-  <object id="14" name="tiny_rat" type="spawn" x="224" y="288" width="64" height="160">
+  <object id="14" name="duleian_mountain_cat" type="spawn" x="224" y="288" width="64" height="160">
    <properties>
-    <property name="quantity" value="3"/>
-    <property name="spawngroup" value="tiny_rat"/>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="duleian_mountain_cat"/>
    </properties>
   </object>
  </objectgroup>

@@ -123,57 +123,57 @@
             "fileName": "brightport_cave8.tmx",
             "height": 480,
             "width": 288,
-            "x": 2784,
-            "y": 1888
+            "x": 3040,
+            "y": 2560
         },
         {
             "fileName": "brightport_cave7.tmx",
             "height": 352,
             "width": 352,
-            "x": 2400,
-            "y": 1920
+            "x": 2642,
+            "y": 2592
         },
         {
             "fileName": "brightport_cave6.tmx",
             "height": 320,
             "width": 224,
-            "x": 1568,
-            "y": 1984
+            "x": 1803,
+            "y": 2654
         },
         {
             "fileName": "brightport_cave5.tmx",
             "height": 480,
             "width": 544,
-            "x": 1824,
-            "y": 1984
+            "x": 2059,
+            "y": 2654
         },
         {
             "fileName": "brightport_cave4.tmx",
             "height": 256,
             "width": 672,
-            "x": 2400,
-            "y": 1600
+            "x": 2656,
+            "y": 2272
         },
         {
             "fileName": "brightport_cave3.tmx",
             "height": 352,
             "width": 800,
-            "x": 1568,
-            "y": 1600
+            "x": 1803,
+            "y": 2270
         },
         {
             "fileName": "brightport_cave2.tmx",
             "height": 448,
             "width": 480,
-            "x": 1536,
-            "y": 1120
+            "x": 1771,
+            "y": 1790
         },
         {
             "fileName": "brightport_cave1.tmx",
             "height": 640,
             "width": 288,
-            "x": 1120,
-            "y": 1120
+            "x": 1099,
+            "y": 1118
         },
         {
             "fileName": "brightport_cave.tmx",
@@ -279,6 +279,62 @@
             "width": 512,
             "x": 1476,
             "y": -2186
+        },
+        {
+            "fileName": "brightport_cave9.tmx",
+            "height": 768,
+            "width": 928,
+            "x": 619,
+            "y": 2174
+        },
+        {
+            "fileName": "brightport_cave10.tmx",
+            "height": 352,
+            "width": 864,
+            "x": 683,
+            "y": 1790
+        },
+        {
+            "fileName": "brightport_cave11.tmx",
+            "height": 352,
+            "width": 608,
+            "x": 43,
+            "y": 1791
+        },
+        {
+            "fileName": "brightport_cave12.tmx",
+            "height": 640,
+            "width": 608,
+            "x": -21,
+            "y": 2175
+        },
+        {
+            "fileName": "brightport_cave13.tmx",
+            "height": 448,
+            "width": 256,
+            "x": 10,
+            "y": 2841
+        },
+        {
+            "fileName": "brightport_cave14.tmx",
+            "height": 320,
+            "width": 512,
+            "x": 10,
+            "y": 3321
+        },
+        {
+            "fileName": "brightport_cave15.tmx",
+            "height": 352,
+            "width": 704,
+            "x": 266,
+            "y": 3673
+        },
+        {
+            "fileName": "brightport_cave16.tmx",
+            "height": 288,
+            "width": 448,
+            "x": 1002,
+            "y": 3673
         }
     ],
     "onlyShowAdjacentMaps": false,

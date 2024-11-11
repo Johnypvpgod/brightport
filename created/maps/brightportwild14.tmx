@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="2">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -219,7 +219,7 @@
  </layer>
  <layer id="2" name="Objects" width="25" height="9">
   <data encoding="base64" compression="zlib">
-   eJx1UkEKwkAMDLYgeqsFoQr5ge0XfYgXryJ9gIKXPkHQi1erQnuvNzfsxqbpbiB0dxqSmcy2GUBjshXfTQz/mKf2e0tgFHeHzUT91JyrZd+LQvffIUA2AXhGACdzXqXDvp/FeBZxyl3ynKuY03p06Kg8WO00dJFNqnkn/Q6Oht/X4A+DlzjUs8e+jrELwpbuxK2ObEpdnbizLt/eQlrmsU2Kwu3pgP1/1iFnMo+Xw6nfGa0P0hPishZeypk6OteTvfLtVnOX7ytXfsqgPfhwXcO9SwzP8s0s4vAbkf2bgA98rjHsl6zXejWHHwNCbI4=
+   eJx1UsEKwjAMDW4geptDYQr5A7df9EO8eBXZByh42ScIevHqVNiuMm82tLVZ1gZCu7eQ917SNgNoVLbsXMfwj2mqz2sCg7gZbMLqx+peLVwvCtl/iwDZCOARARzVfZn2+75nQy7SlJu0PBfG03p8yKg8WG08dJFOqnklbgYHpe+r8LvCS+z72aGrs9gZYUPfpK2OdHJfxPGZ93355hbyMo11UhRmTnt0/60Pzml1PA1O/U6o98B3QlpWbJecU0Znetpd+WYrtfP3lYt98qA5+HBZY3uXGObycRZx+I3w/k1gD/ZeY3hfvF76lRp+KfttmQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="25" height="9">
@@ -232,7 +232,7 @@
    eJxjYCAMnjMToWiIgOHkl1EwPAAAdNEB1Q==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="9">
+ <layer id="4" name="Walkable" width="25" height="9" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsJEAJgQI6ScWD7QdtLCPXv7CZw+t7KCmuSMZAwCSco8J
   </data>
@@ -242,6 +242,12 @@
    <properties>
     <property name="map" value="brightportwild13"/>
     <property name="place" value="south"/>
+   </properties>
+  </object>
+  <object id="2" name="cave" type="mapchange" x="576" y="96" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_cave16"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
  </objectgroup>

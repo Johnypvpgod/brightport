@@ -187,7 +187,7 @@
  </layer>
  <layer id="1" name="Ground" width="9" height="20">
   <data encoding="base64" compression="zlib">
-   eJyNkLEOwjAQQ6s2S2FjYQC+gS+nXdgRn9DyCWSDve3GnXKnGjeVGslSdH6xkzRlUTSmp+hez7qB5/6LGPTbjM8ZLflbmccGpiuXWcxw31il7LU+9VWazZzPnHGO/6DDHNE+LPsGyJhEF2B8HqvEvU1XYqJxw0qXz3tRLfNdSP45w/B9Pse0R0YzsOd7mM+o19tePX8T/tUp/HOTvQkZXcpFYMaM/C4/3hiF4Q==
+   eJyNkLEOgzAMRBHJQrt16dD2G/rlhYW94hNCP4Fs7Q5sjWVbOQxIRDop8r3cJanLoqhFXVJbZb3AU/9jGPSbDd9mNMY/yrwPMKFcZ1nG9s2Os/f6puQPjrMtpzNikLN/EIAJSWe/7htdZuhOD2B0Hh1zg+hpmCjcuNOl8z6pSvOTZ/++wdj7fK+8R4YysOd3yWfI62VPnr5pgtybX3KzvAkZWsRFyELf9v0Bfr+EpQ==
   </data>
  </layer>
  <layer id="2" name="Objects" width="9" height="20">
@@ -200,7 +200,7 @@
    eJxjYEAFl8UY8AKQ/GE8amDyl/CoISQPU8MkTFgNITCXibAaYsBzZtLUgcKBk4D78YUBejw8RbMfZA+ym9DlYeAKMwLjAo+BdumxIDA2QExYw9RsFsJux2WkeD+MRQ3MjC1CEDO24FEDA+jqALqRIYM=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="9" height="20">
+ <layer id="4" name="Walkable" width="9" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsBEJI4ONYtgxIXmYGkLy+MxBB/jsINY9lLqJHLOICSNKw4Ba8UVvf1MaD9gwAF69aCs=
   </data>

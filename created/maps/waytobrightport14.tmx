@@ -221,13 +221,13 @@
    eJytU8sNwjAM9SJJRa8cYJECE7ABnyXg1kvX6AWusByO4AljHEKaPMmKGrfPr8921xKtOGpjdESnhujMcfVEF/88p+Lu7BoAagFT6o1GjZt7881neXwBC/Z2KfxN6SrxqsTj0v7UQCdmUeqprU3zlfKn+ORsWnOaw60Rcmv2bPPybcfnnmPw37VyIbVJDdiDlLZU/sA6j+2nTjn/+Jc+shO4+ydnvWfNWKofMQRPtO4A3QfdE9k7yxPJtW3iuqEBOxTupW84wd+rPL4b/O/d088PC6dh6Q==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="16">
+ <layer id="4" name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
    eJybKcuAAmbK0g5T2w5cZlHTHmxhQ4hPalgQaz4uQI4+Ys2mlj5K9VILYEs76Gxq20MN88lJe8hypJiNTY6UfEKOv8g1n1h5SvM8MXLk2kGtMMIX/+SWU4QwADcqkb8=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="east" type="mapchange" x="768" y="128" width="32" height="160">
+  <object id="1" name="east" type="mapchange" x="768" y="64" width="32" height="224">
    <properties>
     <property name="map" value="waytobrightport19"/>
     <property name="place" value="west"/>

@@ -228,7 +228,7 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name=" north" type="mapchange" x="96" y="0" width="32" height="32">
+  <object id="1" name="north" type="mapchange" x="96" y="0" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport5"/>
     <property name="place" value="south"/>
@@ -252,16 +252,16 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="6" name="south" type="mapchange" x="544" y="608" width="64" height="32">
+  <object id="6" name="south2" type="mapchange" x="544" y="608" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport3"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="7" name="south" type="mapchange" x="448" y="608" width="32" height="32">
+  <object id="7" name="south1" type="mapchange" x="448" y="608" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport3"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north1"/>
    </properties>
   </object>
  </objectgroup>

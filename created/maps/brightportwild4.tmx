@@ -241,7 +241,7 @@
    eJxjYBgFo2AU4APWSgPtAsJgKLiRGgAA6JAAuw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="15">
+ <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJybKcfAMBMLBgFs4rgwunps+pEBNjGYOD55QvqJlacEYPMTLj/i00soPMnRRyomZDYu/+BTS8gvAwEIpT9S3E+tcKeVeQNlJiE1uOKFFHUAFHJ40A==
   </data>
@@ -279,7 +279,7 @@
   </object>
   <object id="6" name="cave" type="mapchange" x="480" y="416" width="32" height="32">
    <properties>
-    <property name="map" value="brightportwild15"/>
+    <property name="map" value="brightport_cave9"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

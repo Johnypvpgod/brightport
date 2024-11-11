@@ -232,17 +232,17 @@
    eJy9VVsOgDAI2zX48f7HVD9MFsKjBVyTJTpZoaObcq0lz/ggzjsz9rURp4aeQ/N4yGJ2HkZTxMvGWnmsdYxuFh3OqJeI9gmgvpjcO9aLCN8JWL76I8ep3md1ILkrfZw4MxW/evFoPdW6O/etvtusOVbXxNnretDTwPg/+79435D9ep9v2tcbSg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south" type="mapchange" x="192" y="544" width="160" height="32">
    <properties>
     <property name="map" value="brightportwild1"/>
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="south1" type="mapchange" x="704" y="544" width="128" height="32">
+  <object id="2" name="south3" type="mapchange" x="704" y="544" width="128" height="32">
    <properties>
     <property name="map" value="brightportwild2"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north3"/>
    </properties>
   </object>
   <object id="3" name="east" type="mapchange" x="864" y="64" width="32" height="320">
@@ -263,16 +263,16 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="6" name="south" type="mapchange" x="416" y="544" width="64" height="32">
+  <object id="6" name="south2" type="mapchange" x="416" y="544" width="64" height="32">
    <properties>
     <property name="map" value="brightportwild1"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north2"/>
    </properties>
   </object>
-  <object id="7" name="north" type="mapchange" x="672" y="0" width="128" height="32">
+  <object id="7" name="north1" type="mapchange" x="672" y="0" width="128" height="32">
    <properties>
     <property name="map" value="waytobrightport12"/>
-    <property name="place" value="south"/>
+    <property name="place" value="south1"/>
    </properties>
   </object>
   <object id="8" name="south1" type="mapchange" x="608" y="544" width="64" height="32">

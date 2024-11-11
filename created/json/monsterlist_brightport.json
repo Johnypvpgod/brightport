@@ -2,7 +2,7 @@
     {
         "id":"brightportnpc1",
         "name":"Milena",
-        "iconID":"monsters_karvis2:8"
+        "iconID":"monsters_karvis2:6"
     },
     {
         "id":"brightportnpc",
@@ -148,7 +148,7 @@
     {
         "id":"brightportcitizen",
         "name":"Brightport commoner",
-        "iconID":"monsters_ld1:37"
+        "iconID":"monsters_man1:0"
     },
     {
         "id":"brightportcitizen1",

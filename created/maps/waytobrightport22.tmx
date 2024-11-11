@@ -210,16 +210,16 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object id="2" name="south" type="mapchange" x="608" y="544" width="64" height="32">
+  <object id="2" name="south1" type="mapchange" x="608" y="544" width="64" height="32">
    <properties>
     <property name="map" value="waytobrightport23"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="3" name="south" type="mapchange" x="832" y="544" width="32" height="32">
+  <object id="3" name="south2" type="mapchange" x="832" y="544" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport23"/>
-    <property name="place" value="north"/>
+    <property name="place" value="north2"/>
    </properties>
   </object>
   <object id="4" name="west" type="mapchange" x="0" y="64" width="32" height="480">

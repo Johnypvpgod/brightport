@@ -210,17 +210,17 @@
  </layer>
  <layer id="2" name="Objects" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJyVVDtOw0AQ3SukpPCSHCNpoIUCEkRN4QMAog0n4XMKqDGiQApUjtOnC5GggYTUmVF22OdhNoEnWWvP582b2V0PttwP8qZz85Zz363V92HT1YA+8aOtCPFdyHtv2Pmc+wE+wa2qKVxXYC/g/YLe+965S1/Pk3jUwjhV37pH1CR1dEyZ1eegYfXFeCKeB+OpgF/05qrmOXyneCw+C9eG39LM/T8nekG8QcxB4JZ9r2hWoyz6/6r3KNj0/v0XqfyzDbzcE+b2lB6cy2TDjPD86DuD4J4HZH9RPj7fHC9nAvPH26sV74fAsqX0nihuveq6KfB91HHWHpTkb1NfHR/je0bctBF7ZMjcdyhv1/+ORxyDlhmdwXk4hzJjS9eNYRPI/KdBwx7V3w8aUjNLcTDuSM990PS6Jt7aAz07xidxfWVxXqXByfELeiZhLYjjUfG0vd2PrNbeoY3/j8Ms1pDV0r8Eko+bHw==
+   eJyFVDFOw0AQvC+4pPBhPyM00EIBBFFT5AGA0gIfCfAKqDGiQApUJoiWLkSCBgjU7Ck3eLzeU0ayzr7dnZ3d2/N4xf1jUDg3L537KRffO4VrgW2w814V/Xcp7j2z40PsB9mAy6LtC64RcVb0PpT3E+/cqW/zwD/Ev5DmQ1WTrpE1IY/2qfOmDua2OBh3wnNjPBPiR70DlfOYvlM8Fp+Fc8NuaQ713ydqYbxlzXltR26c+0R69Zw3vsv0gmcv7vEspfC6mral4o+K7jwzQk0c21d6uC/TJT3i+dF3hhFqHsv+g7Kd+YU/ZoLjUTvfD2CUyGXpPVDcetV5Ab03NHJaZ1CLvSd1rfnGv2/4zbL2+aLv6xK34bv+jH3S8i0zOI9ziB6zLvhdGBoA9H8WNWxK/q2oIdUzzc/3+kr0XEdNj2XXFzmtM9C9C/gUrq+86VdtzFjw/5VnGtdKOG4VT8/b9WC1zo73wv/xKW9yYLX0/wHcsrGQ
   </data>
  </layer>
  <layer id="3" name="Above" width="26" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgeKLIwPAUiKkNouUYGGLkqG8uLnBQljb+GI7gMDCsjsgOtCsGF8CXD3YCxXehyYHSN7J6ZP375WnjNnSakLuxmYEPHATKSwL9JSVHWD02P8oD9SkQkedhZj8GpsEn0HSILYzJAZpA+7WgbsAVZvjAYqB7lkDdtBuPemxxgC3sHgLNeiSLCK+DWMxEd+N8oBkL0MyRlMPuHxiNLe6QxUDl4yG0PI/L/SA2yL3E2IXN/U+w+BFb2AMAAjVeKQ==
+   eJxjYGBgeKLIwPAUiIkBpKiNlmNgiJHDLX+MSHOIBQdlEW6jttlDFeCKr8PAsDoiS7k5+ICuPGnqKbGLGgCfvTuB4rvQ5GLlUNUj699PwO+k+hGmHp3GZRaxYujgIFBeEugvKTnC6rH5UR6oTwFPnkd3y2NgGnwCTYfYwpictKAJtF8L6gZcYYbP/MVA9yyBumk3jvhF58PY2MLuIdCsR7KI8DqIxT/obpwPNGMBmjmSctj9A6OxxR2yGKh8PISW53G5H8QGuZcYu7C5/wkWP2KLRwAd1nKo
   </data>
  </layer>
- <layer id="4" name="Walkable" width="26" height="16">
+ <layer id="4" name="Walkable" width="26" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbqcCAAnYqQDA2gE0On3pi9A9FMFz8QQ9AblgN5/DFFSYwcUJ5DJlP7XBCdgO6e4iNS2LU4bIDl1pq2kGt/IvNTGL8g0s/ufZgk8NlJi79A4UBQaxatA==
+   eJzbqcCAAnYqQDA2gE0On3pi9NNDLbHmEAuQ7aO22UMV4IoDUuIRWT2pesgBpNpDLUAorAjlMVLSHyXhj+4eYvM/MXbisgOXWlz6ybGD0nIMmx5C/iEkhit+ibEHmxy6mehmDRYMADEybjM=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -236,7 +236,7 @@
     <property name="place" value="south1"/>
    </properties>
   </object>
-  <object id="3" name="west" type="mapchange" x="0" y="128" width="32" height="160">
+  <object id="3" name="west" type="mapchange" x="0" y="64" width="32" height="224">
    <properties>
     <property name="map" value="waytobrightport14"/>
     <property name="place" value="east"/>

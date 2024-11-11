@@ -235,7 +235,7 @@
  </layer>
  <layer id="4" name="Walkable" width="12" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1klEOwCAIQznKLrt7+2H8IX1FlkFCotJCQSIi3mf7MXXOGHqj+DlTHXWv8mZ3mit8haWYw9PsVJ+kLWMI7/rrcOiPJzidOf6lbwKvjPI4czuTtTjO7dxuON1aSvuXfSBfc4F/nw==
+   eJy1klEOwCAIQznKLrt7+2H8IX1FlkFCgtJCRSIi3mf7MRVnDN1R/sTUR52rutmd5gpfYSnn8DQ79U7SljGEd707HPrjCU5njn/pm8ArozrO3M5kLY5zO7cbTreX0v5lH8gXQ4+ARA==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -245,10 +245,10 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="2" name="north" type="mapchange" x="192" y="0" width="128" height="32">
+  <object id="2" name="north3" type="mapchange" x="192" y="0" width="128" height="32">
    <properties>
     <property name="map" value="waytobrightport13"/>
-    <property name="place" value="south1"/>
+    <property name="place" value="south3"/>
    </properties>
   </object>
   <object id="3" name="west" type="mapchange" x="0" y="256" width="32" height="512">
@@ -263,10 +263,10 @@
     <property name="place" value="south1"/>
    </properties>
   </object>
-  <object id="6" name="west" type="mapchange" x="0" y="32" width="32" height="96">
+  <object id="6" name="west1" type="mapchange" x="0" y="32" width="32" height="96">
    <properties>
     <property name="map" value="brightportwild1"/>
-    <property name="place" value="east"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
  </objectgroup>

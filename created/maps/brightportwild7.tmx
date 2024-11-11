@@ -204,20 +204,20 @@
  </layer>
  <layer id="2" name="Objects" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJytVLtOw0AQ3P+InaOPREiJQaJJDRGQT+AjeOWXHIk0UJLeSkwfwp+wq9zI6/XmTMFIp7PP6xnPPkxEdJ8TzfPuLrjKqIXnQPQSmpgdrzWvRTg8v43xy7z9HuK/TyiJR+Z5Ct3zSdZozaLGJ1//GJ25uT8z358612c7lYOa963h3XJszWvs8Fzz2Tl7KIyPd77/cLwVQ6ILXpfDbt6sH4835Uk/K6OnaXbwtFG+dF3uEjweTmM86oI6acCX9aMx+aPua2j6TbT2Sg+1Qn3+E9OYQ4HtvQelZeuAmQHGR2Lhv2Ler9zvbwv0w8zxKt9bxTrrJdgkNG56+kiAOQU/uPZqCXDd58ObI4HH73GNBml+5OnY3At/6eSjMnkrBu25Ad6YY5U1s4D/nZ3XddRZGg3tTyC79Ezd8z/QWhqlo6P96VmT/pRnWusXlgRzcw==
+   eJyVVEtuwkAM9T1ImO6RoCybIrFhTVE/R+AQ9MOVgkQ37bLsI0j3lN6ktpinOI4T1CdZk8w4z/P8CRHRY0r0lDZXwTShGl4C0WuofI5sO7Z1OJ/fR/9NWv8O/j9X9XeLFfM8h+b+OKliLWKML37+NRzgBP+1uT/g7eu9o7pfyevBxDmwb8k2cnjmvHfDGjKj44PfPx1tWZ/olm3Sb+bN1sPj7dKkz/LIM0vOmvZKF+oieIg8bTWyGEZ/1AV10oAuq0dj3HF/jbdQ9ZvEOql4qBXq8x8dlzCLORTY3luqu9s6YGaAUYsv9BfM+536/W2Bflg4uZP7FrHO2gT7jhh3HXnDfTGn4AfXSZkAz5d0eHMk8Pg9rkHP/x59jTy1zb3w504+CpO3rFefG2DLHO9JNQvInZ3XXYyzMTG0PoGs0jNly/9Nw6tT7sTR+vSsSX/KmY71B7QQeqc=
   </data>
  </layer>
  <layer id="3" name="Above" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxzkWVgcAXi/QoMeEGkPANDlDx2uVoc4sgAZAc1gIssfrMOyjAwHJLBLS8JdKsUmntnAvmz0MRCgHZIyTEwSAOxjBymOehuwGYusQCfnwjFCykA5CdcdlEjfmKB/o+TR9gVCjXzlQJCDaH4oSeIBro1hsw4IwSISQ/I4UUtgC2fgvJnHR57nKkcH8jmWUvjV0tJviEGLAa6ZQmSe2DpH5e9hMICV5rBln9w5TVi0l21PELdRSQzXJDKa0U0s9HNBZlRg8THl95g6mB2AQB3ciby
+   eJylU8kRwjAMVBskThzq4EnoIDw4G+HoA77QBwMd0AZVIDPRWONYtol3xg/L8mp1tRXAAs+jgR/a/u5ipQHWemg3OAl2DuKU+FMR+/9UAC8lv09Qa+HoveD96tg6jFHUACUeVQ95jAauxcebilBO1JdU/xC6Sv7r5jMGO8x/r22sZc/1aawP709uvFxsUOt2ZM9iSJkHXq9/EKqbb0/Nfp4DceaBfRkDzjcr/T401zl7k4IbarkzPVQ7KW6sFtLM+Poh9Sll7g7a+r0ZB3Ga+k0dbpfXcBzZPTRv5EexvnDPLSY=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="26" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy1lEsOABAMRF3Ewd3Wvun8GppYiDFPi5691gGji07T6ZEn8q373Ej9U1/GYSxWE6RHHNdDBbq3l3WrrB8ct/Y/cmJzdZ4pM31nU4/Jv1Nekx7gcFOOy1V9i62zfqE46Tk6rZOPm/MF7wRlqw==
+   eJy1k8sNACAIQ13EwdnWqzG0tARNPCjy+NXYawXY2creZO8Rk/mwe7Rcvsut6lH9q5zevH/UhVhTs0C+bu8cNrNPaeHmsnOVTzemq7Muw9Ur08zv2atxXA2onKou9W+p9u4/VfqexTi80HBV
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="south1" type="mapchange" x="288" y="448" width="96" height="32">
    <properties>
     <property name="map" value="brightportwild12"/>

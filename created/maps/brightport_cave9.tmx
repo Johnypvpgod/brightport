@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="29" height="24" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,44 +180,46 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../drawable/map_brightport.png" width="512" height="224"/>
- </tileset>
- <layer id="10" name="Base" width="25" height="15">
+ <layer id="11" name="Base" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxls4RwYe3cMkL20BNT2E3rcDJUwIyVNbR4ifqIEDFQeAwAltwX0
+   eJxjYBja4AfzQLuAeMDFgh8jA5C/BoPfYO4gxT0yLJhilwaBXygBtIqLzWIQTI4ebHiwgcckhBu90zut8xiy2ch2UWInvvDEl1ep5U/kNEbITHT5n2S4gdTyhxJ/kpseyNVDqVvJtYtce4kxg9p5Cp9ZtMq/2PIOqXaREz/k2IMONnMSn09oXf59x2I2vds1AK5IR5c=
   </data>
  </layer>
- <layer id="1" name="Ground" width="25" height="15">
+ <layer id="1" name="Ground" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJytlD0OgkAQhQmFP62Ja+OJOQNXEEm0sEM7W6XT1sIjWLpPZsJzmRVMKL6wDuP7xJ2lSJOk+MHRIFa3+vrytp4rsVw3lH69WrdMPTPPhNZ63VD+KcgDyHpQNtA6sp3UnLh4rVd14PfWkseg5zDvAodVt2DHbt4l5nCRep9j7z/fne0a06Fw/tkNz/vHoZ4ytZ9jTAfuZwL6n679Xi7wfZBRLae5tRzYG513zNxN8uGu5PzovPNs8LmpehyA510z4LhIdk1n0XKgj88g9tbyhDPwmYNFc36sGQxhRxF5lphnKKEj9p9ZHt1zRXte7rvXei/mEQ/nxd7RoVfrb/Ma+5c=
+   eJyllU1SwkAQhcFkYdA1CyNHAO/gUfQIHo2TMFcgVqkXSNiZLudVHi/dMVGqXg0M3fn6LzNdsVp1/9Sp1125Wj2W/v9Vv58mfDdlLPNLjq3xdr0OAbMufS7HGuk++4KD/V0Zx5wcLuw41inVxMHeVMyVcNt+vRTDM8zvZT3o1Vm7bJ+cGnkxg8O9vdBv+24fjfWQV3Df8qr91PoiLmbWDjPqI76zr9dPrm+V9xti7CeYKeC3TuxRfb15bYox03TIuXkzhGdgfpPM4HF7Lea2xFGm+rGa7HvKdXheD/V9cpjog9mBeSbmOWuKh9nrsp09y9ZEz1CmsZipuZ6DXMFD37APZleMueazuRmYqHESJmJoivGMoG8cy215nZOebw+Z2dCZ0Ep9td6Qsjh35LUvx/OsMw6m5YV3LMo14qk43kZWZWodEVuV68l5RjxPmrcyuWf8/vHcLOFpjsfq5zfOBb6fdnR/IE+tPfReXPc14ul5xHcL7iYw67wfMefmrfeL9lNtI95SMdN7N5b0yvw/tvPtP7d/42pNzd8+XwGb7dnmN+6c3mmfvDPC5te4U/kueT/mML8BA/DwEA==
   </data>
  </layer>
- <layer id="2" name="Objects" width="25" height="15">
+ <layer id="2" name="Objects" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJyVVM1KAzEQjgEPnrq7lXU9iBR671v4ON6KN1+k9KCvIraF9Sa0toqHSm39KQUPsh4EZ8gMO0mTSD8ISXZ+vvkmySpVY54pL0LfQ7aYf8j3XCv1exL3Pdb1ei+3bU2tolhD7kvyOdLbdZ6K+HlifFLgaMB8WITzZiJuBv4/MK72zf6J8m8gX5ma/TXZvhIzt0jHfWLnXUDeB4hZwugC/wXVMCJ/tO0K5JeaK8i1EXlwjXWeFXXtjMY//Y3hG3geYXwKrmdP/XeC0+UPAfW85TYP9wZ1vOa1XYLPSKKkODwLlx/7PiX70JPvHb6NU5trl3fAHAzUMnF6hDWhvm5h51/Tu7mF/UBwtj33ljmyppmHuX22qOPDo48xdTT53tKNE49aKjob1LDiPsL6heIXNJfCNqKcHeEn0dfb74DvgASeC/vxvVs5996F1MM1cc8kzzLyDivSjdxcU0/b/yq57jsaex7NXNdBxMb4A5eQZ8Y=
+   eJyVVk1v00AU3MZWkFUJJbZkKQon7mk49C/wB6AX/gZw4AxI9FeVSj0ULkAUQZtTVaSkVBx6oqg3dvCOPH7eJWKkVWT77c77mPc2zjmXDdxfPK5cEufj5ncVfhdl83tbdu0e5P0Vw7cy/t7iV7bdZi/vr/9BEeKvB2kbfpv7s8/GcZuZ4V38I8aJ4XqU8Hku74+Gzr3363jYvrsZ93lje1OY5l3b78bnT57rs19fhq4H5dWcf/U1e7oTX9tgfT6T+K69b6tR9/vFuLsvVsNnO02cMS2mcrTO4s/gZ46uwjuNXes4C1qciS7Bd5HQD8CzLT9A3T2ZpBdwI+fb/pkb/6xdJvl7ZeZBTKPwk+ekdHhlfJgm7N55vsPAeVLHbcCnfbUr/c78QifoafJizzRP+wdwBizrxn4jS3tilvc1U4Rn9vQma20tOGNRIzsDRlV8ZpAPfk1CXDi7kL7QmsPunuFGfZlT2CMmPjNOYC/v8q3kXNoxr/BlLXtTMVvcSv/cyV6ctV915yv8PAg5Q23Adb9q++OybOIBVmYWpOb0nehiG3jGvtRt4/34YfQ5StydqhfmCbaF1H4teeU5B1XXv9O6m2fFIPhSJO4vzhvq7bk/+4VfL6uGR7UO2DsAeaUuOV/LuonLahjYlXfM1WvP88avt1Wr1Y+j/t4YqMmHdXvf6czFt6lwIle/jVapkctIf1Gz56IX7RUCeWE9qQt8R4w/61anwDLEfS060bNQW/4HUt5lsE9pl1o5NfpjfbAfMZMX+bI9CkAT6ht5Vcd2H33KEjr7EJnZVkvqK3mt/hYmL/a+1HyBE3m1daWPfwCpDK/r
   </data>
  </layer>
- <layer id="3" name="Above" width="25" height="15">
+ <layer id="3" name="Above" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBh4cFiMNHFyzEMX+y1Lvh0gPcTYQUickB2XsOjDJkaJHaQAXHaTasc8JtLNIdUOXIBcu8lNizCwVYiBYZsQcXYwCWPKvQam18sE4h6XPDa1uAAsjrejuRWmDyQPktuBxy9zSQhjKSS15KQvGMAWZtQCxITrbCx+JiUcaAEAZzMhsw==
+   eJy1lUsKwjAQQNPP0oUQKLjxCopn8AS6cqsbEVwLggdz7Q0aPEGp3sGVhjY4nU46k2ofBGrazpvRmajU/zDZ9/qVKHXL/M/+y5cDxygdxgnrylH8adre8xGSGxXT5TFPZR5pXj7w98s5Z3Vem2h4n3NS15Ci3l9H1cJAnxG4JU4p1reaVItz7nXbWQT6nc/CeU+66bcsmDyxy+L7PQ9xew/W9kyqJQHW1MWZcFoM8kp9v4B7p6v3KF+fHO6oNltrmTQ/c32x1P57FLgu54NeydxZHsJ+4ObSzk3I7EpqlsSjntl+Yu807ymJ2l08GPcIetwE1Hkdy56j/lsucfM+nnkqdx/cuUBBnTEhTupckJ49Pl/o+6Hv+WZBOiN9vV1I5xjSN18H1xtvjSJS/g==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="25" height="15" visible="0">
+ <layer id="12" name="Top" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEIYhAYbHbAACG9yGqQ9eAyD91cYsWxqcNnPrrbybED3R5SALYwJNcOYvTjEiMnznCJY0sbhNIPPrOIMYeUNEqqP4jNF7gAPj8gyxPrX2oDUvIssfqIUUdK+BOLAaSmrJM=
+   eJxjYBiZ4LLY8LZvIMHhEeRXSsElMsIKlpaCJDExKfbhUz8QcficmTx9sPAYrumOnmXHSCqnRsHwBS7CA+2CUTAYAABAkA2V
+  </data>
+ </layer>
+ <layer id="4" name="Walkable" width="29" height="24" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztk7sRACEIRK3C/luwQ1MDgf3gRccMiR/esuiaY6w/qYziNQ9dR7Te7kZ70bmIp+rJdFR6X/rL9O/wuvuM/EXmdvqu9Oec+5rp+NvBZLgd3ipM5P10MW/esHNDmWhUM8v2Kl7mI1pP5Tm+qXXOdUUby6xC8Q6poTCde86fY2fRxXSzYm6WWoS8
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="entrance" type="mapchange" x="672" y="32" width="32" height="32">
+  <object id="1" name="entrance" type="mapchange" x="672" y="736" width="96" height="32">
    <properties>
-    <property name="map" value="brightportwild8"/>
+    <property name="map" value="brightport_wild14"/>
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object id="2" name="entrance1" type="mapchange" x="192" y="448" width="96" height="32">
+  <object id="2" name="cave" type="mapchange" x="672" y="128" width="32" height="32">
    <properties>
-    <property name="map" value="brightport_cave1"/>
+    <property name="map" value="brightport_cave10"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

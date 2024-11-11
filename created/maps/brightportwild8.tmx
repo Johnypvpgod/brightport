@@ -259,7 +259,7 @@
    eJxjYBgFowAVPGQfaBeMglEwCkAAADymAOk=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="24" height="15">
+ <layer id="4" name="Walkable" width="24" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJwzFGNgMKQjBgFSxAnJoavDBrDJoZuNTYwYs3GZi00vujnY7KMGIDWM8IUPvTEu+/GFESXpD90MXGbjswufflzhTUlcY0u7tLSPVHNICVt62U1M3JIK6JEfAKnUM1A=
   </data>

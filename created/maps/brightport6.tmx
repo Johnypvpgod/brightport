@@ -201,7 +201,7 @@
    eJy9VEkKgDAM9N670IO/0B/4CZeXqB/QVxtBYYjJUNeBYsg2TUxTFllWydlQ7rL+BpCZH9osBNAP0c6FQH6NwzbLWRK4ddyGUe4wRe6fghrunxN+Vs9X0D16Ct1jr+dv8d3hfgts7v6AVy+b26ez5eX+s27NidzLhX3DoHca40R9Du+JxV+pj3F7PsGwW3Ij/7KN59yd6HpDj/BirR2KO+aQvd3M8q3gwzXC
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="14">
+ <layer id="4" name="Walkable" width="30" height="14" visible="0">
   <data encoding="base64" compression="zlib">
    eJwzFGNgMBzFRGEQoLZ5xABsemjtT3z2orNJCTd8bGL8S6z/qQWIDXvk8KCWnbjcQYw/0d1EiMZmDz670fVS6ndc/iElnEn1KyG3EJueSQG44o6aeZeUOKSm3dTAAKQjSyo=
   </data>
