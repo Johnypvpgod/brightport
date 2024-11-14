@@ -241,9 +241,9 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="5" type="spawn" x="96" y="32" width="64" height="192">
+  <object id="5" name="brightportguard" type="spawn" x="96" y="32" width="64" height="192">
    <properties>
-    <property name="spawngroup" value=""/>
+    <property name="spawngroup" value="brightportguard"/>
    </properties>
   </object>
  </objectgroup>

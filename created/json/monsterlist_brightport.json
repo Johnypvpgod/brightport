@@ -2,12 +2,14 @@
     {
         "id":"brightportnpc1",
         "name":"Milena",
-        "iconID":"monsters_karvis2:6"
+        "iconID":"monsters_karvis2:6",
+        "unique":1
     },
     {
         "id":"brightportnpc",
         "name":"Stanwick",
         "iconID":"monsters_ld1:31",
+        "unique":1,
         "monsterClass":"humanoid"
     },
     {
@@ -18,18 +20,18 @@
     {
         "id":"brightportnpc3",
         "name":"Dibella",
-        "iconID":"monsters_ld1:40"
+        "iconID":"monsters_ld1:188"
     },
     {
         "id":"brightportnpc4",
         "name":"Franz",
-        "iconID":"monsters_karvis2:6",
+        "iconID":"monsters_ld1:34",
         "phraseID":"brightport_franz1"
     },
     {
         "id":"brightportnpc5",
         "name":"Frederich",
-        "iconID":"monsters_dogs:2"
+        "iconID":"monsters_ld1:125"
     },
     {
         "id":"brightportnpc6",
@@ -44,17 +46,18 @@
     {
         "id":"brightportthieves1",
         "name":"Silvear",
-        "iconID":"monsters_insects:0"
+        "iconID":"monsters_rogue1:0",
+        "unique":1
     },
     {
         "id":"brightportthieves2",
         "name":"Counterfeit",
-        "iconID":"monsters_ld1:11"
+        "iconID":"monsters_rltiles3:18"
     },
     {
         "id":"brightportnpc8",
         "name":"Janwick",
-        "iconID":"monsters_ld1:27"
+        "iconID":"monsters_ld1:96"
     },
     {
         "id":"brightportpriest",
@@ -76,13 +79,13 @@
     {
         "id":"brightportitem",
         "name":"Alain",
-        "iconID":"monsters_fatboy73:22",
+        "iconID":"monsters_ld1:64",
         "phraseID":"brightport_alain1"
     },
     {
         "id":"brigtportthieves",
         "name":"Lessar",
-        "iconID":"monsters_ld1:65"
+        "iconID":"monsters_ld1:207"
     },
     {
         "id":"brightportforenza",
@@ -103,7 +106,7 @@
     {
         "id":"brightportinn",
         "name":"Elvira",
-        "iconID":"monsters_ld1:32"
+        "iconID":"monsters_ld1:220"
     },
     {
         "id":"brightportbakery",
@@ -118,7 +121,7 @@
     {
         "id":"brightportinnvisitor",
         "name":"Trauerqual",
-        "iconID":"monsters_fatboy73:45"
+        "iconID":"monsters_ld1:105"
     },
     {
         "id":"brightportinnvisitor1",
@@ -133,12 +136,13 @@
     {
         "id":"brightportguard",
         "name":"Brightport guard",
-        "iconID":"monsters_ld1:95"
+        "iconID":"monsters_ld1:94",
+        "unique":1
     },
     {
         "id":"brightportbakery2",
         "name":"Effa",
-        "iconID":"monsters_ld1:44"
+        "iconID":"monsters_ld1:144"
     },
     {
         "id":"brightportbakery3",
@@ -148,7 +152,8 @@
     {
         "id":"brightportcitizen",
         "name":"Brightport commoner",
-        "iconID":"monsters_man1:0"
+        "iconID":"monsters_man1:0",
+        "unique":1
     },
     {
         "id":"brightportcitizen1",
@@ -178,23 +183,23 @@
     {
         "id":"brightportthieves",
         "name":"Loudmouth",
-        "iconID":"monsters_ld2:193"
+        "iconID":"monsters_ld1:85"
     },
     {
         "id":"brightportthieves3",
         "name":"Rowdy thief",
-        "iconID":"monsters_karvis2:2",
+        "iconID":"monsters_ld1:113",
         "phraseID":"brightport_rowdythief"
     },
     {
         "id":"brightportthieves4",
         "name":"Watchdog",
-        "iconID":"monsters_ld1:4"
+        "iconID":"monsters_ld1:94"
     },
     {
         "id":"Brightportthieves5",
         "name":"Oseanpry",
-        "iconID":"monsters_ld1:41"
+        "iconID":"monsters_ld1:114"
     },
     {
         "id":"brightportstudent",
@@ -204,7 +209,7 @@
     {
         "id":"brightportstudent3",
         "name":"Cavill",
-        "iconID":"monsters_ld1:1"
+        "iconID":"monsters_ld1:19"
     },
     {
         "id":"brightportstudent1",
@@ -279,5 +284,12 @@
         "id":"brightportstudent12",
         "name":"Elfeyn",
         "iconID":"monsters_ld1:81"
+    },
+    {
+        "id":"brightportguard2",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:95",
+        "unique":1,
+        "phraseID":"brightportguard_1"
     }
 ]

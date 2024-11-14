@@ -201,7 +201,7 @@
     },
     {
         "id":"brightport_priest_1_reply2_2",
-        "message":"Walk the path of one's destiny, and as the clouded roads reveal themselves, follow the guiding voice of the shadow.",
+        "message":"Walk the path of one's destiny, and as the challenges upon your journey unfold, follow the guiding voice of the shadow.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -237,7 +237,72 @@
         ]
     },
     {
-        "id":"brightport_student_5"
-		"message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. How can I help you.",
+        "id":"brightport_student_5",
+        "message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. How can I help you."
+    },
+    {
+        "id":"brightportguard_1",
+        "message":"Halt! If you value your life, stay off this path, kid.",
+        "replies":[
+            {
+                "text":"Ha, I can handle myself. Don\u2019t worry about me.",
+                "nextPhraseID":"brightportguard_1reply"
+            },
+            {
+                "text":"What's wrong with this road?",
+                "nextPhraseID":"brightportguard_1reply1"
+            },
+            {
+                "text":"[Slip past him.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_1reply",
+        "message":"Sure, kid. You do seem to be carrying some shiny equipment. Just don't blame me if you get eaten by a scary lizardman.",
+        "switchToNPC":"brightportguard2",
+        "replies":[
+            {
+                "text":"Lizardmen?",
+                "nextPhraseID":"brightportguard_1reply2"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_1reply1",
+        "message":"If you go that way, all you'll find is a shack, some trees, and the mountain. What's really scary are the nasty lizardmen who occasionally stumble up on the shore.",
+        "switchToNPC":"brightportguard2",
+        "replies":[
+            {
+                "text":"Lizardmen?",
+                "nextPhraseID":"brightportguard_1reply2"
+            },
+            {
+                "text":"Guess i'll go back.",
+                "nextPhraseID":"brightportguard_1reply3"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_1reply2",
+        "message":"Terrifying, humanoid creatures with blood-red scales instead of skin, and the head of a giant Erumen lizard.",
+        "switchToNPC":"brightportguard",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightportguard_1_reply4"
+            }
+        ]
+    },
+    {
+        "id":"brightportguard_1reply3",
+        "message":"Bye, kid. Take care, and don't slack off in school, or else you'll end up slaying sewer rats down in Nor City. [laughs]",
+        "switchToNPC":"brightportguard2"
+    },
+    {
+        "id":"brightportguard_1_reply4",
+        "message":"a",
+        "switchToNPC":"brightportguard"
     }
 ]
