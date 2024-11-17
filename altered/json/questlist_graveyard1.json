@@ -1,0 +1,117 @@
+[
+    {
+        "id":"nondisplay_2",
+        "name":"Placeholder for hidden quest stages 2 (not displayed)",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Got Cithurn's talisman"
+            },
+            {
+                "progress":20,
+                "logText":"Found gold on waytolake7b"
+            },
+            {
+                "progress":30,
+                "logText":"Found gem 1 on waytolake6"
+            },
+            {
+                "progress":40,
+                "logText":"Found gem 2 on waytolake6"
+            },
+            {
+                "progress":50,
+                "logText":"Met Aemens"
+            },
+            {
+                "progress":60,
+                "logText":"Was warned about Aemens"
+            },
+            {
+                "progress":70,
+                "logText":"Told Aemens the neighbor warned you about her"
+            },
+            {
+                "progress":75,
+                "logText":"Taret tells you to be more careful what you say"
+            },
+            {
+                "progress":80,
+                "logText":"Looted corpse in waterway cave"
+            },
+            {
+                "progress":90,
+                "logText":"Got repreimanded by Cithurn"
+            },
+            {
+                "progress":100,
+                "logText":"Petted Cithurn's cat",
+                "rewardExperience":25
+            },
+            {
+                "progress":110,
+                "logText":"Have discovered hidden room"
+            },
+            {
+                "progress":120,
+                "logText":"Returned Cithurn's talisman after initially saying you would keep it."
+            },
+            {
+                "progress":130,
+                "logText":"Found old clothes"
+            },
+            {
+                "progress":140,
+                "logText":"Met Teksin"
+            },
+            {
+                "progress":150,
+                "logText":"Purchased potion of lightning attack"
+            },
+            {
+                "progress":160,
+                "logText":"Mentioned Remgard - Teksin"
+            },
+            {
+                "progress":170,
+                "logText":"Been to Remgard"
+            },
+            {
+                "progress":180,
+                "logText":"Talked to Yolgen about the castle"
+            },
+            {
+                "progress":190,
+                "logText":"Talked to Yolgen about Flagstone"
+            },
+            {
+                "progress":200,
+                "logText":"Saw bird from lookout"
+            },
+            {
+                "progress":210,
+                "logText":"Found opal at lookout"
+            },
+            {
+                "progress":220,
+                "logText":"You will never get this quest stage (used for lookout)"
+            },
+            {
+                "progress":230,
+                "logText":"bought Brimhaven bed"
+            },
+            {
+                "progress":240,
+                "logText":"Despawned monsters in graveyard"
+            },
+            {
+                "progress":250,
+                "logText":"Looted arulir secret room"
+            },
+            {
+                "progress":260,
+                "logText":"Talked with Othinus"
+            }
+        ]
+    }
+]

@@ -77,7 +77,9 @@
         "switchToNPC":"brightportpriest",
         "rewards":[
             {
-                "rewardType":"questProgress"
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":260
             }
         ]
     },
@@ -120,6 +122,10 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
+                "text":"Could you provide me with supplies?",
+                "nextPhraseID":"S"
+            },
+            {
                 "text":"I'm searching for my brother, Andor. Have you seen him?",
                 "nextPhraseID":"brightport_priest_1_reply1"
             },
@@ -144,6 +150,10 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
+                "text":"Could you provide me with supplies?",
+                "nextPhraseID":"S"
+            },
+            {
                 "text":"I'm searching for my brother, Andor. Have you seen him?",
                 "nextPhraseID":"brightport_priest_1_reply1"
             },
@@ -154,6 +164,18 @@
             {
                 "text":"Bah, all this shadow stuff--what a bunch of nonsense.",
                 "nextPhraseID":"brightport_priest_1_reply"
+            },
+            {
+                "text":"I've visited the chapel, and for a town of this size, it's surprisingly small.",
+                "nextPhraseID":"brightport_priest_story",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":260,
+                        "negate":false
+                    }
+                ]
             }
         ]
     },
@@ -260,7 +282,7 @@
     },
     {
         "id":"brightportguard_1reply",
-        "message":"Sure, kid. You do seem to be carrying some shiny equipment. Just don't blame me if you get eaten by a scary lizardman.",
+        "message":"Sure, kid. You do seem to be carrying some shiny equipment. Just don't blame me if you get eaten by a scary lizardman. ",
         "switchToNPC":"brightportguard2",
         "replies":[
             {
@@ -286,7 +308,7 @@
     },
     {
         "id":"brightportguard_1reply2",
-        "message":"Terrifying, humanoid creatures with blood-red scales instead of skin, and the head of a giant Erumen lizard.",
+        "message":"Terrifying, humanoid creatures with blood-red scales instead of skin, and the head of a giant Erumen lizard. ",
         "switchToNPC":"brightportguard",
         "replies":[
             {
@@ -302,7 +324,86 @@
     },
     {
         "id":"brightportguard_1_reply4",
-        "message":"a",
-        "switchToNPC":"brightportguard"
+        "message":"Just the thought gives me shivers.",
+        "switchToNPC":"brightportguard",
+        "replies":[
+            {
+                "text":"Guess i'll go back.",
+                "nextPhraseID":"brightportguard_1reply3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story",
+        "message":"Behind it, lies a story, child.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_priest_story1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story1",
+        "message":"In the past, the people of Brightport used to worship the Shadow at the Great Water Temple.\n",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_priest_story2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story2",
+        "message":"But twenty years ago, calamity struck. A race of Erumen lizards, similar to us in form but beastly in nature, engulfed the islands of the lake.\n",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_priest_story3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story3",
+        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. Nowadays, we lament the loss and pray that one day the temple will be restored to its purpose in the worship of the Shadow.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"Could you tell me more about the lizardmen?",
+                "nextPhraseID":"brightport_priest_story4"
+            },
+            {
+                "text":"Thank you for telling me this story.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story4",
+        "message":"They carry crudely made weapons and have distinctive blood-red scales, and would attack travelers along the shores of the Great Bright Lake.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_priest_story5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest_story5",
+        "message":"i have heard stories from adventurer's of lizardmen with scales of different colors, displaying more reason than the red-scaled ones, but stay safe my child.",
+        "switchToNPC":"brightportpriest1",
+        "replies":[
+            {
+                "text":"Thank you for telling me this story.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you, shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
