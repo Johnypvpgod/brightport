@@ -218,7 +218,7 @@
    eJy9VktOAzEMNbMpbAAJidVIzRwF2JQd6gGQKnELlqjAAdixbuEAHAHaMhKHAInvjp6AWEPA43EmTlP1SdVMnMQvfmPHBajQ6wIcduEPFwXAZSHPSTY6pu/DHOA8/39K6ymXm3vuQBAvnSanxE1tvnPdWP5b+/tW8M7tmuOd6p0/EehvZH2NSUx07DhpjGvrYd6sZQ1qwTVG8O+G0MRIcbDrn5t7fEln0cSo5ZW0mBZNTo6nrTReN0fjG5L84XFLOvjQb+H1zUm1tQpw3jsDMFFoSzHM2+v8OmveM7yuFkVsDSC0Og+MnnczUBM0xzj3veW5MlXezwKa8NpDbRHS3R6LgWnaUnJyT/Cnnd8P7EUsI+YYrJJPq7tb1zfV+MjU95aCv5KMTzb0XDQ/JR00vR6BPY7/V3AIaZzSj2iPk/z4uGO/Oz8P9rhl3esx9Yg9LrTezZ9mdfssgqPNJt3z9EyL1hTvo7yPx+o9UWgUQuwZer9xT3Od3pLPlPv53e77YHsf7bhktpEdjxW2FHxaX18Kfw95/VtptfOh7T8ixavleCM8TjuuF8/tVF6Os+3qSfWScuAHkqKMog==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="30" visible="0">
+ <layer id="4" name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
    eJztU0EKwCAM8xX7x/7/ueFhMKRp0lq3MRYoKmqS2rpvre1/fC460Hrcq9I5Ma6vqNT1uJ/QjeTLPLPziFvxNAO112Y5s7UYedF8laanW52vVYMVupH/hnSz+sw72o/qrsJbdb3/m+mJO+9mOWbfacZ3VX0iHCxfxoHg3VXyzHq33oHVhvF4viwu1SdDJGd0n3GrHqy5elblj3pDXFm+Ct1M/yr9VamrhvUufTwAHVOZ7g==
   </data>
@@ -274,19 +274,19 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="11" type="spawn" x="256" y="352" width="32" height="32">
+  <object id="11" name="brightportbakeryoutside" type="spawn" x="256" y="352" width="32" height="32">
    <properties>
-    <property name="spawngroup" value=""/>
+    <property name="spawngroup" value="brightportbakeryoutside"/>
    </properties>
   </object>
-  <object id="12" type="spawn" x="160" y="320" width="32" height="32">
+  <object id="12" name="brightportbakeryoutside2" type="spawn" x="160" y="320" width="32" height="32">
    <properties>
-    <property name="spawngroup" value=""/>
+    <property name="spawngroup" value="brightportbakeryoutside2"/>
    </properties>
   </object>
-  <object id="13" type="spawn" x="128" y="256" width="32" height="32">
+  <object id="13" name="brightportbakeryoutside1" type="spawn" x="128" y="256" width="32" height="32">
    <properties>
-    <property name="spawngroup" value=""/>
+    <property name="spawngroup" value="brightportbakeryoutside1"/>
    </properties>
   </object>
   <object id="14" name="brightportcitizen1" type="spawn" x="480" y="288" width="64" height="160">

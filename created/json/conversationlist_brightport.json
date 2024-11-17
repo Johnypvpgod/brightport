@@ -117,29 +117,6 @@
         "message":"[Upon closer inspection, you notice the girl is fast asleep.]"
     },
     {
-        "id":"brightport_priest_1_Initial",
-        "message":"Hello there, child. I have not seen you before. Are you perhaps interested in following the shadow?",
-        "switchToNPC":"brightportpriest1",
-        "replies":[
-            {
-                "text":"Could you provide me with supplies?",
-                "nextPhraseID":"S"
-            },
-            {
-                "text":"I'm searching for my brother, Andor. Have you seen him?",
-                "nextPhraseID":"brightport_priest_1_reply1"
-            },
-            {
-                "text":"How do I follow the shadow?",
-                "nextPhraseID":"brightport_priest_1_reply2"
-            },
-            {
-                "text":"Bah, all this shadow stuff--what a bunch of nonsense.",
-                "nextPhraseID":"brightport_priest_1_reply"
-            }
-        ]
-    },
-    {
         "id":"brightport_priest_1_reply",
         "message":"Even so, the shadow most certainly watches over you.",
         "switchToNPC":"brightportpriest1"
@@ -243,6 +220,10 @@
         "replies":[
             {
                 "text":"No thanks, maybe later.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You drunks make me sick.",
                 "nextPhraseID":"X"
             }
         ]
@@ -402,6 +383,129 @@
             },
             {
                 "text":"Thank you, shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_church1",
+        "message":"Shadow embrace me!",
+        "switchToNPC":"brightportchurch1"
+    },
+    {
+        "id":"brightport_church2",
+        "message":"Shh child. Look. [The man points at the altar]",
+        "switchToNPC":"brightportchurch",
+        "replies":[
+            {
+                "text":"I don't see anything interesting...?",
+                "nextPhraseID":"brightport_church2"
+            },
+            {
+                "text":"Huh. Fascinating, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_loudmouth",
+        "message":"Hey kid, have you met my brother outside? Haha, that guy\u2019s a real Scrooge, they say we're nothing alike,  I\u2019m telling you. He\u2019s just like Mom--she\u2019d penny-pinch us for a bedtime story, and we\u2019d have to pay her with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
+        "switchToNPC":"brightportthieves",
+        "replies":[
+            {
+                "text":"Im all ears.",
+                "nextPhraseID":"brightport_loudmouth1"
+            },
+            {
+                "text":"Im afraid if i let you speak it will never end, bye.",
+                "nextPhraseID":"brightport_loudmouth3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_loudmouth1",
+        "message":"I once heard a story about a guy who visited a kingdom ruled by rats--they call it the Ratdom! Haha! People say he disappeared as a child and reappeared a decade later, wearing clothes made entirely of ratskin. He even spoke Rattish! Imagine that, speaking Rattish! Hic. speaking of rats....\n",
+        "switchToNPC":"brightportthieves",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_loudmouth2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_loudmouth2",
+        "message":"Those folks from Brimhaven--I'd refrain from rudely calling them... hmm, maybe mice. But if anyone resembles a mouse, it would be them. We got a job offer from.. Hic. I\u2019m professional enough not to reveal our clients! Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should\u2019ve seen it coming, considering we wouldn\u2019t budge on the price. Speaking of price...",
+        "switchToNPC":"brightportthieves",
+        "replies":[
+            {
+                "text":"Interesting, but i must go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_loudmouth3",
+        "message":"Speaking of \"Never end\" I was assigned to a job a while ago, up in the north. On my way there, I encountered a small critter. Eager for some fresh meat, I slew it, but what came next was, quite literally, never-ending! A whole group of large beasts were watching me, getting ready to skin my hunt. Once I was distracted enough, they came pouring out of the bushes. I could maybe count a hundred before I went running! I left the meat behind--and even dropped my heirloom skinning knife. Speaking of knives...",
+        "switchToNPC":"brightportthieves",
+        "replies":[
+            {
+                "text":"Interesting, but i must go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brighport_watchdog",
+        "switchToNPC":"brightportthieves4"
+    },
+    {
+        "id":"brightport_guard1",
+        "message":"Keep yourself safe.",
+        "switchToNPC":"brightportguard"
+    },
+    {
+        "id":"brightport_inn",
+        "message":"Welcome! Is there something I can help you with?",
+        "switchToNPC":"brightportinn",
+        "replies":[
+            {
+                "text":"Could I rent a place to rest?",
+                "nextPhraseID":"brightport_inn2"
+            },
+            {
+                "text":"Nevermind.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_inn2",
+        "message":"I'm sorry, but at this time of the year, we get a lot of visitors, and all the beds are occupied.",
+        "switchToNPC":"brightportinn",
+        "replies":[
+            {
+                "text":"Alright, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_citizen",
+        "message":"Sigh, nowadays the streets are bustling with clamor, and everyone is in a hurry. Yet, despite the noise, the silence feels so much heavier.",
+        "switchToNPC":"brightportcitizen1"
+    },
+    {
+        "id":"brightport_citizen0",
+        "message":"Excuse me, I have no time for discussion.",
+        "switchToNPC":"brightportcitizen",
+        "replies":[
+            {
+                "text":"Neither do I.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How boorish.",
                 "nextPhraseID":"X"
             }
         ]

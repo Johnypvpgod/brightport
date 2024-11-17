@@ -8,7 +8,7 @@
     {
         "id":"brightportnpc",
         "name":"Stanwick",
-        "iconID":"monsters_ld1:31",
+        "iconID":"monsters_fatboy73:22",
         "unique":1,
         "monsterClass":"humanoid"
     },
@@ -41,7 +41,8 @@
     {
         "id":"brightportnpc7",
         "name":"Bryma",
-        "iconID":"monsters_ld1:4"
+        "iconID":"monsters_fatboy73:21",
+        "unique":1
     },
     {
         "id":"brightportthieves1",
@@ -85,7 +86,8 @@
     {
         "id":"brigtportthieves",
         "name":"Lessar",
-        "iconID":"monsters_ld1:207"
+        "iconID":"monsters_ld1:207",
+        "unique":1
     },
     {
         "id":"brightportforenza",
@@ -101,17 +103,19 @@
         "id":"brightportpriest1",
         "name":"Stiyl",
         "iconID":"monsters_men:4",
-        "phraseID":"brightport_priest_1_Initial"
+        "phraseID":"brightport_priest_1"
     },
     {
         "id":"brightportinn",
         "name":"Elvira",
-        "iconID":"monsters_ld1:220"
+        "iconID":"monsters_ld1:220",
+        "phraseID":"brightport_inn"
     },
     {
         "id":"brightportbakery",
         "name":"Hortensia",
-        "iconID":"monsters_ld1:239"
+        "iconID":"monsters_fatboy73:24",
+        "unique":1
     },
     {
         "id":"brightportbakery1",
@@ -137,7 +141,8 @@
         "id":"brightportguard",
         "name":"Brightport guard",
         "iconID":"monsters_ld1:94",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_guard1"
     },
     {
         "id":"brightportbakery2",
@@ -147,18 +152,22 @@
     {
         "id":"brightportbakery3",
         "name":"Gunther",
-        "iconID":"monsters_fatboy73:45"
+        "iconID":"monsters_fatboy73:21",
+        "unique":1
     },
     {
         "id":"brightportcitizen",
         "name":"Brightport commoner",
         "iconID":"monsters_man1:0",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_citizen0"
     },
     {
         "id":"brightportcitizen1",
         "name":"Brightport commoner",
-        "iconID":"monsters_ld1:12"
+        "iconID":"monsters_ld1:12",
+        "unique":1,
+        "phraseID":"brightport_citizen"
     },
     {
         "id":"breadgolem",
@@ -173,17 +182,21 @@
     {
         "id":"brightportchurch",
         "name":"Chapelgoer ",
-        "iconID":"monsters_ld1:19"
+        "iconID":"monsters_ld1:19",
+        "phraseID":"brightport_church2"
     },
     {
         "id":"brightportchurch1",
         "name":"Praying woman",
-        "iconID":"monsters_men:6"
+        "iconID":"monsters_men:6",
+        "phraseID":"brightport_church1"
     },
     {
         "id":"brightportthieves",
         "name":"Loudmouth",
-        "iconID":"monsters_ld1:85"
+        "iconID":"monsters_ld1:85",
+        "unique":1,
+        "phraseID":"brightport_loudmouth"
     },
     {
         "id":"brightportthieves3",
@@ -194,7 +207,8 @@
     {
         "id":"brightportthieves4",
         "name":"Watchdog",
-        "iconID":"monsters_ld1:94"
+        "iconID":"monsters_ld1:94",
+        "phraseID":"brighport_watchdog"
     },
     {
         "id":"Brightportthieves5",
@@ -291,5 +305,23 @@
         "iconID":"monsters_ld1:95",
         "unique":1,
         "phraseID":"brightportguard_1"
+    },
+    {
+        "id":"brightportbakeryoutside",
+        "name":"placeholder",
+        "iconID":"monsters_fatboy73:21",
+        "unique":1
+    },
+    {
+        "id":"brightportbakeryoutside1",
+        "name":"placeholder",
+        "iconID":"monsters_fatboy73:23",
+        "unique":1
+    },
+    {
+        "id":"brightportbakeryoutside2",
+        "name":"placeholder",
+        "iconID":"monsters_fatboy73:24",
+        "unique":1
     }
 ]

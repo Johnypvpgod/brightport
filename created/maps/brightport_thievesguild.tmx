@@ -276,7 +276,7 @@
   </object>
   <object id="3" name="thieves" type="mapchange" x="480" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="brightport_thievesguild"/>
+    <property name="map" value="brightport_thieves"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>
