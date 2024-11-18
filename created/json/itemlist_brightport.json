@@ -1,0 +1,18 @@
+[
+    {
+        "id":"brightport_key",
+        "iconID":"items_misc:21",
+        "name":"Library key",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The key for the library in Brightport."
+    },
+    {
+        "id":"brightport_scroll",
+        "iconID":"items_books:8",
+        "name":"Secret scroll",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"Secret scroll kept in te libary of Brightport, requires special permission from the principal to read."
+    }
+]

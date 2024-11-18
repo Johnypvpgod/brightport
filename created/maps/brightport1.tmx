@@ -210,32 +210,32 @@
  <tileset firstgid="9017" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
- <layer id="9" name="Base" width="29" height="25">
+ <layer id="1" name="Base" width="29" height="25">
   <data encoding="base64" compression="zlib">
    eJxjYBh4sJFzoF2ACQajmwiBoejmwQjoHY4w+0bjj/ZhQCisaWE/yEwYHkxgINI5Lew8wQnByPZgY5MKsOmFiaHbSYzewQyGmnvJBfjijFSAL8woTesDUWaMlDRAawAARkkZKA==
   </data>
  </layer>
- <layer id="1" name="Ground" width="29" height="25">
+ <layer id="2" name="Ground" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJy1lbFuwjAQhr1kgC0guSoTUt6ChbnqwFy6VSzQJwCeKmJjr0JRp0p9gQ4RUB4Co8Tqxdz5LsGJ9A2x5ft/310uaUepFHB+VOq7T5N2wrMdKvXbp/Gd9XnlPM8TpRYI74Z9TJ/zeeU8L03sFcI68d+T8go9zwdh60J5lXqWsGmhnySaPt3kIbzmRwm2N0qKvWcmnz8gjgVbk0KdxXw3jSX1Z/V2sT9X9/JE5Np6zcrvXjJXpHPmxWhNDa+IJrynZK7UmY1cH44jfq5gc6buN2174NPkdhLxc6XunLGPW2NY5173nzfDrFtdc9+vfCH/gEwX9zvoAmquQD9XrCZcc9+5nO5KXK0QnHQ17gbRDImrA7Xa1DzqW52mmm79IbnZ+2O0fJq5rvYYVYvc8SDRozQ5v7DfsHo10awbo6km1WNtcAHYMhds
+   eJy1lU1Ow0AMhb0tXaVd0cWAmltwA6AXoD1B4AS0h0JRd92j/ghFpRVi3zWHYKpkhDPYYyedRPoWmdH4vbEdJ+8B5Iifa4DDkCfvxWd1C3Aa8oTOhrxKnrMU4JngxbJL+HMhr5LnVxt7TrBIw/fkvGLP2ShuXTivWs8alh30k0YzpNu/ia/5XkHt3aXl3qOQzy8Ux0GtaeHOUr7bxtL6c3qbJJyrS7lncu28rqvvXjNXtHPmyWpNLTNCE99TM1eazEapD9djea5Qc6bpN+16YGtz+z2W50rTOeMev8a4zoOrPx4MwMTU1/z3Mx/EP+DNlPfbmxJurmA/Z5wmXvPfpZxuKnytGBxMPe6S0IyJr4O1utT8NP912mr69ccUdu8oaIU0C1PvMa4WhedBo8dpSn5xv1H1aqPZNEZbTa7HuuAXh6gXvg==
   </data>
  </layer>
- <layer id="2" name="Objects" width="29" height="25">
+ <layer id="3" name="Objects" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9VT9rFFEQnyIGLBTeahayiCzcJ7A0+QAiCtZGC9v4HQTbJH6BxNLKWFpILGyE2/PEA9ME9rBIir1zz2uXBC2c4c24s7Nv8RLQHwzv3tx785t/b3a0CvADZc7rXgp/cPM6tCBnCe9igGsRwAHeeZ+2/x+t1vc2E4CnidfNFSfd/abOhZA5v0aR5xSsROHz1u/1pOb/7Jo+vrzh16/Lft3l/W5a3xdO18EXwsPEc+zg+gLlCt69yvffMMcxc+7zXvL4yXnOgWvaFN+sv6L/YGo5V3mNmPsgYJdQoH6C8j1u1nNfcYq/r1G3x3qqZ872hHMSsE+YutoHQsZrybyZutc3ZyOV+4mp4ZDPbmGet5OmziJT/TNQv4Xndg9gDWW9x2fYDvUP1Y/2D3pNX/Q5qp3kT3QV2j5lOWOeQt27y/bWlF2xITE+U//9a0g9/ydnKM6PmKsheDmJ6t8klDe9Lx0813uSvjlDssH2aZWZYDlHf5lHGjRrZN7o91a45jvScdI7sJyvLi3OqVF28FAf0pueotzDGO8H4vyy0rxDM0XmitZZyGy0c4T4Zih5HO6hwxhaoJlystzWWdgYaa/5xnH95iTuKc+Vi4L81XPm1hLAnSX/u2Ru4ZqZuSLzy84hyVlf6Qs1Pwv2WccgtiXOI97jN+JJruaKnu1HZn52QXJIPTkLnKVYaGaGZphGF0/oW5NxzQhvLwP8TAF+pV4n9itlj2a/rkOo3wlTw6XPEWcZ1xxdsdjvysC8L10XqpvUSvdZX32f8o58Wdjv9QbyPUJ5nPq6jF1df+m9Afen7pOL8klckpexslXxniDcBF2vRTB07b7O1d3K2Ko6/DkPhOeUe/w8Nqw/i+I3EuErpw==
+   eJy9Vc1qFEEQrkMIeFDoUQ8ZZBzYoyePJg8gouDZ6AvoO/gA/rxA4kE8mhw2EHIwB4UNbOIKk83uQVAckhw2Qdwn0INddJXzTU0PJgv6QdHbtd311V/XFAtEP7xMZV3N6Q+yK9SAnmW8zoguJ0Tv/J3tvPl/sVDde5wSPUmDbgqcfPcbnIth14U1SQKn4moSP2/9Xkor/k+u7uOra2E9mA/riuxX8uq+croWvhgepIHjhV9ferno716S++vCcSSca7LXPH50gXPP1W2qb9Zf1b83tZxCXhPhfhOxyyi8ft/LQVav5xpwqr9vvW5V9FzPL2JPOU8i9hmnrvKB0ZV1JLy7cK9vziaQ+xNTw4Gcfebz/Dyt6yy60D8b8Ft5bnWIFr0sdcJec8X9w/Xj/f1O3Rc8x7XT/Kmu9LYPRY6EZwL37oi9RbCrNjTGp/Dfv4bW839yxuJc97kaUJDjpPrNwnnDPVF9z9J3Td2y2OdVZ4LlLP4yjxA8a3Te4HubuPo7wjj5HVjOGzPm+nsLD/chv+mhl7s+xnuROLeu1+/wTNG5gjoLnY12jjDf2Esvi/fQdkYN8Ew5nm/qLGyMvEe+nax6cxr3UObKrGB/cc7cnCO6PRd+j4RbucZmruj8snNIc9YH/QTmZyE+YwxqW+P8AFw9mCs42z+b+dkGzSH35DhylmPhmRmbYYg2nti3pis1Y2xeIPqZE/3K67GUYI9nP9Yh1u+MU8OF55hzlFUcbbHY78qeeV9YF66b1gr7rA/fp15Lvizs93rZ8z308igPdfnqqvpr721If2KfzMqncWledsBWKXuGcjOwXmfBwDX7ugd3S2OrbPHnPFCeQ+nx89iw/pwVvwHkAyAn
   </data>
  </layer>
- <layer id="3" name="Above" width="29" height="25">
+ <layer id="4" name="Above" width="29" height="25">
   <data encoding="base64" compression="zlib">
-   eJy9VjtOA0EMNUgIOipWYpUiUo4BJyAB6oTADYA6gIBrQEsVahooaFYUpKQLIkjQ5wAggbDFWhivZ8fLJ08azY7tmefPjJPRIsADjhGOkzrA0yyU4jmi96CdAnTSz2/inport58O6GO+Mshnim8fOQ9S354sATitF+UxXxnkM+eV5xjukqKMamL5YSET+72cvwX5bHH1MM97zlxXRbvCuTp/h42v7+2Gti4/g2Ncx32bFcaa4Fk19Fu5vmvoCEsY7/I/5dICxdlEvtYEOWVPYNziuM5zPoDv98xasy3LB+IsruGOqIX1Pobg7ysa1Gdi79WqJXF6+4pGqDdqaL+I82Ih19UM+1pxzTLdG62YaX2J40pxMvoG57mSkU1fcOo+w2ePcH4UPEeixrslbzxLwutQ/7yZh2Oa35DvvV7Ux6B7PK85h2PkPJsp7tMx/gV0fQhDXN/nslCMMjfe3ydpR/FJnhCsGsT4LD2f84LyV4evmncF9zRxtAJ7OY+8L2Yf4/NC3pkOzhs4uk5ODe/9su6Mm0PF+NM3VAXjCfwH0vgAXlGSxg==
+   eJy9VktOw0AMNWzgCkRViNQlR4AT0ALrlsINgDUFwTlAXKDkBHTBnt6giCDBvgcACYQtYmEcT8bh0ydZk7E982zPjNtiBeABpUC5yACelqAWzxG7B70EoJ98fhP3wnK9/2LAHouVQTFTfifIeZr41uQpwGVW1cdiZVDMXFceYxinVR2diRWHhVys93L+FhSzxXWMdR46a90UvQb76vqdtb++D9rau34PznEH1+01kG3Bs2XY90v7wLAR1jHfjX+qpQXKs4N83Tlyyp7AuEO5LWs+ge/3zJqzL+snYi8+w0NxFtb7mIK/r2hQn4m9V+ssidPbVzRCvVFDx0WcV6ulrWX4t6pz1uneaOVM8xuUseJkjAzOa6Ujn5Hg1H2G9y5wfBQ85+KMj2reeJ6G57H++YZ871nYHoLu8TznGs6Qc82IWef4F9DnQ5ji/L7UhXKUtfH+Pkk/yk/yhGCdQYzPsvM+L6h/dcSqeTdxTQelG1jLdeR1Mf8YnxfyzvRx3EUZODk1vPfLujNuDpXjT99QE8zm8B9I4wMzdpAQ
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="25" visible="0">
+ <layer id="5" name="Walkable" width="29" height="25" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzNlNENwCAIBZ2i+6/ghv0yMUQUrzwtibExwAn4Wp9SKli9kXjKsnaDm5k/ylX0bre+6D1O2Oxu7VvJo3P40ttT9hemWtcK5qgmZZ0ehzA9f/oOM5mev+X1uz2jzFm+SA+idlp35N0ouN4MvJid3lOdNf8Ib6Vz+v+w+bJrHOVc6SyTR+IyekpnE10vrac6HA==
+   eJzNlNEKwCAIRfuS/Xd/u6cgJMvOvDUhGqGe1O7qU0oFqzcST1nWbnAz80e5it7t1he9xwmb3a19K3l0Dl96e8r+wlTrWsEc1aSs0+MQpudP32Em0/O3vH63Z5Q5yxfpQdRO6468GwXXm4EXs9N7qrPmH+GtdE7/HzZfdo2jnCudZfJIXEZP6Wyi6wVxCCDc
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup id="6" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="896" y="256" width="32" height="224">
    <properties>
     <property name="map" value="brightport3"/>
@@ -279,7 +279,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="7" name="Spawn">
   <object id="8" name="brightportthieves1" type="spawn" x="384" y="512" width="96" height="32">
    <properties>
     <property name="spawngroup" value="brightportthieves1"/>
@@ -295,12 +295,12 @@
     <property name="spawngroup" value="brightportcitizen"/>
    </properties>
   </object>
-  <object id="11" type="spawn" x="768" y="480" width="32" height="32">
+  <object id="11" name="brightportnpc2" type="spawn" x="768" y="480" width="32" height="32">
    <properties>
-    <property name="spawngroup" value=""/>
+    <property name="spawngroup" value="brightportnpc2"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys"/>
+ <objectgroup id="9" name="Replace"/>
 </map>

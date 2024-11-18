@@ -48,12 +48,15 @@
         "id":"brightportthieves1",
         "name":"Silvear",
         "iconID":"monsters_rogue1:0",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_silvear_start"
     },
     {
         "id":"brightportthieves2",
         "name":"Counterfeit",
-        "iconID":"monsters_rltiles3:18"
+        "iconID":"monsters_rltiles3:18",
+        "unique":1,
+        "phraseID":"brightport_counterfeit"
     },
     {
         "id":"brightportnpc8",
@@ -172,7 +175,11 @@
     {
         "id":"breadgolem",
         "name":"Bread golem",
-        "iconID":"monsters_rltiles1:1"
+        "iconID":"monsters_rltiles1:1",
+        "unique":1,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "phraseID":"brightport_breadgolem"
     },
     {
         "id":"breadgolem1",
@@ -243,7 +250,8 @@
     {
         "id":"brightportstudent5",
         "name":"Brightport student",
-        "iconID":"monsters_ld1:1"
+        "iconID":"monsters_ld1:87",
+        "unique":1
     },
     {
         "id":"brightportstudent6",

@@ -111,6 +111,18 @@
             {
                 "progress":260,
                 "logText":"Talked with Othinus"
+            },
+            {
+                "progress":270,
+                "logText":"Received access from Silvear"
+            },
+            {
+                "progress":280,
+                "logText":"Stiyl story"
+            },
+            {
+                "progress":290,
+                "logText":"Met Silvear"
             }
         ]
     }

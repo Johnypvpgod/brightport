@@ -151,6 +151,23 @@
                         "requireID":"nondisplay_2",
                         "value":260,
                         "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":280,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me the story about the chapel again?",
+                "nextPhraseID":"brightport_priest_story1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":280
                     }
                 ]
             }
@@ -323,11 +340,18 @@
                 "text":"N",
                 "nextPhraseID":"brightport_priest_story1"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":280
+            }
         ]
     },
     {
         "id":"brightport_priest_story1",
-        "message":"In the past, the people of Brightport used to worship the Shadow at the Great Water Temple.\n",
+        "message":"In the past, the people of Brightport used to worship the Shadow at the Great Water Temple.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -337,7 +361,7 @@
     },
     {
         "id":"brightport_priest_story2",
-        "message":"But twenty years ago, calamity struck. A race of Erumen lizards, similar to us in form but beastly in nature, engulfed the islands of the lake.\n",
+        "message":"But twenty years ago, calamity struck. A race of Erumen lizards, similar to us in form but beastly in nature, engulfed the islands of the lake.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -506,6 +530,102 @@
             },
             {
                 "text":"How boorish.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_counterfeit",
+        "message":"Hello, kid. My name is Counterfeit. I specialize in exactly that. Now, please leave me be, I have work to do.",
+        "switchToNPC":"brightportthieves2",
+        "replies":[
+            {
+                "text":"I need a copy of the key for the library here in Brightport. Could you help me with that",
+                "nextPhraseID":"brightport_counterfeit1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":46
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_counterfeit1",
+        "message":"Normally, I\u2019d need the original, but lucky for you, kid, I was a student here years ago and made a copy. You can have it, for 500 gold.",
+        "switchToNPC":"brightportthieves2",
+        "replies":[
+            {
+                "text":"OK, here's the gold.",
+                "nextPhraseID":"brightport_counterfeit2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_counterfeit2",
+        "message":"Alright, here you go. Now hush off. I\u2019ve got work to do.",
+        "switchToNPC":"brightportthieves2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":50
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_key",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_start",
+        "replies":[
+            {
+                "text":"N"
+            },
+            {
+                "text":"N"
+            }
+        ]
+    },
+    {
+        "id":"brightport_breadgolem",
+        "message":"[The golem is quietly tending to its chores]",
+        "replies":[
+            {
+                "text":"Wow.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yuck.",
                 "nextPhraseID":"X"
             }
         ]
