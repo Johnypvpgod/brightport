@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -209,22 +209,22 @@
  </tileset>
  <layer id="1" name="Ground" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJzVktsNwyAMRbNJxQ5doekGIe0GeYxAB6m6bLFkKxayiXn85ON8BAeOryG4YQiR7+3gEb9HA3fk7J90bU58hMXZguRd4prH2tzZxZHygntFfAfni51HSF4g4L0vipv3nquBc3PHeYTmTfPzt5b27zM1cP4MDg3yPoX+qS+pVusjPMvzEc6jGmQjWp006zfm0WaxObtzgl6N7l2ZG79ba46x0C3Nn79b676JuWvnvxY6e+QFAt59yZ5W59nd5/K2Oq9G69uqpcfbukrePypsYrk=
+   eJzVks0NgzAMRrNJ5R26QukGhHYDoCPQQVCXBauxaqV2cH4uHN4lhjx/jteLc2vEDZzrDFwDR9/EZwP8OxGLswbJO+5nPtSGxi6OlBfdU8A3cD7YfYTkRRb4Mipu3nuqhs4ZfvcRmjfOz3ct7t8nauj8GBwa5L0L/VNfUq3UR3iW5y3cRzXMRtQ6adbPkEebxQx2Z4+9Gt0vZW78ba05uky3NH++t9b/euYunf+U6WyRF1nC2+f8U+s8evtU3lrn2ajdrVJa7NZZ8m4LEmLv
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJx1VTFuFEEQXMETCExyezMSRETIB8mlmBfc8QmegMwPHF+IkCUCLM4+DMIQ2D4HSFgcGIzFAxD8AGK6PF1sbe/S0mh2erq7urpndr7XVbVtYzNX1XhYVXupupSlzW9N/87GTl10E9uf2vjsNpSNYdWRiejepLJ+YOO+x4AP451IvDP7/mB4pzZepy4WfSYBs0+nmDozxpHEnhveWm72yJ3riN8n1E+H7Tynwhv8RjY/ysX2Zd2OTe6QV6mN18ddMcjjatiHjMWO2Co7geth6nK4SO3vtRDnmul365ID5Fao8TJ1c0AM8Pzidk8l/7nUhgLdE9fjzK7cX/neDPX6avvXHe900GDfGDYYi7rkvx3OOmQGjLrYzB3zV2o4QlCPLdMfux5nehx6M/Z5JHGf5W5NYAduM18Tk/7EjHleOPZuau+hB+R5RXJC3ZAn13dy6ccP4dl3R1WIvZXbmAu3J6dNn5ELer2ey3+BeX3MZazkXGg85azYrPeBzd9S+w4/zuUc6/nQ2KjFLOBoPSC/bf2nh7vW9rnFeOG9Jxb4n4dY+8b1bi61oH41KHnHuH311rvIHuN/8lDuySfXH3k94l0/Tw1/5LpuY5QavHGoM++P7pHjVm7zOxH+/85BXeqC/rFOzJNn5Lb78+2J/7soyOfQbREbNYi26D3rovWlD/3xvoBHxLwX3o3LngyKjfJg3VBX1UMWktdx2CfX+GYRi28X/WGPnrJ3S+EU3wkIbHlntKcH7hfrCqwN4R3flf99Q/Z78HkvVb+X+vnq26w+MWa0ZZ4/U9fnvejA6y/eJeKR
+   eJx1VUtuE0EQHcERWISNx90SrFihGDbeEk7g5BIcAYUbeO0lQkgsiHBiAiKwSOIskIgwv5ATROEGsKZeuh7zpmYoqdWe6up69V51u7eGVfXQxqaNsY29VF3Z0ub3dVV9sLFTF9/E4756DG1jWHVsIr53qXxvCRZn2Ink+2a/PxneqY23qYvFGiYBs8+nmDozx5HknhveWm7WyH0idSp+n9G/OWzXqXzBb2Tz41xiX9ft3OQOe5PaeH3cFYM8rod12FjiiK22E7gepi6H89T+vRby3DD/bl1qgN0JGi9TtwbkAM/vHvdM6p+LNjT4nrp/2/aufL/a7aDXD1u/6Xingwb71rDBWNSl/ufhrMNmwKhLzNwxf6WGIwznamr+Y/fjTI9Db8Y+jyTvi9zVBHHgNvNvYnI/MWOd5469m9pr6AF5XpOaoBvq5Pe9XPpxITy5pndUjdjT3MZceDw5bfuMWtDr9Vz+F1jX51zGSs6F5lPOik29D2z+mdp3+Eku5zieD+aGFrOAo3rAftv3nx7uqu1Ly/HKe08s8D8LufaN6/1ctKB/NSh1x7x9eutdZI/xf/JI7skX9x+5HvGun6WGP2pdtzFKDd446Mz7o2vkOM1tfifC/985qIsu6B91Yp08I3d9P9+e+H8XDfUceixyQ4MYi95TF9WXe7gf7wt4RMwH4d246smgxCgP6gZd1Q9bSF3HYZ1c45tFLL5d3I949JS9Wwqn+E7AEMs7oz098H1RV2BtCO/4rvzvN2y/B5/3Uv17qZ+vvs26J+aMsazzMnX3fBQfeP0FcYLgJQ==
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJydVcsNwjAM7RKckJpGwIkrI5RuQLdhjm5Ah+LOhSWoBRbGev6UJ0VtEvs9x4mTTWmafmnnpd1qkwb79OX3X35H1Ze+koNQK+b3+sNHY1Cag9BG4PG9Ma+19JjWljEMBmfEz7gY+dJ5HA2tGezhFtgx172N441AmpPS9faO8DR0dfzSV8+RJp9ZtEaLB2kSF7KhOcl9NTQPDr+l7Z1xiudYvhoWB6ovzx7tlQTNPdq3NuLTefbyqtfj3S8ck64zizujT7gBXgLV/mzsecRr5TyDU8G52HVLTN16PkZmHVP166SuPL9ZW++8ZXjQ/ZeBzHHkG2lktZGdl/OIU8cU1ceauyaC9a5bX+Sjtf9ZL7+x2Xj1GLUXjwpd8w==
+   eJydVdsNwjAMzB5IbSP445cRIBvANszRDdqh+OeHJcAqVi3r/GhPqtLmcWdf4rSUFVMtaVz7Um790sp32T7Ut1wrOQi1Yn7vu/01mtJsQhuB+0/GuNbSfVpbxtAMzoifcTf80j4+DK0Z7OEBzGOuVxfHG4E0R+fsoHw/hq6OX67VY6TJZ5ZztHz1POf40Rwak/49gSZjq7Z3ximec79qWByovrz50V7R2LtbtBGfztnzVefj3S8ck64zizujT5gAL4Fqfzb2POK1PM/g0mMvjsMvpmE7HyOTx1jxXcCoO2onM9c7bxkedP9lID2O1kYaWW00z/M84tQxRfWx5a6JYP3XrRat0dp78uV/bDZe3UfPFyrEXLQ=
   </data>
  </layer>
  <layer id="9" name="Top" width="30" height="19">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUApc5AfaBaNgFIyCUTAKsAEANccAZA==
+   eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="19" visible="0">
