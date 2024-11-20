@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="7">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -186,33 +186,33 @@
  <tileset firstgid="8121" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <layer id="9" name="Base" width="30" height="15">
+ <layer id="9" name="Base" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMAoGH5CUoY89ABx0ADY=
+   eJxjYBgFo2AUjIJRMApGwSigLQAACHAAAQ==
   </data>
  </layer>
- <layer id="1" name="Ground" width="30" height="15">
+ <layer id="1" name="Ground" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJyTlGFgkBzFo3gUj+JRPIoHGf4nD6ENoJgWdoDMBQCagV5Y
+   eJyTlGFgkBzFo3gUj+JRPIqHCJZGwrQ0Gxs2QMPUcgOp9iJjUu0h1k5C9pLiDpBZAL5XcgU=
   </data>
  </layer>
- <layer id="2" name="Objects" width="30" height="15">
+ <layer id="2" name="Objects" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBg54IrMQLuAvmCk+XeggKXsQLuAOuCQPAPDPiIxNcF+Kps3ai/l9r4Dqv0oj8r/gIQ/kmAWIXsD5BHmfwbiT2j2PAbiR1AaXY4ce5H98hlqNgBANCyz
+   eJxjYBg54IrMQLuAvmCk+XeggKXsQLuA9uCQPAPDPiRML7CfjnaN2osfvAOq+SiPyv+AhD+S4XaQvQHyCPOwmf0ZiD+h8ZHBJzLcgOzf8zjYuMAjkBoFCH4sj+oGQvbvR/LrZyxsfOACkpp/aG5ADgNs7oDZS6pf0e1FBshuwOYOkBvQ7QUA0qBBvQ==
   </data>
  </layer>
- <layer id="3" name="Above" width="30" height="15">
+ <layer id="3" name="Above" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYKA/OCIzAJYOIBhp/h0oICk70C4YBSMBRALTWRQd0xrMvkogrqKjvfS2j9YAVA4fxVEWAwBq4gfs
+   eJxjYKA/OCIzAJYOIBhp/h0oICk70C4YBSMBRALTWRQd0xrMvkogrqKjvfS2bxQMDACVm1J0imcAF2cGmA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="15">
+ <layer id="4" name="Walkable" width="30" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApGLgAABwgAAQ==
+   eJxjYBgFo2AUjIJRMApGwSigLQAACHAAAQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="384" y="448" width="352" height="32">
+  <object id="1" name="south" type="mapchange" x="608" y="544" width="352" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>
     <property name="place" value="north"/>
@@ -224,7 +224,7 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="6" name="south1" type="mapchange" x="0" y="448" width="192" height="32">
+  <object id="6" name="south1" type="mapchange" x="224" y="544" width="192" height="32">
    <properties>
     <property name="map" value="waytobrightport16"/>
     <property name="place" value="north1"/>
