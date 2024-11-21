@@ -72,7 +72,8 @@
     {
         "id":"brightportarmor",
         "name":"Freya",
-        "iconID":"monsters_ld1:148"
+        "iconID":"monsters_ld1:148",
+        "phraseID":"brightport_armor"
     },
     {
         "id":"brightportsmith",
@@ -150,13 +151,16 @@
     {
         "id":"brightportbakery2",
         "name":"Effa",
-        "iconID":"monsters_ld1:144"
+        "iconID":"monsters_ld1:144",
+        "unique":1,
+        "phraseID":"brightport_bakery"
     },
     {
         "id":"brightportbakery3",
         "name":"Gunther",
         "iconID":"monsters_fatboy73:21",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_bakery"
     },
     {
         "id":"brightportcitizen",
@@ -184,7 +188,8 @@
     {
         "id":"breadgolem1",
         "name":"Writhing bread",
-        "iconID":"monsters_tometik10:5"
+        "iconID":"monsters_tometik10:5",
+        "phraseID":"brightport_breadgolem1"
     },
     {
         "id":"brightportchurch",
@@ -220,7 +225,8 @@
     {
         "id":"Brightportthieves5",
         "name":"Oseanpry",
-        "iconID":"monsters_ld1:114"
+        "iconID":"monsters_ld1:114",
+        "unique":1
     },
     {
         "id":"brightportstudent",

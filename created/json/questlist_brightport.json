@@ -122,5 +122,39 @@
                 "logText":"I received a reward from the Headmaster for having returned the scroll."
             }
         ]
+    },
+    {
+        "id":"brightport_nondisplay",
+        "name":"brightport nondisplay",
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Talked with othinus"
+            },
+            {
+                "progress":10,
+                "logText":"Stiyl story"
+            },
+            {
+                "progress":15,
+                "logText":"met silvear"
+            },
+            {
+                "progress":20,
+                "logText":"gained access from silvear"
+            },
+            {
+                "progress":25,
+                "logText":"bought acess from silvear"
+            },
+            {
+                "progress":30,
+                "logText":"talked with silvear"
+            },
+            {
+                "progress":31,
+                "logText":"Silvear andor paid"
+            }
+        ]
     }
 ]

@@ -78,8 +78,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":260
+                "rewardID":"brightport_nondisplay",
+                "value":5
             }
         ]
     },
@@ -148,14 +148,14 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":260,
+                        "requireID":"brightport_nondisplay",
+                        "value":5,
                         "negate":false
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":280,
+                        "requireID":"brightport_nondisplay",
+                        "value":10,
                         "negate":true
                     }
                 ]
@@ -166,8 +166,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"nondisplay_2",
-                        "value":280
+                        "requireID":"brightport_nondisplay",
+                        "value":10
                     }
                 ]
             }
@@ -344,8 +344,8 @@
         "rewards":[
             {
                 "rewardType":"questProgress",
-                "rewardID":"nondisplay_2",
-                "value":280
+                "rewardID":"brightport_nondisplay",
+                "value":10
             }
         ]
     },
@@ -372,7 +372,7 @@
     },
     {
         "id":"brightport_priest_story3",
-        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. Nowadays, we lament the loss and pray that one day the temple will be restored to its purpose in the worship of the Shadow.",
+        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. Nowadays, we lament the loss and pray that one day the temple will be returned to its purpose in the worship of the Shadow.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -609,10 +609,20 @@
         "id":"brightport_silvear_start",
         "replies":[
             {
-                "text":"N"
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_staple",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
             },
             {
-                "text":"N"
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_initial"
             }
         ]
     },
@@ -627,6 +637,442 @@
             {
                 "text":"Yuck.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_initial",
+        "message":"Hello there, $playername. My name is Silvear. I'm a merchant of sorts, though my merchandise is a bit, unorthodox.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"What is it that you sell?",
+                "nextPhraseID":"brightport_silvear"
+            },
+            {
+                "text":"How do you know my name?",
+                "nextPhraseID":"brightport_silviar_initial1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"How do you know my name?",
+                "nextPhraseID":"brightport_silviar_initial2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":2
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_staple",
+        "message":"Hello, $playername. Any news?",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"What is it that you were selling again",
+                "nextPhraseID":"brightport_silvear"
+            },
+            {
+                "text":"Can you tell me about Andor again?",
+                "nextPhraseID":"brightport_silvear_andor2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor",
+        "message":"Though, you might be interested in what I know about your brother, Andor.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"Andor is my dear brother, i will do whatever it takes to find him, tell me what you know.",
+                "nextPhraseID":"brightport_silvear_andor2"
+            },
+            {
+                "text":"Of course I am! That damn kid has caused me so many problems that I want to find him and smack him in the face.",
+                "nextPhraseID":"brightport_silvear_andor2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silviar_initial1",
+        "message":"I have many ears. I know who you are, and that you are searching for your brother.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"That doesn\u2019t make me any less suspicious of you. So, what is it that you trade?",
+                "nextPhraseID":"brightport_silvear"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silviar_initial2",
+        "message":"I know the names of my fellow guild members, yours especially.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"That doesn\u2019t make me any less suspicious of you. So, what is it that you trade?",
+                "nextPhraseID":"brightport_silvear"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear",
+        "message":"I specialize in trading information, rumors, stories, and the like. not something I could sell to a kid like you.  ",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_andor",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor2",
+        "message":"As I mentioned, I\u2019m a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"Hey,  I've already paid you once!",
+                "nextPhraseID":"brightport_silvear_andor5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":31
+                    }
+                ]
+            },
+            {
+                "text":"For my brother it is worth that much.",
+                "nextPhraseID":"brightport_silvear_andor3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"brightport_silvear_bye",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_bye",
+        "message":"That amount shouldn't be too difficult for an adventurer like you. I'll be waiting.",
+        "switchToNPC":"brightportthieves1"
+    },
+    {
+        "id":"brightport_silvear_andor3",
+        "message":"Thanks for the business kid. ",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_silvear_andor4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":31
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor4",
+        "message":"I've known your brother since his days as a student here at the academy. We spoke a few times; he was mostly interested in speaking to the boss of our guild here in Brightport. That's all.",
+        "replies":[
+            {
+                "text":"I need to talk with your boss then, where can I find them?",
+                "nextPhraseID":"brightport_silvear_boss"
+            },
+            {
+                "text":"Thanks for the information. [leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_andor5",
+        "message":"Can't complain when you're the one asking, kid. ",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"Tch, fine. [Give him the gold]",
+                "nextPhraseID":"brightport_silvear_andor3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"brightport_silvear_bye",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_boss",
+        "message":"Our boss? let me think.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions",
+        "message":"I already told you where to go, kid. Head inside and use the entrance in the back. Thanks for the free gold, though",
+        "switchToNPC":"brightportthieves1"
+    },
+    {
+        "id":"brightport_silvear_directions1",
+        "message":"For you, it\u2019ll be 2,000 gold coins. It\u2019s our hideout, kid, I can\u2019t just give out access for free.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"That price seems a bit excessive \"for me\". I\u2019ve done a lot for the guild. I\u2019m the one who took down Crackshot.",
+                "nextPhraseID":"brightport_silvear_direction4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"I can guarrantee you a lot of trouble if you don't let me in, for free.",
+                "nextPhraseID":"brightport_silvear_bye1"
+            },
+            {
+                "text":"The only thing wider than my purse is my patience for the likes of you. [pay him the gold]",
+                "nextPhraseID":"brightport_silvear_directions3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":2000
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that gold on me.",
+                "nextPhraseID":"brightport_silvear_bye"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_bye1",
+        "message":"You won\u2019t get far with that attitude. Come back when you\u2019ve grown up a bit.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"[He is right, that was childish of me.]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[Tch, if we weren't inside a town, I could show him.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_direction4",
+        "message":"Sure, that was impressive for someone your age, but what goes down in Umar\u2019s turf has little to do with the guild here in Brightport.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"[Bluff] Must I remind you that the profits from Fallhaven's guild deals with Sullengard, are also reaching the guild here in Brightport?",
+                "nextPhraseID":"brightport_silvear_directions5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves04",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"Argh, fine, let's return to the previous conversation.",
+                "nextPhraseID":"brightport_silvear_directions1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions5",
+        "message":"OK OK. fine, I apologize, the guild's policy is for me to inform new members and useful visitors of the hideout for free.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions6",
+        "message":"The entire fee thing was my own idea. please don't tell the boss.",
+        "switchToNPC":"brightportthieves1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions7",
+        "message":"To find our hideout, head inside via the door on the right, then check behind a stool in the upper left corner. best of luck to you kid.",
+        "switchToNPC":"brightportthieves1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions3",
+        "message":"Go inside through the door on the right. In the upper left corner, you\u2019ll spot a protrusion in the wall, that\u2019s where you\u2019ll find our hideout. Bye, kid.",
+        "switchToNPC":"brightportthieves1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":25
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery",
+        "message":"Hello, and welcome to the world famous bakery of Brightport, how may I help you?",
+        "replies":[
+            {
+                "text":"Please show me the menu.",
+                "nextPhraseID":"S"
+            }
+        ]
+    },
+    {
+        "id":"brightport_breadgolem1",
+        "message":"[The mass of dough is slowly pulsating]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_breadgolem2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_breadgolem2",
+        "message":"Please stay away from the bread; you will mess up the leavening process.",
+        "switchToNPC":"brightportnpc7",
+        "replies":[
+            {
+                "text":"Yuck, that looks nothing like bread.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sorry, i didn't know.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor",
+        "message":"Welcome to Brightport's armorsmith, how can I assist you?",
+        "replies":[
+            {
+                "text":"Please show me your inventory.",
+                "nextPhraseID":"S"
             }
         ]
     }
