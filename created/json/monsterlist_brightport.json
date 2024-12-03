@@ -119,12 +119,15 @@
         "id":"brightportbakery",
         "name":"Hortensia",
         "iconID":"monsters_fatboy73:24",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_hortensia"
     },
     {
         "id":"brightportbakery1",
         "name":"Janus",
-        "iconID":"monsters_ld1:15"
+        "iconID":"monsters_ld1:15",
+        "unique":1,
+        "phraseID":"brightport_armor1"
     },
     {
         "id":"brightportinnvisitor",
@@ -337,5 +340,15 @@
         "name":"placeholder",
         "iconID":"monsters_fatboy73:24",
         "unique":1
+    },
+    {
+        "id":"brightport_fawn",
+        "name":"Virulent fawn",
+        "iconID":"monsters_fatboy73:21"
+    },
+    {
+        "id":"brightport_deer",
+        "name":"Virulent deer",
+        "iconID":"monsters_fatboy73:23"
     }
 ]

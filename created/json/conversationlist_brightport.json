@@ -398,7 +398,7 @@
     },
     {
         "id":"brightport_priest_story5",
-        "message":"i have heard stories from adventurer's of lizardmen with scales of different colors, displaying more reason than the red-scaled ones, but stay safe my child.",
+        "message":"I have heard stories from adventurer's of lizardmen with scales of different colors, displaying more reason than the red-scaled ones, but stay safe my child.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -1068,11 +1068,125 @@
     },
     {
         "id":"brightport_armor",
-        "message":"Welcome to Brightport's armorsmith, how can I assist you?",
+        "message":"Welcome to Brightport's armorsmithy, how can I assist you?",
         "replies":[
             {
                 "text":"Please show me your inventory.",
                 "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":33
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor1",
+        "message":"Hi kid, Im Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.",
+        "switchToNPC":"brightportbakery1",
+        "replies":[
+            {
+                "text":"I've already did, and spoke to Freya. ",
+                "nextPhraseID":"brightport_armor2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":33
+                    }
+                ]
+            },
+            {
+                "text":"Sorry to disturb your meal. [Leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_armor2",
+        "message":" Is that so? I'm glad my lovely wife runs the shop while I take a break. I hope you enjoyed what my craftsmanship had to offer.",
+        "replies":[
+            {
+                "text":"I loved them, but my enemies won't.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Quite decent for a backwater town.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Eh, it was alright.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_hortensia",
+        "message":"Hi there, child, today's astronomy class at the Academy. Will be held in the evening, you musn't miss it! ",
+        "replies":[
+            {
+                "text":"I don't have time to attend classes, I must find my brother Andor.",
+                "nextPhraseID":"brightport_hortensia1"
+            },
+            {
+                "text":"Academy, where is that?",
+                "nextPhraseID":"brightport_hortensia3"
+            },
+            {
+                "text":"Sorry to disturb your meal. [Leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_hortensia1",
+        "message":"You are Andor's sibling!  what happened with Andor?",
+        "replies":[
+            {
+                "text":"He has been missing for a while, and so my father sent me out to search for him. Have you seen him?",
+                "nextPhraseID":"brightport_hortensia2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_hortensia2",
+        "message":"I'm afraid I cannot be of much help. I haven't seen Andor since his days at the Brightport academy. I hope you find him soon.",
+        "replies":[
+            {
+                "text":"I hope soo too.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"brightport_hortensia3",
+        "message":"It is surprising for someone visiting Brightport not to know about its Academy. Head to the western part of town, and you will find it.",
+        "replies":[
+            {
+                "text":"I don't have time to attend classes, I must find my brother Andor.",
+                "nextPhraseID":"brightport_hortensia1"
+            },
+            {
+                "text":"Thanks, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_hortensia_selector",
+        "replies":[
+            {
+                
             }
         ]
     }
