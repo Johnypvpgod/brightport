@@ -254,7 +254,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="12" name="Mapevents" visible="0">
+ <objectgroup id="12" name="Mapevents">
   <object id="3" name="north1" type="mapchange" x="128" y="0" width="224" height="32">
    <properties>
     <property name="map" value="waterway10"/>

@@ -333,7 +333,7 @@
     },
     {
         "id":"brightport_priest_story",
-        "message":"Behind it, lies a story, child.",
+        "message":"Behind it, lies a story.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -361,7 +361,7 @@
     },
     {
         "id":"brightport_priest_story2",
-        "message":"But twenty years ago, calamity struck. A race of Erumen lizards, similar to us in form but beastly in nature, engulfed the islands of the lake.",
+        "message":"But twenty years ago, calamity struck. A race of Erumen lizards, uncannily similar to us in form but beastly in nature, engulfed the islands of the lake.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -372,7 +372,7 @@
     },
     {
         "id":"brightport_priest_story3",
-        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. Nowadays, we lament the loss and pray that one day the temple will be returned to its purpose in the worship of the Shadow.",
+        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. The nobles, now as back then, are still preoccupied with trifling matters. I\u2019m afraid we will never reclaim our holy place.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -481,6 +481,7 @@
     },
     {
         "id":"brighport_watchdog",
+        "message":"Sigh. It\u2019s almost time for my shift again, but I can\u2019t complain. The guild pays good money.",
         "switchToNPC":"brightportthieves4"
     },
     {
@@ -505,18 +506,22 @@
     },
     {
         "id":"brightport_inn2",
-        "message":"I'm sorry, but at this time of the year, we get a lot of visitors, and all the beds are occupied.",
+        "message":"I'm sorry, at this time of the year, we get a lot of visitors, and all the beds are occupied.",
         "switchToNPC":"brightportinn",
         "replies":[
             {
                 "text":"Alright, bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[This place is disappointing.]",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brightport_citizen",
-        "message":"Sigh, nowadays the streets are bustling with clamor, and everyone is in a hurry. Yet, despite the noise, the silence feels so much heavier.",
+        "message":"Sigh. Nowadays, the streets are always bustling with clamor, and everyone seems to be in a hurry. I miss the days when I could quietly sit and gaze at the lake.",
         "switchToNPC":"brightportcitizen1"
     },
     {
@@ -1189,5 +1194,92 @@
                 
             }
         ]
+    },
+    {
+        "id":"brightport_oseanpry",
+        "message":"The man looks at you with a hunter-like gaze, giving you a slight shiver.] \n\nA kid like you shouldn't be here.",
+        "switchToNPC":"Brightportthieves5",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"brightport_oseanpry2"
+            },
+            {
+                "text":"What do you mean?",
+                "nextPhraseID":"brightport_oseanpry1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry1",
+        "message":"I can read the naivety off your face. A kid like you will just be used to do someone's dirty work.",
+        "switchToNPC":"Brightportthieves5",
+        "replies":[
+            {
+                "text":"I'm old enough to be responsible for my actions. I do what is right to me.",
+                "nextPhraseID":"brightport_oseanpry3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry2",
+        "message":"Im Oseanpry, a hunter, and the guild's cook. I've hunted the deer of brightport for many years. until the boss hired me to hunt for people.",
+        "switchToNPC":"Brightportthieves5",
+        "replies":[
+            {
+                "text":"Do you have any food for sale?",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Hunt people?",
+                "nextPhraseID":"brightport_oseanpry4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves02",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry3",
+        "message":"Very well, but remember, each of your choices has consequences. Once made, you won\u2019t be able to go back to how things were before.",
+        "switchToNPC":"Brightportthieves5",
+        "replies":[
+            {
+                "text":"Whatever you say.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry4",
+        "message":"Yes, like you did with Ambelie, and just like you, I was also searching for someone close to me... but I can't speak about it now..",
+        "switchToNPC":"Brightportthieves5",
+        "replies":[
+            {
+                "text":"Intriguing, but I have to go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery1",
+        "message":"I came here for the pastries, and it was completely worth it! These apple pies are so good, I could die!"
+    },
+    {
+        "id":"brightport_bakery2",
+        "message":"I've just been to the bakery, and it left a bad taste in my mouth! Those apple pies are so bad, I could die!",
+        "switchToNPC":"brightportinnvisitor"
+    },
+    {
+        "id":"brightport_elynard",
+        "message":"Hello, my name is Elynard, I came here from a beautiful village called Luthaven. You should visit it sometime."
     }
 ]

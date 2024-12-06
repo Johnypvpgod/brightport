@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="15">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="17">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -273,6 +273,12 @@
    <properties>
     <property name="map" value="brightport7"/>
     <property name="place" value="north1"/>
+   </properties>
+  </object>
+  <object id="16" name="west1" type="mapchange" x="0" y="768" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport3"/>
+    <property name="place" value="east1"/>
    </properties>
   </object>
  </objectgroup>

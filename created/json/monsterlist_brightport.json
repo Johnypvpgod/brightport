@@ -132,17 +132,20 @@
     {
         "id":"brightportinnvisitor",
         "name":"Trauerqual",
-        "iconID":"monsters_ld1:105"
+        "iconID":"monsters_ld1:105",
+        "phraseID":"brightport_bakery2"
     },
     {
         "id":"brightportinnvisitor1",
         "name":"Elynard",
-        "iconID":"monsters_karvis2:7"
+        "iconID":"monsters_karvis2:7",
+        "phraseID":"brightport_elynard"
     },
     {
         "id":"brightportbakeryvisitor",
         "name":"Digiani",
-        "iconID":"monsters_ld1:15"
+        "iconID":"monsters_ld1:15",
+        "phraseID":"brightport_bakery1"
     },
     {
         "id":"brightportguard",
@@ -229,7 +232,8 @@
         "id":"Brightportthieves5",
         "name":"Oseanpry",
         "iconID":"monsters_ld1:114",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_oseanpry"
     },
     {
         "id":"brightportstudent",
@@ -348,7 +352,7 @@
     },
     {
         "id":"brightport_deer",
-        "name":"Virulent deer",
+        "name":"Virulent brightdeer",
         "iconID":"monsters_fatboy73:23"
     }
 ]
