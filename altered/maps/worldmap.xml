@@ -398,7 +398,7 @@
     <map area="brightport" id="brightport1" x="582" y="348"/>
     <map area="brightport" id="brightport5" x="630" y="341"/>
     <map area="brightport" id="brightport6" x="630" y="326"/>
-    <map area="brightport" id="brightport7" x="630" y="372"/>
+    <map id="brightport7" x="630" y="372"/>
     <map id="brightport8" x="661" y="359"/>
     <map id="waytobrightport20" x="558" y="357"/>
     <map id="waytobrightport17" x="589" y="374"/>

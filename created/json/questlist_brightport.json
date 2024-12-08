@@ -30,11 +30,11 @@
             },
             {
                 "progress":30,
-                "logText":"Milena, the school cook, claims that she noticed a student, from the living quarters sneaking off at night"
+                "logText":"Milena, the school cook, had told me that she noticed a student from the living quarters sneaking off at night."
             },
             {
                 "progress":31,
-                "logText":"Dibella the Lady from the desk at the entrance, has told me that, as a honor student Stanwick's reputation is respectable but even so, as the student library supervisor he must be considered a suspect."
+                "logText":"Dibella the Lady from the desk at the entrance, had told me that, as a honor student Stanwick's reputation is respectable but even so, as the student library supervisor he must be considered a suspect."
             },
             {
                 "progress":35,
@@ -42,7 +42,7 @@
             },
             {
                 "progress":40,
-                "logText":"Frederich the history teacher who moved in from Feygard believes Stanwick is associated with Those Nor city savages and was told by them to steal the document."
+                "logText":"Frederich the history teacher, who moved in from Feygard, believes Stanwick is associated with Those Nor city savages and was told by them to steal the document."
             },
             {
                 "progress":45,
@@ -50,7 +50,7 @@
             },
             {
                 "progress":46,
-                "logText":"I asked the principal for access to the library, and he denied me "
+                "logText":"I asked the principal for access to the library, and he denied me."
             },
             {
                 "progress":47,
@@ -98,7 +98,7 @@
             },
             {
                 "progress":90,
-                "logText":"I found out from Braema that Andor came to visit and gave her the scroll, in exchange for her knowledge on alchemy."
+                "logText":"I found out from Bryma that Andor came to visit and gave her the scroll, in exchange for her knowledge on alchemy."
             },
             {
                 "progress":92,
@@ -164,8 +164,25 @@
                 "logText":"spoke with hortensia"
             },
             {
-                "progress":37,
-                "logText":"spoke with oseanpry"
+                "progress":40,
+                "logText":"History class over"
+            },
+            {
+                "progress":42,
+                "logText":"franz asked"
+            },
+            {
+                "progress":45,
+                "logText":"note given"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard",
+        "name":"A scaly situation",
+        "stages":[
+            {
+                
             }
         ]
     }

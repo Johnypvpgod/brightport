@@ -13,6 +13,38 @@
         "name":"Secret scroll",
         "displaytype":"quest",
         "category":"other",
-        "description":"Secret scroll kept in te libary of Brightport, requires special permission from the principal to read."
+        "description":"A secret scroll kept in the library of Brightport. The headline reads: Concerning the Mixture of Kazarite Dust in the Base of a Bonemeal Potion. "
+    },
+    {
+        "id":"brightport_fruit",
+        "iconID":"items_japozero:528",
+        "name":"Fresh fruit for Stanwick",
+        "displaytype":"quest",
+        "category":"food",
+        "description":"A gathering of fresh fruit, given to me by Janwick."
+    },
+    {
+        "id":"brightport_bone",
+        "iconID":"items_newb:664",
+        "name":"Lizardman bone",
+        "displaytype":"ordinary",
+        "category":"animal",
+        "description":"Still has a bit of meat on it, could use some drying"
+    },
+    {
+        "id":"brightport_note",
+        "iconID":"items_japozero:426",
+        "name":"Written note",
+        "displaytype":"quest",
+        "category":"other",
+        "description":"The note contains your best attempt at writing down a question. It reads: Could you tell me what you know about the library incident?"
+    },
+    {
+        "id":"brightport_deer",
+        "iconID":"items_newb:625",
+        "name":"Deer antlers",
+        "displaytype":"ordinary",
+        "category":"animal",
+        "description":"Antlers taken from a brightport deer."
     }
 ]

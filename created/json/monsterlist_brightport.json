@@ -3,7 +3,8 @@
         "id":"brightportnpc1",
         "name":"Milena",
         "iconID":"monsters_karvis2:6",
-        "unique":1
+        "unique":1,
+        "phraseID":"brightport_milena"
     },
     {
         "id":"brightportnpc",
@@ -20,13 +21,15 @@
     {
         "id":"brightportnpc3",
         "name":"Dibella",
-        "iconID":"monsters_ld1:188"
+        "iconID":"monsters_ld1:188",
+        "unique":1,
+        "phraseID":"brightport_dibella"
     },
     {
         "id":"brightportnpc4",
         "name":"Franz",
         "iconID":"monsters_ld1:34",
-        "phraseID":"brightport_franz1"
+        "phraseID":"brightport_franz_selector"
     },
     {
         "id":"brightportnpc5",
@@ -61,7 +64,8 @@
     {
         "id":"brightportnpc8",
         "name":"Janwick",
-        "iconID":"monsters_ld1:96"
+        "iconID":"monsters_ld1:96",
+        "phraseID":"brightport_janwick"
     },
     {
         "id":"brightportpriest",
@@ -347,12 +351,12 @@
     },
     {
         "id":"brightport_fawn",
-        "name":"Virulent fawn",
+        "name":"Virulent forest fawn",
         "iconID":"monsters_fatboy73:21"
     },
     {
         "id":"brightport_deer",
-        "name":"Virulent brightdeer",
+        "name":"Virulent forest deer",
         "iconID":"monsters_fatboy73:23"
     }
 ]

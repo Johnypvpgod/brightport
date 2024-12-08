@@ -5,8 +5,43 @@
         "switchToNPC":"brightportnpc4",
         "replies":[
             {
+                "text":"[Give written note]",
+                "nextPhraseID":"brightport_franz2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_note",
+                        "value":1
+                    }
+                ]
+            },
+            {
                 "text":"Never mind, that's quite a hassle.",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"[Guess I\u2019ll find some paper and ink...]",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":42
             }
         ]
     },
@@ -1275,11 +1310,507 @@
     },
     {
         "id":"brightport_bakery2",
-        "message":"I've just been to the bakery, and it left a bad taste in my mouth! Those apple pies are so bad, I could die!",
+        "message":"I've just been to the bakery, and it left a sour taste in my mouth! Those apple pies are so bad, I could die!",
         "switchToNPC":"brightportinnvisitor"
     },
     {
         "id":"brightport_elynard",
         "message":"Hello, my name is Elynard, I came here from a beautiful village called Luthaven. You should visit it sometime."
+    },
+    {
+        "id":"brightport_janwick",
+        "message":"Where did I put my glasses? Was it here... or maybe over there?\n",
+        "switchToNPC":"brightportnpc8",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_janwick1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":110
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_janwick1",
+        "message":"Oh, it\u2019s you, Andor! Even without my glasses, I can tell you haven\u2019t changed a bit. Here to visit Stanwick, I see.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_janwick2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_janwick2",
+        "message":"He\u2019s at the academy, as always. Here, take these fruits with you and give them to him for me, would you?",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":10
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_fruit",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella",
+        "message":"Welcome to the Brightport Academy. I\u2019m Dibella, the principal\u2019s assistant.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":40
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella1",
+        "message":"It\u2019s almost time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
+        "replies":[
+            {
+                "text":"My brother has been missing, so I\u2019m here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
+                "nextPhraseID":"brightport_dibella4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.",
+                "nextPhraseID":"brightport_dibella2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_fruit",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me about the incident again?",
+                "nextPhraseID":"brightport_dibella6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me what know about the library theft?",
+                "nextPhraseID":"brightport_dibella9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella0",
+        "message":"Is there something I could assist you with?",
+        "replies":[
+            {
+                "text":"My brother has been missing, so I\u2019m here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
+                "nextPhraseID":"brightport_dibella4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have this batch of fruit that Janwick asked me to bring to his grandson in his stead.",
+                "nextPhraseID":"brightport_dibella2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_fruit",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me about the incident again?",
+                "nextPhraseID":"brightport_dibella6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Could you tell me what know about the library theft?",
+                "nextPhraseID":"brightport_dibella9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"No, thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella4",
+        "message":"Have you not heard of it? Stanwick is on strict house arrest following the recent library incident. No one is allowed to enter his room except for his roommate and family.",
+        "replies":[
+            {
+                "text":"What incident?",
+                "nextPhraseID":"brightport_dibella5"
+            },
+            {
+                "text":"[If I recall, Stanwick was living here in Brightport with his grandfather. I should seek him out.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella2",
+        "message":"Let me see... that should be fine. I can make an exception if Grandpa Janwick asked you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella3",
+        "message":"Go via the hallway on the left until you reach the dorms, Stanwick's room is the second door in the middle.",
+        "replies":[
+            {
+                "text":"Thank you miss.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella5",
+        "message":"Oh, I thought you were a student here. My memory must be mistaken.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella6",
+        "message":"Several days ago, the principal discovered that an extremely important document went missing from the basement archive of the library.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella7",
+        "message":"It must have been of that much importance. That immediately the school was put on curfew and every student and teacher was interrogated. ",
+        "replies":[
+            {
+                "text":"You mean, you don't know what was written inside it?",
+                "nextPhraseID":"brightport_dibella8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella8",
+        "message":"My job entails depositing paperwork in the archive, not reading it. Any necessary document I keep in my desk. Besides, the important documents are locked in a box that only the principal is allowed to open.",
+        "replies":[
+            {
+                "text":"I see, thanks.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[This might turn out to be a bigger hassle than I thought.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_milena",
+        "message":"Ah, this deer soup smells just heavenly.",
+        "replies":[
+            {
+                "text":"Could you sell me some traveling supplies?",
+                "nextPhraseID":"brightport_milena1"
+            },
+            {
+                "text":"Excuse me, could you tell me what know about the library theft?",
+                "nextPhraseID":"brightport_milena2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"Soup from those creepy deer? Yuck.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_franz2",
+        "message":"I\u2019ll read it next after I\u2019m done with this other paper. Please come back later.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":45
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"franz_note_read_timer"
+            }
+        ]
+    },
+    {
+        "id":"brightport_franz",
+        "message":"I\u2019ve read your question, but I must say, your handwriting could use some improvement.",
+        "replies":[
+            {
+                "text":"Hey, if you slayed dragons like me, you wouldn\u2019t have time to practice either.",
+                "nextPhraseID":"brightport_franz4"
+            },
+            {
+                "text":"Tsk, skip to the answer part please.",
+                "nextPhraseID":"brightport_franz4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_franz_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_franz3",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"franz_note_read_timer",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"Stanwickquest",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_franz",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":45
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"franz_note_read_timer",
+                        "value":20,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_franz1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_franz3",
+        "message":"I haven\u2019t read your question yet. Come back later."
+    },
+    {
+        "id":"brightport_franz4",
+        "message":"There is not much I can tell you about the incident. None of us teachers knew anything about the scroll or where it was kept. In such a case, one could presume that the most logical step would be to investigate the room where it was kept.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_franz5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"brightport_franz5",
+        "message":"However, the library was locked, so you would need to ask the principal for permission.",
+        "replies":[
+            {
+                "text":"Thanks, I will do that.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella9",
+        "message":"I take it you are looking to help your friend Stanwick. Very well.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella10",
+        "message":"Stanwick is an honor student. But the importance of a secret document passed down to each generation's headmaster far outweighs his merits.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella11",
+        "message":"As the library supervisor, he performed his duties very well. Unfortunately, that put him closest to the theft. Both his grandfather and the town council approved of the decision. That is all I can say.",
+        "replies":[
+            {
+                "text":"Interesting, thanks.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":31
+            }
+        ]
+    },
+    {
+        "id":"brightport_milena1",
+        "message":"No sorry, the dining room is for students only.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_milena"
+            }
+        ]
+    },
+    {
+        "id":"brightport_milena2",
+        "message":"I don't know much about it, to be honest. I'm just the cook. But...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_milena3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_milena3",
+        "message":"A longer time ago than the incident, even before the last graduation class, one evening I was preparing the soup stock for the next day when I noticed a dark figure going outside from the direction of the dormitory.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_milena4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_milena4",
+        "message":"I assumed that I was just tired and didn\u2019t give it much thought. I told the headmaster, but it didn\u2019t seem to be related to the theft. That\u2019s all.",
+        "replies":[
+            {
+                "text":"Interesting, thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]
