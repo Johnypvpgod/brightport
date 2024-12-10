@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="13" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="10">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="13" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="14">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -213,6 +213,21 @@
    <properties>
     <property name="map" value="brightport_school1"/>
     <property name="place" value="class1"/>
+   </properties>
+  </object>
+  <object id="10" name="brightport_write" type="script" x="128" y="256" width="32" height="160">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object id="11" name="ink_paper_check" type="script" x="160" y="160" width="96" height="256">
+   <properties>
+    <property name="when" value="step"/>
+   </properties>
+  </object>
+  <object id="13" name="brightport_write" type="script" x="256" y="256" width="32" height="160">
+   <properties>
+    <property name="when" value="step"/>
    </properties>
   </object>
  </objectgroup>

@@ -46,5 +46,30 @@
         "displaytype":"ordinary",
         "category":"animal",
         "description":"Antlers taken from a brightport deer."
+    },
+    {
+        "id":"brightport_ink",
+        "iconID":"items_japozero:461",
+        "name":"Ink",
+        "category":"other"
+    },
+    {
+        "id":"brightport_paper",
+        "iconID":"items_japozero:421",
+        "name":"Paper"
+    },
+    {
+        "id":"brightport_meat",
+        "iconID":"items_newb:773",
+        "name":"Cooked deer meat",
+        "displaytype":"ordinary",
+        "category":"food"
+    },
+    {
+        "id":"brightport_rawmeat",
+        "iconID":"items_newb:772",
+        "name":"Raw deer meat",
+        "displaytype":"ordinary",
+        "category":"food"
     }
 ]

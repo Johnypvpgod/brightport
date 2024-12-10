@@ -11,7 +11,8 @@
         "name":"Stanwick",
         "iconID":"monsters_fatboy73:22",
         "unique":1,
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"brightport_stanwick_selector"
     },
     {
         "id":"brightportnpc2",
@@ -39,7 +40,9 @@
     {
         "id":"brightportnpc6",
         "name":"Oswald",
-        "iconID":"monsters_ld1:56"
+        "iconID":"monsters_ld1:56",
+        "unique":1,
+        "phraseID":"oswald_selector"
     },
     {
         "id":"brightportnpc7",
@@ -357,6 +360,15 @@
     {
         "id":"brightport_deer",
         "name":"Virulent forest deer",
-        "iconID":"monsters_fatboy73:23"
+        "iconID":"monsters_fatboy73:23",
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"brightport_worm",
+                    "magnitude":1,
+                    "duration":1
+                }
+            ]
+        }
     }
 ]
