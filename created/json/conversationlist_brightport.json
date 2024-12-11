@@ -1183,7 +1183,7 @@
     },
     {
         "id":"brightport_hortensia1",
-        "message":"You are Andor's sibling!  what happened with Andor?",
+        "message":"That boy Andor? he was a bit unremarkable but he had a real passion for astronomy. What has happened to him?",
         "replies":[
             {
                 "text":"He has been missing for a while, and so my father sent me out to search for him. Have you seen him?",
@@ -1409,6 +1409,11 @@
                         "requireID":"Stanwickquest",
                         "value":15,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":110
                     }
                 ]
             },
@@ -1438,6 +1443,12 @@
                         "requireID":"Stanwickquest",
                         "value":96,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":66,
+                        "negate":false
                     }
                 ]
             },
@@ -1449,6 +1460,12 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96,
+                        "negate":true
                     }
                 ]
             }
@@ -1467,6 +1484,11 @@
                         "requireID":"Stanwickquest",
                         "value":15,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":110
                     }
                 ]
             },
@@ -1496,6 +1518,11 @@
                         "requireID":"Stanwickquest",
                         "value":96,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":66
                     }
                 ]
             },
@@ -1507,6 +1534,12 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96,
+                        "negate":true
                     }
                 ]
             },
@@ -1584,6 +1617,13 @@
             {
                 "text":"You mean, you don't know what was written inside it?",
                 "nextPhraseID":"brightport_dibella8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":66
             }
         ]
     },
@@ -1818,6 +1858,15 @@
         "message":"",
         "replies":[
             {
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":20
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"brightport_stanwick1"
             }
@@ -1884,16 +1933,23 @@
     },
     {
         "id":"brightport_stanwick2",
-        "message":"Yeah, I bet. The only fun things we could do were to pull pranks on Leta or catch bugs.",
+        "message":"Yeah, I bet. Crossglen can be pretty boring, but it\u2019s also nostalgic.",
         "replies":[
             {
-                
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick4"
             }
         ]
     },
     {
         "id":"brightport_stanwick3",
-        "message":"Someone had to go buy the bread, and pull the weeds. And it wasn't going to be us."
+        "message":"Someone had to go buy the bread, and pull the weeds. And it wasn't going to be us.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick4"
+            }
+        ]
     },
     {
         "id":"ink_paper_check",
@@ -2318,7 +2374,7 @@
                 ]
             },
             {
-                "text":"",
+                "text":"N",
                 "nextPhraseID":"oswald_quest",
                 "requires":[
                     {
@@ -2343,12 +2399,71 @@
     },
     {
         "id":"oswald_start",
-        "message":"Hey, kid, stop running around my office."
+        "message":"Hey, kid, stop running around my office! You\u2019re distracting me from my work."
     },
     {
         "id":"oswald_end"
     },
     {
         "id":"oswald_quest"
+    },
+    {
+        "id":"brightport_stanwick4",
+        "message":"Still, though, it\u2019s been a while, huh? Six years since my father sent me to Crossglen for safety, when I met Andor and you.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_stanwick5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick5",
+        "message":"By the way, did Andor accompany you here? I was hoping I could ask for his help on something.",
+        "replies":[
+            {
+                "text":"Andor has been missing, and I was sent here to search for him.",
+                "nextPhraseID":"brightport_stanwick6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick6",
+        "message":"That\u2019s terrible news. But strangely, I\u2019m not that surprised--something about his behavior before graduation was bothering me.",
+        "replies":[
+            {
+                "text":"That might be something that could help my search. Could you tell me more?",
+                "nextPhraseID":"brightport_stanwick7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick7",
+        "message":"I wish I could, but now\u2019s not the right time. This incident that\u2019s happened has left my memory in a haze.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick8",
+        "message":"At this rate I will be freed of suspicion, but if they don't find the scroll while im still on room arrest, my reputation might never recover.",
+        "replies":[
+            {
+                "text":"I could help you with that.",
+                "nextPhraseID":"brightport_stanwick9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_incident",
+        "message":""
+    },
+    {
+        "id":"brightport_stanwick_incident1"
+    },
+    {
+        "id":"brightport_stanwick9"
     }
 ]

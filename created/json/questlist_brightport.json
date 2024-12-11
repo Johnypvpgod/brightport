@@ -17,10 +17,6 @@
                 "logText":"I was allowed to visit Stanwick."
             },
             {
-                "progress":16,
-                "logText":"Stanwick has something important to tell me about Andor but I must help him first."
-            },
-            {
                 "progress":20,
                 "logText":"Stanwick is currently under investigation as the main suspect in the disappearance of an important scroll from the school library."
             },
@@ -206,6 +202,10 @@
             {
                 "progress":65,
                 "logText":"second step done"
+            },
+            {
+                "progress":66,
+                "logText":"Dibella incident asked"
             }
         ]
     },

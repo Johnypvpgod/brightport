@@ -78,7 +78,7 @@
     },
     {
         "id":"brightportarmor",
-        "name":"Freya",
+        "name":"Frejya",
         "iconID":"monsters_ld1:148",
         "phraseID":"brightport_armor"
     },
@@ -131,14 +131,14 @@
     },
     {
         "id":"brightportbakery1",
-        "name":"Janus",
+        "name":"Jannus",
         "iconID":"monsters_ld1:15",
         "unique":1,
         "phraseID":"brightport_armor1"
     },
     {
         "id":"brightportinnvisitor",
-        "name":"Trauerqual",
+        "name":"Trauerquol",
         "iconID":"monsters_ld1:105",
         "phraseID":"brightport_bakery2"
     },
