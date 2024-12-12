@@ -1,0 +1,120 @@
+[
+    {
+        "id":"andor",
+        "name":"Search for Andor",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":1,
+                "logText":"My father Mikhail says that Andor has not been home since yesterday. I should go look for him in the village.",
+                "finishesQuest":0
+            },
+            {
+                "progress":10,
+                "logText":"Leonid tells me that he saw Andor talking to Gruil. I should go ask Gruil if he knows more.",
+                "finishesQuest":0
+            },
+            {
+                "progress":20,
+                "logText":"Gruil wants me to bring him a poison gland. Then he might talk more. He tells me that some poisonous snakes have such a gland.",
+                "finishesQuest":0
+            },
+            {
+                "progress":30,
+                "logText":"Gruil tells me that Andor was looking for someone called Umar. I should go ask his friend Gaela in Fallhaven to the east.",
+                "finishesQuest":0
+            },
+            {
+                "progress":40,
+                "logText":"I talked to Gaela in Fallhaven. He tells me to go see Bucus and ask about the Thieves' Guild.",
+                "finishesQuest":0
+            },
+            {
+                "progress":50,
+                "logText":"Bucus has allowed me to enter the hatch in the derelict house in Fallhaven. I should go talk to Umar.",
+                "finishesQuest":0
+            },
+            {
+                "progress":51,
+                "logText":"Umar in the Fallhaven Thieves' Guild recognized me, but must have me confused with Andor. Apparently, Andor has been to see him.",
+                "finishesQuest":0
+            },
+            {
+                "progress":55,
+                "logText":"Umar told me that Andor went to see a potion maker called Lodar. I should search for his hideaway.",
+                "finishesQuest":0
+            },
+            {
+                "progress":61,
+                "logText":"I heard a story in Loneford, where it seemed like Andor had been in Loneford, and that he might have had something to do with the illness that the people are suffering from there. I am not sure if it actually was Andor. If it was Andor, why would he have made the people of Loneford ill?",
+                "finishesQuest":0
+            },
+            {
+                "progress":62,
+                "logText":"Andor might have gone to do some business with a rich man in Brimhaven after he left Loneford."
+            },
+            {
+                "progress":65,
+                "logText":"It looks like Andor was involved in the destruction of the Brimhaven dam."
+            },
+            {
+                "progress":70,
+                "logText":"I have found the potion-maker Lodar, and heard his story about Andor. Andor went to visit Lodar in his hideaway to get a sample of something called Narwood extract. Lodar happened to notice that there was someone travelling together with Andor, that hid among the trees and did not seem to want Lodar to spot him.",
+                "finishesQuest":0
+            },
+            {
+                "progress":71,
+                "logText":"Shortly after Andor and the person he was travelling with had left, strange things started to happen in the woods around Lodar's hideaway, and Lodar himself seemed to be affected by it somehow. Lodar believes that something disturbed the tomb below his cabin, and awoke the Hira'zinn.",
+                "finishesQuest":0
+            },
+            {
+                "progress":72,
+                "logText":"Since I helped Lodar defeat the Hira'zinn, he promised to help me in return. He gave me a piece of paper that should allow me to enter the Valanyr temple of the Shadow in Nor City. He told me to seek out lady Lydalon in the temple for further assistance.",
+                "finishesQuest":0
+            },
+            {
+                "progress":80,
+                "logText":"All clues so far as to where Andor went point to Nor City. I should travel to Nor City by following the Duleian road to the southeast and look for more clues there.",
+                "finishesQuest":0
+            },
+            {
+                "progress":85,
+                "logText":"Andor may have been in Stoutford."
+            },
+            {
+                "progress":86,
+                "logText":"Andor had something to do with the demon under the church in Stoutford."
+            },
+            {
+                "progress":90,
+                "logText":"At Castle Guynmart I learned from Steward Unkorh that some time ago Andor was also there as a guest.",
+                "finishesQuest":0
+            },
+            {
+                "progress":92,
+                "logText":"Unkorh gave me the bonemeal potion box that Andor had given him for safekeeping.",
+                "finishesQuest":0
+            },
+            {
+                "progress":100,
+                "logText":"While exploring the town of Sullengard, I so happened to stumble upon my mother and my aunt to whom I have never met. Mother has insisted that I go home so we can talk."
+            },
+            {
+                "progress":110,
+                "logText":"After talking with mother back at home, she and I tried to brainstorm about where Andor could be. She reminded me about Andor's friend Stanwick who lives in Brightport. We agreed that going to talk to him might be the next logical thing to do.\n\n[Quest is not completable at this time.]",
+                "rewardExperience":2000
+            },
+            {
+                "progress":120,
+                "logText":"In the dungeons of Laeroth manor, Kotheses, the torturer, mentioned that he had taught Andor the basics of torturing."
+            },
+            {
+                "progress":125,
+                "logText":""
+            },
+            {
+                "progress":130
+            }
+        ]
+    }
+]

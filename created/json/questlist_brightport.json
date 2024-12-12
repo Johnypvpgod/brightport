@@ -17,20 +17,24 @@
                 "logText":"I was allowed to visit Stanwick."
             },
             {
-                "progress":20,
+                "progress":16,
                 "logText":"Stanwick is currently under investigation as the main suspect in the disappearance of an important scroll from the school library."
             },
             {
+                "progress":20,
+                "logText":" Stanwick has something important to tell me about Andor, but I must help him first."
+            },
+            {
                 "progress":25,
-                "logText":"I agreed to help Stanwick find the culprit of the theft, i should look for clues around the school."
+                "logText":"I agreed to help Stanwick find the culprit of the theft, I should look for clues around the school."
             },
             {
                 "progress":30,
-                "logText":"Milena, the school cook, had told me that she noticed a student from the living quarters sneaking off at night."
+                "logText":"Milena, the school cook, had told me that she noticed a student from the living quarters sneaking off at night months prior."
             },
             {
                 "progress":31,
-                "logText":"Dibella the Lady from the desk at the entrance, had told me that, as a honor student Stanwick's reputation is respectable but even so, as the student library supervisor he must be considered a suspect."
+                "logText":"Dibella the Lady from the desk at the entrance, had told me that, as a honor student Stanwick's reputation is respectable but even so, as the library supervisor he must be considered a suspect."
             },
             {
                 "progress":35,
@@ -46,11 +50,11 @@
             },
             {
                 "progress":46,
-                "logText":"I asked the principal for access to the library, and he denied me."
+                "logText":"I asked the headmaster for access to the library, and he denied me."
             },
             {
                 "progress":47,
-                "logText":"I stole the library's key from a shelf while the principal was distracted. This will have consequences."
+                "logText":"I stole the library's key from a shelf while the headmaster was distracted. This will have consequences."
             },
             {
                 "progress":50,
@@ -90,7 +94,7 @@
             },
             {
                 "progress":86,
-                "logText":"Inside the forest was a cabin, in which i found Bryma and some strange golems made of bread."
+                "logText":"Inside the forest was a cabin, in which I found Bryma and some strange golems made of bread."
             },
             {
                 "progress":90,
@@ -206,6 +210,10 @@
             {
                 "progress":66,
                 "logText":"Dibella incident asked"
+            },
+            {
+                "progress":70,
+                "logText":"stanwick found told"
             }
         ]
     },

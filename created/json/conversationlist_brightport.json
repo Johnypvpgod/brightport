@@ -1561,6 +1561,13 @@
                 "text":"[If I recall, Stanwick was living here in Brightport with his grandfather. I should seek him out.]",
                 "nextPhraseID":"X"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":5
+            }
         ]
     },
     {
@@ -1608,11 +1615,18 @@
                 "text":"N",
                 "nextPhraseID":"brightport_dibella7"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":16
+            }
         ]
     },
     {
         "id":"brightport_dibella7",
-        "message":"It must have been of that much importance. That immediately the school was put on curfew and every student and teacher was interrogated. ",
+        "message":"It must have been of that much importance. That immediately the school was put on curfew and every senior student and teacher was interrogated. ",
         "replies":[
             {
                 "text":"You mean, you don't know what was written inside it?",
@@ -1858,17 +1872,60 @@
         "message":"",
         "replies":[
             {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_end",
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"Stanwickquest",
-                        "value":20
+                        "requireID":"brightport_nondisplay",
+                        "value":70
                     }
                 ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_stanwick1"
+                "nextPhraseID":"brightport_stanwick12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":16
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":16,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_common",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":130
+                    }
+                ]
             }
         ]
     },
@@ -2444,11 +2501,18 @@
                 "text":"N",
                 "nextPhraseID":"brightport_stanwick8"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":20
+            }
         ]
     },
     {
         "id":"brightport_stanwick8",
-        "message":"At this rate I will be freed of suspicion, but if they don't find the scroll while im still on room arrest, my reputation might never recover.",
+        "message":"At this rate I will be freed of suspicion, but if they don't find the stolen document while im still on room arrest, my reputation might never recover.",
         "replies":[
             {
                 "text":"I could help you with that.",
@@ -2458,12 +2522,163 @@
     },
     {
         "id":"brightport_stanwick_incident",
-        "message":""
+        "message":"Several days ago, I was attending to my duties in the library when Headmaster Oswald came in to access the archive. When he returned, he was in a panic about a missing document. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_incident1"
+            }
+        ]
     },
     {
-        "id":"brightport_stanwick_incident1"
+        "id":"brightport_stanwick_incident1",
+        "message":"Of course, I had nothing to do with it. As a matter of fact, the Headmaster and his assistant were the only ones I\u2019ve seen go down there.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_incident2"
+            }
+        ]
     },
     {
-        "id":"brightport_stanwick9"
+        "id":"brightport_stanwick9",
+        "message":"You would? But still, I\u2019m not sure. This might be as difficult as finding a needle in a haystack.",
+        "replies":[
+            {
+                "text":"You can trust me. I\u2019ve solved all sorts of mysteries on this journey.",
+                "nextPhraseID":"brightport_stanwick10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick10",
+        "message":"Thank you $playername, Im convinced I can entrust this to you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick11",
+        "message":"OK. You should start by asking people around the academy. maybe it will send you in the right direction. Good luck.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick12",
+        "message":"How's the investigation going, $playername?",
+        "replies":[
+            {
+                "text":"Do you know how I can enter the library?",
+                "nextPhraseID":"brightport_stanwick13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":45
+                    }
+                ]
+            },
+            {
+                "text":"Could you explain to me the details surrounding the incident?",
+                "nextPhraseID":"brightport_stanwick_incident"
+            },
+            {
+                "text":"I found and returned the document to the headmaster, he'll release an apology for you later.",
+                "nextPhraseID":"brightport_stanwick16"
+            },
+            {
+                "text":"I'm still searching.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick13",
+        "message":"I gave the principal my library key. You should try asking him.",
+        "replies":[
+            {
+                "text":"I already did and he refused to give me the key.",
+                "nextPhraseID":"brightport_stanwick_key",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":46
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_incident2",
+        "message":"Shortly after, every senior student and teacher was gathered in the lecture room for questioning. No one knew much about it, so it was over quickly. Afterwards, the headmaster decided I would stay in my room until the end of the investigation.  ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_incident3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_incident3",
+        "message":"All things considered, it was a reasonable response. The safekeeping of the archive was partly my responsibility. But being told to stay put while I could have done something to help find it, feels deeply unfair to me.",
+        "replies":[
+            {
+                "text":"Alright, interesting.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_key",
+        "message":"Hmm, let me think.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick14",
+        "message":"I once accidentally damaged an expensive book cover. To get it fixed, I turned to someone nicknamed Counterfeit from the Brightport thieves guild. He managed to restore it in no time. You should try asking him for help.",
+        "replies":[
+            {
+                "text":"Where can I find the thieves guild?",
+                "nextPhraseID":"brightport_stanwick15"
+            },
+            {
+                "text":"I know exactly where to look.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick15",
+        "message":"It's against the rules to tell, try asking a man named Silvear, you'll recognize him by his blue cloak."
+    },
+    {
+        "id":"brightport_stanwick_end"
+    },
+    {
+        "id":"brightport_stanwick_common",
+        "message":"Hey $playername, how is your search going?",
+        "replies":[
+            {
+                "text":"I'm still looking for Andor.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick16"
     }
 ]
