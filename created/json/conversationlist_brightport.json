@@ -2442,6 +2442,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"oswald_start",
                 "requires":[
                     {
@@ -2456,13 +2457,53 @@
     },
     {
         "id":"oswald_start",
-        "message":"Hey, kid, stop running around my office! You\u2019re distracting me from my work."
+        "message":"Hey, kid, stop running around my office! You\u2019re distracting me from my work.",
+        "replies":[
+            {
+                "text":"Excuse me sir. I wish to help Stanwick by investigating the theft. Could you tell me more about it?",
+                "nextPhraseID":"brightport_oswald"
+            }
+        ]
     },
     {
         "id":"oswald_end"
     },
     {
-        "id":"oswald_quest"
+        "id":"oswald_quest",
+        "message":"Hey kid, any progress on finding the scroll? ",
+        "replies":[
+            {
+                "text":"I have the scroll here, take it.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_scroll",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_oswald7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":46,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"No, not really.",
+                "nextPhraseID":"brightport_oswald6"
+            }
+        ]
     },
     {
         "id":"brightport_stanwick4",
@@ -2619,7 +2660,7 @@
     },
     {
         "id":"brightport_stanwick_incident2",
-        "message":"Shortly after, every senior student and teacher was gathered in the lecture room for questioning. No one knew much about it, so it was over quickly. Afterwards, the headmaster decided I would stay in my room until the end of the investigation.  ",
+        "message":"Shortly after, every senior student, and teacher were gathered in the lecture room for questioning. No one knew much about it, so it was over quickly. Afterwards, the headmaster decided I would stay in my room until the end of the investigation.  ",
         "replies":[
             {
                 "text":"N",
@@ -2680,5 +2721,95 @@
     },
     {
         "id":"brightport_stanwick16"
+    },
+    {
+        "id":"brightport_bryma_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma",
+        "message":"A visitor, how unusual. I presume you haven\u2019t simply stumbled upon my cabin by accident."
+    },
+    {
+        "id":"brightport_oswald",
+        "message":"Forget it, kid. This is none of your concern. What makes you think you should be involved?",
+        "replies":[
+            {
+                "text":"It\u2019s unfair that Stanwick, whose name is most to suffer from the theft, was told to stay put.",
+                "nextPhraseID":"brightport_oswald2"
+            },
+            {
+                "text":"I made a deal with Stanwick. I scratch his back, and he scratches mine.",
+                "nextPhraseID":"brightport_oswald1"
+            },
+            {
+                "text":"Nothing. I wish to help out of the kindness of my heart.",
+                "nextPhraseID":"brightport_oswald0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald0",
+        "message":"You sound like trouble, kid. Take my advice and stick your nose somewhere else."
+    },
+    {
+        "id":"brightport_oswald1",
+        "message":"Those who are eager to help with nothing to gain are usually the most meddlesome bunch. At least I can take your word on that, kid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald2",
+        "message":"I admit that this decision might put Stanwick's future with the Ryfarion family of Nor city at risk. but the safety of the academy comes first. I am sure of Stanwick's innocence, but I had to make sure the information wouldn't reach the wrong hands. ",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_oswald3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald3",
+        "message":"If the lord in charge of the town of Brightport learns of the contents of the scroll, we will be accused of treason, heads might roll, and our town\u2019s standing will be greatly diminished. Do you understand what\u2019s at stake now?",
+        "replies":[
+            {
+                "text":"Yes, it was a reasonable action.",
+                "nextPhraseID":"brightport_oswald4"
+            },
+            {
+                "text":"That still doesn't make it right.",
+                "nextPhraseID":"brightport_oswald5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald4",
+        "message":"Very well then, I accept your assistance on this matter. report back to me on your findings.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald5",
+        "message":"Then you have some growing up to do."
+    },
+    {
+        "id":"brightport_oswald6",
+        "message":"I had no expectations of you in the first place. now stroll along."
+    },
+    {
+        "id":"brightport_oswald7"
     }
 ]
