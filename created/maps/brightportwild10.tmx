@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="2">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -219,7 +219,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="25">
   <data encoding="base64" compression="zlib">
-   eJztkz1Ow0AQhUciHVVKkpi1haAEpHQYIkh6moifkoZfcaNwhqRHgFuEkpIrgDgCHTPyjPZ5Y3AsGgpGGu16Pfvte7M20X/81biPiR7j3zMeNDPOJ2Xael3+SOvHPE45J8rMdN34dXjCmumeF2XaGTK/q8kzDanzzKmeYe/RO/bI1m3N9BjzOiG6SfJ9XefZE+Bm8ff9QY/mq+OKHuQ57LNo3wrOGwNzFM/3aQe42APhHKx5Lx3lzmA/8ta5ZkM9n/N4kfi9A1fuwWoXCWOWReSKPT9iTSecp5zHoBfPb8Ec2V1XrDd9ctdyP+K3V+LDYr/Eq/H7sGZ3V+e7lbhkzpVqQs/hP4L3EeqpisOIaMi5HS1Wj73s8Z7VIIXVj4raTU+rhi6Ls+jn7yH0HtZiL6T2bYnonTNl7keT6HaF6LXC+16F7uVGPqbKaQf1u25eJ2qXeuvXZsO//2Sdz818PggYbXjG9dDvF3YPdAk=
+   eJztk79Ow0AMxi3BxtSRtuESIRgBqRuBCtqdBQEdu/BXvFF5hnZHQFaE2pFXAPEIbNiKrXy5Hg0RCwOWrCSu73ff57sS/cdfjfuY6DH+PeNBM+N8UqbV6/JH2j/m55RzosxM68avwxPWTNe8KNP2kPe7mjzTkLqCOdU97Hf0jjOyutVMjzGvE6KbJF/XcQV7Atws/n4+6NF8tV3Zg3z7cxbt295+Y2CO4vk57QIXZyCcw/XCS1u5M1iPvA3u2VTP5/y8SIq1fRf2YL0/CWOGInLlmZ+wpjPOAeep6kui8v5NeEd2B+rSb/rkrOV8xG834MPiIODV+D2o2dkturei2Y9L5lypJvTs/0fwPHw9VXHE+x5z7gT2DwXOsstr1rwUVi8qazc9zRq6LIbR4vvge/d7cRbS+7ZE9M6ZMvejQXS7SvRa4X2/QvfKcv5MldPy+vfcvE7ULv02ry1lyd38ZJ3Pjfy77zFa8I113+8X2w101w==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="25">
@@ -241,6 +241,16 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="7" name="Keys">
+  <object id="2" name="stanwick_quest" type="key" x="448" y="384" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_archive"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Replace"/>
 </map>

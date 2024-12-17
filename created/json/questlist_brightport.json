@@ -214,6 +214,18 @@
             {
                 "progress":70,
                 "logText":"stanwick found told"
+            },
+            {
+                "progress":75,
+                "logText":"denied key"
+            },
+            {
+                "progress":80,
+                "logText":"principal distracted"
+            },
+            {
+                "progress":85,
+                "logText":"returned scroll"
             }
         ]
     },

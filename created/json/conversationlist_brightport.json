@@ -2421,12 +2421,23 @@
         "id":"oswald_selector",
         "replies":[
             {
-                "nextPhraseID":"oswald_end",
+                "text":"N",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":96
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"oswald_end",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":85
                     }
                 ]
             },
@@ -2484,6 +2495,7 @@
                 ]
             },
             {
+                "text":"If I could investigate the library, I could find something.",
                 "nextPhraseID":"brightport_oswald7",
                 "requires":[
                     {
@@ -2495,6 +2507,23 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":46,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sir, what's that thing looking at us from the window?",
+                "nextPhraseID":"brightport_oswald_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":46
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":50,
                         "negate":true
                     }
                 ]
@@ -2759,7 +2788,7 @@
     },
     {
         "id":"brightport_oswald1",
-        "message":"Those who are eager to help with nothing to gain are usually the most meddlesome bunch. At least I can take your word on that, kid.",
+        "message":"Those who are eager to help with nothing to gain are usually the most vicious bunch. At least I can take your word on that, kid.",
         "replies":[
             {
                 "text":"N",
@@ -2810,6 +2839,158 @@
         "message":"I had no expectations of you in the first place. now stroll along."
     },
     {
-        "id":"brightport_oswald7"
+        "id":"brightport_oswald7",
+        "message":"I won't allow it. If this is as far as you go with the investigation, then so be it.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_oswald8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":46
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald8",
+        "message":"[You notice a key on shelf under the desk, if he were distracted for a moment you could steal it]",
+        "replies":[
+            {
+                "text":"[I should distract him.]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[There has to be a different way.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald9",
+        "message":"[The headmaster look in the direction of the window. For a moment he is distracted.]",
+        "replies":[
+            {
+                "text":"[Grab the key.]",
+                "nextPhraseID":"brightport_oswald11"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald10",
+        "message":"I won't fall for the same joke twice. Find something better to do with your time."
+    },
+    {
+        "id":"brightport_oswald11",
+        "message":"That's not funny, there was nothing there.",
+        "replies":[
+            {
+                "text":"It was probably a bird, must have flew away, probably.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"At your age poor eyesight's not uncommon.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_key",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_archive",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_archive1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_archive1",
+        "message":"[You rummage carefully through the shelves and drawers, eventually spotting something unusual. A bundle of papers tied together with twine, tucked behind a stack of old records.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_archive2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_archive2",
+        "message":"[You untangle the bundle and read through some of the letters. They seem to be correspondence addressed to the past headmaster. Finally, you find one that reads: \"A request for the headmaster in regards to the secret recipe.\"]",
+        "replies":[
+            {
+                "text":"[Continue reading.]",
+                "nextPhraseID":"brightport_archive3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_archive3",
+        "message":"[Sir Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?]\nSigned, Bryma.",
+        "replies":[
+            {
+                "text":"This seems to be from many years ago. I should seek their whereabouts out, the graveyard might be a good place to start.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":55
+            }
+        ]
     }
 ]
