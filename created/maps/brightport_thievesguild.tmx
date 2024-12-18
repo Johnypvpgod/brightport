@@ -295,9 +295,9 @@
  <objectgroup name="Keys">
   <object name="Object" type="key" x="544" y="96" width="32" height="32">
    <properties>
-    <property name="requireId" value="nondisplay_2"/>
+    <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="280"/>
+    <property name="requireValue" value="20"/>
    </properties>
   </object>
  </objectgroup>

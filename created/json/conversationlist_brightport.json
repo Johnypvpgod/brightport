@@ -77,7 +77,7 @@
     },
     {
         "id":"brightport_student_2_reply",
-        "message":"His name is Frederich. He was sent here as a teacher after Lord Geomyr took the throne--though that was long before I came here. I only heard about it from my upperclassmen.",
+        "message":"His name is Frederich. He was sent here as a teacher after Lord Geomyr took the throne. Though that was long before I came here. I only heard about it from my upperclassmen.",
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
@@ -656,7 +656,7 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":15,
-                        "negate":true
+                        "negate":false
                     }
                 ]
             },
@@ -715,7 +715,9 @@
         ],
         "rewards":[
             {
-                "rewardType":"questProgress"
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":15
             }
         ]
     },
@@ -856,6 +858,7 @@
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_silvear_andor4"
             }
         ],
@@ -1319,7 +1322,7 @@
     },
     {
         "id":"brightport_janwick",
-        "message":"Where did I put my glasses? Was it here... or maybe over there?\n",
+        "message":"Where did I put my glasses? Was it here... or maybe over there?",
         "switchToNPC":"brightportnpc8",
         "replies":[
             {
@@ -1727,6 +1730,11 @@
                         "requireID":"Stanwickquest",
                         "value":45,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":45
                     }
                 ]
             },
@@ -2978,7 +2986,7 @@
     },
     {
         "id":"brightport_archive3",
-        "message":"[Sir Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?]\nSigned, Bryma.",
+        "message":"[Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?]\nSigned, Bryma.",
         "replies":[
             {
                 "text":"This seems to be from many years ago. I should seek their whereabouts out, the graveyard might be a good place to start.",

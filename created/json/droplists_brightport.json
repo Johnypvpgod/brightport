@@ -1,0 +1,21 @@
+[
+    {
+        "id":"brightport_alain_shop",
+        "items":[
+            {
+                "itemID":"brightport_paper",
+                "quantity":{
+                    "min":0,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"brightport_ink",
+                "quantity":{
+                    "min":0,
+                    "max":5
+                }
+            }
+        ]
+    }
+]
