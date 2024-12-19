@@ -206,16 +206,16 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="entrance" type="mapchange" x="64" y="96" width="32" height="32">
+  <object id="1" name="cave" type="mapchange" x="64" y="96" width="32" height="32">
    <properties>
     <property name="map" value="brightport_cave15"/>
-    <property name="place" value="cave"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="2" name="cave" type="mapchange" x="320" y="32" width="32" height="32">
+  <object id="2" name="entrance" type="mapchange" x="320" y="32" width="32" height="32">
    <properties>
     <property name="map" value="brightport_wild14"/>
-    <property name="place" value="entrance"/>
+    <property name="place" value="cave"/>
    </properties>
   </object>
  </objectgroup>

@@ -17,7 +17,8 @@
     {
         "id":"brightportnpc2",
         "name":"Richimor",
-        "iconID":"monsters_karvis2:5"
+        "iconID":"monsters_ld1:96",
+        "phraseID":"brightpor_richimor_selector"
     },
     {
         "id":"brightportnpc3",

@@ -182,7 +182,7 @@
  </tileset>
  <layer id="10" name="Base" width="15" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowATbOEcGL3UAjvo7AYA7EACPA==
+   eJxjYBgFowATbOEcGL3UAjsocMNXMvQCAB/eAzo=
   </data>
  </layer>
  <layer id="1" name="Ground" width="15" height="14">

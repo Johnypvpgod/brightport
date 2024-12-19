@@ -213,14 +213,14 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="entrance" type="mapchange" x="672" y="736" width="96" height="32">
    <properties>
-    <property name="map" value="brightport_wild14"/>
+    <property name="map" value="brightport_wild4"/>
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object id="2" name="cave" type="mapchange" x="672" y="128" width="32" height="32">
+  <object id="2" name="entrance" type="mapchange" x="672" y="128" width="32" height="32">
    <properties>
     <property name="map" value="brightport_cave10"/>
-    <property name="place" value="entrance"/>
+    <property name="place" value="cave"/>
    </properties>
   </object>
  </objectgroup>

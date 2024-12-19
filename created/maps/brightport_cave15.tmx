@@ -212,10 +212,10 @@
     <property name="place" value="south"/>
    </properties>
   </object>
-  <object id="2" name="cave" type="mapchange" x="512" y="64" width="32" height="32">
+  <object id="2" name="entrance" type="mapchange" x="512" y="64" width="32" height="32">
    <properties>
     <property name="map" value="brightport_cave16"/>
-    <property name="place" value="entrance"/>
+    <property name="place" value="cave"/>
    </properties>
   </object>
  </objectgroup>

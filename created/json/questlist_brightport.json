@@ -226,6 +226,10 @@
             {
                 "progress":85,
                 "logText":"returned scroll"
+            },
+            {
+                "progress":86,
+                "logText":"richimor story"
             }
         ]
     },

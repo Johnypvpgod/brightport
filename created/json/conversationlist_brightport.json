@@ -1376,24 +1376,13 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_dibella1",
+                "nextPhraseID":"brightport_dibella_selector",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":40,
                         "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_dibella0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":40
                     }
                 ]
             }
@@ -1612,7 +1601,7 @@
     },
     {
         "id":"brightport_dibella6",
-        "message":"Several days ago, the principal discovered that an extremely important document went missing from the basement archive of the library.",
+        "message":"Several days ago, Headmaster Oswald discovered that an extremely important document went missing from the basement archive of the library.",
         "replies":[
             {
                 "text":"N",
@@ -1629,10 +1618,10 @@
     },
     {
         "id":"brightport_dibella7",
-        "message":"It must have been of that much importance. That immediately the school was put on curfew and every senior student and teacher was interrogated. ",
+        "message":"Stanwick looks after the library, so after questioning the teachers and students, the Headmaster decided that Stanwick would stay in his room until the end of the investigation.",
         "replies":[
             {
-                "text":"You mean, you don't know what was written inside it?",
+                "text":"What was soo important about this document anyway?",
                 "nextPhraseID":"brightport_dibella8"
             }
         ],
@@ -1646,7 +1635,7 @@
     },
     {
         "id":"brightport_dibella8",
-        "message":"My job entails depositing paperwork in the archive, not reading it. Any necessary document I keep in my desk. Besides, the important documents are locked in a box that only the principal is allowed to open.",
+        "message":"Im not aware, my job entails depositing paperwork in the archive, not reading it. Any necessary document I keep in my desk. Besides, the important documents are locked in a box that only the principal is allowed to open.",
         "replies":[
             {
                 "text":"I see, thanks.",
@@ -1909,6 +1898,12 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25,
+                        "negate":true
                     }
                 ]
             },
@@ -2547,6 +2542,7 @@
         "message":"Still, though, it\u2019s been a while, huh? Six years since my father sent me to Crossglen for safety, when I met Andor and you.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_stanwick5"
             }
         ]
@@ -2563,7 +2559,7 @@
     },
     {
         "id":"brightport_stanwick6",
-        "message":"That\u2019s terrible news. But strangely, I\u2019m not that surprised--something about his behavior before graduation was bothering me.",
+        "message":"That\u2019s terrible news. But strangely, I\u2019m not that surprised, something about his behavior before graduation was bothering me.",
         "replies":[
             {
                 "text":"That might be something that could help my search. Could you tell me more?",
@@ -2593,7 +2589,7 @@
         "message":"At this rate I will be freed of suspicion, but if they don't find the stolen document while im still on room arrest, my reputation might never recover.",
         "replies":[
             {
-                "text":"I could help you with that.",
+                "text":"I heard of the incident. could help you with it.",
                 "nextPhraseID":"brightport_stanwick9"
             }
         ]
@@ -2998,6 +2994,171 @@
                 "rewardType":"questProgress",
                 "rewardID":"Stanwickquest",
                 "value":55
+            }
+        ]
+    },
+    {
+        "id":"brightport_dibella_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dibella1"
+            }
+        ]
+    },
+    {
+        "id":"brightpor_richimor_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":86
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor",
+        "message":"Hello, young fellow. Want to hear a story?",
+        "replies":[
+            {
+                "text":"Sure. Old fellow.",
+                "nextPhraseID":"brightport_richimor0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor0",
+        "message":"Do you know why the houses in Brightport that are closest to the shore of the lake, have foundations made of stone?",
+        "replies":[
+            {
+                "text":"I don't know, why?",
+                "nextPhraseID":"brightport_richimor1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor1",
+        "message":"During the normal time of the year, the creek which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water gains a maelstrom of momentum, filling the mountain basin and overflowing down onto the plains and into the lake.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor2",
+        "message":"That, and the confluence of other rivers east, which drain into the lake, causes the water level to rise and flood the grasslands surrounding the lake. It reaches up until the foundation of the houses but never rises more than the second stair step.",
+        "replies":[
+            {
+                "text":"Wow, that's fascinating!",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":86
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor3",
+        "message":"Ho, ho, what resplendent blue waves.",
+        "replies":[
+            {
+                "text":"Can you please tell me that story again?",
+                "nextPhraseID":"brightport_richimor4"
+            },
+            {
+                "text":"You must have been living here for a long time, right?",
+                "nextPhraseID":"brightport_richimor5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor4",
+        "message":"It would be my joy, young fellow, but first.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor5",
+        "message":"Yes, I have seen Brightport change. I've lived through its tumultuous times. Why do you ask, young fellow?",
+        "replies":[
+            {
+                "text":"I'm looking for a person who lived here a long time ago, named Bryma. Have you heard of them?",
+                "nextPhraseID":"brightport_richimor6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor6",
+        "message":"That's a name I haven't heard in more than 20 years! ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor7",
+        "message":"She was my student, and like many youngsters, she aspired to make a name for herself and became a researcher. But one day, she decided to leave Brightport, and I have not heard from her since.",
+        "replies":[
+            {
+                "text":"She might be my only clue to solve a problem. Is there really nothing you can tell me about her whereabouts?",
+                "nextPhraseID":"brightport_richimor8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor8",
+        "message":"Hmm, it sounds like you've found yourself in some kind of argument. If it helps, she left a plethora of her writings and research at my house for safekeeping. You can read through them. I hope it proves helpful.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":60
             }
         ]
     }
