@@ -125,7 +125,7 @@
     },
     {
         "id":"brightport_nondisplay",
-        "name":"brightport nondisplay",
+        "name":"brightport_nondisplay",
         "stages":[
             {
                 "progress":5,
@@ -230,15 +230,58 @@
             {
                 "progress":86,
                 "logText":"richimor story"
+            },
+            {
+                "progress":86,
+                "logText":"fiamma shop"
             }
         ]
     },
     {
         "id":"brightport_lizard",
-        "name":"A scaly situation",
+        "name":"The weight of scales",
         "stages":[
             {
                 
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma",
+        "name":"Too hot to handle",
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Fiamma, the swordsmith of Brightport, is willing to forge me a sword if I can bring him the materials."
+            },
+            {
+                "progress":10,
+                "logText":"In the mountains near the road to Remgard lies a dangerous area overrun by Arulirs, beasts with skin as tough as steel."
+            },
+            {
+                "progress":15,
+                "logText":"Fiamma has asked for a strip of Arulir skin, coveted for its durability and flexibility. He also requires 15 lava rocks from the mountain cave, which burn hotter than any ordinary coal."
+            },
+            {
+                "progress":20,
+                "logText":"The final material is a red crystal from a Gornaud, a ferocious beast that sometimes forms these rare crystals on its body."
+            },
+            {
+                "progress":25,
+                "logText":"I brought back the materials to Fiamma. He thanked me and told me to come back later when it\u2019s finished."
+            },
+            {
+                "progress":30,
+                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
+            },
+            {
+                "progress":35,
+                "logText":"I don't usually use two-handed swords, so I asked Fiamma to give me something else, and he gave me a sharp glaive.",
+                "finishesQuest":1
+            },
+            {
+                "progress":40,
+                "logText":"I thanked Fiamma and went on my merry way."
             }
         ]
     }

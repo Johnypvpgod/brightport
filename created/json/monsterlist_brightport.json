@@ -345,7 +345,7 @@
         "unique":1
     },
     {
-        "id":"brightportbakeryoutside1",
+        "id":"brightportnpc11",
         "name":"placeholder",
         "iconID":"monsters_fatboy73:23",
         "unique":1
@@ -379,5 +379,17 @@
         "id":"brightportnpc10",
         "name":"Allarees",
         "iconID":"monsters_ld1:195"
+    },
+    {
+        "id":"brightportchapelguard",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:95",
+        "phraseID":"brightport_guard"
+    },
+    {
+        "id":"brightportguardcaptain",
+        "name":"Gunfryk",
+        "iconID":"monsters_ld1:74",
+        "phraseID":"brightport_gunfryk"
     }
 ]

@@ -282,12 +282,23 @@
     },
     {
         "id":"brightport_smith",
-        "message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. How can I help you.",
+        "message":"Greetings, my name is Fiamma. I forge my swords as finely as I bake my bread. ",
         "switchToNPC":"brightportsmith",
         "replies":[
             {
-                "text":"Please show me your wares.",
-                "nextPhraseID":"S"
+                "text":"Could you show me what you have to sell?",
+                "nextPhraseID":"brightport_fiamma_selector"
+            },
+            {
+                "text":"That makes it sound like you're not a very good baker either.",
+                "nextPhraseID":"brightport_fiamma0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":86
+                    }
+                ]
             }
         ]
     },
@@ -3159,6 +3170,240 @@
                 "rewardType":"questProgress",
                 "rewardID":"Stanwickquest",
                 "value":60
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor_archive",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor_archive0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor_archive0",
+        "message":"[You open the chest hoping to find the writings of Bryma that Richimor spoke about.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor_archive1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor_archive1",
+        "message":"Let's see... This one's a recipe for milk bread. This one's the same, but with wild berries...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_richimor_archive2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_richimor_archive2",
+        "message":"[You read another writing, which immediately strikes your attention.]\n\nMy findings of... strange statues... outside Brightport... four... activation code...? Interesting, there doesn't seem to be much description other than that. No matter how it's related, it's worth checking out.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"brightport_guard",
+        "message":"I was staring at the surface of the lake when I noticed a pair of yellow eyes looking at me from under the surface!"
+    },
+    {
+        "id":"brightport_gunfryk",
+        "message":"I'm Gunfryk, the guard commander. Inform me or my men of any trouble. Stay safe."
+    },
+    {
+        "id":"brightport_statue_N",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central"
+    },
+    {
+        "id":"brightpor_magic",
+        "message":"[An invisible force prevents you from moving further.]"
+    },
+    {
+        "id":"brightport_statue_S",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_SW",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma"
+    },
+    {
+        "id":"brightport_fiamma_selector",
+        "replies":[
+            {
+                "nextPhraseID":"S"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":86
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma0",
+        "message":"Hey kid, you might be right about the swords, but don't ever insult my baking skills!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma1",
+        "message":"Unfortunately, it's not about my skill but the quality of the steel. If I had the materials, I could forge good swords all day.",
+        "replies":[
+            {
+                "text":"If I brought you the materials, could you forge me something with them?",
+                "nextPhraseID":"brightport_fiamma3"
+            },
+            {
+                "text":"What's wrong with the steel?",
+                "nextPhraseID":"brightport_fiamma2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma2",
+        "message":"All the metal we're getting now is lower quality scraps. Feygard has been deliberately affecting the trade, so that blacksmiths in towns which were affiliated with Nor City can't forge quality weapons.",
+        "replies":[
+            {
+                "text":"What would you say if I brought you some quality materials?",
+                "nextPhraseID":"brightport_fiamma3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma3",
+        "message":"I could gladly forge you something, but first, we have to discuss the materials I have in mind. I presume you have heard of the town of Remgard?",
+        "replies":[
+            {
+                "text":"Yes I have heard of it.",
+                "nextPhraseID":"brightport_fiamma5"
+            },
+            {
+                "text":"No, I have not.",
+                "nextPhraseID":"brightport_fiamma4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma4",
+        "message":"If so, then listen closely, as you are about to hear of it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma5",
+        "message":"Many travelers pass through Brightport on their way to or from Remgard. The town lies high in the mountains, and from those travelers I heard of beasts called arulirs, harassing travelers along a short stretch of the road.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma6",
+        "message":"But what's most interesting is their origin. The area they now inhabit was a mining camp, which was abandoned after the caves became unstable. Out of the depths, gornauds clawed a tunnel, releasing arulirs from the fiery depths they inhabited.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma7",
+        "message":"First, if you can travel there, I want a strip of the arulir's skin - rumored to be tougher than steel but as flexible as leather. Second, I want 15 lava rocks from inside the mountain cave. These will fuel my forge better than the brown coal.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma8",
+        "message":"And lastly, the material from which I will forge a blade, a red crystal from a gornaud. This material, which their teeth and claws are made of, can easily crush rock. Only in rare cases, the mineral gathers and forms crystal clusters on their body or inside them. So don't be disheartened if you seemingly can't find one. Good luck!.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":20
             }
         ]
     }

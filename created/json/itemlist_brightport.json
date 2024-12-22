@@ -71,5 +71,47 @@
         "name":"Raw deer meat",
         "displaytype":"ordinary",
         "category":"food"
+    },
+    {
+        "id":"brightportgloves",
+        "iconID":"items_newb:8",
+        "name":"Deerskin gloves",
+        "displaytype":"rare",
+        "category":"hnd_lthr",
+        "description":"A sturdy pair of gloves crafted out of the skin of an elder Elkdeer."
+    },
+    {
+        "id":"brightportflamesword",
+        "iconID":"items_weapons:41",
+        "name":"Flaming greatsword",
+        "displaytype":"rare",
+        "category":"2hsword",
+        "description":"Sizzling the flesh of evil beasts, and your hands alike.",
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightportflame",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"90"
+                }
+            ]
+        }
+    },
+    {
+        "id":"brightport_glove",
+        "iconID":"items_omi2:5",
+        "name":"Salamander gloves",
+        "displaytype":"ordinary",
+        "category":"hnd_lthr",
+        "hitReceivedEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightportflame",
+                    "magnitude":-99,
+                    "duration":999
+                }
+            ]
+        }
     }
 ]

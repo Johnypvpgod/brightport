@@ -354,8 +354,8 @@
             "fileName": "waytobrightport22.tmx",
             "height": 576,
             "width": 928,
-            "x": -216,
-            "y": -1638
+            "x": -224,
+            "y": -1632
         },
         {
             "fileName": "waytobrightport23.tmx",
@@ -384,6 +384,13 @@
             "width": 960,
             "x": -1248,
             "y": -2240
+        },
+        {
+            "fileName": "../../altered/maps/waytominingtown3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -6208,
+            "y": 960
         }
     ],
     "onlyShowAdjacentMaps": false,

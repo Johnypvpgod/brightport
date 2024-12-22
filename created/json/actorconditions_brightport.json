@@ -3,5 +3,22 @@
         "id":"brightport_worm",
         "iconID":"actorconditions_japozero:52",
         "name":"Brainworm infection"
+    },
+    {
+        "id":"brightportflame",
+        "iconID":"actorconditions_1:5",
+        "name":"Searing burn",
+        "category":"physical",
+        "isStacking":1,
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-5,
+                "max":0
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-10
+        }
     }
 ]
