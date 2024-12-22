@@ -232,7 +232,7 @@
                 "logText":"richimor story"
             },
             {
-                "progress":86,
+                "progress":87,
                 "logText":"fiamma shop"
             }
         ]
@@ -268,20 +268,29 @@
             },
             {
                 "progress":25,
-                "logText":"I brought back the materials to Fiamma. He thanked me and told me to come back later when it\u2019s finished."
+                "logText":"I brought Fiamma the arulir skin and lava rocks."
             },
             {
                 "progress":30,
-                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
+                "logText":"I brought Fiamma the red crystal."
             },
             {
                 "progress":35,
+                "logText":"I gave all the materials to Fiamma. He thanked me and told me to come back later when it\u2019s finished."
+            },
+            {
+                "progress":40,
+                "logText":"To my surprise, the sword he forged heats up on contact with air and requires special gloves to handle. Made of the Arulir skin I brought."
+            },
+            {
+                "progress":45,
                 "logText":"I don't usually use two-handed swords, so I asked Fiamma to give me something else, and he gave me a sharp glaive.",
                 "finishesQuest":1
             },
             {
-                "progress":40,
-                "logText":"I thanked Fiamma and went on my merry way."
+                "progress":50,
+                "logText":"I thanked Fiamma and went on my merry way.",
+                "finishesQuest":1
             }
         ]
     }

@@ -297,6 +297,51 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":86
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have the lava rocks and arulir skin.",
+                "nextPhraseID":"brightport_fiamma9",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"lava_rock_cold",
+                        "value":15
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"arulir_skin",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have the Red crystal, here.",
+                "nextPhraseID":"brightport_fiamma10",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"crystal_red",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":30,
+                        "negate":true
                     }
                 ]
             }
@@ -3283,7 +3328,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":86
+                "value":87
             }
         ]
     },
@@ -3404,6 +3449,292 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_fiamma",
                 "value":20
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma9",
+        "message":"Yes, those look good. thanks!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma_selector1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":30,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma10",
+        "message":"Wow. it looks magnificent!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma11",
+        "message":"With all these quality materials, I can forge you something magnificent enough to equal the legends. Come back to me later!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":35
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"fiamma_forge"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma12",
+        "message":"What a clear crystal! but I still need the lava rocks for fuel, and the arulir skin. bring them to me and I can start."
+    },
+    {
+        "id":"brightport_fiamma13",
+        "message":"Remember, I still need that red crystal to forge the blade. Bring it to me, and I can start."
+    },
+    {
+        "id":"brightport_fiamma_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma14",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"fiamma_forge",
+                        "value":11
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma15",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"fiamma_forge",
+                        "value":11,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":35
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_smith"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma14",
+        "message":"It's done but.. There is a slight problem.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma15",
+        "message":"I\u2019m not done yet. Have you no patience?"
+    },
+    {
+        "id":"brightport_fiamma16",
+        "message":"I've quenched it, but when I try to pull it out of the water, it reacts to the air and starts heating up. It quickly becomes unbearable to hold.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma17",
+        "message":"I was hoping to keep the Arulir skin for a pair of forging gloves, but I ended up making these smaller. heat-resistant gloves to wield the magnificent two-handed sword I crafted from the materials you brought me.",
+        "replies":[
+            {
+                "text":"Two-handed sword? I thought you would make me a normal sword.",
+                "nextPhraseID":"brightport_fiamma18"
+            },
+            {
+                "text":"Sounds nice, I'll take it.",
+                "nextPhraseID":"brightport_fiamma20"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma18",
+        "message":"Hey, you didn\u2019t specify, so I made what I know best. ",
+        "replies":[
+            {
+                "text":"Could you forge me something else with the same materials then?",
+                "nextPhraseID":"brightport_fiamma19"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma19",
+        "message":"Frankly, I don\u2019t feel like forging another sword for you, but I can give you something else instead, and keep the sword for myself if you don't like it.",
+        "replies":[
+            {
+                "text":"Yes, I would prefer that.",
+                "nextPhraseID":"brightport_fiamma21"
+            },
+            {
+                "text":"Sorry, i'll keep the sword instead.",
+                "nextPhraseID":"brightport_fiamma20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma20",
+        "message":"Well, kid, usually I would have my reservations about giving someone as young as you something this dangerous. But you\u2019re the one who fought those dangerous creatures, so my worries are unfounded. Take it, and use it well.",
+        "replies":[
+            {
+                "text":"Thanks, I will!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[I'll probably keep it as a trophy]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":50
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightportflamesword",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_glove",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_fiamma21",
+        "message":"Here, take this glaive, it was given to me by my old master from Nor City. it was originally forged for nobility but after lord Emeric's defeat in the noble wars. The Imeria family fell from grace and this was sold for cheap at an auction.",
+        "replies":[
+            {
+                "text":"That's really cool. Thanks!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"[I don't use pole weapons either...]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":45
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"glaive_butcher",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_fiamma",
+                "value":50
             }
         ]
     }
