@@ -56,7 +56,9 @@
     {
         "id":"brightport_paper",
         "iconID":"items_japozero:421",
-        "name":"Paper"
+        "name":"Paper",
+        "displaytype":"ordinary",
+        "category":"other"
     },
     {
         "id":"brightport_meat",
@@ -84,7 +86,7 @@
         "id":"brightportflamesword",
         "iconID":"items_weapons:41",
         "name":"Flaming greatsword",
-        "displaytype":"rare",
+        "displaytype":"extraordinary",
         "category":"2hsword",
         "description":"Sizzling the flesh of evil beasts, and your hands alike.",
         "hitReceivedEffect":{
@@ -102,8 +104,9 @@
         "id":"brightport_glove",
         "iconID":"items_omi2:5",
         "name":"Salamander gloves",
-        "displaytype":"ordinary",
+        "displaytype":"rare",
         "category":"hnd_lthr",
+        "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
         "hitReceivedEffect":{
             "conditionsSource":[
                 {

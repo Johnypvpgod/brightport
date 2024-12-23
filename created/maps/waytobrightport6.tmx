@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="5">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="7" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -208,17 +208,17 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="7">
   <data encoding="base64" compression="zlib">
-   eJwTF2IAgzeSDAxvgfikJIKNLIYMJIURbJia84IQ/kugeYFyDAxBQPxcECF/AiqfCpQvBsqVyCHkdiPZdQ5knyCmG2D6U6Du/SCI6aZngqhuBel5KYRgI7sHBH5C5Y6hmXVDAUIfF0ToBZn7GkkdzP5TQPopUP1fKB/khltAbAz0nwk0DNABzHyY2eBwhLoN5r4r8gwMV+Uh8shuPgvlvwPiu5JQP0PNeIgUpjC3H5ZE+BPmbl4gn08Ie5yDAEwepv4k1C6QGgA98VWJ
+   eJwTF2IAgzeSDAxvgfikJIKNLIYMJIURbJia84IQ/kugeYFyDAxBQPxcECF/AiqfCpQvBsqVyCHkdiPZdQ5knyCmG2D6U6Du/SCI6aZngqhuBel5KYRgI7sHBH5C5Y6hmXVDAUIfF0ToBZn7GkkdzP5TQPopUP1fKB/khltAbAz0nwk0DNABzHyY2eBwhLoN5r4r8gwMV+Uh8shuPgvlvwPiu5JQP0PNeIgUpiA2CByWRPgT5m5eIJ9PCHucgwBMHtmfMDUAQC1Uug==
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="7">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgcJRjYHACYhC4I8nAcFeSAQUkA+VS5FDlYOx9aHxs+rEBTmEIvZOAWmLNQweEzEUHykD/qciRpucOkn+PyDMwHJVHiCO7GZ8f0OU243E3TC0hv+1EihNs9uByD7o4zE8wc0DmAgAPJClm
+   eJxjYGBgcJRjYHACYhC4I8nAcFeSAQUkA+VS5FDlYOx9aHxs+rEBTmEIvZOAWmLNQweEzEUHykD/qciRpucOkn+PyDMwHJVHiCO7GZ8f0OU243E3TC0xftsJdRs2e3C5B10cm58ACJgpig==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="7" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFGGASQ2TAAE5spS1gfNv3YALI+QuqIVYvNfGLE70gS725sboOFDQgjiyObi81s5PBENxNdHSlhjywOAB4GOws=
+   eJzbKMbAsJFGGASQ2TAAE5spS1gfNv3YALI+QuqIVYvNfGLE70gS725sboOFDQgjiyObi81s9PBE1ouujpiwx+Y2AENsOkQ=
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -234,6 +234,12 @@
     <property name="place" value="north"/>
    </properties>
   </object>
+  <object id="5" name="south1" type="mapchange" x="544" y="192" width="32" height="32">
+   <properties>
+    <property name="map" value="cabin_norcity_road3"/>
+    <property name="place" value="north"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
   <object id="3" name="duleian_hornet1" type="spawn" x="96" y="64" width="192" height="96">
@@ -242,7 +248,7 @@
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="4" name="duleian_hornet" type="spawn" x="352" y="64" width="192" height="128">
+  <object id="4" name="duleian_hornet" type="spawn" x="352" y="64" width="192" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="duleian_hornet"/>

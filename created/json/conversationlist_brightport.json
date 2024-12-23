@@ -325,11 +325,16 @@
                         "requireID":"brightport_fiamma",
                         "value":25,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":15
                     }
                 ]
             },
             {
-                "text":"I have the Red crystal, here.",
+                "text":"I have the Red crystal here.",
                 "nextPhraseID":"brightport_fiamma10",
                 "requires":[
                     {
@@ -342,6 +347,11 @@
                         "requireID":"brightport_fiamma",
                         "value":30,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":20
                     }
                 ]
             }
@@ -977,26 +987,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_silvear_directions1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":20,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_silvear_directions",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":20
-                    }
-                ]
+                "nextPhraseID":"brightport_silvear_selector"
             }
         ]
     },
@@ -1224,7 +1215,7 @@
     },
     {
         "id":"brightport_hortensia",
-        "message":"Hi there, child, today's astronomy class at the Academy. Will be held in the evening, you musn't miss it! ",
+        "message":"Hello, today's astronomy class at the Academy. Will be held in the evening, you musn't miss it.",
         "replies":[
             {
                 "text":"I don't have time to attend classes, I must find my brother Andor.",
@@ -1797,6 +1788,12 @@
                         "requireID":"franz_note_read_timer",
                         "value":20,
                         "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":45,
+                        "negate":true
                     }
                 ]
             },
@@ -1815,6 +1812,7 @@
         "message":"There is not much I can tell you about the incident. None of us teachers knew anything about the scroll or where it was kept. In such a case, one could presume that the most logical step would be to investigate the room where it was kept.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_franz5"
             }
         ],
@@ -3199,7 +3197,7 @@
     },
     {
         "id":"brightport_richimor7",
-        "message":"She was my student, and like many youngsters, she aspired to make a name for herself and became a researcher. But one day, she decided to leave Brightport, and I have not heard from her since.",
+        "message":"She was my student, and like many youngsters, she aspired to make a name for herself, and became a researcher. But one day, she decided to leave Brightport, and I have not heard from her since.",
         "replies":[
             {
                 "text":"She might be my only clue to solve a problem. Is there really nothing you can tell me about her whereabouts?",
@@ -3230,6 +3228,11 @@
                         "requireID":"Stanwickquest",
                         "value":65,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60
                     }
                 ]
             }
@@ -3609,7 +3612,7 @@
     },
     {
         "id":"brightport_fiamma14",
-        "message":"It's done but.. There is a slight problem.",
+        "message":"It's done! but.. There is a slight problem.",
         "replies":[
             {
                 "text":"N",
@@ -3619,7 +3622,7 @@
     },
     {
         "id":"brightport_fiamma15",
-        "message":"I\u2019m not done yet. Have you no patience?"
+        "message":"The sword is not done yet. Have you no patience?"
     },
     {
         "id":"brightport_fiamma16",
@@ -3735,6 +3738,33 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_fiamma",
                 "value":50
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":20
+                    }
+                ]
             }
         ]
     }

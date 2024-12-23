@@ -225,7 +225,7 @@
  </layer>
  <layer id="3" name="Above" width="16" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcSCtQX/8leQaGy1B8RZ6w/geyDAxrgPgAEGsimbdAFsEGyc+HqkNWQ477N8pRph8ZoOvXVMCmCreagbafEgAAjooN1A==
+   eJxjYKAcSCtQX/8leQaGy1B8RZ6w/geyDAxrgPgAEGtCzTvKz8CwQBahDiQ/H6oOpgaX/YTARjnK9CMDdP2aCthU4VYz0PZTAgDqWg6o
   </data>
  </layer>
  <layer id="4" name="Walkable" width="16" height="10" visible="0">

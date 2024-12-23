@@ -69,7 +69,7 @@
     {
         "id":"brightportnpc8",
         "name":"Janwick",
-        "iconID":"monsters_ld1:96",
+        "iconID":"monsters_karvis2:5",
         "phraseID":"brightport_janwick"
     },
     {
@@ -88,7 +88,8 @@
         "id":"brightportsmith",
         "name":"Fiamma",
         "iconID":"monsters_ld1:219",
-        "phraseID":"brightport_fiamma_selector2"
+        "phraseID":"brightport_fiamma_selector2",
+        "droplistID":"fiamma_shop"
     },
     {
         "id":"brightportitem",
