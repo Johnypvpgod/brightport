@@ -2998,7 +2998,6 @@
     },
     {
         "id":"brightport_archive",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -3260,7 +3259,7 @@
     },
     {
         "id":"brightport_richimor_archive2",
-        "message":"[You read another writing, which immediately strikes your attention.]\n\nMy findings of... strange statues... outside Brightport... four... activation code...? Interesting, there doesn't seem to be much description other than that. No matter how it's related, it's worth checking out.",
+        "message":"[You read another writing, which immediately strikes your attention.] \nMy findings of four mysterious statues, outside Brightport... activation word... \n[There doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth checking out.]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3278,42 +3277,91 @@
         "message":"I'm Gunfryk, the guard commander. Inform me or my men of any trouble. Stay safe."
     },
     {
-        "id":"brightport_statue_N",
-        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "id":"brightport_statue_n",
         "replies":[
             {
-                
-            },
-            {
-                "text":"[Leave.]",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"brightport_statue_n1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"brightport_statue_central"
+        "id":"brightport_statue_central",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":85,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":88
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightpor_magic",
         "message":"[An invisible force prevents you from moving further.]"
     },
     {
-        "id":"brightport_statue_S",
-        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "id":"brightport_statue_s",
         "replies":[
             {
-                "text":"[Leave.]",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"brightport_statue_s1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"brightport_statue_SW",
-        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "id":"brightport_statue_sw",
         "replies":[
             {
-                "text":"[Leave.]",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"brightport_statue_sw1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":85,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3767,5 +3815,197 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"brightport_statue_n1",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Examine it closer.]",
+                "nextPhraseID":"brightport_statue_n2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_n2",
+        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters L and E.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"brightport_charwood_shortcut",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_charwood_shortcut1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_charwood_shortcut1"
+    },
+    {
+        "id":"brightport_statue_sw1",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Examine it closer.]",
+                "nextPhraseID":"brightport_statue_sw2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_sw2",
+        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters G, A and R.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_s1",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Examine it closer.]",
+                "nextPhraseID":"brightport_statue_s2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_s2",
+        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters T and H.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":75
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central1",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"[Examine it closer.]",
+                "nextPhraseID":"brightport_statue_central2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
+                    }
+                ]
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central2",
+        "message":"[After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.]\n\n[Straight and cluttered lines. they don't look like any of the symbols you know. next to them is a swirl symbol, with the line starting off thick at the top then getting thinner as it goes south then to the left and back ]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":66
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central3",
+        "message":"Now that I discovered the rest of the statues I should spell the letters to form the activation word.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_central5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":88
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_central4",
+        "message":"It's probably related to the activation word, I should find the rest of the statues. "
+    },
+    {
+        "id":"brightport_statue_central5"
     }
 ]

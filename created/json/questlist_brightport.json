@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"5 - I arrived at Brightport's school,  to be told that Stanwick is under investigation and that he is not allowed visitors."
+                "logText":"I arrived at Brightport's school,  to be told that Stanwick is under investigation and that he is not allowed visitors."
             },
             {
                 "progress":10,
@@ -74,23 +74,23 @@
             },
             {
                 "progress":66,
-                "logText":"I discovered a strange statue in the forest south of Brightport, perhaps this is one of the statues mentioned in the writings of Bryma, I should look for more."
+                "logText":"I discovered a strange statue in the forest south of Brightport. with several undecipherable symbols. perhaps this is one of the statues mentioned in the writings of Bryma, I should look for more."
             },
             {
                 "progress":70,
-                "logText":"I discovered a statue north of Brightport."
+                "logText":"I inspected a statue north of Brightport. Carved onto the statue were the symbols for the letters l and e."
             },
             {
                 "progress":75,
-                "logText":" I discovered a statue southeast of the forest statue."
+                "logText":"I discovered a statue southeast of the forest statue. Carved onto the statue were the symbols for the letters t and h."
             },
             {
                 "progress":80,
-                "logText":"I discovered a statue far southwest of brightport."
+                "logText":"I discovered a statue far southwest of brightport. Carved onto the statue were the symbols for the letters g a, and r."
             },
             {
                 "progress":85,
-                "logText":"I activated the statue in the forest and can now move further."
+                "logText":"I spoke the activation word to the statue in the forest and can now move further."
             },
             {
                 "progress":86,
@@ -115,7 +115,7 @@
             },
             {
                 "progress":97,
-                "logText":"Although, i did not receive any reward."
+                "logText":"Although, I did not receive any reward."
             },
             {
                 "progress":100,
@@ -234,6 +234,10 @@
             {
                 "progress":87,
                 "logText":"fiamma shop"
+            },
+            {
+                "progress":88,
+                "logText":"statue puzzle req"
             }
         ]
     },
