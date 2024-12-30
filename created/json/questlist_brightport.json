@@ -78,15 +78,15 @@
             },
             {
                 "progress":70,
-                "logText":"I inspected a statue north of Brightport. Carved onto the statue were the symbols for the letters l and e."
+                "logText":"I inspected a statue north of Brightport. Carved onto the statue were the symbols for the letters l and h."
             },
             {
                 "progress":75,
-                "logText":"I discovered a statue southeast of the forest statue. Carved onto the statue were the symbols for the letters t and h."
+                "logText":"I discovered a statue southeast of Brightport. Carved onto the statue were the symbols for the letters t and e."
             },
             {
                 "progress":80,
-                "logText":"I discovered a statue far southwest of brightport. Carved onto the statue were the symbols for the letters g a, and r."
+                "logText":"I discovered a statue far southwest of brightport. Carved onto the statue were the symbols for the letters a g, and r."
             },
             {
                 "progress":85,
@@ -238,6 +238,62 @@
             {
                 "progress":88,
                 "logText":"statue puzzle req"
+            },
+            {
+                "progress":89,
+                "logText":"L"
+            },
+            {
+                "progress":90,
+                "logText":"E"
+            },
+            {
+                "progress":91,
+                "logText":"T"
+            },
+            {
+                "progress":92,
+                "logText":"H"
+            },
+            {
+                "progress":93,
+                "logText":"G"
+            },
+            {
+                "progress":94,
+                "logText":"A"
+            },
+            {
+                "progress":95,
+                "logText":"R"
+            },
+            {
+                "progress":96,
+                "logText":"L correct"
+            },
+            {
+                "progress":97,
+                "logText":"E correct"
+            },
+            {
+                "progress":98,
+                "logText":"T correct"
+            },
+            {
+                "progress":99,
+                "logText":"H correct"
+            },
+            {
+                "progress":100,
+                "logText":"G correct"
+            },
+            {
+                "progress":101,
+                "logText":"A correct"
+            },
+            {
+                "progress":102,
+                "logText":"R correct"
             }
         ]
     },
