@@ -2479,6 +2479,7 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"oswald_end",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2489,7 +2490,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"oswald_end",
+                "nextPhraseID":"brightport_oswald13",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -2529,12 +2530,20 @@
         "replies":[
             {
                 "text":"Excuse me sir. I wish to help Stanwick by investigating the theft. Could you tell me more about it?",
-                "nextPhraseID":"brightport_oswald"
+                "nextPhraseID":"brightport_oswald",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":25
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"oswald_end"
+        "id":"oswald_end",
+        "message":"How unfortunate to be stuck outside when the sun's soo dazling."
     },
     {
         "id":"oswald_quest",
@@ -2542,6 +2551,7 @@
         "replies":[
             {
                 "text":"I have the scroll here, take it.",
+                "nextPhraseID":"brightport_oswald12",
                 "requires":[
                     {
                         "requireType":"inventoryRemove",
@@ -2820,11 +2830,16 @@
     },
     {
         "id":"brightport_bryma",
-        "message":"A visitor, how unusual. I presume you haven\u2019t simply stumbled upon my cabin by accident."
+        "message":"A visitor, how unusual. I presume you haven\u2019t simply stumbled upon my cabin by accident.",
+        "replies":[
+            {
+                
+            }
+        ]
     },
     {
         "id":"brightport_oswald",
-        "message":"Forget it, kid. This is none of your concern. What makes you think you should be involved?",
+        "message":"Forget it. This is none of your concern. What makes you think you should be involved?",
         "replies":[
             {
                 "text":"It\u2019s unfair that Stanwick, whose name is most to suffer from the theft, was told to stay put.",
@@ -2856,7 +2871,7 @@
     },
     {
         "id":"brightport_oswald2",
-        "message":"I admit that this decision might put Stanwick's future with the Ryfarion family of Nor city at risk. but the safety of the academy comes first. I am sure of Stanwick's innocence, but I had to make sure the information wouldn't reach the wrong hands. ",
+        "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. but the safety of the academy comes first. I am sure of Stanwick's innocence, but I had to make sure the information wouldn't reach the wrong hands. ",
         "replies":[
             {
                 "nextPhraseID":"brightport_oswald3"
@@ -2914,7 +2929,7 @@
     },
     {
         "id":"brightport_oswald8",
-        "message":"[You notice a key on shelf under the desk, if he were distracted for a moment you could steal it]",
+        "message":"[You notice a key on a shelf under the desk, if he were distracted for a moment you could steal it]",
         "replies":[
             {
                 "text":"[I should distract him.]",
@@ -3112,7 +3127,7 @@
     },
     {
         "id":"brightport_richimor1",
-        "message":"During the normal time of the year, the creek which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water gains a maelstrom of momentum, filling the mountain basin and overflowing down onto the plains and into the lake.",
+        "message":"During the normal time of the year, the creek which flows through Brimhaven ends up draining into the mountain. But when the rainy season starts, the water becomes a monstrous maelstrom, filling the mountain basin and overflowing down onto the plains and into the lake.",
         "replies":[
             {
                 "text":"N",
@@ -4007,7 +4022,7 @@
     },
     {
         "id":"brightport_statue_central5",
-        "message":"The activation word is spelled...",
+        "message":"...",
         "replies":[
             {
                 "text":"A",
@@ -5430,7 +5445,7 @@
     },
     {
         "id":"brightport_correct",
-        "message":"[That seemed to have been the activation word, as the statue lightly shone]\n\nNeat! I can probably go inside the forest now.",
+        "message":"[That seemed to have been the activation word, as the statue lightly shone]\n\nI can probably go inside the forest now.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5438,5 +5453,177 @@
                 "value":85
             }
         ]
+    },
+    {
+        "id":"brightport_oswald12",
+        "message":"[The Headmaster hurriedly grabs the scroll and opens it to confirm its contents. A moment later, he breathes a sigh of relief as he moves it over the flame of a nearby candle.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald13"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":85
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald13",
+        "message":"You've truly saved my skin- I mean, the people of Brightport! Yes, ahem.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald14",
+        "message":"Before we discuss what is next. Have you learnt who the culprit of the theft was?",
+        "replies":[
+            {
+                "text":"It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.",
+                "nextPhraseID":"brightport_oswald15"
+            },
+            {
+                "text":"I prefer not saying, it would cause trouble to the people who helped me.",
+                "nextPhraseID":"brightport_oswald17"
+            },
+            {
+                "text":"A former baker named Bryma was in possesion of it. How she acquired it im unaware.",
+                "nextPhraseID":"brightport_oswald16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald15",
+        "message":"Your brother you say.. That is quite serious. I have heard from Dibella that you are searching for him. If you find him you must put in all the effort that he turn away from his malicious ways. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald18"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald16",
+        "message":"As I suspected, it was someone interested in its contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald18"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald17",
+        "message":"If that is what you say, then so be it. What matters is that the Achilles' heel of our academy was removed without further damage. This oversight on my part will not be repeated.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_oswald18"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald18",
+        "message":"And now on the matter of Stanwick. The school will release him an apology letter, and I will personally make sure this had no lasting impact on his reputation. Please tell him that he is free to leave his room.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald21"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":96
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald19",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":47,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":47
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald20",
+        "message":"Please have these Deerskin gloves as a sign of my gratitude. Those are as sturdy as far as leather can go. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brighhtport_oswald23"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightportgloves",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald21",
+        "message":"Oh, and I almost forgot..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald19"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald22",
+        "message":"Stealing the key was not very nice of you. Consider your reward the fact that I overlooked it this time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brighhtport_oswald23"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":97
+            }
+        ]
+    },
+    {
+        "id":"brighhtport_oswald23",
+        "message":"Goodluck on your search. Bye."
     }
 ]
