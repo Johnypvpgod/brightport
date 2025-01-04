@@ -110,10 +110,12 @@
             },
             {
                 "progress":125,
-                "logText":""
+                "logText":"While investigating the Brightport theft. I learnt from Bryma that Andor was the one who stole the important document, and brought it to her in exchange for her alchemy knowledge."
             },
             {
-                "progress":130
+                "progress":130,
+                "logText":"Stanwick ",
+                "rewardExperience":5000
             }
         ]
     }

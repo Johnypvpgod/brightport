@@ -534,7 +534,7 @@
     },
     {
         "id":"brightport_loudmouth",
-        "message":"Hey kid, have you met my brother outside? Haha, that guy\u2019s a real Scrooge, they say we're nothing alike,  I\u2019m telling you. He\u2019s just like Mom - We'd ask her to tell us a bedtime story, and she'd tell us to pay her with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
+        "message":"Hey kid, have you met my brother outside? Haha, that guy\u2019s a real Scrooge, they say we're nothing alike,  I\u2019m telling you. He\u2019s just like Mom - We'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -2543,7 +2543,7 @@
     },
     {
         "id":"oswald_end",
-        "message":"How unfortunate to be stuck outside when the sun's soo dazling."
+        "message":"How unfortunate to be stuck inside, when the sun's soo dazling."
     },
     {
         "id":"oswald_quest",
@@ -2653,7 +2653,7 @@
         "message":"At this rate I will be freed of suspicion, but if they don't find the stolen document while im still on room arrest, my reputation might never recover.",
         "replies":[
             {
-                "text":"I heard of the incident. could help you with it.",
+                "text":"I heard of the incident. I could help you with it.",
                 "nextPhraseID":"brightport_stanwick9"
             }
         ]
@@ -2730,7 +2730,14 @@
             },
             {
                 "text":"I found and returned the document to the headmaster, he'll release an apology for you later.",
-                "nextPhraseID":"brightport_stanwick16"
+                "nextPhraseID":"brightport_stanwick16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":96
+                    }
+                ]
             },
             {
                 "text":"I'm still searching.",
@@ -2770,7 +2777,7 @@
         "message":"All things considered, it was a reasonable response. The safekeeping of the archive was partly my responsibility. But being told to stay put while I could have done something to help find it, feels deeply unfair to me.",
         "replies":[
             {
-                "text":"Alright, interesting.",
+                "text":"I'll see what I can do.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2804,7 +2811,8 @@
         "message":"It's against the rules to tell, try asking a man named Silvear, you'll recognize him by his blue cloak."
     },
     {
-        "id":"brightport_stanwick_end"
+        "id":"brightport_stanwick_end",
+        "message":"Thank you $playername. I knew I could entrust this to you."
     },
     {
         "id":"brightport_stanwick_common",
@@ -2817,11 +2825,35 @@
         ]
     },
     {
-        "id":"brightport_stanwick16"
+        "id":"brightport_stanwick16",
+        "message":"[Stanwick lets out a deep breath, his expression softening with visible relief, as he sits down on his bed.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_end"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":70
+            }
+        ]
     },
     {
         "id":"brightport_bryma_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest"
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_bryma"
@@ -2833,7 +2865,19 @@
         "message":"A visitor, how unusual. I presume you haven\u2019t simply stumbled upon my cabin by accident.",
         "replies":[
             {
-                
+                "text":"Are you the person named Bryma?",
+                "nextPhraseID":"brightport_bryma0"
+            },
+            {
+                "text":"Yuck, what are those things behind your cabin?",
+                "nextPhraseID":"brightport_bryma7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":86
             }
         ]
     },
@@ -3424,7 +3468,7 @@
     },
     {
         "id":"brightport_fiamma2",
-        "message":"All the metal we're getting now is lower quality scraps. Feygard has been deliberately affecting the trade, so that blacksmiths in towns which were affiliated with Nor City can't forge quality weapons.",
+        "message":"All the metal we're getting now is lower quality scraps. There's a shortage, but Feygard has also been deliberately affecting the trade, so that blacksmiths in towns which were affiliated with Nor City can't forge quality weapons. Keeping all the good ore to themselves.",
         "replies":[
             {
                 "text":"What would you say if I brought you some quality materials?",
@@ -3775,7 +3819,7 @@
     },
     {
         "id":"brightport_fiamma21",
-        "message":"Here, take this glaive, it was given to me by my old master from Nor City. it was originally forged for nobility but after lord Emeric's defeat in the noble wars. The Imeria family fell from grace and this was sold for cheap at an auction.",
+        "message":"Here, take this glaive, it was given to me by my old master from Nor City. it was originally forged for nobility but after lord Emeric's defeat in the noble wars. The Imeria branch of house Houdart, fell from grace, and this was sold for cheap at an auction.",
         "replies":[
             {
                 "text":"That's really cool. Thanks!",
@@ -5625,5 +5669,112 @@
     {
         "id":"brighhtport_oswald23",
         "message":"Goodluck on your search. Bye."
+    },
+    {
+        "id":"brightport_bryma0",
+        "message":"It's an odd coincidence that the only 2 visitors I have had in years are asking the same question. You two could almost be twins.",
+        "replies":[
+            {
+                "text":"So you are Bryma then. I'm looking for a document from the brightport archive that was stolen.",
+                "nextPhraseID":"brightport_bryma2"
+            },
+            {
+                "text":"Could that possibly have been my brother Andor?",
+                "nextPhraseID":"brightport_bryma1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma1",
+        "message":"Andor? yes, I think that was his name. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma2",
+        "message":"You mean the secret scroll that I have right here? \n\n[Bryma takes out a rolled, tettered looking parchment]",
+        "replies":[
+            {
+                "text":"You can give it to me, or I can take it by force.",
+                "nextPhraseID":"brightport_bryma4"
+            },
+            {
+                "text":"I need to bring it back, could you kindly give it to me?",
+                "nextPhraseID":"brightport_bryma5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma3",
+        "message":"He brought me a scroll that I was interested in many years ago, in exchange for teaching him forbidden alchemy techniques. but by his tone I knew it was not something I had a choice on.",
+        "replies":[
+            {
+                "text":"I was looking for that scroll, can I have it?",
+                "nextPhraseID":"brightport_bryma5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":125
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma4",
+        "message":"Is that any way to speak to someone you just met? soo rude! - Here, have it, I wasn't intending to keep it anyway. And if you return, leave that attitude outside my cabin.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":95
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_scroll",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma5",
+        "message":"It was never my intention to keep it. as It\u2019s not particularly useful to me. Here, take it.",
+        "replies":[
+            {
+                "text":"Thanks! I will make sure it's returned to it's place.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":92
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_scroll",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma6",
+        "message":"You're back again? The forest isn't as quiet as it used to be."
+    },
+    {
+        "id":"brightport_bryma7",
+        "message":"Those are the bread golems I managed to create after years of research and study, with the great minds of Nor city.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma0"
+            }
+        ]
     }
 ]
