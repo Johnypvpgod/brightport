@@ -708,6 +708,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_key",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":103
             }
         ]
     },
@@ -1595,10 +1600,6 @@
             {
                 "text":"What incident?",
                 "nextPhraseID":"brightport_dibella5"
-            },
-            {
-                "text":"[If I recall, Stanwick was living here in Brightport with his grandfather. I should seek him out.]",
-                "nextPhraseID":"X"
             }
         ],
         "rewards":[
@@ -1689,7 +1690,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"[This might turn out to be a bigger hassle than I thought.]",
+                "text":"[If I recall, Stanwick was living here in Brightport with his grandfather. I should seek him out.]",
                 "nextPhraseID":"X"
             }
         ]
@@ -3052,6 +3053,16 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_key",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":47
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":103
             }
         ]
     },
@@ -3425,7 +3436,7 @@
         ]
     },
     {
-        "id":"brightport_fiamma"
+        "id":"brightport_thieves"
     },
     {
         "id":"brightport_fiamma_selector",
@@ -3858,7 +3869,8 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":20
+                        "value":20,
+                        "negate":true
                     }
                 ]
             },
@@ -5776,5 +5788,12 @@
                 "nextPhraseID":"brightport_bryma0"
             }
         ]
+    },
+    {
+        "id":"brightport_sign",
+        "message":"[ The upper part of the sign has been scratched off]\nEast: Brightport\nSouth: Duleian road"
+    },
+    {
+        "id":"brightport_library"
     }
 ]

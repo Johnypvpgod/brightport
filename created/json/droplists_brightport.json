@@ -4,6 +4,7 @@
         "items":[
             {
                 "itemID":"brightport_paper",
+                "chance":"100/100",
                 "quantity":{
                     "min":5,
                     "max":5
@@ -11,6 +12,7 @@
             },
             {
                 "itemID":"brightport_ink",
+                "chance":"100/100",
                 "quantity":{
                     "min":5,
                     "max":5
@@ -23,6 +25,7 @@
         "items":[
             {
                 "itemID":"broadsword_fine_steel",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -30,6 +33,7 @@
             },
             {
                 "itemID":"clmr_irn2",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -37,6 +41,7 @@
             },
             {
                 "itemID":"clmr_def1",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
@@ -44,9 +49,118 @@
             },
             {
                 "itemID":"clmr_msv",
+                "chance":"100/100",
                 "quantity":{
                     "min":1,
                     "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"freyja_shoplist",
+        "items":[
+            {
+                "itemID":"chmail2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"spmail2",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery",
+        "items":[
+            {
+                "itemID":"brightport_bakery",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"brightport_bakery1",
+                "chance":"100",
+                "quantity":{
+                    "min":2,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry",
+        "items":[
+            {
+                "itemID":"brightport_meat",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"meat",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"sword_villains",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            },
+            {
+                "itemID":"brightport_dagger",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
+    },
+    {
+        "id":"brightport_stiyl",
+        "items":[
+            {
+                "itemID":"health_minor2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"health",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
+                }
+            },
+            {
+                "itemID":"health_major2",
+                "chance":"100",
+                "quantity":{
+                    "min":5,
+                    "max":5
                 }
             }
         ]

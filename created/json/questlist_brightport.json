@@ -290,6 +290,10 @@
             {
                 "progress":102,
                 "logText":"R correct"
+            },
+            {
+                "progress":103,
+                "logText":"got library key"
             }
         ]
     },

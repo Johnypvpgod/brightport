@@ -143,7 +143,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -203,7 +203,7 @@
   <image source="../drawable/map_cupboard_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8329" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8457" name="map_broken_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_broken_1.png" width="512" height="256"/>
@@ -295,7 +295,9 @@
  <objectgroup name="Keys">
   <object name="Object" type="key" x="544" y="96" width="32" height="32">
    <properties>
+    <property name="phrase" value="brightport_thieves"/>
     <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireNegation" value="false"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="20"/>
    </properties>

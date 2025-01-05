@@ -82,7 +82,8 @@
         "id":"brightportarmor",
         "name":"Frejya",
         "iconID":"monsters_ld1:148",
-        "phraseID":"brightport_armor"
+        "phraseID":"brightport_armor",
+        "droplistID":"freyja_shoplist"
     },
     {
         "id":"brightportsmith",
@@ -118,7 +119,8 @@
         "id":"brightportpriest1",
         "name":"Stiyl",
         "iconID":"monsters_men:4",
-        "phraseID":"brightport_priest_1"
+        "phraseID":"brightport_priest_1",
+        "droplistID":"brightport_stiyl"
     },
     {
         "id":"brightportinn",
@@ -170,14 +172,16 @@
         "name":"Effa",
         "iconID":"monsters_ld1:144",
         "unique":1,
-        "phraseID":"brightport_bakery"
+        "phraseID":"brightport_bakery",
+        "droplistID":"brightport_bakery"
     },
     {
         "id":"brightportbakery3",
         "name":"Gunther",
         "iconID":"monsters_fatboy73:21",
         "unique":1,
-        "phraseID":"brightport_bakery"
+        "phraseID":"brightport_bakery",
+        "droplistID":"brightport_bakery"
     },
     {
         "id":"brightportcitizen",
@@ -244,7 +248,8 @@
         "name":"Oseanpry",
         "iconID":"monsters_ld1:114",
         "unique":1,
-        "phraseID":"brightport_oseanpry"
+        "phraseID":"brightport_oseanpry",
+        "droplistID":"brightport_oseanpry"
     },
     {
         "id":"brightportstudent",
