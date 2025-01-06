@@ -51,6 +51,7 @@
         "id":"brightport_ink",
         "iconID":"items_japozero:461",
         "name":"Ink",
+        "displaytype":"ordinary",
         "category":"other"
     },
     {
@@ -116,7 +117,12 @@
         "name":"Deerskin gloves",
         "displaytype":"rare",
         "category":"hnd_lthr",
-        "description":"A sturdy pair of gloves crafted out of the skin of an elder Elkdeer."
+        "description":"A sturdy pair of gloves crafted out of the skin of an elder Elkdeer.",
+        "equipEffect":{
+            "increaseMaxHP":5,
+            "increaseBlockChance":8,
+            "increaseDamageResistance":2
+        }
     },
     {
         "id":"brightportflamesword",
@@ -125,6 +131,12 @@
         "displaytype":"extraordinary",
         "category":"2hsword",
         "description":"Sizzling the flesh of evil beasts, and your hands alike.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":12
+            }
+        },
         "hitReceivedEffect":{
             "conditionsSource":[
                 {
@@ -143,6 +155,9 @@
         "displaytype":"rare",
         "category":"hnd_lthr",
         "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
+        "equipEffect":{
+            "increaseBlockChance":5
+        },
         "hitReceivedEffect":{
             "conditionsSource":[
                 {
@@ -175,6 +190,7 @@
         "id":"brightport_bakery1",
         "iconID":"items_newb:848",
         "name":"Apple pie",
+        "displaytype":"ordinary",
         "category":"food",
         "description":"Sweet and sour",
         "useEffect":{
@@ -191,6 +207,14 @@
     {
         "id":"brightport_dagger",
         "iconID":"items_newb:484",
-        "name":"Hunter's knife"
+        "name":"Hunter's knife",
+        "displaytype":"ordinary",
+        "category":"ssword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":3,
+                "max":6
+            }
+        }
     }
 ]

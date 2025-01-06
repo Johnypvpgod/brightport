@@ -456,6 +456,7 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_priest_story2"
             }
         ]
@@ -542,14 +543,14 @@
                 "nextPhraseID":"brightport_loudmouth1"
             },
             {
-                "text":"Im afraid if i let you speak it will never end, bye.",
+                "text":"Im afraid if I let you speak it will never end, bye.",
                 "nextPhraseID":"brightport_loudmouth3"
             }
         ]
     },
     {
         "id":"brightport_loudmouth1",
-        "message":"I once heard a story about a guy who visited a kingdom ruled by rats--they call it the Ratdom! Haha! People say he disappeared as a child and reappeared a decade later, wearing clothes made entirely of ratskin. He even spoke Rattish! Imagine that, speaking Rattish! Hic. speaking of rats...",
+        "message":"I once heard a story about a guy who visited a kingdom ruled by rats - They call it the Ratdom! Haha! People say he disappeared as a child and reappeared a decade later, wearing clothes made entirely of ratskin. He even spoke Rattish! Imagine that, speaking Rattish! Hic. speaking of rats...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -560,7 +561,7 @@
     },
     {
         "id":"brightport_loudmouth2",
-        "message":"Those folks from Brimhaven! - I'd refrain from rudely calling them... hmm, mice. But if anyone resembles a mouse, it would be them. We got a job offer from.. Hic. I\u2019m professional enough not to reveal our clients. Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should\u2019ve seen it coming, considering we wouldn\u2019t budge on the price. Speaking of price...",
+        "message":"Those folks from Brimhaven! - I'd refrain from rudely calling them... hmm, mice. But if anyone resembles a mouse, it would be them. We got a job offer from.. Hic. I\u2019m professional enough not to reveal our clients... Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should\u2019ve seen it coming, considering we wouldn\u2019t budge on the price. Speaking of price...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -1129,6 +1130,7 @@
     {
         "id":"brightport_bakery",
         "message":"Hello, and welcome to the world famous bakery of Brightport, how may I help you?",
+        "switchToNPC":"brightportbakery2",
         "replies":[
             {
                 "text":"Please show me the menu.",
@@ -1921,7 +1923,6 @@
     },
     {
         "id":"brightport_stanwick_selector",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -2851,7 +2852,8 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
-                        "requireID":"Stanwickquest"
+                        "requireID":"brightport_nondisplay",
+                        "value":104
                     }
                 ]
             },
@@ -3358,6 +3360,11 @@
                         "requireID":"Stanwickquest",
                         "value":85,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
                     }
                 ]
             }
@@ -3413,6 +3420,11 @@
                         "requireID":"Stanwickquest",
                         "value":85,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
                     }
                 ]
             }
@@ -3430,6 +3442,11 @@
                         "requireID":"Stanwickquest",
                         "value":85,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65
                     }
                 ]
             }
@@ -3469,7 +3486,7 @@
         "replies":[
             {
                 "text":"If I brought you the materials, could you forge me something with them?",
-                "nextPhraseID":"brightport_fiamma3"
+                "nextPhraseID":"brightport_fiamma"
             },
             {
                 "text":"What's wrong with the steel?",
@@ -3483,13 +3500,13 @@
         "replies":[
             {
                 "text":"What would you say if I brought you some quality materials?",
-                "nextPhraseID":"brightport_fiamma3"
+                "nextPhraseID":"brightport_fiamma"
             }
         ]
     },
     {
         "id":"brightport_fiamma3",
-        "message":"I could gladly forge you something, but first, we have to discuss the materials I have in mind. I presume you have heard of the town of Remgard?",
+        "message":"OK. First, we have to discuss the materials I have in mind. I presume you have heard of the town of Remgard?",
         "replies":[
             {
                 "text":"Yes I have heard of it.",
@@ -3520,7 +3537,7 @@
     },
     {
         "id":"brightport_fiamma5",
-        "message":"Many travelers pass through Brightport on their way to or from Remgard. The town lies high in the mountains, and from those travelers I heard of beasts called arulirs, harassing travelers along a short stretch of the road.",
+        "message":"Many travelers pass through Brightport on their way to and back from Remgard. The town lies high in the mountains, and from those travelers I heard of beasts called arulirs, harassing travelers along a short stretch of the road.",
         "replies":[
             {
                 "text":"N",
@@ -5543,7 +5560,14 @@
         "replies":[
             {
                 "text":"It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.",
-                "nextPhraseID":"brightport_oswald15"
+                "nextPhraseID":"brightport_oswald15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125
+                    }
+                ]
             },
             {
                 "text":"I prefer not saying, it would cause trouble to the people who helped me.",
@@ -5750,6 +5774,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_scroll",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":104
             }
         ]
     },
@@ -5772,12 +5801,68 @@
                 "rewardType":"giveItem",
                 "rewardID":"brightport_scroll",
                 "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":104
             }
         ]
     },
     {
         "id":"brightport_bryma6",
-        "message":"You're back again? The forest isn't as quiet as it used to be."
+        "message":"You're back again? The forest isn't as quiet as it used to be.",
+        "replies":[
+            {
+                "text":"Can you tell me more about what you know of my brother Andor?",
+                "nextPhraseID":"brightport_bryma13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":105,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me about Andor again?",
+                "nextPhraseID":"brightport_bryma13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":105
+                    }
+                ]
+            },
+            {
+                "text":"I heard you haven't been in Brightport for years, how did the scroll reach you?",
+                "nextPhraseID":"brightport_bryma8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Why do you live here in the forest?",
+                "nextPhraseID":"brightport_bryma15"
+            }
+        ]
     },
     {
         "id":"brightport_bryma7",
@@ -5795,5 +5880,160 @@
     },
     {
         "id":"brightport_library"
+    },
+    {
+        "id":"brightport_bakery3",
+        "message":"Hello, and welcome to the world famous bakery of Brightport, how may I help you?",
+        "switchToNPC":"brightportbakery3"
+    },
+    {
+        "id":"brightport_fiamma",
+        "message":"I would gladly forge you something, but it would require much effort on your part. If that's alright with you.",
+        "replies":[
+            {
+                "text":"There is no task beyond my skill.",
+                "nextPhraseID":"brightport_fiamma3"
+            },
+            {
+                "text":"Ha! you're speaking with a seasoned adventurer, I can do it!",
+                "nextPhraseID":"brightport_fiamma3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma8",
+        "message":"It was brought to me by a boy who looked a lot like you. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma9",
+        "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door. I went to look and, a boy of about 17 introduced himself. I think his name was Andor..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma10",
+        "message":"We sat down, and he started asking me all sorts of questions. I was glad to have someone to talk to. But soon, he pulled out a list of ingredients and asked on how to acquire and use them, most of which were highly poisonous.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma11",
+        "message":"I tried to refuse him, but that\u2019s when his tone shifted. The cheerful charisma he\u2019d shown vanished, as he pulled out that scroll, I heard him mumbling, 'Last measure...'",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":125
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":105
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma12",
+        "message":"I told him everything he wanted to know. And he left me with it, it might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
+        "replies":[
+            {
+                "text":"Can we talk about something else?",
+                "nextPhraseID":"brightport_bryma14"
+            },
+            {
+                "text":"What are you researching?",
+                "nextPhraseID":"brightport_bryma16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma13",
+        "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door. I went to look, and a boy of about 17 introduced himself as Andor.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma14",
+        "message":"Sure, what do you want to know?",
+        "replies":[
+            {
+                "text":"Can you tell me about Andor again?",
+                "nextPhraseID":"brightport_bryma13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":105
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":125
+                    }
+                ]
+            },
+            {
+                "text":"Why do you live here in the forest?",
+                "nextPhraseID":"brightport_bryma15"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma15",
+        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my research, I came back, patched things up, and moved in. It\u2019s pretty cozy - I can drink tea and bake at my leisure.",
+        "replies":[
+            {
+                "text":"What are you researching?",
+                "nextPhraseID":"brightport_bryma18"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma16",
+        "message":"At the start of my baking studies, I set out to develop a unique leavening method to stand out from other bakers and make a name for myself.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma17",
+        "message":"I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. That\u2019s when I decided to mix a bonemeal potion into the process."
+    },
+    {
+        "id":"brightport_bryma18",
+        "message":"Many things. Baking is an ongoing process in which you learn new things every day. Temperature, ingredients, techniques. The list of things you can improve is unending. But there is one specific thing I\u2019m focused on.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma16"
+            }
+        ]
     }
 ]

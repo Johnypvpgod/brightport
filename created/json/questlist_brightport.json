@@ -294,6 +294,14 @@
             {
                 "progress":103,
                 "logText":"got library key"
+            },
+            {
+                "progress":104,
+                "logText":"got scroll"
+            },
+            {
+                "progress":105,
+                "logText":"andor story"
             }
         ]
     },
@@ -309,6 +317,7 @@
     {
         "id":"brightport_fiamma",
         "name":"Too hot to handle",
+        "showInLog":1,
         "stages":[
             {
                 "progress":5,

@@ -230,9 +230,9 @@
    eJzLUmJgyAbiHCAmFeyUY2DYJUe6voEETxUHxt4nitS1+7YyceqOAe38SkV7TxNpL8yvWRSkL3LtnQlMk7OolC6JtZfa8XuLBP9SM36JBcegduLzN0xuETDuFyPFvwueuLkLlLuHRx5m5hdFTDFkORjbmYR08A9JLS59IDMTgXGTpAwJA5g9x5DSHTXjo0UZEdbUStvEmvEEyR/0KjeR3YZuJ760dowM96GnQ2rnYRi4CbTnFp70hA7Q3UGNOHcGpiMXtDKFFP8So/aOJDD/SuJXg88MXHFIjXihVdwSArS0E1YOYQM70eKBmHKaWPX4AAChfV+G
   </data>
  </layer>
- <layer id="4" name="Walkable" width="30" height="22" visible="0">
+ <layer id="4" name="Walkable" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzNlMsNwDAIQ7NL9h+g2/We8rHBRLWUUwjPIMhaXz07PmecpyyHlQtlR2Leo1zEA9u36un0TsGt9uk2t1vzH96ys8XOQyaGacV7tXTYVs6IzbAQdhaDMiMf1bmZ5ioYLHtK7D55OVQ+1GJ9ezug9lD5fxQx7N3kzE/rxt5YegHGBQtU
+   eJzNlMsRACEIQ+1l+y/A7vaufBIgO5sZTyIvILrWrf3E64zzlOWwcqHsSMx5lIt4YPtWXZ3eTXCrffqa2635D2fZ2WLnIRPDtOK9WjpsK2fEZlgIO4tBmZGP6tyouRMMlq1SdN+I7zNHx4eiTta39wamPVT+n4kYdk8582qp342X/wUX8Amc
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -248,7 +248,7 @@
     <property name="place" value="north1"/>
    </properties>
   </object>
-  <object id="3" name="east" type="mapchange" x="928" y="480" width="32" height="192">
+  <object id="3" name="east" type="mapchange" x="928" y="448" width="32" height="224">
    <properties>
     <property name="map" value="waytobrightport17"/>
     <property name="place" value="west"/>

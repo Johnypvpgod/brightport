@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="22" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -180,61 +180,91 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_plant_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_3.png" width="512" height="256"/>
+ <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
+  <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
- <tileset firstgid="7705" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7833" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="7961" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8089" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
- </tileset>
- <layer id="9" name="Base" width="22" height="22">
+ <layer id="1" name="Base" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRQCrYyIlK0wJshpp9goZ20ALQMkyGMwAAQWQDvA==
+   eJxjYBgFIxnwceHnDxU7hgsgFFbUCDt62EErAABtewDx
   </data>
  </layer>
- <layer id="1" name="Ground" width="22" height="22">
+ <layer id="2" name="Ground" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJw7wcnAcGIUj+JRPIrpjDfTyMzNNDAbBDZyQjBM7JYYhH9bjHxzN3Jimoss9kwQ4pdXJNqxkUhMajgRay6pYUKsuaS6mRRzB0P4AgBzoIT0
+   eJzbLMbAsJkA3s5JGSZkPsyOU7LkYVLcckuWPAzTT4xb+LjIw8S6EWQPuXagu5FNHFUexr9FgR230OwQQ7MDnU9JeFHDnIG0A5amCMUHLj6xcY4cn4Tig5z4AZn/kpMyDDMLnxoA1IKBRw==
   </data>
  </layer>
- <layer id="2" name="Objects" width="22" height="22">
+ <layer id="3" name="Objects" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJztkTsOgzAMQHMFL5EY0vtfo0sDPULonIYgVkS32rKjUNQhQLvlSRaypTx/UKpSqVS+47VSAWPQv/WO4ot/cCdanecPJ/dw+G7B6DV7LYYzXHsY3uOI/0U+YB85RvGnGvXoDffY6+7QMcvcFNRranKNdonA/UrxwN8bfNZbya30dOb4v02uO7BvjRVf6czd5n3c5LSHl7s7uVEpT8izJigPK+f1su++b6tDRns=
+   eJxjYCAfqAsj2JJMCLaKMKZaQgCkP5Efwv4jw8AQz4Zgg4A9G4SthqTmKh+m3ehuwyZ3h5WBgUeWgeEzkP4CZYPE/Nkg7HtA9n2oODIA+QtkJ8ju90D6Ax/CHfFsCLduAOp7A9R/UYyBgRkozsIGYYPEQHJLgOx3QPZ7qBoQ+C2KGp7IduNiUwKOsDAwlADtPgakV/Cj8lv5EeomAsUmEcCTxRD+gAGQX54AzZoCFH/GAhFD5w8FgC390AIghz8xfHIAcvgf4kfld/Jjxo87CwIjg4VANYugeDGWuKclAAAH0EaM
   </data>
  </layer>
- <layer id="3" name="Above" width="22" height="22">
+ <layer id="4" name="Above" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIKBAbcFaW/HKVkGhtNAfEaWema+ALr7FtC820B8R5a6dtyRZGC4Kwlh34Kad4cK5r6RxBSjRdjAACxsRgHxAADymxPH
+   eJxjYBgF9AIXxSB4Oz/xemagqS0lQS8hsAPNrJ14zM5AkstEYj+QxW/HAQLyowA3OEzFuKYlOERHdwIAFdcJuw==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="22" height="22" visible="0">
+ <layer id="5" name="Top" width="25" height="12">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJHKGASobeaouaPmjpo7fMyFAVqZS02zcZkLY5NrH7GA1LjAZw4l4UQqoIZ7KTGbHEBtc0lNDwDKeS2s
+   eJxjYBg84LDY4LeDGP3DxY5LUDUPZCH0GlmE3HxZTPXk2EEpGLVjcNlBawAALZANlw==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
-  <object id="1" name="south" type="mapchange" x="0" y="672" width="320" height="32">
+ <layer id="6" name="Walkable" width="25" height="12">
+  <data encoding="base64" compression="zlib">
+   eJzbKMbAsHEU0wSDADY2uhoYINVscgAh99DKDmxylAJqmTOQduALd1xxRQ07KIl7WuYXQuYDACc7iAo=
+  </data>
+ </layer>
+ <objectgroup id="7" name="Mapevents">
+  <object id="1" name="stair" type="mapchange" x="736" y="96" width="32" height="32">
    <properties>
-    <property name="map" value="waytobrightport18"/>
-    <property name="place" value="north"/>
+    <property name="map" value="brightport_bakery2"/>
+    <property name="place" value="entrance"/>
    </properties>
   </object>
-  <object id="2" name="west" type="mapchange" x="0" y="448" width="32" height="224">
+  <object id="2" name="entrance" type="mapchange" x="512" y="352" width="64" height="32">
    <properties>
-    <property name="map" value="waytobrightport16"/>
-    <property name="place" value="east"/>
+    <property name="map" value="brightport5"/>
+    <property name="place" value="bakery"/>
+   </properties>
+  </object>
+  <object id="3" name="east" type="mapchange" x="768" y="192" width="32" height="64">
+   <properties>
+    <property name="map" value="brightport_bakery1"/>
+    <property name="place" value="west"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Spawn">
+  <object id="4" name="brightportbakery" type="spawn" x="160" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakery"/>
+   </properties>
+  </object>
+  <object id="5" name="brightportbakeryvisitor" type="spawn" x="160" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakeryvisitor"/>
+   </properties>
+  </object>
+  <object id="6" name="brightportbakery1" type="spawn" x="32" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakery1"/>
+   </properties>
+  </object>
+  <object id="7" name="brightportbakery3" type="spawn" x="352" y="128" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakery3"/>
+   </properties>
+  </object>
+  <object id="8" name="brightportbakery2" type="spawn" x="512" y="128" width="160" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportbakery2"/>
+   </properties>
+  </object>
+  <object id="10" name="brightportguardcaptain" type="spawn" x="640" y="288" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="brightportguardcaptain"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Keys"/>
+ <objectgroup id="10" name="Replace"/>
 </map>
