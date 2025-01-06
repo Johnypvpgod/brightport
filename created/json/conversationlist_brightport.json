@@ -1453,7 +1453,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
-                        "value":15,
+                        "value":16,
                         "negate":true
                     },
                     {
@@ -1477,6 +1477,11 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_fruit",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":16
                     }
                 ]
             },
@@ -1528,7 +1533,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
-                        "value":15,
+                        "value":16,
                         "negate":true
                     },
                     {
@@ -1552,6 +1557,11 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_fruit",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":16
                     }
                 ]
             },
@@ -1953,7 +1963,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
-                        "value":16
+                        "value":20
                     },
                     {
                         "requireType":"questProgress",
@@ -2211,7 +2221,7 @@
                 ]
             },
             {
-                "text":"[Evidently. a saga of my adventures!]",
+                "text":"[Evidently. a tale of my adventures!]",
                 "nextPhraseID":"brightport_write_2",
                 "requires":[
                     {
@@ -2274,26 +2284,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_write_intermediary2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_write_intermediary",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_write_intermediary"
             }
         ],
         "rewards":[
@@ -2310,27 +2301,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_write_intermediary2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64,
-                        "negate":false
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_write_intermediary",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_write_intermediary"
             }
         ],
         "rewards":[
@@ -2362,7 +2333,29 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_write2",
+                "nextPhraseID":"brightport_write2_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_paper",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_ink",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":64,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_write_intermediary2",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
@@ -2376,13 +2369,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":64
-            }
         ]
     },
     {
@@ -2391,26 +2377,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_write_intermediary2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_write_intermediary",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":64,
-                        "negate":true
-                    }
-                ]
+                "nextPhraseID":"brightport_write_intermediary"
             }
         ],
         "rewards":[
@@ -2963,6 +2930,7 @@
         "message":"I won't allow it. If this is as far as you go with the investigation, then so be it.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_oswald8"
             }
         ],
@@ -4040,6 +4008,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_statue_central_selector"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":66
+            }
         ]
     },
     {
@@ -4052,7 +4027,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
-                        "value":66
+                        "value":70
                     },
                     {
                         "requireType":"questProgress",
@@ -5932,7 +5907,7 @@
     },
     {
         "id":"brightport_bryma11",
-        "message":"I tried to refuse him, but that\u2019s when his tone shifted. The cheerful charisma he\u2019d shown vanished, as he pulled out that scroll, I heard him mumbling, 'Last measure...'",
+        "message":"I tried to refuse him, but that\u2019s when his tone shifted. The cheerful charisma he\u2019d shown vanished. As he pulled out that scroll, I heard him mumbling, 'Last measure...'",
         "replies":[
             {
                 "text":"N",
@@ -5954,7 +5929,7 @@
     },
     {
         "id":"brightport_bryma12",
-        "message":"I told him everything he wanted to know. And he left me with it, it might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
+        "message":"I had no choice. I told him everything he wanted to know. And he left me with the scroll before leaving. - It might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -6024,7 +5999,13 @@
     },
     {
         "id":"brightport_bryma17",
-        "message":"I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. That\u2019s when I decided to mix a bonemeal potion into the process."
+        "message":"I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. That\u2019s when I decided to mix a bonemeal potion into the process.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma19"
+            }
+        ]
     },
     {
         "id":"brightport_bryma18",
@@ -6033,6 +6014,41 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_bryma16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma19",
+        "message":"To my amazement, the bread rose to nearly triple its size! That\u2019s when I brought it to the headmaster\u2019s attention. It was greatly received, and I was rewarded with a specially made bonemeal potion from his collection.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_write2_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_write2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":64
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma20",
+        "message":"But the bread baked from that one started mutating, much like what you can see in my kitchen. Soon afterward, my research was barred, and I left of my own volition.",
+        "replies":[
+            {
+                
             }
         ]
     }
