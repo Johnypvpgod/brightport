@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="21" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="21" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -213,7 +213,20 @@
    eJzbKMbAsHGYYBCgplnoAN0OdDlCZuAylxAg1n3kmolLnlz3IetHpwnJ4TOXWhgA1h5cgg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="east" type="mapchange" x="640" y="128" width="32" height="64">
+   <properties>
+    <property name="map" value="brightport_cave18"/>
+    <property name="place" value="west"/>
+   </properties>
+  </object>
+  <object id="2" name="north" type="mapchange" x="288" y="64" width="32" height="32">
+   <properties>
+    <property name="map" value="brightport_cave20"/>
+    <property name="place" value="south"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="6" name="Spawn"/>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>

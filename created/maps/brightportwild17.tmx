@@ -244,7 +244,7 @@
  <objectgroup id="5" name="Mapevents">
   <object id="1" name="cave" type="mapchange" x="352" y="128" width="160" height="32">
    <properties>
-    <property name="map" value="brightportwild16"/>
+    <property name="map" value="brightport_cave17"/>
     <property name="place" value="entrance"/>
    </properties>
   </object>

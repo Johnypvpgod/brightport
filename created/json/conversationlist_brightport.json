@@ -20,7 +20,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"[Guess I\u2019ll find some paper and ink...]",
+                "text":"[Guess I'll find some paper and ink...]",
                 "nextPhraseID":"X",
                 "requires":[
                     {
@@ -366,7 +366,7 @@
         "message":"Halt! If you value your life, stay off this path, kid.",
         "replies":[
             {
-                "text":"Ha, I can handle myself. Don\u2019t worry about me.",
+                "text":"Ha, I can handle myself. Don't worry about me.",
                 "nextPhraseID":"brightportguard_1reply"
             },
             {
@@ -474,7 +474,7 @@
     },
     {
         "id":"brightport_priest_story3",
-        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. The nobles, now as back then, are still preoccupied with trifling matters. I\u2019m afraid we will never reclaim our holy place.",
+        "message":"The temple was ransacked, and not a single one of its acolytes or servants returned. The nobles, now as back then, are still preoccupied with trifling matters. I'm afraid we will never reclaim our holy place.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -535,7 +535,7 @@
     },
     {
         "id":"brightport_loudmouth",
-        "message":"Hey kid, have you met my brother outside? Haha, that guy\u2019s a real Scrooge, they say we're nothing alike,  I\u2019m telling you. He\u2019s just like Mom - We'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
+        "message":"Hey kid, have you met my brother outside? Haha, that guy's a real Scrooge, they say we're nothing alike,  I'm telling you. He's just like Mom - We'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -561,7 +561,7 @@
     },
     {
         "id":"brightport_loudmouth2",
-        "message":"Those folks from Brimhaven! - I'd refrain from rudely calling them... hmm, mice. But if anyone resembles a mouse, it would be them. We got a job offer from.. Hic. I\u2019m professional enough not to reveal our clients... Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should\u2019ve seen it coming, considering we wouldn\u2019t budge on the price. Speaking of price...",
+        "message":"Those folks from Brimhaven! - I'd refrain from rudely calling them... hmm, mice. But if anyone resembles a mouse, it would be them. We got a job offer from.. Hic. I'm professional enough not to reveal our clients... Long story short, we ended up declining due to a failure in negotiations. The client then went and hired some local, incompetent bunglers to handle the delicate job! Should've seen it coming, considering we wouldn't budge on the price. Speaking of price...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -583,7 +583,7 @@
     },
     {
         "id":"brighport_watchdog",
-        "message":"Sigh. It\u2019s almost time for my shift again, but I can\u2019t complain. The guild pays good money.",
+        "message":"Sigh. It's almost time for my shift again, but I can't complain. The guild pays good money.",
         "switchToNPC":"brightportthieves4"
     },
     {
@@ -667,7 +667,7 @@
     },
     {
         "id":"brightport_counterfeit1",
-        "message":"Normally, I\u2019d need the original, but lucky for you, kid, I was a student here years ago and made a copy. You can have it, for 500 gold.",
+        "message":"Normally, I'd need the original, but lucky for you, kid, I was a student here years ago and made a copy. You can have it, for 500 gold.",
         "switchToNPC":"brightportthieves2",
         "replies":[
             {
@@ -697,7 +697,7 @@
     },
     {
         "id":"brightport_counterfeit2",
-        "message":"Alright, here you go. Now hush off. I\u2019ve got work to do.",
+        "message":"Alright, here you go. Now hush off. I've got work to do.",
         "switchToNPC":"brightportthieves2",
         "rewards":[
             {
@@ -836,7 +836,7 @@
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
-                "text":"That doesn\u2019t make me any less suspicious of you. So, what is it that you trade?",
+                "text":"That doesn't make me any less suspicious of you. So, what is it that you trade?",
                 "nextPhraseID":"brightport_silvear"
             }
         ]
@@ -847,7 +847,7 @@
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
-                "text":"That doesn\u2019t make me any less suspicious of you. So, what is it that you trade?",
+                "text":"That doesn't make me any less suspicious of you. So, what is it that you trade?",
                 "nextPhraseID":"brightport_silvear"
             }
         ]
@@ -873,7 +873,7 @@
     },
     {
         "id":"brightport_silvear_andor2",
-        "message":"As I mentioned, I\u2019m a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold.",
+        "message":"As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1004,11 +1004,11 @@
     },
     {
         "id":"brightport_silvear_directions1",
-        "message":"For you, it\u2019ll be 2,000 gold coins. It\u2019s our hideout, kid, I can\u2019t just give out access for free.",
+        "message":"For you, it'll be 2,000 gold coins. It's our hideout, kid, I can't just give out access for free.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
-                "text":"That price seems a bit excessive \"for me\". I\u2019ve done a lot for the guild. I\u2019m the one who took down Crackshot.",
+                "text":"That price seems a bit excessive \"for me\". I've done a lot for the guild. I'm the one who took down Crackshot.",
                 "nextPhraseID":"brightport_silvear_direction4",
                 "requires":[
                     {
@@ -1041,7 +1041,7 @@
     },
     {
         "id":"brightport_silvear_bye1",
-        "message":"You won\u2019t get far with that attitude. Come back when you\u2019ve grown up a bit.",
+        "message":"You won't get far with that attitude. Come back when you've grown up a bit.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1056,7 +1056,7 @@
     },
     {
         "id":"brightport_silvear_direction4",
-        "message":"Sure, that was impressive for someone your age, but what goes down in Umar\u2019s turf has little to do with the guild here in Brightport.",
+        "message":"Sure, that was impressive for someone your age, but what goes down in Umar's turf has little to do with the guild here in Brightport.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1112,7 +1112,7 @@
     },
     {
         "id":"brightport_silvear_directions3",
-        "message":"Go inside through the door on the right. In the upper left corner, you\u2019ll spot a protrusion in the wall, that\u2019s where you\u2019ll find our hideout. Bye, kid.",
+        "message":"Go inside through the door on the right. In the upper left corner, you'll spot a protrusion in the wall, that's where you'll find our hideout. Bye, kid.",
         "switchToNPC":"brightportthieves1",
         "rewards":[
             {
@@ -1329,7 +1329,7 @@
     },
     {
         "id":"brightport_oseanpry3",
-        "message":"Very well, but remember, each of your choices has consequences. Once made, you won\u2019t be able to go back to how things were before.",
+        "message":"Very well, but remember, each of your choices has consequences. Once made, you won't be able to go back to how things were before.",
         "switchToNPC":"Brightportthieves5",
         "replies":[
             {
@@ -1392,7 +1392,7 @@
     },
     {
         "id":"brightport_janwick1",
-        "message":"Oh, it\u2019s you, Andor! Even without my glasses, I can tell you haven\u2019t changed a bit. Here to visit Stanwick, I see.",
+        "message":"Oh, it's you, Andor! Even without my glasses, I can tell you haven't changed a bit. Here to visit Stanwick, I see.",
         "replies":[
             {
                 "text":"N",
@@ -1402,7 +1402,7 @@
     },
     {
         "id":"brightport_janwick2",
-        "message":"He\u2019s at the academy, as always. Here, take these fruits with you and give them to him for me, would you?",
+        "message":"He's at the academy, as always. Here, take these fruits with you and give them to him for me, would you?",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1418,7 +1418,7 @@
     },
     {
         "id":"brightport_dibella",
-        "message":"Welcome to the Brightport Academy. I\u2019m Dibella, the principal\u2019s assistant.",
+        "message":"Welcome to the Brightport Academy. I'm Dibella, the principal's assistant.",
         "replies":[
             {
                 "text":"N",
@@ -1436,10 +1436,10 @@
     },
     {
         "id":"brightport_dibella1",
-        "message":"It\u2019s almost time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
+        "message":"It's almost time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
         "replies":[
             {
-                "text":"My brother has been missing, so I\u2019m here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
+                "text":"My brother has been missing, so I'm here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
                 "nextPhraseID":"brightport_dibella4",
                 "requires":[
                     {
@@ -1519,7 +1519,7 @@
         "message":"Is there something I could assist you with?",
         "replies":[
             {
-                "text":"My brother has been missing, so I\u2019m here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
+                "text":"My brother has been missing, so I'm here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
                 "nextPhraseID":"brightport_dibella4",
                 "requires":[
                     {
@@ -1726,7 +1726,7 @@
     },
     {
         "id":"brightport_franz2",
-        "message":"I\u2019ll read it next after I\u2019m done with this other paper. Please come back later.",
+        "message":"I'll read it next after I'm done with this other paper. Please come back later.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1741,10 +1741,10 @@
     },
     {
         "id":"brightport_franz",
-        "message":"I\u2019ve read your question, but I must say, your handwriting could use some improvement.",
+        "message":"I've read your question, but I must say, your handwriting could use some improvement.",
         "replies":[
             {
-                "text":"Hey, if you slayed dragons like me, you wouldn\u2019t have time to practice either.",
+                "text":"Hey, if you slayed dragons like me, you wouldn't have time to practice either.",
                 "nextPhraseID":"brightport_franz4"
             },
             {
@@ -1810,7 +1810,7 @@
     },
     {
         "id":"brightport_franz3",
-        "message":"I haven\u2019t read your question yet. Come back later."
+        "message":"I haven't read your question yet. Come back later."
     },
     {
         "id":"brightport_franz4",
@@ -1915,7 +1915,7 @@
     },
     {
         "id":"brightport_milena4",
-        "message":"I assumed that I was just tired and didn\u2019t give it much thought. I told the headmaster, but it didn\u2019t seem to be related to the theft. That\u2019s all.",
+        "message":"I assumed that I was just tired and didn't give it much thought. I told the headmaster, but it didn't seem to be related to the theft. That's all.",
         "replies":[
             {
                 "text":"Interesting, thanks.",
@@ -2051,7 +2051,7 @@
     },
     {
         "id":"brightport_stanwick2",
-        "message":"Yeah, I bet. Crossglen can be pretty boring, but it\u2019s also nostalgic.",
+        "message":"Yeah, I bet. Crossglen can be pretty boring, but it's also nostalgic.",
         "replies":[
             {
                 "text":"N",
@@ -2272,7 +2272,7 @@
     },
     {
         "id":"brightport_write_3",
-        "message":"Did you see my broth-, no, that\u2019s not it. Hello, have you see\u2014Argh! [You crumple the paper into a ball and toss it aside.]",
+        "message":"Did you see my broth-, no, that's not it. Hello, have you see\u2014Argh! [You crumple the paper into a ball and toss it aside.]",
         "replies":[
             {
                 "text":"N",
@@ -2365,7 +2365,7 @@
     },
     {
         "id":"brightport_write_1",
-        "message":"How do I cook meat... Well, that\u2019s not exactly a scholarly question. [You crumple the paper and toss it away.]",
+        "message":"How do I cook meat... Well, that's not exactly a scholarly question. [You crumple the paper and toss it away.]",
         "replies":[
             {
                 "text":"N",
@@ -2469,7 +2469,7 @@
     },
     {
         "id":"oswald_start",
-        "message":"Hey, kid, stop running around my office! You\u2019re distracting me from my work.",
+        "message":"Hey, kid, stop running around my office! You're distracting me from my work.",
         "replies":[
             {
                 "text":"Excuse me sir. I wish to help Stanwick by investigating the theft. Could you tell me more about it?",
@@ -2546,7 +2546,7 @@
     },
     {
         "id":"brightport_stanwick4",
-        "message":"Still, though, it\u2019s been a while, huh? Six years since my father sent me to Crossglen for safety, when I met Andor and you.",
+        "message":"Still, though, it's been a while, huh? Six years since my father sent me to Crossglen for safety, when I met Andor and you.",
         "replies":[
             {
                 "text":"N",
@@ -2566,7 +2566,7 @@
     },
     {
         "id":"brightport_stanwick6",
-        "message":"That\u2019s terrible news. But strangely, I\u2019m not that surprised, something about his behavior before graduation was bothering me.",
+        "message":"That's terrible news. But strangely, I'm not that surprised, something about his behavior before graduation was bothering me.",
         "replies":[
             {
                 "text":"That might be something that could help my search. Could you tell me more?",
@@ -2576,7 +2576,7 @@
     },
     {
         "id":"brightport_stanwick7",
-        "message":"I wish I could, but now\u2019s not the right time. This incident that\u2019s happened has left my memory in a haze.",
+        "message":"I wish I could, but now's not the right time. This incident that's happened has left my memory in a haze.",
         "replies":[
             {
                 "text":"N",
@@ -2613,7 +2613,7 @@
     },
     {
         "id":"brightport_stanwick_incident1",
-        "message":"Of course, I had nothing to do with it. As a matter of fact, the Headmaster and his assistant were the only ones I\u2019ve seen go down there.",
+        "message":"Of course, I had nothing to do with it. As a matter of fact, the Headmaster and his assistant were the only ones I've seen go down there.",
         "replies":[
             {
                 "text":"N",
@@ -2623,10 +2623,10 @@
     },
     {
         "id":"brightport_stanwick9",
-        "message":"You would? But still, I\u2019m not sure. This might be as difficult as finding a needle in a haystack.",
+        "message":"You would? But still, I'm not sure. This might be as difficult as finding a needle in a haystack.",
         "replies":[
             {
-                "text":"You can trust me. I\u2019ve solved all sorts of mysteries on this journey.",
+                "text":"You can trust me. I've solved all sorts of mysteries on this journey.",
                 "nextPhraseID":"brightport_stanwick10"
             }
         ]
@@ -2806,7 +2806,7 @@
     },
     {
         "id":"brightport_bryma",
-        "message":"A visitor, how unusual. I presume you haven\u2019t simply stumbled upon my cabin by accident.",
+        "message":"A visitor, how unusual. I presume you haven't simply stumbled upon my cabin by accident.",
         "replies":[
             {
                 "text":"Are you the person named Bryma?",
@@ -2830,7 +2830,7 @@
         "message":"Forget it. This is none of your concern. What makes you think you should be involved?",
         "replies":[
             {
-                "text":"It\u2019s unfair that Stanwick, whose name is most to suffer from the theft, was told to stay put.",
+                "text":"It's unfair that Stanwick, whose name is most to suffer from the theft, was told to stay put.",
                 "nextPhraseID":"brightport_oswald2"
             },
             {
@@ -2868,7 +2868,7 @@
     },
     {
         "id":"brightport_oswald3",
-        "message":"If the lord in charge of the town of Brightport learns of the contents of the scroll, we will be accused of treason, heads might roll, and our town\u2019s standing will be greatly diminished. Do you understand what\u2019s at stake now?",
+        "message":"If the lord in charge of the town of Brightport learns of the contents of the scroll, we will be accused of treason, heads might roll, and our town's standing will be greatly diminished. Do you understand what's at stake now?",
         "replies":[
             {
                 "text":"Yes, it was a reasonable action.",
@@ -3734,7 +3734,7 @@
     },
     {
         "id":"brightport_fiamma18",
-        "message":"Hey, you didn\u2019t specify, so I made what I know best. ",
+        "message":"Hey, you didn't specify, so I made what I know best. ",
         "replies":[
             {
                 "text":"Could you forge me something else with the same materials then?",
@@ -3744,7 +3744,7 @@
     },
     {
         "id":"brightport_fiamma19",
-        "message":"Frankly, I don\u2019t feel like forging another sword for you, but I can give you something else instead, and keep the sword for myself if you don't like it.",
+        "message":"Frankly, I don't feel like forging another sword for you, but I can give you something else instead, and keep the sword for myself if you don't like it.",
         "replies":[
             {
                 "text":"Yes, I would prefer that.",
@@ -3758,7 +3758,7 @@
     },
     {
         "id":"brightport_fiamma20",
-        "message":"Well, kid, usually I would have my reservations about giving someone as young as you something this dangerous. But you\u2019re the one who fought those dangerous creatures, so my worries are unfounded. Take it, and use it well.",
+        "message":"Well, kid, usually I would have my reservations about giving someone as young as you something this dangerous. But you're the one who fought those dangerous creatures, so my worries are unfounded. Take it, and use it well.",
         "replies":[
             {
                 "text":"Thanks, I will!",
@@ -5734,7 +5734,7 @@
     },
     {
         "id":"brightport_bryma5",
-        "message":"It was never my intention to keep it. as It\u2019s not particularly useful to me. Here, take it.",
+        "message":"It was never my intention to keep it. as It's not particularly useful to me. Here, take it.",
         "replies":[
             {
                 "text":"Thanks! I will make sure it's returned to it's place.",
@@ -5882,7 +5882,7 @@
     },
     {
         "id":"brightport_bryma11",
-        "message":"I tried to refuse him, but that\u2019s when his tone shifted. The cheerful charisma he\u2019d shown vanished. As he pulled out that scroll, I heard him mumbling, 'Last measure...'",
+        "message":"I tried to refuse him, but that's when his tone shifted. The cheerful charisma he'd shown vanished. As he pulled out that scroll, I heard him mumbling, 'Last measure...'",
         "replies":[
             {
                 "text":"N",
@@ -5954,7 +5954,7 @@
     },
     {
         "id":"brightport_bryma15",
-        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my research, I came back, patched things up, and moved in. It\u2019s pretty cozy - I can drink tea and bake at my leisure.",
+        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my research, I came back, patched things up, and moved in. It's pretty cozy - I can drink tea and bake at my leisure.",
         "replies":[
             {
                 "text":"What are you researching?",
@@ -5974,7 +5974,7 @@
     },
     {
         "id":"brightport_bryma17",
-        "message":"I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. That\u2019s when I decided to mix a bonemeal potion into the process.",
+        "message":"I tried using different yeasts, temperatures, and moisture levels, but none gave me the results I was hoping for. That's when I decided to mix a bonemeal potion into the process.",
         "replies":[
             {
                 "text":"N",
@@ -5984,7 +5984,7 @@
     },
     {
         "id":"brightport_bryma18",
-        "message":"Many things. Baking is an ongoing process in which you learn new things every day. Temperature, ingredients, techniques. The list of things you can improve is unending. But there is one specific thing I\u2019m focused on.",
+        "message":"Many things. Baking is an ongoing process in which you learn new things every day. Temperature, ingredients, techniques. The list of things you can improve is unending. But there is one specific thing I'm focused on.",
         "replies":[
             {
                 "text":"N",
@@ -5994,7 +5994,7 @@
     },
     {
         "id":"brightport_bryma19",
-        "message":"To my amazement, the bread rose to nearly triple its size! That\u2019s when I brought it to the headmaster\u2019s attention. It was greatly received, and I was rewarded with a specially made bonemeal potion from his collection.",
+        "message":"To my amazement, the bread rose to nearly triple its size! That's when I brought it to the headmaster's attention. It was greatly received, and I was rewarded with a specially made bonemeal potion from his collection.",
         "replies":[
             {
                 "text":"N",
