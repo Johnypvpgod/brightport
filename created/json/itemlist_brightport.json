@@ -156,14 +156,11 @@
         "category":"hnd_lthr",
         "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
         "equipEffect":{
-            "increaseBlockChance":5
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
+            "increaseBlockChance":5,
+            "addedConditions":[
                 {
                     "condition":"brightportflame",
-                    "magnitude":-99,
-                    "duration":999
+                    "magnitude":-99
                 }
             ]
         }

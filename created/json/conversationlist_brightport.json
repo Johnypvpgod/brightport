@@ -1280,14 +1280,6 @@
         ]
     },
     {
-        "id":"brightport_hortensia_selector",
-        "replies":[
-            {
-                
-            }
-        ]
-    },
-    {
         "id":"brightport_oseanpry",
         "message":"The man looks at you with a hunter-like gaze, giving you a slight shiver.] \n\nA kid like you shouldn't be here.",
         "switchToNPC":"Brightportthieves5",
@@ -2398,24 +2390,6 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_write3",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightport_note",
-                        "value":1,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"brightport_ink",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"brightport_write2"
             }
         ],
@@ -2885,7 +2859,7 @@
     },
     {
         "id":"brightport_oswald2",
-        "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. but the safety of the academy comes first. I am sure of Stanwick's innocence, but I had to make sure the information wouldn't reach the wrong hands. ",
+        "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. But the safety of the academy comes first. I am sure Stanwick is innocent, but we can't be safe enough, when it comes to matters as this.",
         "replies":[
             {
                 "nextPhraseID":"brightport_oswald3"
@@ -4373,7 +4347,7 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":91,
-                        "negate":false
+                        "negate":true
                     }
                 ]
             },
@@ -4981,7 +4955,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":93,
+                        "value":95,
                         "negate":true
                     }
                 ]
@@ -5579,6 +5553,7 @@
         "message":"If that is what you say, then so be it. What matters is that the Achilles' heel of our academy was removed without further damage. This oversight on my part will not be repeated.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_oswald18"
             }
         ]

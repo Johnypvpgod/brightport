@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="25" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="12">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="35" height="30" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="1">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -139,7 +139,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -180,110 +180,41 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
-  <image source="../drawable/map_brightport.png" width="512" height="224"/>
+ <tileset firstgid="7577" name="map_tree_3" tilewidth="32" tileheight="32" tilecount="544" columns="32">
+  <image source="../drawable/map_tree_3.png" width="1024" height="544"/>
  </tileset>
- <layer id="1" name="Base" width="25" height="12">
+ <layer id="11" name="Base" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIxnwceHnDxU7hgsgFFbUCDt62EErAABtewDx
+   eJztl18OwiAMhxfdS92797/CwiW4h4dQ92Qa04Ad0HYj6Oa+hOwPpHz8SEbWde2YznXrPYR62C+NqelCc9F96l2KewVHB+X+Sx9ajId3i1mTGXqQyyg4cbjHWuJM0GWEeU4egrODkIfGRZNTqU6qzxsdCHTP+dTOVeMCfb6fr9G61prk5m3pI63/WdjXtRm662c9yXMo7Gtq/FIXjQevv3TPHMsOPVIup2H+TLlbvx0lF8lDg9UhN/6mOL+sUI545Zn+GvH58C22kNOeoLy3nvle1nFwYKXVf5+Wf/d5AV4MTU0=
   </data>
  </layer>
- <layer id="2" name="Ground" width="25" height="12">
+ <layer id="1" name="Ground" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJzbLMbAsJkA3s5JGSZkPsyOU7LkYVLcckuWPAzTT4xb+LjIw8S6EWQPuXagu5FNHFUexr9FgR230OwQQ7MDnU9JeFHDnIG0A5amCMUHLj6xcY4cn4Tig5z4AZn/kpMyDDMLnxoA1IKBRw==
+   eJy1l0tu2zAQholYQKI6WrWgAihZJOjau/YIvUlv0B6hByp8CKdLp0AqJEunaR7bIpK7Kn9rBhqNSD0QWcAPQXzNNw+SdjkzpvRo7TSPjDkVWsbGrKwxl3G3MAZjT9X8f7PmuCJgW2vrdKbWwly2E+LY9dlqvp5bDGRBHN5EtRATsPC8706x+74CJ8UG8z6nzfVfbB3TG1vpkuZ+VGNjssUM0vZa+HIW1f5/SiuWLKrno53nfnX9X9KKS/oBjq1t2v5APBiTkS3NxL7IHIEFvjDLo63n5556kH482ypXMg7sC7PyWvyWcZG5mkc1C6/15NZ+cFoQy4Lig7cU4lGqmEgemXv4ySy+vQOGm479Aht53K6TsoOha88hfrpud7EZsc4UeiF2mR/Zf0+5kHrcM2M587fjiaPm/sL7T2D8a5STjlU8Hsj3O08N7eotEJvfbsy90FDmXGghWJ7pPI0j/5m3nvlrsnjr1xAeyYKH2w/mlXh/ybMixIF4HL7za9PD8i1tcuBhBtatrd7g4G+ce8gfzlWuYXAgl6vMfSv9yOrz0sdRUJ/kWNo2S5+ebL0ecnrt7P5SyrNq7CZQO6gD+AZf+AH7WBbWkvK6JX8ujow5P2qP0+cF14Pvju6zqWtyLDPnlu9zbuc7fwyLrskxHDhTQ77wPXk1gmWlanJUXJKwLxndz4VmSTyiOde6JpOmrcb3vN3X5UuLxcehbHBdvj/pZ9csLV90PY5k6cpB5zjX9zcN77EWS8jPISwTSLJs9b5KVMz2zCLv4U3Pf5PJ7Sd+jlL93vZxTWLbo6H/02Tu9sWiYyJ1J2Lzk+7mSfPise+7B3TbhrSvGvXZXvfwID6vZRpSF/x75j93l/45
   </data>
  </layer>
- <layer id="3" name="Objects" width="25" height="12">
+ <layer id="2" name="Objects" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfqAsj2JJMCLaKMKZaQgCkP5Efwv4jw8AQz4Zgg4A9G4SthqTmKh+m3ehuwyZ3h5WBgUeWgeEzkP4CZYPE/Nkg7HtA9n2oODIA+QtkJ8ju90D6Ax/CHfFsCLduAOp7A9R/UYyBgRkozsIGYYPEQHJLgOx3QPZ7qBoQ+C2KGp7IduNiUwKOsDAwlADtPgakV/Cj8lv5EeomAsUmEcCTxRD+gAGQX54AzZoCFH/GAhFD5w8FgC390AIghz8xfHIAcvgf4kfld/Jjxo87CwIjg4VANYugeDGWuKclAAAH0EaM
+   eJytV7tuE0EUHfBiJRJFNo9ZBykFyKYzoQBKKIJS8hWIL4B8Al+A+ILAP1ACRWhDECRxBYIEJwUpwIqREjEnM5c5ez27dhBHGu3O+9xzH14bY8x2bs7QuOifO6EvuBLGb2TG3Cn8++asqcRq4dfWoZvFe4FP+eia7cSYYN/NPXT33C7i2IW58ppbbu4RzbMdl8fwq+IkeGeN2bD+KRBtcG8+Vx6HJkMb75cG3AzPOk0FWtflzHMYVHBZJfvBSbikAJ9AU/B44p6PE+uE93KW7sPGPdcOrD8vxWXNPZ8W8Sl2pLAWeLy36XnWQaMfdOnZaB9zkXjGuzyreGCv8MWablb2hdZBxtA/ttH34HMc2lrgIhpoLnXoqruwXjjp/NUcVhJxtu72v3DtZRH7eF+nsSqwH4H77v252qO1+dZwcUJtv1F/x6QA32d0N2L57kzZP51gP+L0sCKu+mPi7V8AHhp7NvJAvekm4uh/QvQQiN/2JrB395yajNNQ1zvE2fegxS7lLfChOcpDNFohf1YBtbEqxsCD5x44fe7NxDwdhjoCwDdfmzH3UefAg+/WcbXZ9E2APSlt+IwtG3kwloOtg8DrKI994Su6QctpFUefHY8vxKVn03w2QlwiTyf5bT6g/is6a6A4wXfXpnzbWfDt6pRvXKtZk0P6LWHI98p5IZyGdFd/wbezO4MtG8G3fcpRHZeMH0oTXYdTEP9V6Qft51vGLLRG93JcMniPbrYVfcdxKXPzai3zxNylBA9AxwP39Z5emMvoDo5LzGfqrkzxGRTls3SOAamY4T0azdZoXP4q0nux9m/uqTU6x14vGvNmsZqP4IR4NYOtEpfwaduNdVplTj/d+3XSpU3z2haG9pe2UyC+sGQvQzihgcd+Xra5TXOcY4DUFalpnM8dZSvslPcm2cu5Mlwy5vdSek7ANhxRnsC+09zXOwZ+F95a/43CtojOoo3WM6WVhs5RifeM8h01RNdf0WnLxm8nxKCOBY5zfYbw61XEcOoMBurix9n4HQcOUu9gB3wEv0ocaNTpo3ObvxV1H22b/CZ2yu+51gSo4iQ4JG6cT/qOuv+nAlkDX53lRyPaxfF6qs5KxW4vL/PRSNUXHpum/BJ9tlLfITV2nZBPBKwD5zDf/QflZCJt
   </data>
  </layer>
- <layer id="4" name="Above" width="25" height="12">
+ <layer id="3" name="Above" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9AIXxSB4Oz/xemagqS0lQS8hsAPNrJ14zM5AkstEYj+QxW/HAQLyowA3OEzFuKYlOERHdwIAFdcJuw==
+   eJzFljtOw0AQQEeJ5QMQKVYkcgQ+lwkSJUWAIBoaIHQ0JNAhATUVNXCFNLSECloUKHIGEDMyq6yGXXv2Y/OkkRPHu/OyHs8awI21JD/uN+zXrCT23yZtgK2WY1IhOzjvLsYAY4/leGn/vX6K5w48XVaTRZg4wnmPMYYYJyzHxOBCnApc3i1jOVcZwDXGDcYI5x1jnGNctPJzBK3J1DLfpXBdJD6Hv/nOssV3+qyOhM1DsZ2Fe3CXrGF2KaPM1dVJd5O6uPi6eoTyvASwwdxsDp/N+PnvhOtCzFj+KteqqIa5B8fUv2J4rBf0ao7q/dL6j+ls8nC5V7aeS5StvYLvaxKP22WAzVTuwp0+mnn4Mtdy3aPLgLlI72WdPBmc5pE8XWvS5BILSR0UEfp89dI8YriEju+neRA+NdnT6ppcHjoAj50wJ1/6mkudz1fIf/bdh1+7AG9dv7FFVLV3+KD6bxXvKjZse5K+19j2hf+sfcJ07yROX1hH35Frifelquq1DKqd0B5JzALfBzh11fQPkE5f/Q==
   </data>
  </layer>
- <layer id="5" name="Top" width="25" height="12">
+ <layer id="12" name="Top" width="35" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBg84LDY4LeDGP3DxY5LUDUPZCH0GlmE3HxZTPXk2EEpGLVjcNlBawAALZANlw==
+   eJxjYMAPLosRUEAnAHLHYTS3MAoT1ndRiPpuAbnjEppbBIlwCy0AepjgAiHiDAxh4hB6oN1CDlhGorvR42e4AzcaxiupIHQQuGUa1A3kuoVa5d4ScdLTLro7qJmWKQkPauepqWhuITacBlvefkkj9zxjpo25o2AUjIJRMApGwV1ZBoZ7sgPtipEBRnJ9DgBcUxmK
   </data>
  </layer>
- <layer id="6" name="Walkable" width="25" height="12" visible="0">
+ <layer id="4" name="Walkable" width="35" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEU0wSDADY2uhoYINVscgAh92BzP7p+bGYSsgObHKWAWuYMpB344hZXXFHDDkrSFy3zCyHzAfioil8=
+   eJztkl0OgDAIg3cK73+F3dAnk4Uw1iI4jTTpgz/At45+tNbL5XK5/GtfegtHJIunl5TWa9bXmhfBgki709VzFovkYlgsPnSWl53ZS602isWax+wY0w/l8O7RyInUIxx3WNj62X/j+wiO1bmt75IFzZDZVYsDVWQ2rDLuiZkdae1cOzhkprsYrL3/UjZP5pPBcgLJfmxx
   </data>
  </layer>
- <objectgroup id="7" name="Mapevents">
-  <object id="1" name="stair" type="mapchange" x="736" y="96" width="32" height="32">
-   <properties>
-    <property name="map" value="brightport_bakery2"/>
-    <property name="place" value="entrance"/>
-   </properties>
-  </object>
-  <object id="2" name="entrance" type="mapchange" x="512" y="352" width="64" height="32">
-   <properties>
-    <property name="map" value="brightport5"/>
-    <property name="place" value="bakery"/>
-   </properties>
-  </object>
-  <object id="3" name="east" type="mapchange" x="768" y="192" width="32" height="64">
-   <properties>
-    <property name="map" value="brightport_bakery1"/>
-    <property name="place" value="west"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="8" name="Spawn">
-  <object id="4" name="brightportbakery" type="spawn" x="160" y="192" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportbakery"/>
-   </properties>
-  </object>
-  <object id="5" name="brightportbakeryvisitor" type="spawn" x="160" y="288" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportbakeryvisitor"/>
-   </properties>
-  </object>
-  <object id="6" name="brightportbakery1" type="spawn" x="32" y="160" width="32" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportbakery1"/>
-   </properties>
-  </object>
-  <object id="7" name="brightportbakery3" type="spawn" x="352" y="128" width="160" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportbakery3"/>
-   </properties>
-  </object>
-  <object id="8" name="brightportbakery2" type="spawn" x="512" y="128" width="160" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportbakery2"/>
-   </properties>
-  </object>
-  <object id="9" name="brightportguardcaptain" type="spawn" x="640" y="288" width="96" height="32">
-   <properties>
-    <property name="spawngroup" value="brightportguardcaptain"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="9" name="Keys">
-  <object id="10" name="Object" type="key" x="384" y="160" width="96" height="32">
-   <properties>
-    <property name="phrase" value="brightport_bakery3"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
-  <object id="11" name="Objects" type="key" x="512" y="160" width="128" height="32">
-   <properties>
-    <property name="phrase" value="brightport_bakery"/>
-    <property name="requireId" value="andor"/>
-    <property name="requireNegation" value="true"/>
-    <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="1"/>
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="10" name="Replace"/>
+ <objectgroup id="5" name="Mapevents"/>
+ <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="7" name="Keys"/>
+ <objectgroup id="8" name="Replace"/>
 </map>

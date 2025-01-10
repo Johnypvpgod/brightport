@@ -2,7 +2,8 @@
     {
         "id":"brightport_worm",
         "iconID":"actorconditions_japozero:52",
-        "name":"Brainworm infection"
+        "name":"Brainworm infection",
+        "category":"blood"
     },
     {
         "id":"brightportflame",
@@ -11,6 +12,13 @@
         "category":"physical",
         "isStacking":1,
         "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-5,
+                "max":0
+            }
+        },
+        "fullRoundEffect":{
             "visualEffectID":"redSplash",
             "increaseCurrentHP":{
                 "min":-5,

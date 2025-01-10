@@ -207,19 +207,22 @@
  <tileset firstgid="8997" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="9125" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="20" height="14">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFGzkZqApGmnnk2H9igN1ATUALv2Az8wQnJiYG/GCmrttGAX4AAMIGCyY=
+   eJxjYEAFGzkh9GZOhBgym1RAjnn45DeS4RZqm0dNALL/xAC7ARsAhRk58U4Lv2Az8wQnJiYG/GCmrttGAX4AAH8JEQY=
   </data>
  </layer>
  <layer id="1" name="Ground" width="20" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsBEJHxdjYNgMpE+g4Y14MD519DIPn5n41HwTw1SDzzwXRlRMrD9wmfkaaP8JMeLCBZuZpMrD8GZO3OGIDz9hZmD4gYQfQzHcPDHSzAOZcRGIuVgg+BLU3J9QmhMops+Cqe8ZMyp+zgwRB5nBzYJwHycLqhgnE6r7kdWh+wvmPmrhx1Q0i9YYOZ5xuRsWtsiYGy0cAag43vw=
+   eJy1kTsOwjAMQA3JYronx2DjBIgbcNCqh2jWcoUiGNgRbCRKAo5b86nK8BTJdl5sp0aAmtAagMafGwvgMLKzZQ3HEXhuio/WSj43whTf1QxneOfbLkq+3YvkvPj3nfk8g+T8NZ9pUN5jYG8jPH5UADdCn3j6jOwcIzg6z0pHDsl7Tyf62FoP751UyVnFeHBU+tUf6jKGy7J/Wsfnyv3NRT+j69/Qf5b6zrulVGyPDyeJ2zo=
   </data>
  </layer>
  <layer id="2" name="Objects" width="20" height="14">
   <data encoding="base64" compression="zlib">
-   eJylU01rwkAQHZNAEU8KBnrKL6j+CH+B6MWbIOLHD1V7Tk/tQURYjQGPwd464+50J9OVQvvgsZvdt2/fTBIAgEUGsETu2nDHNsV5Ct+Qz6yRe+/IT6EPabTfBVmkdd08+6kNQWsqnH+otUe18PrZja9te1bn4Yx/AeeRnjLjxt1tcD5pAAyRI+QYaUTvdkJXBmrkjGfHMvAuCCvs6xppYks6twr0mjLeFLXX3mV6jvzaMfW+p9jyP9iLHjwlADn6vsWWxo2n2NdjAnf2EkuJWQTTl8TvSfI97EegntJeX/jweV7jPnDmogNw6HhdT+iv6r8gLaPq2rEZwa8wyoe/ZZmdQDkGyq8V1fsm0Uzq61Tb1nlzb9ivUBlkbbn7xqkHXwTScFg=
+   eJylU01Lw0AQfU0CIp5aaMBTDp5tf4S/QOylN0FE6w818dye6qGIsG1a8Bj05ow7407WBUEfPLKZffvmIxsAuKuAe2IzxBfqEvgo8Y39Ge3Ju2oUrF1H+pSmNftr8ttHMcZt9TN3CqxpjKaj9XMUs720ifhOnk9Dfzaup5bYX6D1WE9b46PkdrSeD4BL4hVxRnRmdo3RHRI9ao074SHxLRgLmusD0eWefG5Rpef4LmSPLuG1kZpOsxB7LYPvNvf8DzZmBkcFsCTfVe7p5LnNQz8ukXNSeFrcZLg+L8KepeZRPwbPlPemxkfPa0znoDW3I+BlFHQTo3+L/gvWduN+7DjDr3CRj95lWzuD67iI/E6y/tx6uYt+nHurxVtno35tVIPtbSl3nGfwCdWFcUs=
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="14">
@@ -256,7 +259,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="4" name="cave" type="mapchange" x="192" y="352" width="32" height="32">
+  <object id="4" name="cave" type="mapchange" x="128" y="352" width="32" height="32">
    <properties>
     <property name="map" value="brightport_cave4"/>
     <property name="place" value="outside"/>
