@@ -3,14 +3,13 @@
   <segment id="bpcave" x="-24" y="25">
     <map id="brightport_cave" x="9" y="25"/>
     <map id="brightport_cave1" x="11" y="41"/>
-    <map id="brightport_cave2" x="28" y="45"/>
-    <map id="brightport_cave3" x="29" y="61"/>
-    <map id="brightport_cave5" x="37" y="73"/>
-    <map id="brightport_cave6" x="29" y="73"/>
-    <map id="brightport_cave7" x="55" y="71"/>
-    <map id="brightport_cave8" x="67" y="70"/>
-    <map id="brightport_cave10" x="-2" y="62"/>
-    <map id="brightport_cave4" x="55" y="61"/>
+    <map id="brightport_cave2" x="29" y="62"/>
+    <map id="brightport_cave3" x="30" y="78"/>
+    <map area="lethgard" id="brightport_cave5" x="38" y="90"/>
+    <map id="brightport_cave6" x="30" y="90"/>
+    <map area="lethgard" id="brightport_cave7" x="56" y="88"/>
+    <map area="lethgard" id="brightport_cave8" x="68" y="87"/>
+    <map area="burial" id="brightport_cave10" x="-2" y="62"/>
     <map id="brightport_cave9" x="-4" y="74"/>
     <map id="brightport_cave11" x="-22" y="62"/>
     <map id="brightport_cave12" x="-24" y="74"/>
@@ -18,5 +17,13 @@
     <map id="brightport_cave14" x="-23" y="110"/>
     <map id="brightport_cave15" x="-15" y="121"/>
     <map id="brightport_cave16" x="8" y="121"/>
+    <map area="lethgard" id="brightport_cave19" x="56" y="77"/>
+    <map area="lethgard" id="brightport_cave18" x="78" y="76"/>
+    <map area="greenscale" id="brightport_cave17" x="93" y="78"/>
+    <map area="lethgard" id="brightport_cave20" x="63" y="65"/>
+    <map id="brightport_cave4" x="74" y="67"/>
+    <namedarea id="greenscale" name="Greenscale tribe " type="settlement"/>
+    <namedarea id="lethgard" name="Lethgard" type="other"/>
+    <namedarea id="burial" name="Burial cave" type="other"/>
   </segment>
 </worldmap>

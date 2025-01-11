@@ -3284,11 +3284,11 @@
     },
     {
         "id":"brightport_guard",
-        "message":"I was staring at the surface of the lake when I noticed a pair of yellow eyes looking at me from under the surface!"
+        "message":"I hope my shift ends soon! I was staring at the surface of the lake when I spotted a pair of yellow eyes looking at me from under the surface!"
     },
     {
         "id":"brightport_gunfryk",
-        "message":"I'm Gunfryk, the guard commander. Inform me or my men of any trouble. Stay safe."
+        "message":"I'm Gunfryk, the guard commander. Inform me or my men if you spot any trouble."
     },
     {
         "id":"brightport_statue_n",
@@ -5811,6 +5811,28 @@
             {
                 "text":"Why do you live here in the forest?",
                 "nextPhraseID":"brightport_bryma15"
+            },
+            {
+                "text":"Can you tell me about your baking research again?",
+                "nextPhraseID":"brightport_bryma16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":107
+                    }
+                ]
+            },
+            {
+                "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
+                "nextPhraseID":"brightport_bryma22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":106
+                    }
+                ]
             }
         ]
     },
@@ -5912,7 +5934,7 @@
             },
             {
                 "text":"What are you researching?",
-                "nextPhraseID":"brightport_bryma16"
+                "nextPhraseID":"brightport_bryma18"
             }
         ]
     },
@@ -5949,12 +5971,34 @@
             {
                 "text":"Why do you live here in the forest?",
                 "nextPhraseID":"brightport_bryma15"
+            },
+            {
+                "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
+                "nextPhraseID":"brightport_bryma22",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":106
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me the story about your baking research again?",
+                "nextPhraseID":"brightport_bryma16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":107
+                    }
+                ]
             }
         ]
     },
     {
         "id":"brightport_bryma15",
-        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my research, I came back, patched things up, and moved in. It's pretty cozy - I can drink tea and bake at my leisure.",
+        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my bonemeal research, I came back, patched things up, and moved in. It's pretty cozy - I can drink tea and bake at my leisure.",
         "replies":[
             {
                 "text":"What are you researching?",
@@ -5984,11 +6028,18 @@
     },
     {
         "id":"brightport_bryma18",
-        "message":"Many things. Baking is an ongoing process in which you learn new things every day. Temperature, ingredients, techniques. The list of things you can improve is unending. But there is one specific thing I'm focused on.",
+        "message":"Many things, but mostly on bonemeal potions. their healing potency and various properties left me puzzled for many years. I studied them with the great mind of Feygard and Nor city alike, until the bonemeal ban.",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brightport_bryma16"
+                "text":"What does that have to do with baking?",
+                "nextPhraseID":"brightport_bryma21"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":106
             }
         ]
     },
@@ -6020,11 +6071,37 @@
     },
     {
         "id":"brightport_bryma20",
-        "message":"But the bread baked from that one started mutating, much like what you can see in my kitchen. Soon afterward, my research was barred, and I left of my own volition.",
+        "message":"But the bread baked from that one started mutating, much like what you can see in my kitchen. Soon afterward, my research was barred, and I soon left Brightport of my own volition.",
         "replies":[
             {
-                
+                "text":"Can I ask you something else?",
+                "nextPhraseID":"brightport_bryma14"
+            },
+            {
+                "text":"Thanks for telling me this story. I will be on my way.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":107
             }
         ]
+    },
+    {
+        "id":"brightport_bryma21",
+        "message":"Don't underestimate baking, child. To master this art takes years of arduous training, including advanced alchemy. Even I struggled at first.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma22",
+        "message":""
     }
 ]

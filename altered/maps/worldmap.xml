@@ -454,6 +454,6 @@
     <namedarea id="sullengard" name="Sullengard" type="settlement"/>
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
-    <namedarea id="brightport" name="Brightport" type="Settlement"/>
+    <namedarea id="brightport" name="Brightport" type="settlement"/>
   </segment>
 </worldmap>
