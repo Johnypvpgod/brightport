@@ -9,7 +9,7 @@
     {
         "id":"brightportnpc",
         "name":"Stanwick",
-        "iconID":"monsters_fatboy73:22",
+        "iconID":"monsters_johny:20",
         "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"brightport_stanwick_selector"
@@ -131,7 +131,7 @@
     {
         "id":"brightportbakery",
         "name":"Hortensia",
-        "iconID":"monsters_fatboy73:24",
+        "iconID":"monsters_johny:4",
         "unique":1,
         "phraseID":"brightport_hortensia"
     },
@@ -178,7 +178,7 @@
     {
         "id":"brightportbakery3",
         "name":"Gunther",
-        "iconID":"monsters_fatboy73:21",
+        "iconID":"monsters_johny:1",
         "unique":1,
         "phraseID":"brightport_bakery",
         "droplistID":"brightport_bakery"
@@ -365,12 +365,12 @@
     {
         "id":"brightport_fawn",
         "name":"Virulent forest fawn",
-        "iconID":"monsters_fatboy73:21"
+        "iconID":"monsters_johny:22"
     },
     {
         "id":"brightport_deer",
         "name":"Virulent forest deer",
-        "iconID":"monsters_fatboy73:23",
+        "iconID":"monsters_johny:24",
         "hitEffect":{
             "conditionsTarget":[
                 {
@@ -383,7 +383,7 @@
     },
     {
         "id":"brightportnpc10",
-        "name":"Allarees",
+        "name":"Thyrmo",
         "iconID":"monsters_ld1:195"
     },
     {
@@ -397,5 +397,83 @@
         "name":"Gunfryk",
         "iconID":"monsters_ld1:74",
         "phraseID":"brightport_gunfryk"
+    },
+    {
+        "id":"brightport_sickfawn",
+        "name":"Forest fawn",
+        "iconID":"monsters_johny:21"
+    },
+    {
+        "id":"brightport_sickdeer",
+        "name":"Forest deer",
+        "iconID":"monsters_johny:23"
+    },
+    {
+        "id":"brightport_lizardking",
+        "name":"Three-fang-elyzard",
+        "iconID":"monsters_johny:28",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightport_lizardpriest",
+        "name":"Foot-long-dominio",
+        "iconID":"monsters_johny:30",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightport_lizard",
+        "name":"Scratch-claw-emyro",
+        "iconID":"monsters_johny:27",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightport_lizard1",
+        "name":"Three-head-arminio",
+        "iconID":"monsters_johny:26",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightport_lizardadvisor",
+        "name":"Scratch-tail-tyliad",
+        "iconID":"monsters_johny:27",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightport_lizard3",
+        "name":"Green-blade-remio",
+        "iconID":"monsters_johny:26",
+        "monsterClass":"reptile",
+        "faction":"lizardman"
+    },
+    {
+        "id":"brightportstoragenpc",
+        "name":"Allares",
+        "iconID":"monsters_johny:0",
+        "monsterClass":"humanoid"
+    },
+    {
+        "id":"brightport_chef",
+        "name":"Crescenzio",
+        "iconID":"monsters_ld1:23"
+    },
+    {
+        "id":"brightport_chef2",
+        "name":"Androni",
+        "iconID":"monsters_ld1:22"
+    },
+    {
+        "id":"brightport_mayor",
+        "name":"Rubiano",
+        "iconID":"monsters_ld1:77"
+    },
+    {
+        "id":"brightport_councilor",
+        "name":"Nicolo",
+        "iconID":"monsters_ld1:130"
     }
 ]
