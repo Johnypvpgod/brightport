@@ -296,7 +296,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":86
+                        "value":87
                     },
                     {
                         "requireType":"questProgress",
@@ -543,7 +543,7 @@
                 "nextPhraseID":"brightport_loudmouth1"
             },
             {
-                "text":"Im afraid if I let you speak it will never end, bye.",
+                "text":"Im afraid if I let you speak it will never end.",
                 "nextPhraseID":"brightport_loudmouth3"
             }
         ]
@@ -572,7 +572,7 @@
     },
     {
         "id":"brightport_loudmouth3",
-        "message":"Speaking of \"Never end\" I was assigned to a job a while ago, up in the north. On my way there, I encountered a small critter. Eager for some fresh meat, I slew it, but what came next was, quite literally, never ending. A whole group of large beasts were watching me, as I was preparing to skin my hunt. Once I was distracted enough, they came pouring out of the bushes. I could maybe count a hundred before I went running! I left the meat behind, and even dropped my heirloom skinning knife. Speaking of knives...",
+        "message":"Speaking of \"never end\" I was assigned to a job a while ago, up in the north. On my way there, I encountered a small critter. Eager for some fresh meat, I slew it, but what came next was, quite literally, never ending. A whole group of large beasts were watching me, as I was flaying the skin off the beast. Once I was distracted enough, they came pouring out of the bushes. I could maybe count a hundred before I went running! I left the meat behind, and even dropped my heirloom skinning knife. Speaking of knives...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -1291,6 +1291,17 @@
             {
                 "text":"What do you mean?",
                 "nextPhraseID":"brightport_oseanpry1"
+            },
+            {
+                "text":"What's with this dog next to you?",
+                "nextPhraseID":"brightport_oseanpry5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":108
+                    }
+                ]
             }
         ]
     },
@@ -1928,6 +1939,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_stanwick_common",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_stanwick_end",
                 "requires":[
                     {
@@ -1976,17 +1998,6 @@
                         "negate":true
                     }
                 ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_stanwick_common",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"andor",
-                        "value":130
-                    }
-                ]
             }
         ]
     },
@@ -1998,6 +2009,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_stanwick"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":50
+            }
         ]
     },
     {
@@ -2007,13 +2025,6 @@
             {
                 "text":"N",
                 "nextPhraseID":"brightport_stanwick1"
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":50
             }
         ]
     },
@@ -2147,11 +2158,33 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":61
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":62
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":63
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":64
+            }
         ]
     },
     {
         "id":"brightport_write1",
-        "message":"[You sit down at the table and pull your ink and paper out of your bag.]",
+        "message":"You sit down at the table and pull your ink and paper out of your bag.",
         "replies":[
             {
                 "text":"N",
@@ -2164,7 +2197,7 @@
         "message":"Hmm, what did I want to write about again?",
         "replies":[
             {
-                "text":"[We're in a classroom, so evidently, a scholarly question!]",
+                "text":"We're in a classroom, so evidently, a scholarly question!",
                 "nextPhraseID":"brightport_write_1",
                 "requires":[
                     {
@@ -2382,7 +2415,7 @@
     },
     {
         "id":"brightport_write3",
-        "message":"[I ran out of paper. I should go and buy some more.]"
+        "message":"I ran out of paper. I should go and buy some more."
     },
     {
         "id":"brightport_write_intermediary2",
@@ -2403,7 +2436,7 @@
     },
     {
         "id":"brightport_write4",
-        "message":"[You manage to write down the question without wasting any more paper.] Now I should give this to the professor.",
+        "message":"[You manage to write down the question without wasting any more paper.]",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2683,7 +2716,7 @@
                 ]
             },
             {
-                "text":"I'm still searching.",
+                "text":"I'm still investigating.",
                 "nextPhraseID":"X"
             }
         ]
@@ -2710,14 +2743,14 @@
         "message":"Shortly after, every senior student, and teacher were gathered in the lecture room for questioning. No one knew much about it, so it was over quickly. Afterwards, the headmaster decided I would stay in my room until the end of the investigation.  ",
         "replies":[
             {
-                "text":"N",
+                "text":"Wasn't that a bit too rash?",
                 "nextPhraseID":"brightport_stanwick_incident3"
             }
         ]
     },
     {
         "id":"brightport_stanwick_incident3",
-        "message":"All things considered, it was a reasonable response. The safekeeping of the archive was partly my responsibility. But being told to stay put while I could have done something to help find it, feels deeply unfair to me.",
+        "message":"All things considered, it was a reasonable response. The safekeeping of the archive was partly my responsibility. But being told to stay put while I could have done something to help find it, does feel deeply unfair to me.",
         "replies":[
             {
                 "text":"I'll see what I can do.",
@@ -2862,6 +2895,7 @@
         "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. But the safety of the academy comes first. I am sure Stanwick is innocent, but we can't be safe enough, when it comes to matters as this.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_oswald3"
             }
         ]
@@ -3029,7 +3063,7 @@
     },
     {
         "id":"brightport_archive1",
-        "message":"[You rummage carefully through the shelves and drawers, eventually spotting something unusual. A bundle of papers tied together with twine, tucked behind a stack of old records.]",
+        "message":"You rummage carefully through the shelves and drawers, eventually spotting something unusual. A bundle of papers tied together with twine, tucked behind a stack of old records.",
         "replies":[
             {
                 "text":"N",
@@ -3039,7 +3073,7 @@
     },
     {
         "id":"brightport_archive2",
-        "message":"[You untangle the bundle and read through some of the letters. They seem to be correspondence addressed to the past headmaster. Finally, you find one that reads: \"A request for the headmaster in regards to the secret recipe.\"]",
+        "message":"You untangle the bundle and read through some of the letters. They seem to be correspondence addressed to the past headmaster. Finally, you find one that reads: \"A request for the headmaster in regards to the secret recipe.\"",
         "replies":[
             {
                 "text":"[Continue reading.]",
@@ -3052,7 +3086,7 @@
         "message":"[Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?]\nSigned, Bryma.",
         "replies":[
             {
-                "text":"This seems to be from many years ago. I should seek their whereabouts out, the graveyard might be a good place to start.",
+                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were in their graves.",
                 "nextPhraseID":"X"
             }
         ],
@@ -3111,6 +3145,23 @@
             {
                 "text":"Sure. Old fellow.",
                 "nextPhraseID":"brightport_richimor0"
+            },
+            {
+                "text":"You must have been living here for a long time, right?",
+                "nextPhraseID":"brightport_richimor5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -3253,7 +3304,7 @@
     },
     {
         "id":"brightport_richimor_archive0",
-        "message":"[You open the chest hoping to find the writings of Bryma that Richimor spoke about.]",
+        "message":"You open the chest hoping to find the writings of Bryma that Richimor spoke about.",
         "replies":[
             {
                 "text":"N",
@@ -3273,7 +3324,7 @@
     },
     {
         "id":"brightport_richimor_archive2",
-        "message":"[You read another writing, which immediately strikes your attention.] \nMy findings of four mysterious statues, outside Brightport... activation word... \n[There doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth checking out.]",
+        "message":"You read another writing, which immediately strikes your attention.\n\n[My findings of four mysterious statues, outside Brightport. in the north south and soutwest. upon the utterrance of the activation phrase..]\n\nThe writing abruptly ends and there doesn't seem to be much description other than that, almost as if they decided to keep the details a secret. No matter how it's related, it's worth finding out.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5926,7 +5977,7 @@
     },
     {
         "id":"brightport_bryma12",
-        "message":"I had no choice. I told him everything he wanted to know. And he left me with the scroll before leaving. - It might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
+        "message":"I had no choice. I told him everything he wanted to know. And he left me with the scroll before leaving.  It might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -6103,5 +6154,72 @@
     {
         "id":"brightport_bryma22",
         "message":""
+    },
+    {
+        "id":"brightport_dog",
+        "message":"Woof.",
+        "replies":[
+            {
+                "text":"Good boy.",
+                "nextPhraseID":"brightport_dog1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":109,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Good girl.",
+                "nextPhraseID":"brightport_dog1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":109
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dog1",
+        "message":"[The dog wags it's tail]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":108
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry5",
+        "message":"She is my loyal hunting partner. We've been through thick and thin.",
+        "replies":[
+            {
+                "text":"Wow! can I get one too?",
+                "nextPhraseID":"brightport_oseanpry6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":109
+            }
+        ]
+    },
+    {
+        "id":"brightport_oseanpry6",
+        "message":"What?! No way kid, dogs are notoriously hard to tame. now hush off!",
+        "replies":[
+            {
+                "text":"Aww dangit.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

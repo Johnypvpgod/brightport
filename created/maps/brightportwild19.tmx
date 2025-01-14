@@ -194,7 +194,7 @@
  </layer>
  <layer name="Objects" width="8" height="19">
   <data encoding="base64" compression="zlib">
-   eJxtUFsKwkAMzAUUt3/9KJ7Vo+mH3ULtnyA9QJHSPYCPignN2GkxEHbzmGQyIiJDLpLUN5nINpvjIZ//ZmMh8lFPQeS2n2oPjZ/qveYq9avmo75HrZ0Ib5g2yM9einkXU61RL71mc3jnReOacNH3nFd9/De7O+awW95jL3jwfcZhpD3I477Od8Iax0Kz1nlF7ynDcs4/W++vKQZ/5o030v3I9St9YYm0Zd6YB02Za0Xasl64v/M7rYf1xSzrx84viLNruw==
+   eJxdUFsKwkAMnAsotn/9KJ7Vo+mH3cLaP0F6gCKlewAfFROa2HEDYTePSWYCAFMFJPFNCWzLNZ6q9a8218BHPBXAbb/UHhI/xUfJteJXyQd5j1I7EV4xfYGfvQTzrpdaJ95YTefwzovEkXDB9pyzPv6r3Q1z2P3r0dd5sD7lMFs+0mzXN9hOt86wfrPeeAXraWgH82LL90eKnT/z9jeQfs+N2X3dEt2Wefs8vylzbUk/38v1D6ZTe/i+Pkv7fecXp01smA==
   </data>
  </layer>
  <layer name="Above" width="8" height="19">
@@ -204,10 +204,10 @@
  </layer>
  <layer name="Walkable" width="8" height="19" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFEDALYxJABJfLY7MEGcLmNWDXEuIGQHnzuI8f9xNiHTQ6f/cT4C92tpPgNnzoATE5BTQ==
+   eJzbKMbAsJFEDALYxJABJfLY7MEGcLmNWDXEihOSw+U+ctxPrlvw2Y/PTlxuJcVv+NQBAE5bQhQ=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="south" type="mapchange" x="128" y="576" width="96" height="32">
    <properties>
     <property name="map" value="brightportwild18"/>
@@ -215,8 +215,51 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
- <objectgroup name="Keys">
+ <objectgroup name="Spawn">
+  <object name="elderdeer" type="spawn" x="128" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="rashsquirmer2" type="spawn" x="32" y="448" width="128" height="96">
+   <properties>
+    <property name="spawngroup" value="brightport_squirrel2"/>
+   </properties>
+  </object>
+  <object name="elderdeer2" type="spawn" x="192" y="384" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="rashsquirmer3" type="spawn" x="64" y="256" width="192" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+  <object name="elderdeere" type="spawn" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="viriledeer" type="spawn" x="64" y="288" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="brightport_deer"/>
+   </properties>
+  </object>
+  <object name="elderdeer4" type="spawn" x="96" y="128" width="128" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="brightport_squirrel" type="spawn" x="64" y="96" width="192" height="128">
+   <properties>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Keys" visible="0">
   <object name="stanwick_quest" type="key" x="128" y="64" width="32" height="32">
    <properties>
     <property name="phrase" value="brightport_statue_n"/>

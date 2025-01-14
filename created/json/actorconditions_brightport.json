@@ -3,7 +3,19 @@
         "id":"brightport_worm",
         "iconID":"actorconditions_japozero:52",
         "name":"Brainworm infection",
-        "category":"blood"
+        "category":"blood",
+        "roundEffect":{
+            "visualEffectID":"redSplash",
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-3
+            }
+        },
+        "abilityEffect":{
+            "increaseAttackChance":-15,
+            "increaseMaxHP":0,
+            "increaseBlockChance":-10
+        }
     },
     {
         "id":"brightportflame",

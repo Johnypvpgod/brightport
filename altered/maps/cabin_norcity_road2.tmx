@@ -247,7 +247,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="5" name="duleian_mountain_cat_spawn" type="spawn" x="64" y="96" width="96" height="96">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>

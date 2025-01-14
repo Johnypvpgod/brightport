@@ -137,7 +137,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5681" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_transition_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -182,7 +182,7 @@
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7705" name="map_cavewall_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_1.png" width="576" height="192"/>
@@ -244,6 +244,46 @@
    <properties>
     <property name="map" value="waytobrightport13"/>
     <property name="place" value="east"/>
+   </properties>
+  </object>
+  <object name="squirmers" type="spawn" x="64" y="64" width="352" height="416">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="viriledeer" type="spawn" x="448" y="128" width="160" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="64" y="192" width="192" height="160">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="64" y="96" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="320" y="320" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="320" y="128" width="64" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="redft2"/>
+   </properties>
+  </object>
+  <object name="squirmers" type="spawn" x="448" y="64" width="288" height="192">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="redft2"/>
    </properties>
   </object>
  </objectgroup>

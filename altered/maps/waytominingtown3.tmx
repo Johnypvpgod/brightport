@@ -203,7 +203,7 @@
    eJzFU0EKwDAI6yv2/y/0hzsNpFRr0ugCZbBVYxI3nzEmeCzQ2tvzB2+XXg/ftw6uaIYu3oqcI03ZWRg/TnUolDur5r3hRHpkc13vrO8y9xS5qnYY9biCt5rT9jl5HGV542unxwynOltF/hW1rF7EU7bWAzO3V2vrIw5EqxpoLvaJ+HjDufbc7WT2fWaG3T12fuY/8jQwvVG9O2T3wuun8AYFm1FGh5pHeV44MN4h
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="448" width="32" height="96">
    <properties>
     <property name="map" value="waytominingtown2"/>
@@ -223,7 +223,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="3" name="redft_cr" type="spawn" x="480" y="864" width="96" height="64">
    <properties>
     <property name="spawngroup" value="redft_cr"/>

@@ -228,7 +228,7 @@
    eJxjYBgFo2AUjIJRMApGwSgYngAACOgAAQ==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="19">
+ <layer name="Walkable" width="30" height="19" visible="0">
   <data encoding="base64" compression="zlib">
    eJztlFEKwDAIQ/vjQXr/S459DIqYGIvrfhYQBi2+mMpsjmFL3bJ5th59wf2Z7zJXneBEM3t1MqP+EWeXi/oqUtjMp5ohYir32JzMW5ZPth/IJ/pmGXk2mzPzz/JT8sqyyM7QTvgz5Bf1zt446leZFXlVpbz9jir7Xd2TqAeaaZer/BM69rm7PPsCF7g3qw==
   </data>
@@ -253,7 +253,41 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="goblinrider" type="spawn" x="64" y="192" width="160" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_goblin"/>
+   </properties>
+  </object>
+  <object name="goblinrider3" type="spawn" x="256" y="384" width="256" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_goblin"/>
+   </properties>
+  </object>
+  <object name="goblinrider2" type="spawn" x="576" y="480" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_goblin"/>
+   </properties>
+  </object>
+  <object name="goblinrider1" type="spawn" x="96" y="64" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_goblin"/>
+   </properties>
+  </object>
+  <object name="goblin" type="spawn" x="704" y="192" width="192" height="128">
+   <properties>
+    <property name="spawngroup" value="brightport_goblin2"/>
+   </properties>
+  </object>
+  <object name="goblin1" type="spawn" x="672" y="352" width="224" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_goblin2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="stanwick_quest" type="key" x="0" y="160" width="32" height="32">
    <properties>

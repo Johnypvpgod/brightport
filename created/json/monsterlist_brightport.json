@@ -10,7 +10,6 @@
         "id":"brightportnpc",
         "name":"Stanwick",
         "iconID":"monsters_johny:20",
-        "unique":1,
         "monsterClass":"humanoid",
         "phraseID":"brightport_stanwick_selector"
     },
@@ -100,10 +99,9 @@
         "droplistID":"brightport_alain_shop"
     },
     {
-        "id":"brigtportthieves",
+        "id":"brightportthieves6",
         "name":"Lessar",
-        "iconID":"monsters_ld1:207",
-        "unique":1
+        "iconID":"monsters_ld1:207"
     },
     {
         "id":"brightportforenza",
@@ -365,18 +363,79 @@
     {
         "id":"brightport_fawn",
         "name":"Virulent forest fawn",
-        "iconID":"monsters_johny:22"
-    },
-    {
-        "id":"brightport_deer",
-        "name":"Virulent forest deer",
-        "iconID":"monsters_johny:24",
+        "iconID":"monsters_johny:22",
+        "maxHP":210,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":7,
+            "max":18
+        },
+        "attackCost":7,
+        "attackChance":100,
+        "criticalSkill":3,
+        "criticalMultiplier":15.0,
+        "blockChance":65,
+        "damageResistance":4,
         "hitEffect":{
             "conditionsTarget":[
                 {
                     "condition":"brightport_worm",
                     "magnitude":1,
-                    "duration":1
+                    "duration":3,
+                    "chance":"40"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightport_worm",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"70"
+                }
+            ]
+        }
+    },
+    {
+        "id":"brightport_deer",
+        "name":"Virulent forest deer",
+        "iconID":"monsters_johny:24",
+        "maxHP":240,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":8,
+            "max":19
+        },
+        "attackCost":7,
+        "attackChance":115,
+        "criticalSkill":3,
+        "criticalMultiplier":15.0,
+        "blockChance":70,
+        "damageResistance":4,
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"brightport_worm",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"40"
+                }
+            ]
+        },
+        "deathEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightport_worm",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"70"
                 }
             ]
         }
@@ -401,18 +460,48 @@
     {
         "id":"brightport_sickfawn",
         "name":"Forest fawn",
-        "iconID":"monsters_johny:21"
+        "iconID":"monsters_johny:21",
+        "maxHP":155,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":3,
+            "max":13
+        },
+        "attackCost":7,
+        "attackChance":65,
+        "criticalSkill":15,
+        "criticalMultiplier":3.0,
+        "blockChance":45,
+        "damageResistance":2
     },
     {
         "id":"brightport_sickdeer",
         "name":"Forest deer",
-        "iconID":"monsters_johny:23"
+        "iconID":"monsters_johny:23",
+        "maxHP":212,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":6,
+            "max":16
+        },
+        "attackCost":7,
+        "attackChance":80,
+        "criticalSkill":15,
+        "blockChance":60,
+        "damageResistance":4
     },
     {
         "id":"brightport_lizardking",
         "name":"Three-fang-elyzard",
         "iconID":"monsters_johny:28",
         "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
         "faction":"lizardman"
     },
     {
@@ -434,6 +523,7 @@
         "name":"Three-head-arminio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
         "faction":"lizardman"
     },
     {
@@ -448,6 +538,7 @@
         "name":"Green-blade-remio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
         "faction":"lizardman"
     },
     {
@@ -475,5 +566,193 @@
         "id":"brightport_councilor",
         "name":"Nicolo",
         "iconID":"monsters_ld1:130"
+    },
+    {
+        "id":"brightport_huntingdog",
+        "name":"Mordred",
+        "iconID":"monsters_dogs:8",
+        "monsterClass":"animal",
+        "phraseID":"brightport_dog"
+    },
+    {
+        "id":"brightport_elderdeer",
+        "name":"Elder deer",
+        "iconID":"monsters_johny:25",
+        "maxHP":293,
+        "maxAP":12,
+        "moveCost":4,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":25,
+            "max":35
+        },
+        "attackCost":7,
+        "attackChance":150,
+        "criticalSkill":3,
+        "criticalMultiplier":15.0,
+        "blockChance":80,
+        "damageResistance":6
+    },
+    {
+        "id":"brightport_squirrel",
+        "name":"Forest squirmer",
+        "iconID":"monsters_tometik5:27",
+        "maxHP":130,
+        "maxAP":12,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":18,
+            "max":25
+        },
+        "attackCost":4,
+        "attackChance":130,
+        "criticalSkill":5,
+        "criticalMultiplier":20.0,
+        "blockChance":80,
+        "damageResistance":2
+    },
+    {
+        "id":"brightport_squirrel2",
+        "name":"Rash forest squirmer",
+        "iconID":"monsters_tometik5:26",
+        "maxHP":180,
+        "maxAP":12,
+        "moveCost":2,
+        "monsterClass":"animal",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":20,
+            "max":30
+        },
+        "attackCost":4,
+        "attackChance":160,
+        "criticalSkill":5,
+        "criticalMultiplier":20.0,
+        "blockChance":80,
+        "damageResistance":2
+    },
+    {
+        "id":"brightport_redlizard",
+        "name":"Lizardman corsair",
+        "iconID":"monsters_johny:8",
+        "maxHP":230,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":15,
+            "max":35
+        },
+        "attackCost":5,
+        "attackChance":225,
+        "criticalSkill":4,
+        "criticalMultiplier":20.0,
+        "blockChance":170,
+        "damageResistance":4
+    },
+    {
+        "id":"brightport_redlizard2",
+        "name":"Lizardman fencer",
+        "iconID":"monsters_johny:9",
+        "maxHP":230,
+        "maxAP":12,
+        "moveCost":5,
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":20,
+            "max":35
+        },
+        "attackCost":4,
+        "attackChance":240,
+        "criticalSkill":4,
+        "criticalMultiplier":20.0,
+        "blockChance":180,
+        "damageResistance":4
+    },
+    {
+        "id":"brightport_amoeba",
+        "name":"Rowing amoeba",
+        "iconID":"monsters_tometik10:11",
+        "maxHP":60,
+        "maxAP":10,
+        "moveCost":3,
+        "monsterClass":"insect",
+        "movementAggressionType":"helpOthers",
+        "attackDamage":{
+            "min":4,
+            "max":10
+        },
+        "attackCost":2,
+        "attackChance":100,
+        "blockChance":50,
+        "damageResistance":6
+    },
+    {
+        "id":"brightport_tree",
+        "name":" Moonwalker stump",
+        "iconID":"monsters_tometik10:31",
+        "maxHP":100,
+        "maxAP":12,
+        "moveCost":8,
+        "monsterClass":"construct",
+        "movementAggressionType":"none",
+        "attackDamage":{
+            "min":3,
+            "max":12
+        },
+        "attackCost":6,
+        "attackChance":70,
+        "blockChance":80,
+        "damageResistance":8
+    },
+    {
+        "id":"brightport_goblin",
+        "name":"Goblin beast rider",
+        "iconID":"monsters_newb_1:48",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"protectSpawn"
+    },
+    {
+        "id":"brightport_goblin2",
+        "name":"Goblin lowland raider",
+        "iconID":"monsters_newb_1:90",
+        "monsterClass":"humanoid",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"brightport_lizard4",
+        "name":"Green-fang-tylmio",
+        "iconID":"monsters_johny:26",
+        "monsterClass":"reptile",
+        "movementAggressionType":"helpOthers"
+    },
+    {
+        "id":"brightport_cat",
+        "name":"Duleian mountain cat cub",
+        "iconID":"monsters_cats:2",
+        "monsterClass":"animal"
+    },
+    {
+        "id":"brightport_cat2",
+        "name":"Duleian panther",
+        "iconID":"monsters_tometik4:67",
+        "maxHP":220,
+        "moveCost":3,
+        "monsterClass":"animal",
+        "movementAggressionType":"protectSpawn",
+        "attackDamage":{
+            "min":14,
+            "max":25
+        },
+        "attackCost":3,
+        "attackChance":250,
+        "criticalSkill":20,
+        "criticalMultiplier":3.0,
+        "blockChance":205,
+        "damageResistance":2
     }
 ]

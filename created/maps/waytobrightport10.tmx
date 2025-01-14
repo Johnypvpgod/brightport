@@ -217,7 +217,7 @@
  </layer>
  <layer name="Objects" width="30" height="8">
   <data encoding="base64" compression="zlib">
-   eJx9UjsOwjAM9c7OAK2brghxAH4DqsQBGDgI3IBDwIKoOjCzMYHgILACZ0BIOEqjvJoKS1Y+fn72c0JEdDFEV/GW+Iqp1g4SK0zA4v4dV7FrDjG/PsSf4q/y7p9Ny/gnDvkL4VzW8OraBHoiwc/EdwlRbl3VbZigzdrcuJp7yWmzy7e2NVXeNHV1m4qvULio5LDnhKu9ojYDujAfLYJ+RsBleY7s8LkJs9VzGvIvbwxvPeZQR/dwktmdkxDzM+mzW1GvP1vLgNNjvWXqn/nzAO5bsMd+2qDlJn3dxSdyl7LTNIZamdKluax1IebfEPE92A9q/uAmcbFOzYxRs+bFs+ZEHovxPRQK8wUec2hx
+   eJx9UjtuAkEMdU9PsR/vbItQDsDCFtFKOQBFDgI34BDQRFltQU1HRZQcJGmTnAEhxdbsaN6aVSxZ8/Hzs59niIjeHdGHeCK+Yxq1k8Q6F7G4v+ZD7J5jLKzf4j/iv/3df/bUx295zN8I53aE19Ym0JMJfi3+WhC16qbuxEVtas/O1zxKTso+X+3FDXnL0tedGr7O4LKeQ88FD3tFbQ50YT5aBv2sgEt5zuzxrYuztXNa8j1vDm9dc6xje7jI7N6KGAszWbBfUW84qzXAGbDBGvPPwrmC+wT22E8KWj6lry/xR7kr2Wuq+1o688boslxqc4iFN0T8A+yrkT94KHxsNjJj1Gx58Ww5kUcxoYfOYP4AVKlorg==
   </data>
  </layer>
  <layer name="Above" width="30" height="8">
@@ -244,7 +244,35 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="brightport_squirrel1" type="spawn" x="512" y="96" width="288" height="128">
+   <properties>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+  <object name="brightport_squirrel" type="spawn" x="64" y="64" width="416" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+  <object name="elderdeer" type="spawn" x="416" y="96" width="160" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="elderdeer2" type="spawn" x="160" y="128" width="160" height="96">
+   <properties>
+    <property name="spawngroup" value="brightport_elderdeer"/>
+   </properties>
+  </object>
+  <object name="goblin" type="spawn" x="96" y="160" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_goblin2"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="stanwick_quest" type="key" x="544" y="64" width="32" height="32">
    <properties>

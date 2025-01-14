@@ -265,7 +265,44 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="deer1" type="spawn" x="64" y="128" width="352" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_sickdeer"/>
+   </properties>
+  </object>
+  <object name="deer" type="spawn" x="192" y="288" width="352" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="brightport_sickdeer"/>
+   </properties>
+  </object>
+  <object name="fawn1" type="spawn" x="64" y="384" width="96" height="128">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_sickfawn"/>
+   </properties>
+  </object>
+  <object name="virilefawn" type="spawn" x="448" y="128" width="128" height="96">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
+   </properties>
+  </object>
+  <object name="squirmer" type="spawn" x="32" y="64" width="544" height="192">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+  <object name="squirmer1" type="spawn" x="192" y="352" width="384" height="160">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="brightport_sign" type="key" x="320" y="256" width="32" height="32">
    <properties>

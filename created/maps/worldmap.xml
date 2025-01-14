@@ -23,7 +23,7 @@
     <map area="lethgard" id="brightport_cave20" x="63" y="65"/>
     <map id="brightport_cave4" x="74" y="67"/>
     <namedarea id="greenscale" name="Greenscale tribe " type="settlement"/>
-    <namedarea id="lethgard" name="Lethgard" type="other"/>
+    <namedarea id="lethgard" name="Buried citadel" type="other"/>
     <namedarea id="burial" name="Burial cave" type="other"/>
   </segment>
 </worldmap>
