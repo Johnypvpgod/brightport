@@ -178,7 +178,7 @@
         "name":"Gunther",
         "iconID":"monsters_johny:1",
         "unique":1,
-        "phraseID":"brightport_bakery",
+        "phraseID":"brightport_bakery3",
         "droplistID":"brightport_bakery"
     },
     {
@@ -344,21 +344,23 @@
     },
     {
         "id":"brightportbakeryoutside",
-        "name":"placeholder",
-        "iconID":"monsters_fatboy73:21",
-        "unique":1
+        "name":"Eatloni",
+        "iconID":"monsters_ld1:98",
+        "unique":1,
+        "phraseID":"brightport_storemaster"
     },
     {
         "id":"brightportnpc11",
-        "name":"placeholder",
-        "iconID":"monsters_fatboy73:23",
-        "unique":1
+        "name":"Jalmor",
+        "iconID":"monsters_ld1:84",
+        "phraseID":"brightport_npc11"
     },
     {
         "id":"brightportbakeryoutside2",
-        "name":"placeholder",
-        "iconID":"monsters_fatboy73:24",
-        "unique":1
+        "name":"Laborer",
+        "iconID":"monsters_ld1:22",
+        "unique":1,
+        "phraseID":"brightport_laborer"
     },
     {
         "id":"brightport_fawn",
@@ -506,17 +508,18 @@
     },
     {
         "id":"brightport_lizardpriest",
-        "name":"Foot-long-dominio",
+        "name":"Long-tail-dominio",
         "iconID":"monsters_johny:30",
         "monsterClass":"reptile",
         "faction":"lizardman"
     },
     {
         "id":"brightport_lizard",
-        "name":"Scratch-claw-emyro",
+        "name":"Green-claw-emyro",
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
-        "faction":"lizardman"
+        "faction":"lizardman",
+        "phraseID":"brightport_emyro_selector"
     },
     {
         "id":"brightport_lizard1",
@@ -528,7 +531,7 @@
     },
     {
         "id":"brightport_lizardadvisor",
-        "name":"Scratch-tail-tyliad",
+        "name":"Tail-scratch-tyliad",
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
         "faction":"lizardman"
@@ -560,12 +563,14 @@
     {
         "id":"brightport_mayor",
         "name":"Rubiano",
-        "iconID":"monsters_ld1:77"
+        "iconID":"monsters_ld1:77",
+        "phraseID":"brightport_mayor"
     },
     {
         "id":"brightport_councilor",
         "name":"Nicolo",
-        "iconID":"monsters_ld1:130"
+        "iconID":"monsters_ld1:130",
+        "phraseID":"brightport_councilor"
     },
     {
         "id":"brightport_huntingdog",

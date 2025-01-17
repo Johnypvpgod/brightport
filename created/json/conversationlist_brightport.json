@@ -3920,7 +3920,7 @@
     },
     {
         "id":"brightport_statue_n2",
-        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters L and H.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters L and H.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3963,7 +3963,7 @@
     },
     {
         "id":"brightport_statue_sw2",
-        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters G, A and R.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters G, A and R.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -3995,7 +3995,7 @@
     },
     {
         "id":"brightport_statue_s2",
-        "message":"[After a bit of examination you notice something engraved on the statue's shield. Symbols similar in appearance to the letters T and E.]\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
+        "message":"After a bit of examination you notice something engraved on the statue. Symbols similar in appearance to the letters T and E.\n\nThe lines are straight and the shapes are a bit hard to tell but these must be letters. I should keep them in mind.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -4027,7 +4027,7 @@
     },
     {
         "id":"brightport_statue_central2",
-        "message":"[After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.]\n\n[Straight and cluttered lines. they don't look like any of the symbols you know. next to them is a swirl symbol, with the line starting off thick at the top then getting thinner as it goes, then curves to the left and back ]",
+        "message":"After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.\n\nStraight and cluttered lines. they don't look like any of the symbols you know. next to them is a an odd pictogram\n\n                             *            \n*                 \n                                   #\n                                                   *",
         "replies":[
             {
                 "text":"N",
@@ -5518,7 +5518,7 @@
     },
     {
         "id":"brightport_correct",
-        "message":"[That seemed to have been the activation word, as the statue lightly shone]\n\nI can probably go inside the forest now.",
+        "message":"That seemed to have been the activation word, as the statue lightly shone\n\nI can probably go inside the forest now.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -5860,11 +5860,15 @@
                 ]
             },
             {
+                "text":"What's with that statue at the entrance of the forest?",
+                "nextPhraseID":"brightport_bryma37"
+            },
+            {
                 "text":"Why do you live here in the forest?",
                 "nextPhraseID":"brightport_bryma15"
             },
             {
-                "text":"Can you tell me about your baking research again?",
+                "text":"Can you tell me about your baking research again.",
                 "nextPhraseID":"brightport_bryma16",
                 "requires":[
                     {
@@ -5882,6 +5886,23 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":111,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me about your bonemeal theory again?",
+                "nextPhraseID":"brightport_bryma31",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":111
                     }
                 ]
             }
@@ -6024,6 +6045,21 @@
                 "nextPhraseID":"brightport_bryma15"
             },
             {
+                "text":"What's with that statue at the entrance of the forest?",
+                "nextPhraseID":"brightport_bryma37"
+            },
+            {
+                "text":"Can you tell me about your baking research again.",
+                "nextPhraseID":"brightport_bryma16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":107
+                    }
+                ]
+            },
+            {
                 "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
                 "nextPhraseID":"brightport_bryma22",
                 "requires":[
@@ -6031,17 +6067,23 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":106
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":111,
+                        "negate":true
                     }
                 ]
             },
             {
-                "text":"Can you tell me the story about your baking research again?",
-                "nextPhraseID":"brightport_bryma16",
+                "text":"Can you tell me about your bonemeal theory again?",
+                "nextPhraseID":"brightport_bryma31",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":107
+                        "value":111
                     }
                 ]
             }
@@ -6153,7 +6195,13 @@
     },
     {
         "id":"brightport_bryma22",
-        "message":""
+        "message":"It will be a long and difficult subject, so please keep that in mind and don't interrupt me, but first.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma23"
+            }
+        ]
     },
     {
         "id":"brightport_dog",
@@ -6221,5 +6269,312 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brightport_laborer",
+        "message":"Move it kid, I've got work to do here."
+    },
+    {
+        "id":"brightport_storemaster",
+        "message":"Please keep off this path, you'll get under the feet of the workers.",
+        "replies":[
+            {
+                "text":"What's up with all these crates outside?",
+                "nextPhraseID":"brightport_storemaster2"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"brightport_storemaster1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster1",
+        "message":"I am Eatloni the storemaster. My brother Allares and I handle the storage and delivery of the bakery's goods.",
+        "replies":[
+            {
+                "text":"Is there any work for me to do here?",
+                "nextPhraseID":"brightport_storemaster3"
+            },
+            {
+                "text":"That explains the mess.",
+                "nextPhraseID":"brightport_storemaster2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster2",
+        "message":"Our bakery bakes the finest bread in all of Dhayavar. Of course, there\u2019s bound to be a bit of a jumble getting it onto the rich folk's tables.",
+        "replies":[
+            {
+                "text":"Is there any work for me to do here?",
+                "nextPhraseID":"brightport_storemaster3"
+            },
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"brightport_storemaster1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster3",
+        "message":"You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days, huh."
+    },
+    {
+        "id":"brightport_emyro_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyro"
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyro"
+    },
+    {
+        "id":"brightport_npc11",
+        "message":"I'm not mad, but entering people's homes isn't exactly a nice thing to do, you know.",
+        "replies":[
+            {
+                "text":"Is this Richimor's house?",
+                "nextPhraseID":"brightport_npc110",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":65,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_npc110",
+        "message":"Grandfather? well, yes, but he's outside at the moment.",
+        "replies":[
+            {
+                "text":"Thanks, that's all I needed to know.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma23",
+        "message":"What do you think makes bonemeal so desirable, even three years after its ban?",
+        "replies":[
+            {
+                "text":"It's cheap and offers the best treatment against ailments.",
+                "nextPhraseID":"brightport_bryma27"
+            },
+            {
+                "text":"Personally I don't know, that evil concoction hasn't been anywhere near close to my mouth.",
+                "nextPhraseID":"brightport_bryma24",
+                "requires":[
+                    {
+                        "requireType":"consumedBonemeals",
+                        "value":0
+                    }
+                ]
+            },
+            {
+                "text":"The ingredients to make it are easy to find anywhere.",
+                "nextPhraseID":"brightport_bryma25"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma24",
+        "message":"I don\u2019t know whether to applaud your commitment or waive it off as a form of childish ignorance, but either way..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma26"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma25",
+        "message":"That is true, any ordinary tomb will do for some bones.. and monsters are not an uncommon appearance in our day and age.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma26"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":110
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma26",
+        "message":"The correct answer would be all the correct reasons you could cite. It's cheap, it's effective, and it worked for hundreds of years. But if you think I'm a supporter of its consumption, you would be wrong.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma28"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma27",
+        "message":"That would be close to the most correct answer but it's not it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma26"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma28",
+        "message":"In the first place, don\u2019t you think there\u2019s something off about it? It\u2019s easy to make, cheap to consume, and immensely effective. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma29"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma29",
+        "message":"Not to mention the origin of those bones could have very well been from humans, and there have been stories of such things being done, especially during plagues. Nevertheless..",
+        "replies":[
+            {
+                "text":"I thought we would be talking about your research?",
+                "nextPhraseID":"brightport_bryma30"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma30",
+        "message":"Oh  right, my apologies. I got a bit sidetracked. Yes, where do I begin.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma31"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma31",
+        "message":"In my baking research, I discovered that the potion does not merely heal but it facilitates growth. What we perceive as healing is, in fact, simply the acceleration of your body\u2019s natural regeneration condensed into a shorter time by the potion.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma32"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma32",
+        "message":"But my experiments revealed something more. The late Headmaster Dervin rewarded me with an advanced bonemeal potion. that contained a mysterious ingredient called kazarite, which doubled the growth factor of a regular bonemeal potion.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma33"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma33",
+        "message":"This completely changed my perspective. When I asked for the recipe to identify the ingredient responsible, I was denied. But this was no setback. I soon realized that bones are not unique in their properties. It\u2019s common alchemical knowledge that monster parts are prime ingredients for potions, but my discoveries went even further.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma34"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma34",
+        "message":"I call this the Theory of Essence. We all know that when the Rift opened, immense magical energy entered our plane along with the monstrous creatures. Before that, what I refer to as the essence already existed, but it was greatly strengthened by the Rift.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma35"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma35",
+        "message":"This essence exists within every part of Dhayavar. The soil, the mountains, the creatures, and the people all hold it. The proof lies in the crystals that form inside monsters. These crystals are concentrated forms of essence. Bones are another place where essence gathers most densely. The essence is our world itself. When we take in more of it, we restore what we lose through disease or injury.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma36"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":111
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma36",
+        "message":"Not to say it\u2019s all the same. Some things, despite containing high essence, can be harmful to us, such as poisons, or diseases, which drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain attributes or balance. But nonetheless, there is much to explain. I was working to publish this among the scholars of Feygard before the bonemeal ban.",
+        "replies":[
+            {
+                "text":"Can we talk about something else?",
+                "nextPhraseID":"brightport_bryma14"
+            },
+            {
+                "text":"That's too much to digest. I'm gonna have to go now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma37",
+        "message":"Those statues are intriguing. The 'Lethgar' password refers to the Lethgar people, but they lived over 2,000 years ago. There\u2019s little chance the statues are that old. How the barrier works remains a mystery.",
+        "replies":[
+            {
+                "text":"Can we talk about something else?",
+                "nextPhraseID":"brightport_bryma14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_councilor",
+        "message":"Ho ho, younglin', how goes the day? coughs Don't mind me, just speak your piece.",
+        "replies":[
+            {
+                "text":"Sorry, I've got nothing to say."
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor",
+        "message":"Im Rubiano, the doughe of Brightport, speak up.",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"brightport_mayor0"
+            },
+            {
+                "text":"What's a doughe?",
+                "nextPhraseID":"brightport_mayor1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor0"
+    },
+    {
+        "id":"brightport_mayor1",
+        "message":"The Doughe is the ruler of Brightport. The title is related to 'duke,' but its role is closer to that of a mayor. only the descendants of the town's founder can be part of the council or be the Doughe."
     }
 ]

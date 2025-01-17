@@ -228,14 +228,14 @@
     <property name="spawngroup" value="brightport_chef"/>
    </properties>
   </object>
-  <object name="brightportnpc10" type="spawn" x="384" y="192" width="96" height="96">
-   <properties>
-    <property name="spawngroup" value="brightportnpc10"/>
-   </properties>
-  </object>
-  <object name="brightportstoragenpc" type="spawn" x="320" y="448" width="128" height="64">
+  <object name="brightportstoragenpc" type="spawn" x="384" y="192" width="96" height="96">
    <properties>
     <property name="spawngroup" value="brightportstoragenpc"/>
+   </properties>
+  </object>
+  <object name="brightportnpc10" type="spawn" x="320" y="448" width="128" height="64">
+   <properties>
+    <property name="spawngroup" value="brightportnpc10"/>
    </properties>
   </object>
  </objectgroup>

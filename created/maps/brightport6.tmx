@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="30" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="3">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -186,24 +186,29 @@
  <tileset firstgid="8105" name="map_pillar_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_pillar_1.png" width="512" height="256"/>
  </tileset>
+ <layer id="9" name="Base" width="30" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhaYCMnBNMbbOaEYJgb6AE2ciLshfnbQ4w+9g5EGI+CUTAKRjYAAKKYCR8=
+  </data>
+ </layer>
  <layer id="1" name="Ground" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJzbyMnAsJFGeD8TA8MBIF6HhNdCaVrZCcIXgeZfQrILhPfTwV4QfsKE6u+LUHdQYuZPbgaGX0D8m5s0f+/HYu9PJHNwsWGYk4eBgQuIuXmI8/daJD+jy0sCzZDmwc9GViuFRZyYdEbr+MUV3vS0Fzm86W0vCI/aO2ovLTAoHwMAiyotWg==
+   eJzbyMnAsJFGeD8TA8MBIF6HhNdCaXLNzBCDYHxqLgLNv4RkFwjvp8DezUA8UZyBYbI4hO+Bx/4nTKj+vgh1Bzn2RgPtWQi0sxCIo4DsShL9vZ8Ee39yMzD85oawy4D2VIhBxH4hiePDT5DsvUiCvZI8DAzSPKhinEA+FxBz8xBnBnJ4U5JeQW6RwuIeYsKbEnvJwU8GyF4QHrV31F5aYFA+BgBr1Cw+
   </data>
  </layer>
  <layer id="2" name="Objects" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJylVDtOAzEQHdG5dCRWCitEqhwBKX2IhES9JCgNsEr4pMwRqCAgFg5ATW7DGbhIPNod9nlimyCeNBr7bez5PGeGh0QnzobKMzQX84xnS/Ri/XOIiftW2Ha/S5wc1nw+FT8UU5AD/9gNx7w0RFfOro0fH3k89+ls7axseOa+98LxdX5PLodVk8c59GRm/TMjtWes9mu/NH5P+qp2zAXr+elJ7/d1CA9Nva8doq8joo9OGwv1xR79F4X1+zfIwnpzHqLJherdvNmfKr4I9BhRmu1YsbcmvdE6InRemuP3wDotTcuNVf2o7XFW2yTz7zzoEb3ZWs936+8r2LPXNcTqxXfLKCHHHLT5ixfg3Tcur7PELJE+o3ZSi9Raqdor+M4Yw9m50iQ0X9aJebNrrTPrzzTBNDDbdC59+D+lZhZDzyzNxWKk5qmeIbHfyvrWaXnX3b773nGLAC/YAEkMZs4=
+   eJyVVDtOw0AQHdG53EhYciyLVG7SI9EnihUoUpkk0PBRwq/gCCBRQUAYDkBNbsMZuAgz2h0yO14bMdJodp9333y9gwxgiDpQdi+uY02W5NkAvBi7ljjLDL+V7ntf3W3iTcWa7rf5H6Et3DktqYjlMQE4CHAViN2qvFMVn1x/oq4zy0VC2PdW3TeL5HjCGFaoh+7uHeL3KpZQbhTP2IRrkqt6y1hkPhw3c/L+t1Y9azXfatvHXzsAXzsAH52Nr1LUfqi46V6C2s3C86FrJKVU9ZA90jmTv/No43vuYlo6y/jE+DGPA3Oj4503zHffrR8iaxfu3CjASRwLU8dYaCa4z0cOn6r8ZW93Y6uz2Ofs9gDejO3nu/H3ldiTvTB+HNKX/Fd4blmozoW7k4re/MeSEAdzc81ZQn3mOst541w410rlXonvXFOWpepH6H1Zi/0kMI9/2anre5rVczoOvEf7qhe5+J8YO8E6nKKeRT6nxEnylrNN+TadaXsT5foSe3mV1LmvEbsJ4Pyu/ACVFHkT
   </data>
  </layer>
  <layer id="3" name="Above" width="30" height="14">
   <data encoding="base64" compression="zlib">
-   eJy9VEkKgDAM9N670IO/0B/4CZeXqB/QVxtBYYjJUNeBYsg2TUxTFllWydlQ7rL+BpCZH9osBNAP0c6FQH6NwzbLWRK4ddyGUe4wRe6fghrunxN+Vs9X0D16Ct1jr+dv8d3hfgts7v6AVy+b26ez5eX+s27NidzLhX3DoHca40R9Du+JxV+pj3F7PsGwW3Ij/7KN59yd6HpDj/BirR2KO+aQvd3M8q3gwzXC
+   eJy9VEsOgkAMZYuzJ5kFt8DIAbiEyiXcqheQU9NJaPKsfQ0TjS9ppnT6H9qhb5qjUMGw8fZMwEd6BSc5x423SCC/Z98X6mF8/Eb+JbQ49wyo85Acnvn9/kZqxdpsPhPYdEF8rEfzVp9YB4L5i+IgbI+KXSt06Hm/oj7aO6ar8VhdTO6B5bvnvb9BquzNr8Hq9f5bhZdzDdS39pzl8g94u2EJ5rMGdqdFMVHewTxF9h7szLIYUX17diLyZ3nLS/70fRXZ7MgxR2br7VCcZ+XZbo78rfkLQuQ=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="30" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJwzFGNgMBzFRGEQoLZ5xABsemjtT3z2orNJCTd8bGL8S6z/qQWIDXvk8KCWnbjcQYw/0d1EiMZmDz670fVS6ndc/iElnEn1KyG3EJueSQG44o6aeZeUOKSm3dTAAKQjSyo=
+   eJwzFGNgMBzFQwaDwEDZC7MbnU2um5HF8alBV0dKGKADQuL43IPPbvSwoQQQayc++9DdRIjGZTehOEW3j1xAbFjjs4tUvxLrFkLplhRAStySm09JiUNq208pBgA2CFQK
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -213,7 +218,7 @@
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="2" name="grave" type="mapchange" x="576" y="96" width="32" height="32">
+  <object id="2" name="grave" type="mapchange" x="576" y="128" width="32" height="32">
    <properties>
     <property name="map" value="brightport_grave"/>
     <property name="place" value="entrance"/>
