@@ -213,11 +213,16 @@
     <property name="place" value="entrance1"/>
    </properties>
   </object>
+  <object name="brightport_lizard" type="script" x="128" y="352" width="96" height="32">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="brightport_lizard" type="spawn" x="128" y="512" width="32" height="32">
    <properties>
-    <property name="spawngroup" value="brightport_lizard"/>
+    <property name="spawngroup" value="brightport_emyro"/>
    </properties>
   </object>
  </objectgroup>

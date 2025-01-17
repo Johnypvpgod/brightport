@@ -2822,6 +2822,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_bryma38",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":112,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_bryma6",
                 "requires":[
                     {
@@ -5848,6 +5865,24 @@
                 ]
             },
             {
+                "text":"I encountered a strange creature in the cave under your house. It didn't stick around though.",
+                "nextPhraseID":"brightport_bryma39",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":1,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"I heard you haven't been in Brightport for years, how did the scroll reach you?",
                 "nextPhraseID":"brightport_bryma8",
                 "requires":[
@@ -6558,23 +6593,264 @@
     },
     {
         "id":"brightport_mayor",
-        "message":"Im Rubiano, the doughe of Brightport, speak up.",
+        "message":"Im Rubiano, the Doughe of Brightport, speak up.",
         "replies":[
             {
                 "text":"Have you seen my brother Andor?",
                 "nextPhraseID":"brightport_mayor0"
             },
             {
-                "text":"What's a doughe?",
+                "text":"What's the history of the town?",
+                "nextPhraseID":"brightport_mayor5"
+            },
+            {
+                "text":"What's a Doughe?",
                 "nextPhraseID":"brightport_mayor1"
             }
         ]
     },
     {
-        "id":"brightport_mayor0"
+        "id":"brightport_mayor0",
+        "message":"Your brother, you say? Let\u2019s see...\"\n\n[Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.]\n\nAndor, Andor...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_mayor3"
+            }
+        ]
     },
     {
         "id":"brightport_mayor1",
-        "message":"The Doughe is the ruler of Brightport. The title is related to 'duke,' but its role is closer to that of a mayor. only the descendants of the town's founder can be part of the council or be the Doughe."
+        "message":"The Doughe is the one who oversees Brightport, much like a mayor. The title is chosen by the council from among the De Lucent family, as we've guided the township's administration since its founding.",
+        "replies":[
+            {
+                "text":"Begging your pardon, but are you of noble blood, Sir?",
+                "nextPhraseID":"brightport_mayor2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor2",
+        "message":"Haha, don\u2019t sweat it, kid! We\u2019re Brightporters, like any other. So, what brings you here?",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"brightport_mayor0"
+            },
+            {
+                "text":"What's the history of the town?",
+                "nextPhraseID":"brightport_mayor5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor3",
+        "message":"I see an Andor listed here, graduated from our academy half a year ago. He left Brightport then. Has he not made it back?",
+        "replies":[
+            {
+                "text":"He has, but he went missing recently, so my father sent me out to search for him.",
+                "nextPhraseID":"brightport_mayor4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor4",
+        "message":"Braving these lands for your brother, impressive. You have courage. May the shadow watch over you."
+    },
+    {
+        "id":"brightport_mayor5",
+        "message":"Brightport was founded by my ancestors over 700 years ago. Sir Lucient of House De Lucent and his loyal squires were the first to set foot on this shore of the great lake.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_mayor6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor6",
+        "message":"First, they built the manor, followed soon after by the bakery to sustain the house's trade. The squires and their families became the first commonfolk, joined over the centuries by merchants who chose to settle and make Brightport their home.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_mayor7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_mayor7",
+        "message":"We of the De Lucent family have been guiding the town ever since. But regrettably, the past Doughe, my father, was executed by decree of the king for having sided with lord Emeric of Nor city. Since then, we\u2019ve had to answer not to the king directly but to a foreign nobleman ruling over our lands.",
+        "replies":[
+            {
+                "text":"Thanks for telling me this story, I'll be on my way.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma38",
+        "message":"Have you had any success with the creatures?"
+    },
+    {
+        "id":"brightport_bryma39",
+        "message":"Lizardmen, again. They've been bothering me for months now. My bread golems can handle a few, but if they all come at once, I\u2019ll be in trouble.",
+        "replies":[
+            {
+                "text":"Guess, I could help with that, what's the story here?",
+                "nextPhraseID":"brightport_bryma40"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma40",
+        "message":"One day, I ventured into that decrepit basement to see what\u2019s around. Curious, I began exploring and carelessly ventured down into a cave. days later, I began hearing the scratching of their monstrous claws echoing through the tunnels. Likely a warning. This repeated until one day I went down to check and the passage was blocked with rubble. ",
+        "replies":[
+            {
+                "text":"I'll see what I can do about those creatures.",
+                "nextPhraseID":"brightport_bryma41"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma41",
+        "message":"I appreciate your enthusiasm. The passage down is blocked but if you go deeper inside the forest you'll find another statue. the activation word is \"Light\" please use it to find a way to their nest.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizard0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":113,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard0",
+        "message":"As you walk down the cave tunnel, you abruptly stop in your tracks as you notice a mysterious creature standing a stone throw's away from you you.",
+        "replies":[
+            {
+                "text":"[Lunge towards it with your weapon.]",
+                "nextPhraseID":"brightport_lizard1"
+            },
+            {
+                "text":"Hey, wait!",
+                "nextPhraseID":"brightport_lizard1",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Hey, wait!",
+                "nextPhraseID":"brightport_lizard2",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"gem_fire",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard1",
+        "message":"[The mysterious creature leaps through the rubble to the other side of the cave.]",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard",
+                "mapName":"brightport_cave1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":113
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizard2",
+        "message":"[The creature speaks to you in a harsh, raspy voice]\n\nShadow, not stand, injustice, human.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizard1"
+            }
+        ]
+    },
+    {
+        "id":"brighport_statue_lizard",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_statue_lizard1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":114,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_lizard1",
+        "message":"Before you stands an imposing stone statue, overgrown with moss.",
+        "replies":[
+            {
+                "text":"\"Light\"",
+                "nextPhraseID":"brightport_statue_lizard2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_statue_lizard2",
+        "message":"The statue lightly shone.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":114
+            }
+        ]
     }
 ]

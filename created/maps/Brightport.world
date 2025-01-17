@@ -207,7 +207,7 @@
             "fileName": "brightportwild7.tmx",
             "height": 480,
             "width": 832,
-            "x": 192,
+            "x": 256,
             "y": 2112
         },
         {
@@ -235,7 +235,7 @@
             "fileName": "brightportwild10.tmx",
             "height": 800,
             "width": 640,
-            "x": 1054,
+            "x": 1118,
             "y": 2268
         },
         {
@@ -249,7 +249,7 @@
             "fileName": "brightportwild12.tmx",
             "height": 448,
             "width": 640,
-            "x": 376,
+            "x": 440,
             "y": 2621
         },
         {
@@ -291,8 +291,8 @@
             "fileName": "brightportwild17.tmx",
             "height": 608,
             "width": 640,
-            "x": 46,
-            "y": 3105
+            "x": 448,
+            "y": 3104
         },
         {
             "fileName": "brightportwild16.tmx",

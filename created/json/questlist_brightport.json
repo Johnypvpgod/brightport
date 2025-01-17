@@ -326,6 +326,18 @@
             {
                 "progress":111,
                 "logText":"bryma bonemeal theory"
+            },
+            {
+                "progress":112,
+                "logText":"bryma quest end"
+            },
+            {
+                "progress":113,
+                "logText":"basement lizard"
+            },
+            {
+                "progress":114,
+                "logText":"lizard statue activated"
             }
         ]
     },
@@ -336,7 +348,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"In the rundown strange basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble.\""
+                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble.\""
             },
             {
                 "progress":5,
@@ -372,12 +384,12 @@
                 "finishesQuest":1
             },
             {
-                "progress":40,
-                "logText":"To earn the trust of the tribe\u2019s leader, Elyzard, I swore to return the stolen bones."
-            },
-            {
                 "progress":45,
                 "logText":"As a reward, Bryma taught me another activation phrase that opens a shortcut between Charwood and Brightport."
+            },
+            {
+                "progress":40,
+                "logText":"To earn the trust of the tribe\u2019s leader, Elyzard, I swore to return the stolen bones."
             },
             {
                 "progress":50,

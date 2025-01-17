@@ -759,5 +759,11 @@
         "criticalMultiplier":3.0,
         "blockChance":205,
         "damageResistance":2
+    },
+    {
+        "id":"brightport_emyro",
+        "name":"Mysterious lizard creature",
+        "iconID":"monsters_johny:27",
+        "phraseID":"brightport_lizard1"
     }
 ]
