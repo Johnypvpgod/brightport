@@ -213,7 +213,7 @@
  </layer>
  <layer id="3" name="Objects" width="25" height="16">
   <data encoding="base64" compression="zlib">
-   eJydVEtOwzAQNZU4AwvURPFFYJ8DsOKzBaQegKrARQCpEqyrsksjQRArQnsAQIUFF4ATMIP9yMPYG55kxR7PzBs/j9Nk5ht1YcxSxr6st2Q8FOYHhTXmVmxN5nwUWH+S3yPNsa/Ylvgd2+0NM8ejOOiZKJg/xKGPmYnPZW7MVe64wFkXHY/iKMEBrFNta953KN8R5VKAaxFooGgLx4d4zglovqrfrTX3PNCspPWK5Oj5PJW3r9rf8YoNsW2SnesCNP7V+7NWIT4iureJe0VNz5GY0Ka1hpxPYhuLHuf/HMh7T1yxfNf9rl7uRa6H53Wi92beftGP7zOQr4r0CnobdcfOpjUvE7pDyzu/XtA7uKE5xyqaxLnCe3knv6nn2RXN9qzjHsn3WMY467hSmnE+nPslkp/PoygjuinQV21iH3oAJ1LnhOqEP77oh7PEmwj9+Tyoeer32G9g3f8w1mO4j7dAM6071HFOOUqa4w4UfA8Knk/o7liTU9v5ca5B/vet8rykN6T2L5BTs3c=
+   eJydVEtOwzAQNZU4AwvURPFFYJ8DsOKzBaQegKrARQCpEqyrsksjQRArQnsAQIUFF4ATMIP9yMPYG55kxR7PzBs/j9Nk5ht1YcxSxr6st2Q8FOYHhTXmVmxN5nwUWH+S3yPNsa/Ylvgd2+0NM8ejOOiZKJg/xKGPmYnPZW7MVe64wFkXHY/iKMEBrFNta953KN8R5VKAaxFooGgLx4d4zglovqrfrTX3PNCspPWK5Oj5PJW3r9rf8YoNsW2SnesCNP7V+7NWIT4iureJe0VNz5GY0Ka1hpxPYhuLHuf/HMh7T1yxfNf9rl7uRa6H53Wi92beftGP7zOQr4r0CnobdcfOpjUvE7pDyzu/XtA7uKE5xwJN5GzhvbyTz9Tz7Ipme9Zxj+R7LGOcdVwpzTgfzv0Syc/nUZQR3RToqzaxDz2AE6lzQnXCH1/0w1niTYT+fB7UPPV77Dew7n8Y6zHcx1ugmdYd6jinHCXNcQcKvgcFzyd0d6zJqe38ONcg//tWeV7SG1L7F4zLs3c=
   </data>
  </layer>
  <layer id="4" name="Above" width="25" height="16">
@@ -223,7 +223,7 @@
  </layer>
  <layer id="5" name="Walkable" width="25" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJybKcuAAmbK0g5T2w5cZlHTHmxhQ4hPalgQaz4uQI4+Ys2mlj5K9VILYEs76Gxq20MN88lJe8hypJiNTY6UfEKOv8g1n1h5SvM8MXLk2kGtMMIX/+SWU4QwADcqkb8=
+   eJybKcuAAmbK0g5T2w5cZlHTHmxhQ4hPalgQaz4uQKo+XP4jBpCrj1K91ALY0g46m9r2UMN8ctIeshw2NjFuIyefkOMvcs0nJa1TkueJkSPXDmqFEb74J7ecIoQB6hSTKw==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -246,45 +246,45 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="11" name="squirmers" type="spawn" x="64" y="96" width="352" height="416">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
   <object id="12" name="viriledeer" type="spawn" x="448" y="160" width="160" height="128">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_deer"/>
    </properties>
   </object>
   <object id="13" name="virilefawn" type="spawn" x="320" y="352" width="64" height="64">
    <properties>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
    </properties>
   </object>
   <object id="14" name="squirmers" type="spawn" x="448" y="96" width="288" height="192">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
   <object id="21" name="virilefawn" type="spawn" x="64" y="192" width="192" height="160">
    <properties>
     <property name="quantity" value="3"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
    </properties>
   </object>
   <object id="22" name="virilefawn" type="spawn" x="64" y="96" width="64" height="64">
    <properties>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
    </properties>
   </object>
   <object id="23" name="virilefawn" type="spawn" x="320" y="128" width="64" height="128">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_fawn"/>
    </properties>
   </object>
  </objectgroup>

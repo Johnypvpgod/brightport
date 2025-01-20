@@ -192,12 +192,12 @@
  </layer>
  <layer id="2" name="Objects" width="27" height="11">
   <data encoding="base64" compression="zlib">
-   eJydVD0PgjAQbSgLcRBKQsLgD3AQ/P8rLsbJuMhKAswuzvYCl7sebaO+pIFe37376IFSLnpD789CfQXgddbvYrZ2HzeGU+ru23RZUr8oXa5OlueolZo07RHH/fKshB00mjUGAGJgjjxmXm5zy+z+rV1bIzi/4GbCZ76+AK455Xc3Lg9rbv/I6Wx9dswvS7acPqf+YQ/BFrrjWG8O7A7qxK8BNYbQVZQHxpE9Q02Mw/Vi2sN6L7wHMGOzpji+mHIGQ/DVWnt8J00L5l/mPLNZfBn6FtCO/JHp4BnMTqwHPjwq0uF18DxjPpIzBP4fH95EOnQ=
+   eJydVD0PgjAQbSgLcRBKQsLgD3AQ/P8rLsbJuMhKAswuzvYCl7sebaO+pIFe37376IFSLnpD789CfQXgddbvYrZ2HzeGU+ru23RZUr8oXa5OlueolZo07RHH/fKshB00mjUGAGJgjjxmXm5zy+z+rV1bIzi/4GbCZ76+AK455Xc3Lg9rbv/I6Wx9dswvS7acPqf+YQ/BFrrjWG8O7A7qxK8BNYbQVZQHxpE9Q02Mw/Vi2sN6L7wHMGOzpji+mHIGQ/DVWnt8J00L5l/mPLNZfBn6FtCO/JHp4BnMTqwHPjwq0uF1SHvIR3KGwP/jA94xOnQ=
   </data>
  </layer>
  <layer id="3" name="Above" width="27" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfbBZiYNgihOAzClNgGB6AbAe6ncSAy2LUdQ8+ey4B8U4B4tRSAi6RoB9dLSl20zvsyAXPmRkYgiQRGAYCJTHVUmIPNgCz8ykzdc0d7OAZGf7Fpuc5mhh6OAIAUkMWrw==
+   eJxjYCAfbBZiYNgihOAzClNgGB6AbAe6ncSAy2LUdQ8+ey4B8U4B4tRSAi6RoB9dLSl20zvsyAXPmRkYgiQRGAYCJTHVUmIPNgCz8ykzdc0d7OAZDv/iEscl9xxNDD0cAZsQF5g=
   </data>
  </layer>
  <layer id="12" name="Top" width="27" height="11">
@@ -211,10 +211,10 @@
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
-  <object id="1" name="cave" type="mapchange" x="640" y="320" width="96" height="32">
+  <object id="1" name="cave1" type="mapchange" x="640" y="320" width="96" height="32">
    <properties>
     <property name="map" value="brightport_cave9"/>
-    <property name="place" value="entrance"/>
+    <property name="place" value="entrance1"/>
    </properties>
   </object>
   <object id="2" name="west" type="mapchange" x="0" y="256" width="32" height="32">

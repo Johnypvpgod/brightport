@@ -1956,6 +1956,12 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":130,
+                        "negate":true
                     }
                 ]
             },
@@ -1967,6 +1973,12 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":70,
+                        "negate":true
                     }
                 ]
             },
@@ -1994,8 +2006,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
-                        "value":16,
+                        "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":15
                     }
                 ]
             }
@@ -3746,6 +3763,28 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_fiamma",
                         "value":35
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_fiamma11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":35,
+                        "negate":true
                     }
                 ]
             },
@@ -5903,17 +5942,6 @@
                 "nextPhraseID":"brightport_bryma15"
             },
             {
-                "text":"Can you tell me about your baking research again.",
-                "nextPhraseID":"brightport_bryma16",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":107
-                    }
-                ]
-            },
-            {
                 "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
                 "nextPhraseID":"brightport_bryma22",
                 "requires":[
@@ -6082,17 +6110,6 @@
             {
                 "text":"What's with that statue at the entrance of the forest?",
                 "nextPhraseID":"brightport_bryma37"
-            },
-            {
-                "text":"Can you tell me about your baking research again.",
-                "nextPhraseID":"brightport_bryma16",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":107
-                    }
-                ]
             },
             {
                 "text":"You mentioned your bonemeal research, what can you tell me about the potion?",
@@ -6339,7 +6356,7 @@
     },
     {
         "id":"brightport_storemaster2",
-        "message":"Our bakery bakes the finest bread in all of Dhayavar. Of course, there\u2019s bound to be a bit of a jumble getting it onto the rich folk's tables.",
+        "message":"Our bakery bakes the finest bread in all of Dhayavar. Of course, there's bound to be a bit of a jumble getting it onto the rich folk's tables.",
         "replies":[
             {
                 "text":"Is there any work for me to do here?",
@@ -6426,7 +6443,7 @@
     },
     {
         "id":"brightport_bryma24",
-        "message":"I don\u2019t know whether to applaud your commitment or waive it off as a form of childish ignorance, but either way..",
+        "message":"I don't know whether to applaud your commitment or waive it off as a form of childish ignorance, but either way..",
         "replies":[
             {
                 "text":"N",
@@ -6473,7 +6490,7 @@
     },
     {
         "id":"brightport_bryma28",
-        "message":"In the first place, don\u2019t you think there\u2019s something off about it? It\u2019s easy to make, cheap to consume, and immensely effective. ",
+        "message":"In the first place, don't you think there's something off about it? It's easy to make, cheap to consume, and immensely effective. ",
         "replies":[
             {
                 "text":"N",
@@ -6503,7 +6520,7 @@
     },
     {
         "id":"brightport_bryma31",
-        "message":"In my baking research, I discovered that the potion does not merely heal but it facilitates growth. What we perceive as healing is, in fact, simply the acceleration of your body\u2019s natural regeneration condensed into a shorter time by the potion.",
+        "message":"In my baking research, I discovered that the potion does not merely heal but it facilitates growth. What we perceive as healing is, in fact, simply the acceleration of your body's natural regeneration condensed into a shorter time by the potion.",
         "replies":[
             {
                 "text":"N",
@@ -6523,7 +6540,7 @@
     },
     {
         "id":"brightport_bryma33",
-        "message":"This completely changed my perspective. When I asked for the recipe to identify the ingredient responsible, I was denied. But this was no setback. I soon realized that bones are not unique in their properties. It\u2019s common alchemical knowledge that monster parts are prime ingredients for potions, but my discoveries went even further.",
+        "message":"This completely changed my perspective. When I asked for the recipe to identify the ingredient responsible, I was denied. But this was no setback. I soon realized that bones are not unique in their properties. It's common alchemical knowledge that monster parts are prime ingredients for potions, but my discoveries went even further.",
         "replies":[
             {
                 "text":"N",
@@ -6560,7 +6577,7 @@
     },
     {
         "id":"brightport_bryma36",
-        "message":"Not to say it\u2019s all the same. Some things, despite containing high essence, can be harmful to us, such as poisons, or diseases, which drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain attributes or balance. But nonetheless, there is much to explain. I was working to publish this among the scholars of Feygard before the bonemeal ban.",
+        "message":"Not to say it's all the same. Some things, despite containing high essence, can be harmful to us, such as poisons, or diseases, which drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain attributes or balance. But nonetheless, there is much to explain. I was working to publish this among the scholars of Feygard before the bonemeal ban.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -6574,7 +6591,7 @@
     },
     {
         "id":"brightport_bryma37",
-        "message":"Those statues are intriguing. The 'Lethgar' password refers to the Lethgar people, but they lived over 2,000 years ago. There\u2019s little chance the statues are that old. How the barrier works remains a mystery.",
+        "message":"Those statues are intriguing. The 'Lethgar' password refers to the Lethgar people, but they lived over 2,000 years ago. There's little chance the statues are that old. How the barrier works remains a mystery.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -6611,7 +6628,7 @@
     },
     {
         "id":"brightport_mayor0",
-        "message":"Your brother, you say? Let\u2019s see...\"\n\n[Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.]\n\nAndor, Andor...",
+        "message":"Your brother, you say? Let's see...\"\n\n[Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.]\n\nAndor, Andor...",
         "replies":[
             {
                 "text":"N",
@@ -6631,7 +6648,7 @@
     },
     {
         "id":"brightport_mayor2",
-        "message":"Haha, don\u2019t sweat it, kid! We\u2019re Brightporters, like any other. So, what brings you here?",
+        "message":"Haha, don't sweat it, kid! We're Brightporters, like any other. So, what brings you here?",
         "replies":[
             {
                 "text":"Have you seen my brother Andor?",
@@ -6679,7 +6696,7 @@
     },
     {
         "id":"brightport_mayor7",
-        "message":"We of the De Lucent family have been guiding the town ever since. But regrettably, the past Doughe, my father, was executed by decree of the king for having sided with lord Emeric of Nor city. Since then, we\u2019ve had to answer not to the king directly but to a foreign nobleman ruling over our lands.",
+        "message":"We of the De Lucent family have been guiding the town ever since. But regrettably, the past Doughe, my father, was executed by decree of the king for having sided with lord Emeric of Nor city. Since then, we've had to answer not to the king directly but to a foreign nobleman ruling over our lands.",
         "replies":[
             {
                 "text":"Thanks for telling me this story, I'll be on my way.",
@@ -6693,7 +6710,7 @@
     },
     {
         "id":"brightport_bryma39",
-        "message":"Lizardmen, again. They've been bothering me for months now. My bread golems can handle a few, but if they all come at once, I\u2019ll be in trouble.",
+        "message":"Lizardmen, again. They've been bothering me for months now. My bread golems can handle a few, but if they all come at once, I'll be in trouble.",
         "replies":[
             {
                 "text":"Guess, I could help with that, what's the story here?",
@@ -6703,7 +6720,7 @@
     },
     {
         "id":"brightport_bryma40",
-        "message":"One day, I ventured into that decrepit basement to see what\u2019s around. Curious, I began exploring and carelessly ventured down into a cave. days later, I began hearing the scratching of their monstrous claws echoing through the tunnels. Likely a warning. This repeated until one day I went down to check and the passage was blocked with rubble. ",
+        "message":"One day, I ventured into that decrepit basement to see what's around. Curious, I began exploring and carelessly ventured down into a cave. days later, I began hearing the scratching of their monstrous claws echoing through the tunnels. Likely a warning. This repeated until one day I went down to check and the passage was blocked with rubble. ",
         "replies":[
             {
                 "text":"I'll see what I can do about those creatures.",
@@ -6755,24 +6772,24 @@
                 "nextPhraseID":"brightport_lizard1"
             },
             {
-                "text":"Hey, wait!",
+                "text":"Hey!",
                 "nextPhraseID":"brightport_lizard1",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"gem_fire",
+                        "requireID":"lutarc_medallion",
                         "value":1,
                         "negate":true
                     }
                 ]
             },
             {
-                "text":"Hey, wait!",
+                "text":"Hey!",
                 "nextPhraseID":"brightport_lizard2",
                 "requires":[
                     {
                         "requireType":"inventoryKeep",
-                        "requireID":"gem_fire",
+                        "requireID":"lutarc_medallion",
                         "value":1
                     }
                 ]
@@ -6802,10 +6819,10 @@
     },
     {
         "id":"brightport_lizard2",
-        "message":"[The creature speaks to you in a harsh, raspy voice]\n\nShadow, not stand, injustice, human.",
+        "message":"[The creature speaks to you in a harsh, raspy voice]\n\nYou! You've got the medallion, but you're not him.",
         "replies":[
             {
-                "text":"N",
+                "text":"What do you mean?",
                 "nextPhraseID":"brightport_lizard1"
             }
         ]
@@ -6837,7 +6854,7 @@
         "message":"Before you stands an imposing stone statue, overgrown with moss.",
         "replies":[
             {
-                "text":"\"Light\"",
+                "text":"Light.",
                 "nextPhraseID":"brightport_statue_lizard2"
             }
         ]

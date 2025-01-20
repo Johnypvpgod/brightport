@@ -368,7 +368,7 @@
         "iconID":"monsters_johny:22",
         "maxHP":210,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":7,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -376,7 +376,7 @@
             "max":18
         },
         "attackCost":7,
-        "attackChance":100,
+        "attackChance":90,
         "criticalSkill":3,
         "criticalMultiplier":15.0,
         "blockChance":65,
@@ -408,15 +408,15 @@
         "iconID":"monsters_johny:24",
         "maxHP":240,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":7,
         "monsterClass":"animal",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":8,
             "max":19
         },
         "attackCost":7,
-        "attackChance":115,
+        "attackChance":105,
         "criticalSkill":3,
         "criticalMultiplier":15.0,
         "blockChance":70,
@@ -465,9 +465,9 @@
         "iconID":"monsters_johny:21",
         "maxHP":155,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":7,
         "monsterClass":"animal",
-        "movementAggressionType":"none",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":3,
             "max":13
@@ -485,9 +485,9 @@
         "iconID":"monsters_johny:23",
         "maxHP":212,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":7,
         "monsterClass":"animal",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":6,
             "max":16
@@ -531,7 +531,7 @@
     },
     {
         "id":"brightport_lizardadvisor",
-        "name":"Tail-scratch-tyliad",
+        "name":"Tail-swing-tyliad",
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
         "faction":"lizardman"
@@ -602,12 +602,12 @@
     {
         "id":"brightport_squirrel",
         "name":"Forest squirmer",
-        "iconID":"monsters_tometik5:27",
+        "iconID":"monsters_tometik5:26",
         "maxHP":130,
         "maxAP":12,
         "moveCost":2,
         "monsterClass":"animal",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":18,
             "max":25
@@ -622,12 +622,12 @@
     {
         "id":"brightport_squirrel2",
         "name":"Rash forest squirmer",
-        "iconID":"monsters_tometik5:26",
+        "iconID":"monsters_tometik5:27",
         "maxHP":180,
         "maxAP":12,
         "moveCost":2,
         "monsterClass":"animal",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":20,
             "max":30
@@ -646,7 +646,7 @@
         "maxHP":230,
         "moveCost":5,
         "monsterClass":"reptile",
-        "movementAggressionType":"none",
+        "movementAggressionType":"helpOthers",
         "attackDamage":{
             "min":15,
             "max":35
@@ -664,9 +664,9 @@
         "iconID":"monsters_johny:9",
         "maxHP":230,
         "maxAP":12,
-        "moveCost":5,
+        "moveCost":4,
         "monsterClass":"reptile",
-        "movementAggressionType":"helpOthers",
+        "movementAggressionType":"protectSpawn",
         "attackDamage":{
             "min":20,
             "max":35
@@ -701,7 +701,7 @@
         "name":" Moonwalker stump",
         "iconID":"monsters_tometik10:31",
         "maxHP":100,
-        "maxAP":12,
+        "maxAP":8,
         "moveCost":8,
         "monsterClass":"construct",
         "movementAggressionType":"none",
@@ -723,8 +723,8 @@
     },
     {
         "id":"brightport_goblin2",
-        "name":"Goblin lowland raider",
-        "iconID":"monsters_newb_1:90",
+        "name":"Goblin raider",
+        "iconID":"monsters_newb_1:92",
         "monsterClass":"humanoid",
         "movementAggressionType":"none"
     },
@@ -765,5 +765,16 @@
         "name":"Mysterious lizard creature",
         "iconID":"monsters_johny:27",
         "phraseID":"brightport_lizard1"
+    },
+    {
+        "id":"brightport_scorpion",
+        "name":"Cave scorpion",
+        "iconID":"monsters_tometik3:76"
+    },
+    {
+        "id":"brightport_wraith",
+        "name":"Wraith spectre",
+        "iconID":"monsters_newb_1:67",
+        "criticalMultiplier":0.0
     }
 ]

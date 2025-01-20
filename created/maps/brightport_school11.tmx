@@ -187,12 +187,12 @@
  </layer>
  <layer id="2" name="Objects" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAEkkxYBKFARRiVrwzkqwIxoxiEH8/GwPCKHVMfSBykFianJoxqjyBQ/z0BCPsXO0QtCGxiZWDYwgphg+R/YTEbBs5B9XNxIMQOAfUeYUXIg+RA/EOsCL9WAO1mE8dtLi4AC4sZQP1iaPphfiEFgNzEyYZw6ysg/zUQv4S6FcaH0WpQ+xexkm4XtQAA8bwang==
+   eJxjYMAEkkxYBKFARRiVrwzkqwIxoxiEH8/GwPCKHVMfSBykFianJoxqjyBQ/z0BCPsXO0QtCGxiZWDYwgphg+R/YTEbBs5B9XNxIMQOAfUeYUXIg+RA/EOsCL9WAO1mE8dtLi4AC4sZQP1iZOhHByA3cbIh3PoKyH8NxC+hboXxYbQa1P5FrJTbTS4AABocGbA=
   </data>
  </layer>
  <layer id="3" name="Above" width="16" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYKAcHBZDsJWEsavBJY6unxiwhZWBYRMrafov4lFDqv201o/NrbR0PyUAAK58Cn8=
+   eJxjYKAcHBZDsJWEsavBJY6unxiwhZWBYRMrafov4lFDqv3E6L8nQL5+bG6lpfspAQCGKwtt
   </data>
  </layer>
  <layer id="4" name="Top" width="16" height="9">

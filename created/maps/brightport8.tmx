@@ -225,23 +225,23 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="3" name="lizardcorsair" type="spawn" x="256" y="416" width="288" height="192">
    <properties>
     <property name="quantity" value="1"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_redlizard"/>
    </properties>
   </object>
   <object id="4" name="rashsquirmer" type="spawn" x="160" y="160" width="576" height="320">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
   <object id="5" name="viriledeer" type="spawn" x="96" y="256" width="128" height="224">
    <properties>
     <property name="quantity" value="2"/>
-    <property name="spawngroup" value="redft2"/>
+    <property name="spawngroup" value="brightport_deer"/>
    </properties>
   </object>
  </objectgroup>

@@ -192,22 +192,22 @@
  </layer>
  <layer id="2" name="Objects" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJyVVk1v00AU3MZWkFUJJbZkKQon7mk49C/wB6AX/gZw4AxI9FeVSj0ULkAUQZtTVaSkVBx6oqg3dvCOPH7eJWKkVWT77c77mPc2zjmXDdxfPK5cEufj5ncVfhdl83tbdu0e5P0Vw7cy/t7iV7bdZi/vr/9BEeKvB2kbfpv7s8/GcZuZ4V38I8aJ4XqU8Hku74+Gzr3363jYvrsZ93lje1OY5l3b78bnT57rs19fhq4H5dWcf/U1e7oTX9tgfT6T+K69b6tR9/vFuLsvVsNnO02cMS2mcrTO4s/gZ46uwjuNXes4C1qciS7Bd5HQD8CzLT9A3T2ZpBdwI+fb/pkb/6xdJvl7ZeZBTKPwk+ekdHhlfJgm7N55vsPAeVLHbcCnfbUr/c78QifoafJizzRP+wdwBizrxn4jS3tilvc1U4Rn9vQma20tOGNRIzsDRlV8ZpAPfk1CXDi7kL7QmsPunuFGfZlT2CMmPjNOYC/v8q3kXNoxr/BlLXtTMVvcSv/cyV6ctV915yv8PAg5Q23Adb9q++OybOIBVmYWpOb0nehiG3jGvtRt4/34YfQ5StydqhfmCbaF1H4teeU5B1XXv9O6m2fFIPhSJO4vzhvq7bk/+4VfL6uGR7UO2DsAeaUuOV/LuonLahjYlXfM1WvP88avt1Wr1Y+j/t4YqMmHdXvf6czFt6lwIle/jVapkctIf1Gz56IX7RUCeWE9qQt8R4w/61anwDLEfS060bNQW/4HUt5lsE9pl1o5NfpjfbAfMZMX+bI9CkAT6ht5Vcd2H33KEjr7EJnZVkvqK3mt/hYmL/a+1HyBE3m1daWPfwCpDK/r
+   eJyVVk1v00AU3MZWkFUJJbZkKQon7mk49C/wB6AX/gZw6Lkgwa+CSj0ULkAVQZtTVaSkVBx6aqve2ME78vh5l4iRVpHttzvvY97bOOdcNnB/8bRySZyNm99l+D0pm9/bsmv3KO+vGH6U8fcWN9lmm528v/4HRYi/HqRt+G3uzz4dx21mhvfkHzFODNeThM9zef9h6NxHvw6H7bvrcZ83tjeFad61/Wl8/uK5vvr1beh6UF7N+Xdfs+db8bUJ1udTie/K+7Ycdb+fj7v7YjV8sdXEGdNiKkerLP4MfuboMrzT2LWOs6DFmegSfOcJ/QA82/ID1N2zSXoB13K+7Z+58c/aZZK/fTMPYhqFnzwnpcNL48M0YffO870PnEd13AZ82lfb0u/ML3SCniYv9kzztH8AZ8CibuzXsrQnZnlfM0V4Zk+vs9bWgjMWNbIzYFTFZwb54NckxIWzC+kLrTnsHhhu1Jc5hT1i4jPjBHbyLt9SzqUd8wpfVrI3FbPFrfTPvezFWbtVd77Cz72QM9QGXA+rtj8uyiYeYGlmQWpO34suNoFn7Erd1t6PX0afo8TdqXphnmBbSO1Xklees1d1/Tuuu3lWDIIvReL+4ryh3l76s1/59bpqeJhXnm/vAOSVuuR8LesmLqthYFveMVcHnueNX2+rVqufR/29MVCTj+v2vtOZi29T4USu7oxWqZGLSH9Rs2eiF+0VAnlhPakLfEeMv+tWp8AixH0lOtGzUFv+B1LeRbBPaZdaOTb6Y32wHzGTF/myPQpAE+obeVXHdh99yhI6+xSZ2VZL6it5ddbqd+bF3peaL3Air7au9PEPqPmv6w==
   </data>
  </layer>
  <layer id="3" name="Above" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJy1lUsKwjAQQNPP0oUQKLjxCopn8AS6cqsbEVwLggdz7Q0aPEGp3sGVhjY4nU46k2ofBGrazpvRmajU/zDZ9/qVKHXL/M/+y5cDxygdxgnrylH8adre8xGSGxXT5TFPZR5pXj7w98s5Z3Vem2h4n3NS15Ci3l9H1cJAnxG4JU4p1reaVItz7nXbWQT6nc/CeU+66bcsmDyxy+L7PQ9xew/W9kyqJQHW1MWZcFoM8kp9v4B7p6v3KF+fHO6oNltrmTQ/c32x1P57FLgu54NeydxZHsJ+4ObSzk3I7EpqlsSjntl+Yu807ymJ2l08GPcIetwE1Hkdy56j/lsucfM+nnkqdx/cuUBBnTEhTupckJ49Pl/o+6Hv+WZBOiN9vV1I5xjSN18H1xtvjSJS/g==
+   eJy1lEsKwjAQQPtbuhACghuvoHgGT6Art7oRwbUgeDDX3qDFE5TqHVzZ0AYn00lmUu2DQJs282baTKLof9wn3+t3at8PQVHHz4FjlA3jhDFzFH+WdeckcTiomGb9IpN5pHm5wN+Xc87bvLbx8D7jpK4hZTu/iZuByQUxQp1SdL3raTM450F1nWWg3/g0nPesbL9myeSJXRrX/zwm3TlY2ytthgRYk48L4dQUyCv1/QLeO4XnX1K+Pjk8UG261iq177l9sVLuZxS4LuODXl/tkKdwP3B9qfsmpHclNYeeHYZdHXuveE9F1G7iwbgnsMcLYZ36u97G/HvQBfv6mtjPcc9TubvgzgUK6owJcVLngvTscflC14euc/WCtEf6en1I+xjSN18Dtzc+0dtTpw==
   </data>
  </layer>
  <layer id="12" name="Top" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBiZ4LLY8LZvIMHhEeRXSsElMsIKlpaCJDExKfbhUz8QcficmTx9sPAYrumOnmXHSCqnRsHwBS7CA+2CUTAYAABAkA2V
+   eJxjYBiZ4LAYfe27TGf7BhLQO2yHMrhERljB0lKQJCYmxT586gciDp8zk6cPFh7DNd3Rs+wYSeXUKBi+wEV4oF0wCgYDAACiAQ2F
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="24" visible="0">
+ <layer id="4" name="Walkable" width="29" height="24">
   <data encoding="base64" compression="zlib">
-   eJztk7sRACEIRK3C/luwQ1MDgf3gRccMiR/esuiaY6w/qYziNQ9dR7Te7kZ70bmIp+rJdFR6X/rL9O/wuvuM/EXmdvqu9Oec+5rp+NvBZLgd3ipM5P10MW/esHNDmWhUM8v2Kl7mI1pP5Tm+qXXOdUUby6xC8Q6poTCde86fY2fRxXSzYm6WWoS8
+   eJztk9ERwCAIQ52i+6/ghl0AQxJiv8odP4o8THQ/a+0/pTzFTZ6zh2atZkbrVV1yHlRzYqa0R3dB3Ft+pu6pnKuYjJ/OG2B0/5I50TfBVLgJbR1mV49qVGaljeoby2Sj82zCQzqyPV3eRDe3D6up+g47TU/haMf0cJiTc5M/p3qRYk6zY76jIou7
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -217,10 +217,10 @@
     <property name="place" value="cave"/>
    </properties>
   </object>
-  <object id="2" name="entrance" type="mapchange" x="672" y="128" width="32" height="32">
+  <object id="2" name="entrance1" type="mapchange" x="672" y="128" width="32" height="32">
    <properties>
     <property name="map" value="brightport_cave10"/>
-    <property name="place" value="cave"/>
+    <property name="place" value="cave1"/>
    </properties>
   </object>
  </objectgroup>

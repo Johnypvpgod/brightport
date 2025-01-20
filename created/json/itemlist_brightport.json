@@ -136,33 +136,24 @@
                 "min":6,
                 "max":12
             },
-            "increaseAttackCost":6
-        },
-        "hitEffect":{
-            "conditionsSource":[
+            "increaseAttackCost":6,
+            "increaseBlockChance":10,
+            "setCriticalMultiplier":0.0,
+            "setNonWeaponDamageModifier":103,
+            "addedConditions":[
                 {
                     "condition":"brightportflame",
-                    "magnitude":2,
-                    "duration":1,
-                    "chance":"90"
+                    "magnitude":1
                 }
-            ],
+            ]
+        },
+        "hitEffect":{
             "conditionsTarget":[
                 {
                     "condition":"brightportflame",
                     "magnitude":1,
                     "duration":1,
-                    "chance":"10"
-                }
-            ]
-        },
-        "hitReceivedEffect":{
-            "conditionsSource":[
-                {
-                    "condition":"brightportflame",
-                    "magnitude":1,
-                    "duration":1,
-                    "chance":"90"
+                    "chance":"30"
                 }
             ]
         }
@@ -175,7 +166,6 @@
         "category":"hnd_lthr",
         "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
         "equipEffect":{
-            "increaseBlockChance":5,
             "addedConditions":[
                 {
                     "condition":"brightportflame",
@@ -231,7 +221,7 @@
                 "min":3,
                 "max":6
             },
-            "increaseAttackCost":3
+            "increaseAttackCost":4
         }
     }
 ]
