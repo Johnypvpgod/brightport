@@ -223,5 +223,38 @@
             },
             "increaseAttackCost":4
         }
+    },
+    {
+        "id":"brightport_sword",
+        "iconID":"items_phoenix01:59",
+        "name":"Pyrite scimitar",
+        "displaytype":"rare",
+        "category":"ssword",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":8
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":10,
+            "increaseCriticalSkill":2,
+            "increaseBlockChance":3,
+            "increaseDamageResistance":-1,
+            "setCriticalMultiplier":2.0
+        }
+    },
+    {
+        "id":"brightport_bonemeal",
+        "iconID":"items_newb:739",
+        "name":"Essence concentrate potion",
+        "displaytype":"rare",
+        "category":"drink",
+        "description":"Concentrated bonemeal infusion, a true alchemical masterpiece. Much more potent than a normal potion.",
+        "useEffect":{
+            "increaseCurrentHP":{
+                "min":80,
+                "max":80
+            }
+        }
     }
 ]

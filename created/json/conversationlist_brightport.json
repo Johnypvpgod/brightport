@@ -784,13 +784,6 @@
                     }
                 ]
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":15
-            }
         ]
     },
     {
@@ -868,6 +861,13 @@
                         "negate":true
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":15
             }
         ]
     },
@@ -2851,6 +2851,17 @@
                         "requireID":"brightport_nondisplay",
                         "value":112,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma50",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":112
                     }
                 ]
             },
@@ -6377,12 +6388,35 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_emyro"
+                "nextPhraseID":"brightport_emyro",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":116,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                
             }
         ]
     },
     {
-        "id":"brightport_emyro"
+        "id":"brightport_emyro",
+        "message":"[It steps back cautiously, its claws scraping the stone floor.]\n\nHuman again? Why come here, not welcome. Leave.",
+        "switchToNPC":"brightport_emyro",
+        "replies":[
+            {
+                "text":"I mean no harm. Bryma said your kind\u2019s been troubling her, so I came to find out why.",
+                "nextPhraseID":"brightport_emyrocave2"
+            },
+            {
+                "text":"I was just out for a stroll, and you bolted like your tail was on fire. Thought I\u2019d see what all the fuss was about",
+                "nextPhraseID":"brightport_emyrocave4"
+            }
+        ]
     },
     {
         "id":"brightport_npc11",
@@ -6706,7 +6740,89 @@
     },
     {
         "id":"brightport_bryma38",
-        "message":"Have you had any success with the creatures?"
+        "message":"Have you had any success with the creatures?",
+        "replies":[
+            {
+                "text":"As long as you don't bother them again, things should be good now.",
+                "nextPhraseID":"brightport_bryma46",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95
+                    }
+                ]
+            },
+            {
+                "text":"Yes, they are all dead.",
+                "nextPhraseID":"brightport_bryma_lizardselector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":32
+                    }
+                ]
+            },
+            {
+                "text":"I've met with the leader of the lizardman tribe, they demand I return the 20 stolen bones.",
+                "nextPhraseID":"brightport_bryma42",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"brightport_bryma45",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":55,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I've yet to return the bones.",
+                "nextPhraseID":"brightport_bryma45",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":55
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I returned the bones but I've got one more task to do.",
+                "nextPhraseID":"brightport_bryma45",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_bryma39",
@@ -6773,32 +6889,14 @@
             },
             {
                 "text":"Hey!",
-                "nextPhraseID":"brightport_lizard1",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"lutarc_medallion",
-                        "value":1,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Hey!",
-                "nextPhraseID":"brightport_lizard2",
-                "requires":[
-                    {
-                        "requireType":"inventoryKeep",
-                        "requireID":"lutarc_medallion",
-                        "value":1
-                    }
-                ]
+                "nextPhraseID":"brightport_lizard1"
             }
         ]
     },
     {
         "id":"brightport_lizard1",
         "message":"[The mysterious creature leaps through the rubble to the other side of the cave.]",
+        "switchToNPC":"brightport_emyro",
         "rewards":[
             {
                 "rewardType":"removeSpawnArea",
@@ -6814,16 +6912,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_lizard",
                 "value":1
-            }
-        ]
-    },
-    {
-        "id":"brightport_lizard2",
-        "message":"[The creature speaks to you in a harsh, raspy voice]\n\nYou! You've got the medallion, but you're not him.",
-        "replies":[
-            {
-                "text":"What do you mean?",
-                "nextPhraseID":"brightport_lizard1"
             }
         ]
     },
@@ -6867,6 +6955,568 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":114
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave",
+        "switchToNPC":"brightport_lizard",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyrocave1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":115,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave1",
+        "message":"[The lizardman hisses as it notices you entering the chamber. Its piercing yellow eyes narrow.]\n\nYou chase me, why? Speak quick, or claws do the talking.",
+        "switchToNPC":"brightport_lizard",
+        "replies":[
+            {
+                "text":"I mean no harm. Bryma said your kind\u2019s been troubling her, so I came to find out why.",
+                "nextPhraseID":"brightport_emyrocave2"
+            },
+            {
+                "text":"Chase you? I was just out for a stroll, and you bolted like your tail was on fire. Thought I\u2019d see what all the fuss was about.",
+                "nextPhraseID":"brightport_emyrocave4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":115
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave2",
+        "message":"Bryma, that name stinks of lies! You call us trouble, but never ask why? Always blaming, never listen.",
+        "switchToNPC":"brightport_emyro",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyrocave3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave3",
+        "message":"She took what\u2019s not hers. Bones of our elders, sacred to us! We try to recover them, but she sends beasts. You call us trouble? She\u2019s the trouble!",
+        "switchToNPC":"brightport_emyro",
+        "replies":[
+            {
+                "text":"I didn't know that. Maybe we can come to a compromise?",
+                "nextPhraseID":"brightport_emyrocave5"
+            },
+            {
+                "text":"I've had enough of your rambling. [Attack the creature.]",
+                "nextPhraseID":"brightport_emyrofight"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":116
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave4",
+        "message":"You! you smell of the witch. The witch who brought trouble!",
+        "switchToNPC":"brightport_emyro",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyrocave3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons",
+        "message":""
+    },
+    {
+        "id":"brightport_caveblock",
+        "message":"I haven't talked with the creature yet."
+    },
+    {
+        "id":"brightport_emyrofight",
+        "message":"[As you attempt to strike at the creature, it swiftly evades your blow. But unsurprisingly, your combat experience comes on top, grazing its body. However. The spot it had moved to avoid your attack had put it closer to the entrance, allowing it to leap into the cave opening with precise nimbleness.]\n",
+        "switchToNPC":"brightport_emyro",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":25
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":116
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"emyro",
+                "mapName":"brightport_cave10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyrocave5",
+        "message":"No! But.. I am only Emyro, the scout. I refuse, but leader must decide. Find our home, and leader Elyzard will tell. Long travels ahead...\n[The lizard cautiously steps back, then leaps out the entrance of the burial cave.]",
+        "switchToNPC":"brightport_lizard",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":116
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":30
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"emyro",
+                "mapName":"brightport_cave10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardfightcheck",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizardfight",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":117,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardfight",
+        "message":"[As you make your way to the settlement, you freeze in your step, a loud hissing sound resounding in your ears.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizardfight1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lizard1",
+                "mapName":"brightport_cave17"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lizard2",
+                "mapName":"brightport_cave17"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"lizard3",
+                "mapName":"brightport_cave17"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":117
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lizardfight",
+                "value":-111
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard4",
+                "mapName":"brightport_lizard3"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard",
+                "mapName":"brightport_lizard2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard5",
+                "mapName":"brightport_lizard2"
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_lizard6",
+                "mapName":"brightport_lizard3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardfight1",
+        "message":"Your days end here, troublesome intruder.",
+        "switchToNPC":"brightport_lizard00",
+        "replies":[
+            {
+                "text":"I will polish my blade in your blood.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It's not too late to apologize..",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardking",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardkingfight",
+        "message":"Despicable creature, you show before us. your days end!",
+        "switchToNPC":"brightport_lizardking",
+        "rewards":[
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lizardman",
+                "value":-110
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":118
+            },
+            {
+                "rewardType":"alignmentSet",
+                "rewardID":"lizardfight",
+                "value":-110
+            }
+        ]
+    },
+    {
+        "id":"brightport_genericlizard_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_genericlizard_friend",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_genericlizard_enemy",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_genericlizard_neutral"
+            }
+        ]
+    },
+    {
+        "id":"brightport_lizardkingcheck",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizardkingfight",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":118,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_genericlizard_friend",
+        "message":"You are welcome here, but don't overstep boundaries."
+    },
+    {
+        "id":"brightport_genericlizard_enemy",
+        "message":"Outsider, speak to leader Elyzard."
+    },
+    {
+        "id":"brightport_genericlizard_neutral",
+        "message":"I am watching you, outsider."
+    },
+    {
+        "id":"brightport_elyzard",
+        "message":"I have heard from Emyro. You come before me, but there can be no talk before you return what the witch stole!",
+        "replies":[
+            {
+                "text":"I swear to return what was taken from you, what should I do?",
+                "nextPhraseID":"brightport_elyzard0"
+            },
+            {
+                "text":"I've changed my mind, we will talk with our swords!",
+                "nextPhraseID":"brightport_lizardkingfight"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard0",
+        "message":"[The lizard king's advisor interrupts]\n\nFriend of the witch. 20 bones of our ancestors were taken from our burial chamber with no shame. return them to us or we return them ourselves.",
+        "switchToNPC":"brightport_lizardadvisor",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma42",
+        "message":"Suffice to say, those bones are no longer around, I ground them to dust for my bonemeal research and fertilizer experiments. ",
+        "replies":[
+            {
+                "text":"Great, and what am I suppossed to return now?",
+                "nextPhraseID":"brightport_bryma43"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma43",
+        "message":"No need to look at me like that, if those bones are gone just find more to replace them with.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma44"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma44",
+        "message":"Red or green, their bones look the same. Just slay those red ones along the shore of the lake until you have enough. Here's a few of what I've got left  for starters.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":55
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_bone",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma45",
+        "message":"I see, good luck with that."
+    },
+    {
+        "id":"brightport_bryma_lizardselector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma_lizardexist",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma_lizarddead",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":35,
+                        "negate":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma46",
+        "message":"That is no problem. But how am I supposed to get bones now...",
+        "replies":[
+            {
+                "text":"I negotiated with the lizardmen, they agreed to trade you the bones of the animals they hunt.",
+                "nextPhraseID":"brightport_bryma47"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma47",
+        "message":"You've done a great job $playername. It's a shame I don't have much to offer you, please take these special bonemeal potions. I can't trade you more, but I can give you these 2.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma48",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":35
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_bonemeal",
+                "value":2
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":112
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma48",
+        "message":"And I also wish to mention, from Brightport towards Charwood, there used to lay a path traders would take, However an unknown happening led to the awakening of a nearby statue, which barred the path.   ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma49"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma49",
+        "message":"The activation word for that specific statue is \"Elythara\" I hope that information assists you well, take care.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma50",
+        "message":"It is good to see you $playername. what brings you around?",
+        "replies":[
+            {
+                "text":"I wish to talk about something.",
+                "nextPhraseID":"brightport_bryma14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma_lizardexist",
+        "message":"Sigh, I didn't expect you to pick such a violent method. But please finish the work to the end, there are still lizardmen left.",
+        "replies":[
+            {
+                "text":"Fine.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma_lizarddead",
+        "message":"Good work $playername. Now I have access to as much bonemeal as I need. please have these potions including a special one.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_bryma48",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"charwood1",
+                        "value":35
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":112
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_bonemeal",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"bonemeal_potion",
+                "value":6
             }
         ]
     }

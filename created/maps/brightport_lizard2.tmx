@@ -212,7 +212,15 @@
  <objectgroup name="Spawn">
   <object name="brightport_lizard" type="spawn" x="160" y="128" width="96" height="64">
    <properties>
+    <property name="quantity" value="2"/>
+    <property name="respawnspeed" value="0"/>
     <property name="spawngroup" value="brightport_lizard"/>
+   </properties>
+  </object>
+  <object name="brightport_lizard5" type="spawn" x="64" y="96" width="64" height="64">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_lizard5"/>
    </properties>
   </object>
  </objectgroup>

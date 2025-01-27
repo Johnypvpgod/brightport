@@ -338,6 +338,22 @@
             {
                 "progress":114,
                 "logText":"lizard statue activated"
+            },
+            {
+                "progress":115,
+                "logText":"emyro talk"
+            },
+            {
+                "progress":116,
+                "logText":"burial tomb done\n"
+            },
+            {
+                "progress":117,
+                "logText":"lizard spawned"
+            },
+            {
+                "progress":118,
+                "logText":"king room"
             }
         ]
     },
@@ -348,7 +364,7 @@
         "stages":[
             {
                 "progress":1,
-                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble.\""
+                "logText":"In the rundown mysterious basement behind Bryma's house, I encountered a peculiar lizardman creature that fled beyond a pile of cave rubble."
             },
             {
                 "progress":5,
@@ -360,7 +376,7 @@
             },
             {
                 "progress":15,
-                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman, who introduced himself as Emyro."
+                "logText":"After navigating through the caves, I reached an open chamber beyond the rubble, where I found the lizardman again."
             },
             {
                 "progress":20,
@@ -368,7 +384,7 @@
             },
             {
                 "progress":25,
-                "logText":"I attempted to attack the lizardman, but Emyro evaded my strike and fled deeper into the caves."
+                "logText":"I attacked the lizardman, but my attack merely grazed it, before fleeing deeper into the caves."
             },
             {
                 "progress":30,

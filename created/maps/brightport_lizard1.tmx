@@ -208,6 +208,11 @@
     <property name="place" value="lizard1"/>
    </properties>
   </object>
+  <object name="brightport_lizardkingcheck" type="script" x="128" y="128" width="128" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys">
@@ -226,7 +231,7 @@
     <property name="spawngroup" value="brightport_lizardadvisor"/>
    </properties>
   </object>
-  <object name="brightport_lizard1" type="spawn" x="64" y="160" width="96" height="64">
+  <object name="brightport_lizard1" type="spawn" x="32" y="160" width="96" height="64">
    <properties>
     <property name="spawngroup" value="brightport_lizard1"/>
    </properties>
