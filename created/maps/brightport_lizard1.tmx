@@ -213,6 +213,11 @@
     <property name="when" value="enter"/>
    </properties>
   </object>
+  <object name="brightport_slaincheck" type="script" x="32" y="96" width="320" height="128">
+   <properties>
+    <property name="when" value="always"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn"/>
  <objectgroup name="Keys">

@@ -489,7 +489,7 @@
     },
     {
         "id":"brightport_priest_story4",
-        "message":"They carry crudely made weapons and have distinctive blood-red scales, and would attack travelers along the shores of the Great Bright Lake.",
+        "message":"They carry crudely made weapons and have distinctive blood-red scales, and would attack travelers along the shores of the Bright Lake.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -4094,7 +4094,7 @@
     },
     {
         "id":"brightport_statue_central2",
-        "message":"After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.\n\nStraight and cluttered lines. they don't look like any of the symbols you know. next to them is a an odd pictogram\n\n                             *            \n*                 \n                                   #\n                                                   *",
+        "message":"After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.\n\nStraight and cluttered lines. they don't look like any of the symbols you know. next to them is a an odd pictogram\n\n                                           *            \n\n*                 \n                                   #\n                                                   *",
         "replies":[
             {
                 "text":"N",
@@ -6710,7 +6710,7 @@
     },
     {
         "id":"brightport_mayor5",
-        "message":"Brightport was founded by my ancestors over 700 years ago. Sir Lucient of House De Lucent and his loyal squires were the first to set foot on this shore of the great lake.",
+        "message":"Brightport was founded by my ancestors over 700 years ago. Sir Lucient of House De Lucent and his loyal squires were the first to set foot on this shore of the Bright lake.",
         "replies":[
             {
                 "text":"N",
@@ -7197,6 +7197,43 @@
         "id":"brightport_lizardking",
         "replies":[
             {
+                "text":"N"
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"brightport_elyzard",
                 "requires":[
@@ -7315,7 +7352,7 @@
     },
     {
         "id":"brightport_elyzard0",
-        "message":"[The lizard king's advisor interrupts]\n\nFriend of the witch. 20 bones of our ancestors were taken from our burial chamber with no shame. return them to us or we return them ourselves.",
+        "message":"[The lizard king's advisor interjects]\n\nMinion of the witch. From our burial chamber 20 bones of our ancestors were shamelessly stolen. return them to us or we return them ourselves.",
         "switchToNPC":"brightport_lizardadvisor",
         "rewards":[
             {
@@ -7519,5 +7556,271 @@
                 "value":6
             }
         ]
+    },
+    {
+        "id":"brightport_slaincheck",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_slaincheck1",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizardking",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":119,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_slaincheck1",
+        "message":"I've slain the leader of lizardmen, I should move on to his lackeys and the rest of the tribe.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":32
+            }
+        ]
+    },
+    {
+        "id":"brightport_slaincheck2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_slaincheck3",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizardpriest",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard1",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizardadvisor",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard3",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard4",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard5",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_lizard6",
+                        "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_slaincheck3",
+        "message":"With this, the whole tribe is wiped out, I should return and tell Bryma.\n",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":120
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":35
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard1",
+        "message":"Outsider, have you returned with the bones?",
+        "replies":[
+            {
+                "text":"Yes, 20 as promised.",
+                "nextPhraseID":"brightport_elyzard2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_bone",
+                        "value":20
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard2",
+        "message":"We thank you outsider. But not enough to repair our trust.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard3",
+        "message":"Speak with Dominio our Shadow chaplain, he will tell you the task.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_tyliad1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_tyliad2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad1",
+        "message":"You are worthy of our trust now, but don't overstep, outsider.",
+        "replies":[
+            {
+                "text":"Can you tell more about the lizard people?",
+                "nextPhraseID":"brightport_tyliad3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad2",
+        "message":"Carry out your task, outsider. Don't dissapoint."
+    },
+    {
+        "id":"brightport_tyliad3",
+        "message":"Our ancestors, been inhabiting the bright lake for many generations, until you, men without scales, drove us away to the mountains.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_tyliad4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad4",
+        "message":"Us men with scales acknowledge strenght, and accept defeat. But mountain have little food, so we fought eachother and separate. We came here, others swam north. And we created many tribes. ",
+        "replies":[
+            {
+                "text":"Tribes?",
+                "nextPhraseID":"brightport_tyliad5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad5",
+        "message":"Many, but what remains are three great tribes. Us green-scale, Honorable brave warriors, the lineage of heroes. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_tyliad6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad6",
+        "message":"Yellow-fang, greedy and cunning. love to eat gold and steal. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_tyliad7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_tyliad7",
+        "message":"And the barbaric red-claw, violent and slowminded, never listen to reason.",
+        "replies":[
+            {
+                "text":"Thanks for telling me. [Leave]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You're not friends with them? oh phew.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard4",
+        "message":"Help the shadow Chaplain with task, only then our trust be restored.",
+        "replies":[
+            {
+                "text":"I helped Dominio with his task.",
+                "nextPhraseID":"brightport_elyzard5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":75
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":80
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard5",
+        "message":"Praise. Honorable! you promise and deliver, much admirable. "
     }
 ]

@@ -541,7 +541,8 @@
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
         "movementAggressionType":"wholeMap",
-        "faction":"lizardman"
+        "faction":"lizardman",
+        "phraseID":"brightport_tyliad"
     },
     {
         "id":"brightport_lizard3",
