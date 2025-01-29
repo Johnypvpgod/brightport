@@ -362,6 +362,26 @@
             {
                 "progress":120,
                 "logText":"rest of the lizards killed check"
+            },
+            {
+                "progress":121,
+                "logText":"crystal chant"
+            },
+            {
+                "progress":122,
+                "logText":"crystal1"
+            },
+            {
+                "progress":123,
+                "logText":"crystal2"
+            },
+            {
+                "progress":124,
+                "logText":"crystal 2 shattered"
+            },
+            {
+                "progress":125,
+                "logText":"crystal 1 shattered"
             }
         ]
     },

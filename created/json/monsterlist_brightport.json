@@ -514,7 +514,8 @@
         "iconID":"monsters_johny:30",
         "monsterClass":"reptile",
         "movementAggressionType":"protectSpawn",
-        "faction":"lizardfight"
+        "faction":"lizardfight",
+        "phraseID":"brightport_dominio"
     },
     {
         "id":"brightport_lizard",
