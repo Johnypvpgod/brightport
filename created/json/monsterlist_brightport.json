@@ -813,5 +813,24 @@
         "movementAggressionType":"wholeMap",
         "spawnGroup":"lizard1",
         "faction":"lizardfight"
+    },
+    {
+        "id":"brightport_beast",
+        "name":"Darkness beast",
+        "iconID":"monsters_newb_1:657",
+        "monsterClass":"demon"
+    },
+    {
+        "id":"brightport_cat3",
+        "name":"Duleian panther cub",
+        "iconID":"monsters_cats:1",
+        "monsterClass":"animal",
+        "movementAggressionType":"none"
+    },
+    {
+        "id":"brightport_snake",
+        "name":"Cavern snake",
+        "iconID":"monsters_tometik4:23",
+        "monsterClass":"reptile"
     }
 ]

@@ -217,7 +217,15 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn"/>
+ <objectgroup name="Spawn">
+  <object name="beast" type="spawn" x="64" y="128" width="96" height="128">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="respawnspeed" value="5"/>
+    <property name="spawngroup" value="brightport_beast"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Keys">
   <object name="Object" type="key" x="96" y="96" width="32" height="32">
    <properties>

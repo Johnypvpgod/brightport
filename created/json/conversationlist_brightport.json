@@ -4000,12 +4000,33 @@
         "id":"brightport_charwood_shortcut",
         "replies":[
             {
-                "nextPhraseID":"brightport_charwood_shortcut1"
+                "text":"N",
+                "nextPhraseID":"brightport_charwood_shortcut1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":126,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"brightport_charwood_shortcut1"
+        "id":"brightport_charwood_shortcut1",
+        "message":"Before you stands a crumbling stone statue, hidden behind the foliage.  and overgrown with moss.",
+        "replies":[
+            {
+                "text":"Lethgard.",
+                "nextPhraseID":"brightport_charwood_shortcut2"
+            }
+        ]
     },
     {
         "id":"brightport_statue_sw1",
@@ -7197,7 +7218,15 @@
         "id":"brightport_lizardking",
         "replies":[
             {
-                "text":"N"
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95
+                    }
+                ]
             },
             {
                 "text":"N",
@@ -7494,7 +7523,7 @@
     },
     {
         "id":"brightport_bryma49",
-        "message":"The activation word for that specific statue is \"Elythara\" I hope that information assists you well, take care.",
+        "message":"The activation word for that specific statue is \"Lethgard\" I hope that information assists you well, take care.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -7821,7 +7850,13 @@
     },
     {
         "id":"brightport_elyzard5",
-        "message":"Praise. Honorable! you promise and deliver, much admirable. "
+        "message":"Praise. Honorable! you promise and deliver, much admirable. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elyzard6"
+            }
+        ]
     },
     {
         "id":"brightport_crystal",
@@ -8088,6 +8123,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_lizard",
                 "value":75
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"beast",
+                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8104,6 +8144,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":125
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"beast",
+                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8120,6 +8165,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_lizard",
                 "value":75
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"beast",
+                "mapName":"brightport_cave6"
             }
         ]
     },
@@ -8136,10 +8186,271 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":124
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"beast",
+                "mapName":"brightport_cave6"
             }
         ]
     },
     {
-        "id":"brightport_dominio"
+        "id":"brightport_dominio",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":127
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":127,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio0",
+        "message":"You returned the bones of our people back to us, shadow be with you, human.",
+        "replies":[
+            {
+                "text":"The chieftain told me, you have a task for me.",
+                "nextPhraseID":"brightport_dominio4"
+            },
+            {
+                "text":"Why is a shadow priest in this place?",
+                "nextPhraseID":"Brightport_dominio1"
+            }
+        ]
+    },
+    {
+        "id":"Brightport_dominio1",
+        "message":"Our tribe was proselytized many years ago by the honorable paladins of Nor City. We were given the Holy Book of Rites, which I relentlessly study to enlighten my people.",
+        "replies":[
+            {
+                "text":"Finally someone who can speak properly, can you tell me more?",
+                "nextPhraseID":"brightport_dominio2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio2",
+        "message":"I see you are longing for the wisdom of the shadow, but you have been sent to me with a purpose, is that not the case?",
+        "replies":[
+            {
+                "text":"The chieftain told me you have a task for me.",
+                "nextPhraseID":"brightport_dominio4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio3",
+        "message":"I don't trust you outsider, leave."
+    },
+    {
+        "id":"brightport_elyzard6",
+        "message":"Our trust is given, what else do you wish to ask for, outsider.",
+        "replies":[
+            {
+                "text":"Would you agree to trade Bryma the bones of the animals you hunt?",
+                "nextPhraseID":"brightport_elyzard7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard7",
+        "message":"As long as she doesn't intrude on us, it is agreed. Now go and rest well, we welcome you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":95
+            }
+        ]
+    },
+    {
+        "id":"brightport_charwood_shortcut2",
+        "message":"The statue lightly shone.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":126
+            }
+        ]
+    },
+    {
+        "id":"brightport_elyzard8",
+        "message":"You are welcome here, outsider. Rest well."
+    },
+    {
+        "id":"brightport_dominio4",
+        "message":"Yes. But outsider, this is no mere task.  Every man who has sought to prove themselves to our tribe have been tasked with this challenge, but none have succeeded.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio5",
+        "message":"West of our village lies the entrance to a ruin from which at times beasts of darkness emerged to attack our village.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":65
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio6",
+        "message":"We have drove them back numerous times, but past the entrance no lizardman can pass, a force holding us back. The only ones able to being humans.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio7",
+        "message":"Over hundreds of years, adventurers have failed to slay the beast or claimed to have done so, but the attacks continued, leaving us to distrust your brethren.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio8",
+        "message":"However. The last human to challenge the ruin was a man named Lutarc. He slayed the beasts and brought back two stone tablets, which shone light on the origin of those creatures. They are not mere animals, but guardians that will manifest as long as the magic maintaining the millennia-old ruins is still active.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio9",
+        "message":"The source of that lies in two crystals within the ruins. From the two tablets, I uncovered that the key is chanting a specific phrase before them. We need you, human, to finish this centuries old task.",
+        "replies":[
+            {
+                "text":"Sounds easy. I'll do it.",
+                "nextPhraseID":"brightport_dominio10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio10",
+        "message":"Good, the specific phrase you must chant is \"Kazaul thu'um kha'zan\" after that deliver a solid blow to these crystals, report back to me if this truly works. May the shadow watch over you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio11",
+        "message":"Shadow welcome you, outsider. How is the task?",
+        "replies":[
+            {
+                "text":"I found those crystals and shattered them.",
+                "nextPhraseID":"brightport_dominio13"
+            },
+            {
+                "text":"What am I supposed to do again?",
+                "nextPhraseID":"brightport_dominio12"
+            },
+            {
+                "text":"It might be too tough for me now, I'll attempt later. [leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio12",
+        "message":"Remember, find the 2 crystals inside the ruins to the west, and try to break them."
+    },
+    {
+        "id":"brightport_dominio13",
+        "message":"Great, and what about the beasts?",
+        "replies":[
+            {
+                "text":"After the crystals shattered they too, did.",
+                "nextPhraseID":"brightport_dominio14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio14",
+        "message":"That is wonderful news! Please tell the chief about your deeds, and hopefully my tribe's attitude to the outsider and the shadow change. Shadow be with you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_lizard"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio15",
+        "message":"Shadow welcomes you, friend.",
+        "replies":[
+            {
+                "text":"reply"
+            }
+        ]
     }
 ]

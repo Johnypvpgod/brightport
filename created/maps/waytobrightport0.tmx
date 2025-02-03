@@ -292,18 +292,18 @@
   <object name="stanwick_quest" type="key" x="0" y="160" width="32" height="32">
    <properties>
     <property name="phrase" value="brightport_charwood_shortcut"/>
-    <property name="requireId" value="Stanwickquest"/>
+    <property name="requireId" value="andor"/>
     <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="80"/>
+    <property name="requireValue" value="1"/>
    </properties>
   </object>
   <object name="Object" type="key" x="0" y="224" width="32" height="64">
    <properties>
     <property name="phrase" value="brightpor_magic"/>
-    <property name="requireId" value="Stanwickquest"/>
+    <property name="requireId" value="brightport_nondisplay"/>
     <property name="requireType" value="questProgress"/>
-    <property name="requireValue" value="85"/>
+    <property name="requireValue" value="126"/>
    </properties>
   </object>
  </objectgroup>

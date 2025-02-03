@@ -382,6 +382,14 @@
             {
                 "progress":125,
                 "logText":"crystal 1 shattered"
+            },
+            {
+                "progress":126,
+                "logText":"charwood path unlocked"
+            },
+            {
+                "progress":127,
+                "logText":"dominio told"
             }
         ]
     },
@@ -465,7 +473,7 @@
             },
             {
                 "progress":95,
-                "logText":"With the crystals destroyed, the lizardmen accepted my cooperation and gifted me a Skull Crown as a token of mutual respect."
+                "logText":"With the crystals destroyed, the lizardmen accepted my cooperation and agreed to supply bryma with bones from animals as a sign of mutual respect."
             },
             {
                 "progress":100,
