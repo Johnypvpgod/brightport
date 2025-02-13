@@ -2242,7 +2242,7 @@
                 ]
             },
             {
-                "text":"[I should write down my question regarding the theft.]",
+                "text":"I should write down my question regarding the theft.",
                 "nextPhraseID":"brightport_write4",
                 "requires":[
                     {
@@ -2263,7 +2263,7 @@
                 ]
             },
             {
-                "text":"[Evidently. a tale of my adventures!]",
+                "text":"Evidently. a tale of my adventures!",
                 "nextPhraseID":"brightport_write_2",
                 "requires":[
                     {
@@ -2291,7 +2291,7 @@
                 ]
             },
             {
-                "text":"[Perhaps a question, maybe?]",
+                "text":"Perhaps a question, maybe?",
                 "nextPhraseID":"brightport_write_3",
                 "requires":[
                     {
@@ -6408,18 +6408,6 @@
         "id":"brightport_emyro_selector",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brightport_emyro",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":116,
-                        "negate":true
-                    }
-                ]
-            },
-            {
                 
             }
         ]
@@ -6486,7 +6474,8 @@
                 "requires":[
                     {
                         "requireType":"consumedBonemeals",
-                        "value":0
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -6981,7 +6970,6 @@
     },
     {
         "id":"brightport_emyrocave",
-        "switchToNPC":"brightport_lizard",
         "replies":[
             {
                 "text":"N",
@@ -7000,7 +6988,7 @@
     {
         "id":"brightport_emyrocave1",
         "message":"[The lizardman hisses as it notices you entering the chamber. Its piercing yellow eyes narrow.]\n\nYou chase me, why? Speak quick, or claws do the talking.",
-        "switchToNPC":"brightport_lizard",
+        "switchToNPC":"brightport_emyro",
         "replies":[
             {
                 "text":"I mean no harm. Bryma said your kind\u2019s been troubling her, so I came to find out why.",
@@ -7070,7 +7058,13 @@
     },
     {
         "id":"brightport_goons",
-        "message":""
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_beginning"
+            }
+        ]
     },
     {
         "id":"brightport_caveblock",
@@ -8452,5 +8446,44 @@
                 "text":"reply"
             }
         ]
+    },
+    {
+        "id":"brightport_mlizard_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_lizard1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":113,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyro",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":113
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons_beginning"
+    },
+    {
+        "id":"brightport_student",
+        "message":"How's my hair? And is my skirt straight? I just want to make sure everything looks okay before I go to class."
+    },
+    {
+        "id":"brightport_student0",
+        "message":"Buzz off kid, I'm feeling a bit too sick for class today, let me read the valorous knightly stories of sir Wormgand in peace."
     }
 ]

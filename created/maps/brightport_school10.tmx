@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="11" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="12" nextobjectid="12">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="11" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="12">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -139,7 +139,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -198,17 +198,17 @@
    eJxjYKAd2M9KQ8ORwEJ++tiDDFRx2LkYKi5GgZvw+UeUAnNxuWkxHcIPAN7rBCs=
   </data>
  </layer>
- <layer id="11" name="Top" width="11" height="14">
+ <layer id="4" name="Top" width="11" height="14">
   <data encoding="base64" compression="zlib">
    eJxjYCANHBYbVTuqlnQAAPYcCi0=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="11" height="14" visible="0">
+ <layer id="5" name="Walkable" width="11" height="14" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEQYVwAlxps4sSYh80MUtQS456RZi5MLzZxAHGwRGk=
+   eJzbKMbAsHEQYVwAlxpC4sQActQS456RZi5MLzZxADerQ6I=
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="6" name="Mapevents">
   <object id="1" name="entrance" type="mapchange" x="160" y="416" width="32" height="32">
    <properties>
     <property name="map" value="brightport_school1"/>
@@ -216,7 +216,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="7" name="Spawn">
   <object id="2" name="brightportnpc5" type="spawn" x="128" y="96" width="96" height="32">
    <properties>
     <property name="spawngroup" value="brightportnpc5"/>
@@ -263,6 +263,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup id="8" name="Keys">
+  <object id="11" name="brightport_book" type="container" x="288" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="9" name="Replace"/>
 </map>

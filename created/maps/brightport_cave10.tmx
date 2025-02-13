@@ -234,7 +234,7 @@
   <object name="emyro" type="spawn" x="352" y="192" width="128" height="96">
    <properties>
     <property name="respawnspeed" value="0"/>
-    <property name="spawngroup" value="brightport_lizard"/>
+    <property name="spawngroup" value="brightport_emyro"/>
    </properties>
   </object>
  </objectgroup>

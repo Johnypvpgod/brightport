@@ -201,5 +201,18 @@
                 }
             }
         ]
+    },
+    {
+        "id":"brightport_book",
+        "items":[
+            {
+                "itemID":"brightport_book",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
+            }
+        ]
     }
 ]
