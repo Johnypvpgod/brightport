@@ -507,7 +507,7 @@
         "name":"Three-fang-elyzard",
         "iconID":"monsters_johny:28",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "faction":"lizardman",
         "phraseID":"brightport_lizardking"
     },
@@ -516,7 +516,7 @@
         "name":"Long-tail-dominio",
         "iconID":"monsters_johny:30",
         "monsterClass":"reptile",
-        "movementAggressionType":"protectSpawn",
+        "movementAggressionType":"none",
         "faction":"lizardfight",
         "phraseID":"brightport_dominio"
     },
@@ -525,7 +525,7 @@
         "name":"Green-claw-emyro",
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "spawnGroup":"lizard2",
         "faction":"lizardfight",
         "phraseID":"brightport_emyro_selector"
@@ -535,7 +535,7 @@
         "name":"Three-head-arminio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "faction":"lizardman",
         "phraseID":"brightport_genericlizard_selector"
     },
@@ -544,7 +544,7 @@
         "name":"Tail-swing-tyliad",
         "iconID":"monsters_johny:27",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "faction":"lizardman",
         "phraseID":"brightport_tyliad"
     },
@@ -553,7 +553,7 @@
         "name":"Green-blade-remio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "faction":"lizardman",
         "phraseID":"brightport_genericlizard_selector"
     },
@@ -748,7 +748,7 @@
         "name":"Green-fang-tylmio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "faction":"lizardifght"
     },
     {
@@ -796,14 +796,16 @@
     {
         "id":"brightport_lizard00",
         "name":"Lizard warrior",
-        "iconID":"monsters_johny:26"
+        "iconID":"monsters_johny:26",
+        "monsterClass":"reptile",
+        "movementAggressionType":"wholeMap"
     },
     {
         "id":"brightport_lizard5",
         "name":"Tough-scale-artorio",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "spawnGroup":"lizard2",
         "faction":"lizardfight",
         "phraseID":"brightport_genericlizard_selector"
@@ -813,7 +815,7 @@
         "name":"Speak-funny-vyro",
         "iconID":"monsters_johny:26",
         "monsterClass":"reptile",
-        "movementAggressionType":"wholeMap",
+        "movementAggressionType":"none",
         "spawnGroup":"lizard1",
         "faction":"lizardfight"
     },

@@ -3131,7 +3131,7 @@
         "message":"[Headmaster Dervin, the potion you rewarded me with for the results of my research has proven to be far more effective in the leavening of bread than the normal bonemeal potions I used. I cannot understand what it might contain. May I request to borrow the scroll containing the recipe to finalize my results?]\nSigned, Bryma.",
         "replies":[
             {
-                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were in their graves.",
+                "text":"This seems to be from many many years ago. It would not be odd if both the writer and recipient were old or in their graves.",
                 "nextPhraseID":"X"
             }
         ],
@@ -6783,6 +6783,11 @@
                         "requireID":"brightport_lizard",
                         "value":55,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":40
                     }
                 ]
             },
@@ -7326,7 +7331,6 @@
     },
     {
         "id":"brightport_lizardkingcheck",
-        "message":"",
         "replies":[
             {
                 "text":"N",
@@ -7610,6 +7614,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_lizard",
                 "value":32
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":119
             }
         ]
     },
@@ -7672,7 +7681,7 @@
     },
     {
         "id":"brightport_slaincheck3",
-        "message":"With this, the whole tribe is wiped out, I should return and tell Bryma.\n",
+        "message":"With this, the whole tribe is wiped out, I should return and tell Bryma.",
         "rewards":[
             {
                 "rewardType":"questProgress",
