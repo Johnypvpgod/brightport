@@ -1447,7 +1447,7 @@
     },
     {
         "id":"brightport_dibella1",
-        "message":"It's almost time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
+        "message":"It's the time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
         "replies":[
             {
                 "text":"My brother has been missing, so I'm here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
@@ -7062,7 +7062,7 @@
         ]
     },
     {
-        "id":"brightport_goons",
+        "id":"brightport_goons_selector",
         "message":"",
         "replies":[
             {
