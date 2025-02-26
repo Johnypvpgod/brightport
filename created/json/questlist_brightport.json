@@ -390,6 +390,14 @@
             {
                 "progress":127,
                 "logText":"dominio told"
+            },
+            {
+                "progress":128,
+                "logText":"goons quest started"
+            },
+            {
+                "progress":129,
+                "logText":"benbyr gang met"
             }
         ]
     },
@@ -529,6 +537,20 @@
                 "progress":50,
                 "logText":"I thanked Fiamma and went on my merry way.",
                 "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons",
+        "name":"No price for law",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Barthold and Dynes want me to do a job for them."
+            },
+            {
+                "progress":20,
+                "logText":"I refused their proposal."
             }
         ]
     }

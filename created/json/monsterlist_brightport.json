@@ -306,13 +306,14 @@
     {
         "id":"brightportgoons",
         "name":"Dynes",
-        "iconID":"monsters_ld1:63"
+        "iconID":"monsters_ld1:63",
+        "phraseID":"brightport_dynes0"
     },
     {
         "id":"brightportgoons1",
         "name":"Barthold",
         "iconID":"monsters_ld1:64",
-        "phraseID":"brightport_goons"
+        "phraseID":"brightport_goons_selector"
     },
     {
         "id":"brightportnpc9",

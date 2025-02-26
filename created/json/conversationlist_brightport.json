@@ -7063,11 +7063,21 @@
     },
     {
         "id":"brightport_goons_selector",
-        "message":"",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_goons_beginning"
+                "nextPhraseID":"brightport_goons13",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":129
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons0"
             }
         ]
     },
@@ -8452,7 +8462,8 @@
         "message":"Shadow welcomes you, friend.",
         "replies":[
             {
-                "text":"reply"
+                "text":"How did the shadow end up in a place like this?",
+                "nextPhraseID":"brightport_dominio16"
             }
         ]
     },
@@ -8485,7 +8496,14 @@
         ]
     },
     {
-        "id":"brightport_goons_beginning"
+        "id":"brightport_goons0",
+        "message":"Who in Dhayavar are you? you better get out of here before we mess you up.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_selector2"
+            }
+        ]
     },
     {
         "id":"brightport_student",
@@ -8494,5 +8512,237 @@
     {
         "id":"brightport_student0",
         "message":"Buzz off kid, I'm feeling a bit too sick for class today, let me read the valorous knightly stories of sir Wormgand in peace."
+    },
+    {
+        "id":"brightport_dynes0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_medium",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":128
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_low",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":128,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium"
+    },
+    {
+        "id":"brightport_dynes_low",
+        "message":"You've got a reason to be here? Yeah right, get out of here kiddo."
+    },
+    {
+        "id":"brightport_goons_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"benbyr",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons1",
+        "message":"Yeah Yeah, get out of here!",
+        "switchToNPC":"brightportgoons"
+    },
+    {
+        "id":"brightport_goons2",
+        "message":"Wait, wait Barthold! isn't that the kid?",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons3",
+        "message":"What, who?",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons4",
+        "message":"It's the kid Benbyr wrote us about, remember?",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons5",
+        "message":"Oh yeah, kinda does look like the one he wrote us about. ",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons6",
+        "message":"I was convinced you were sent to spy on us. So, what bring you around here.",
+        "replies":[
+            {
+                "text":"Im looking around the town searching for my brother.",
+                "nextPhraseID":"brightport_goons7"
+            },
+            {
+                "text":"Benbyr said to come see you.",
+                "nextPhraseID":"brightport_goons8"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":129
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons7",
+        "message":"Really, what does he look like?",
+        "replies":[
+            {
+                "text":"He looks a lot like me, his name is Andor.",
+                "nextPhraseID":"brightport_goons9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons8",
+        "message":"Benbyr did? Ha! I guess that bum still has his uses. Say, you want to work for us?",
+        "replies":[
+            {
+                "text":"The kind of work that sent Benbyr to jail? No thanks.",
+                "nextPhraseID":"brightport_goons15"
+            },
+            {
+                "text":"Im not sure, what kind of work exactly?",
+                "nextPhraseID":"brightport_goons16"
+            },
+            {
+                "text":"Sure, I have a history of getting things done.",
+                "nextPhraseID":"brightport_goons14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons9",
+        "message":"Hmm, doesn't ring a bell.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons10",
+        "message":"Hey Dynes! have you seen this Andor guy?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons11",
+        "message":"Dunno, beats me.",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons12"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons12",
+        "message":"You heard him kid. Sorry we have nothing to help you with. Anything else?",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"Benbyr said to come see you.",
+                "nextPhraseID":"brightport_goons8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons13",
+        "message":"It's nice to see a trustworthy fellow like you around. So, you need something?",
+        "replies":[
+            {
+                "text":"Im looking for my brother Andor, have you seen him?",
+                "nextPhraseID":"brightport_goons9"
+            },
+            {
+                "text":"Benbyr said to come see you.",
+                "nextPhraseID":"brightport_goons8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons14"
+    },
+    {
+        "id":"brightport_goons15"
+    },
+    {
+        "id":"brightport_goons16"
+    },
+    {
+        "id":"brightport_dominio16",
+        "message":"When the honorable people of Nor city arrived here and requested our assistance in battle, we obliged under the condition that they must cleanse the ruins of the beasts. While the warriors were away I was taught of the Shadow by the priests of the group. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dominio17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dominio17"
     }
 ]
