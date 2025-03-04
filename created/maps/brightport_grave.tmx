@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="3">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="4">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -139,7 +139,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5809" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5937" name="map_transition_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -195,9 +195,9 @@
    eJxjYKA+eMNOnNhvLGIw8AqP3BMBBoZfBOSJAayCxInhE0cGoljUYBPDJz4UALXjFxaXyGGMTwxdHF0OBgZjfAAAvi0QCA==
   </data>
  </layer>
- <layer id="4" name="Walkable" width="20" height="11" visible="0">
+ <layer id="4" name="Walkable" width="20" height="11">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsHEUgzEIkCMGA+h8XGKkqiUXDDXzqBV+6HEEYxMSw+YWamMAr+9mnQ==
+   eJzbKMbAsHEUgzEIEBKDAXxiyACbGKlqyQVDzTxqhR96vMHYhMRwxS81MQDwJ2XW
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -216,6 +216,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
+ <objectgroup id="7" name="Keys">
+  <object id="3" name="Object" type="key" x="512" y="96" width="32" height="32">
+   <properties>
+    <property name="phrase" value="brightport_grave"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Replace"/>
 </map>

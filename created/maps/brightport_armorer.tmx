@@ -207,17 +207,14 @@
  <tileset firstgid="8585" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="8713" name="map_indoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_indoor_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8841" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
- </tileset>
- <tileset firstgid="8969" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8713" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_rock_1.png" width="512" height="256"/>
  </tileset>
- <tileset firstgid="9097" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+ <tileset firstgid="8841" name="map_kitchen_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_kitchen_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="8969" name="map_indoor_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/AndorsTrail/res/drawable/map_indoor_3.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="18" height="11">
   <data encoding="base64" compression="zlib">
@@ -226,7 +223,7 @@
  </layer>
  <layer id="2" name="Objects" width="18" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFKsIMGECSCZXfzsbA0MGGKg5iq0L1TgXKifAzMBzkY2DgFGBg4AJiezYI/ydQ/BcQXwaypwPFZrBh2gcD3Vjk/KFi2/kgGASWA8VWQMW38SH84cXKwJAsgND7HGivDyuEfVaIgeEcEB/ng+CjfAh1L4HsY0j8YHncbgSBXCVUvcgAZA4sTOfL4TcHH1BVhtA1yphyCxWAYQB0IzfQHUeAdhwF4mNyED66G5ch+cUWiO2g7Ft43AYyHx/wBWI/KJsSP55FctsvCsyhBgAA4YclyA==
+   eJxjYEAFKsIMGECSCZXfzsbA0MGGKg5iq0L1TgXKifAzMBzkY2DgFGBg4AJiezYI/ydQ/BcQXwaypwPFZrBh2gcD3Vjk/KFi2/kgGASWA8VWQMW38SH84cXKwJAsgND7HGivDyuEfVaIgeEcEB/ng+CjfAh1L4HsY0j8YHncbgQBUX5UvcgAZA4sTOfL4TcHH1BVgtA1SphyCxWAYQB042agXUeAdhwF4mNyED66G5ch+cUWiO2g7Ft43AYyHx/wBWI/KJsSP55FctsvCsyhBgAAEwImGA==
   </data>
  </layer>
  <layer id="3" name="Above" width="18" height="11">

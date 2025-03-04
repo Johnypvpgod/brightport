@@ -183,6 +183,9 @@
  <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
+ <tileset firstgid="7689" name="map_indoor_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../../../ATsource/AndorsTrail/res/drawable/map_indoor_3.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="12" height="11">
   <data encoding="base64" compression="zlib">
    eJz7xMnA8IlEfEqWOAxTf0uWOAwz+zOQvoyEP+PAp6D6nvEj8HN+3OpBahu4ccuj4zqg2gUkqJ/HDfEDPjXPkNyH7F9iMMy/xKoHqX3JiR1/xiEOAIooffs=
@@ -190,12 +193,12 @@
  </layer>
  <layer id="2" name="Objects" width="12" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgkGRiAANlYQYMgE3sjwwDw1U+BoapbAwMEgIMDOICEDEQDRKHycPM5ZGF0N1sCDNgYjC2GSuCn4TERhbbAFTnA6RtgNgNixoYuCiGKeaFRz0pwJ0FPx/m54VANyyC4sViEDehi+Eym5AdID455hMDAA8VG8U=
+   eJxjYGBgkGRiAANlYQYMgE3sjwwDw1U+BoapbAwMEgIMDOICEDEQDRKHycPM5ZFlYCiXY2DoZkOYARJDZpuxIvhJSGxksQ1AdT5A2gaI3bCogYGLYphiXnjUkwLcWfDzYX5eCHTDIiheLAZxE7oYLrMJ2QHik2M+MQAABc4cWg==
   </data>
  </layer>
  <layer id="3" name="Above" width="12" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAdHBaD0P/4IfR8WVQal3o+AdLMJ9U9gwVchrpnAY7w2MqPyifXv6r8mHKiQLELOOwlBgAA06oLaQ==
+   eJxjYCAdHBaD0P/4IfR8WVQal3o+AdLMJ9U9lIJoOeqYcxnqngU4wmMrPyqfXP+q8mPKiQLFLuCwlxgAAE5/C+I=
   </data>
  </layer>
  <layer id="4" name="Walkable" width="12" height="11" visible="0">
