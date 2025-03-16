@@ -6023,13 +6023,7 @@
     {
         "id":"brightport_bakery3",
         "message":"Hello, and welcome to the world famous bakery of Brightport, how may I help you?",
-        "switchToNPC":"brightportbakery3",
-        "replies":[
-            {
-                "text":"Please show me the menu.",
-                "nextPhraseID":"S"
-            }
-        ]
+        "switchToNPC":"brightportbakery3"
     },
     {
         "id":"brightport_fiamma",
@@ -8626,7 +8620,7 @@
     },
     {
         "id":"brightport_goons6",
-        "message":"I was convinced you were sent to spy on us. So, what brings you around here.",
+        "message":"I was convinced you were sent to spy on us. So, what bring you around here.",
         "replies":[
             {
                 "text":"Im looking around the town searching for my brother.",
@@ -8657,7 +8651,7 @@
     },
     {
         "id":"brightport_goons8",
-        "message":"Benbyr did? Ha! I guess that guy hasn't lost his flame yet. Say, you want to work for us?",
+        "message":"Benbyr did? Ha! I guess that bum still has his uses. Say, you want to work for us?",
         "replies":[
             {
                 "text":"The kind of work that sent Benbyr to jail? No thanks.",
@@ -8730,18 +8724,10 @@
         ]
     },
     {
-        "id":"brightport_goons14",
-        "message":"That's the spirit!"
+        "id":"brightport_goons14"
     },
     {
-        "id":"brightport_goons15",
-        "message":"Don\u2019t lump us in with him, Benbyr\u2019s a fool whose greed got the best of him, he started dealing with cursed artifacts. On the other hand we're not doing anything illegal, just inconvenient for the snobby guards. ",
-        "replies":[
-            {
-                "text":"That sounds like illegal to me.",
-                "nextPhraseID":"brightport_goons17"
-            }
-        ]
+        "id":"brightport_goons15"
     },
     {
         "id":"brightport_goons16"
@@ -8761,21 +8747,5 @@
     },
     {
         "id":"brightport_grave"
-    },
-    {
-        "id":"brightport_thiefboss_selector",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brigtport_thiefboss"
-            }
-        ]
-    },
-    {
-        "id":"brigtport_thiefboss"
-    },
-    {
-        "id":"brightport_goons17",
-        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?"
     }
 ]

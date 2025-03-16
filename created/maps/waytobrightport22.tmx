@@ -198,7 +198,7 @@
    eJy1VdkRwiAQpQ0yQyXamTaCXai/GfqII70IH5jlzR7g8X4Ie19ssndvXMv3jdy34Nwj7Pdn4WW/nxSxyF1CT6NyVJezfwd7kj7nh5NHGtIR1C7n1/JTsfpepgJrasUs2a5IRg4cX7M/mhulHRbnjkvPq9D6YsU0Equl+wtgbhTrn3x+C5wvrT60R3RWaN5R6eGpyJyh99VXEnbCLKT+U/vtxFg0jM6mtK+svaPlgDxNx3qbn8J6U6O15HSlnSTtvZk9MQOptjPAXKxeZmVeZvqn/TvRToT3y+3jJi/1RvPXeAnyegEUTZEE
   </data>
  </layer>
- <layer id="4" name="Walkable" width="29" height="18" visible="0">
+ <layer id="4" name="Walkable" width="29" height="18">
   <data encoding="base64" compression="zlib">
    eJytldENwCAIRJ3C/VdgQ/vTxBCOOxASP6QcD4xU22vZt27797Z7S9HeLGXv/VGs9zEe0rKa1RqQhtWq9up78LmqXBTLesjyI14WzzRqn4zBamXaCXs5+wl2V8fOLPqmzqHCUmeMmZK/w1NjJ3idOxQxJu/51EwhrRpbYWU1VPwvuZVZyt6M6D+Z5UL5PeMAvGGQlw==
   </data>
@@ -241,7 +241,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="7" name="fawn" type="spawn" x="64" y="256" width="160" height="256">
    <properties>
     <property name="quantity" value="2"/>
@@ -256,7 +256,7 @@
   </object>
   <object id="9" name="fawn3" type="spawn" x="320" y="352" width="288" height="160">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
@@ -268,13 +268,13 @@
   </object>
   <object id="11" name="squirmer" type="spawn" x="64" y="64" width="448" height="288">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
   <object id="12" name="squirmer1" type="spawn" x="512" y="64" width="352" height="480">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>

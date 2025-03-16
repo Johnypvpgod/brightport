@@ -391,20 +391,6 @@
             "width": 320,
             "x": 4982,
             "y": 1967
-        },
-        {
-            "fileName": "brightport_crate2.tmx",
-            "height": 128,
-            "width": 96,
-            "x": 1159,
-            "y": 327
-        },
-        {
-            "fileName": "brightport_crate1.tmx",
-            "height": 128,
-            "width": 96,
-            "x": 1287,
-            "y": 327
         }
     ],
     "onlyShowAdjacentMaps": false,
