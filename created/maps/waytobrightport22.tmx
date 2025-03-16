@@ -241,7 +241,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup id="6" name="Spawn">
   <object id="7" name="fawn" type="spawn" x="64" y="256" width="160" height="256">
    <properties>
     <property name="quantity" value="2"/>
@@ -256,25 +256,25 @@
   </object>
   <object id="9" name="fawn3" type="spawn" x="320" y="352" width="288" height="160">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
   <object id="10" name="virilefawn" type="spawn" x="608" y="192" width="256" height="288">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_fawn"/>
    </properties>
   </object>
   <object id="11" name="squirmer" type="spawn" x="64" y="64" width="448" height="288">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>
   <object id="12" name="squirmer1" type="spawn" x="512" y="64" width="352" height="480">
    <properties>
-    <property name="quantity" value="2"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="brightport_squirrel"/>
    </properties>
   </object>

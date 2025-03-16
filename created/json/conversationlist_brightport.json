@@ -7652,8 +7652,8 @@
                     },
                     {
                         "requireType":"killedMonster",
-                        "requireID":"brightport_lizard",
-                        "value":1
+                        "requireID":"brightport_lizard00",
+                        "value":4
                     },
                     {
                         "requireType":"killedMonster",
@@ -7668,21 +7668,6 @@
                     {
                         "requireType":"killedMonster",
                         "requireID":"brightport_lizard3",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"brightport_lizard4",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"brightport_lizard5",
-                        "value":1
-                    },
-                    {
-                        "requireType":"killedMonster",
-                        "requireID":"brightport_lizard6",
                         "value":1
                     },
                     {
