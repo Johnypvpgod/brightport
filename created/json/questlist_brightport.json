@@ -542,7 +542,7 @@
     },
     {
         "id":"brightport_goons",
-        "name":"The price for vengeance",
+        "name":"No price for vengeance",
         "showInLog":1,
         "stages":[
             {

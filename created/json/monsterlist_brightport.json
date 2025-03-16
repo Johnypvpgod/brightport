@@ -373,7 +373,7 @@
         "iconID":"monsters_johny:22",
         "maxHP":210,
         "maxAP":11,
-        "moveCost":12,
+        "moveCost":7,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -382,7 +382,7 @@
         },
         "attackCost":7,
         "attackChance":90,
-        "criticalSkill":10,
+        "criticalSkill":15,
         "criticalMultiplier":3.0,
         "blockChance":65,
         "damageResistance":4,
@@ -413,7 +413,7 @@
         "iconID":"monsters_johny:24",
         "maxHP":240,
         "maxAP":11,
-        "moveCost":12,
+        "moveCost":7,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -422,7 +422,7 @@
         },
         "attackCost":7,
         "attackChance":105,
-        "criticalSkill":10,
+        "criticalSkill":15,
         "criticalMultiplier":3.0,
         "blockChance":70,
         "damageResistance":4,
@@ -620,7 +620,7 @@
         "iconID":"monsters_tometik5:26",
         "maxHP":130,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":2,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -630,7 +630,7 @@
         "attackCost":4,
         "attackChance":110,
         "criticalSkill":5,
-        "criticalMultiplier":5.0,
+        "criticalMultiplier":20.0,
         "blockChance":80,
         "damageResistance":2
     },
@@ -640,7 +640,7 @@
         "iconID":"monsters_tometik5:27",
         "maxHP":180,
         "maxAP":12,
-        "moveCost":4,
+        "moveCost":2,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
@@ -650,7 +650,7 @@
         "attackCost":4,
         "attackChance":130,
         "criticalSkill":5,
-        "criticalMultiplier":5.0,
+        "criticalMultiplier":20.0,
         "blockChance":80,
         "damageResistance":2
     },

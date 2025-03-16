@@ -6,12 +6,20 @@
                 "itemID":"brightport_paper",
                 "chance":"100/100",
                 "quantity":{
-                    "min":5,
-                    "max":5
+                    "min":4,
+                    "max":4
                 }
             },
             {
                 "itemID":"brightport_ink",
+                "chance":"100/100",
+                "quantity":{
+                    "min":3,
+                    "max":3
+                }
+            },
+            {
+                "itemID":"brightport_rice",
                 "chance":"100/100",
                 "quantity":{
                     "min":5,
