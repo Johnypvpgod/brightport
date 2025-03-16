@@ -100,8 +100,9 @@
     },
     {
         "id":"brightportthieves6",
-        "name":"Lessar",
-        "iconID":"monsters_ld1:207"
+        "name":"Elysa",
+        "iconID":"monsters_ld1:207",
+        "phraseID":"brightport_thiefboss_selector"
     },
     {
         "id":"brightportforenza",
@@ -615,7 +616,7 @@
     },
     {
         "id":"brightport_squirrel",
-        "name":"Forest squirmer",
+        "name":"Forest muskrat",
         "iconID":"monsters_tometik5:26",
         "maxHP":130,
         "maxAP":12,
@@ -627,7 +628,7 @@
             "max":25
         },
         "attackCost":4,
-        "attackChance":130,
+        "attackChance":110,
         "criticalSkill":5,
         "criticalMultiplier":20.0,
         "blockChance":80,
@@ -635,7 +636,7 @@
     },
     {
         "id":"brightport_squirrel2",
-        "name":"Rash forest squirmer",
+        "name":"Rash forest muskrat",
         "iconID":"monsters_tometik5:27",
         "maxHP":180,
         "maxAP":12,
@@ -647,7 +648,7 @@
             "max":30
         },
         "attackCost":4,
-        "attackChance":160,
+        "attackChance":130,
         "criticalSkill":5,
         "criticalMultiplier":20.0,
         "blockChance":80,

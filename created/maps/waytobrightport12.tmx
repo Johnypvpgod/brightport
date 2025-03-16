@@ -201,12 +201,12 @@
  </layer>
  <layer id="3" name="Objects" width="28" height="18">
   <data encoding="base64" compression="zlib">
-   eJyNVctKw1AQDdnoFygNJH/hxrW60R/x8Sf6LU0L3WhAsLuAJKkEV+JG6ipmp9C6cYbcISeTueqBcJPbeZwzM/e2mQTBBz2NZxVU8XBP3vfC4TfjNgmCu2S837j1MgqCK3pylSej9c3Fm8V97ue4sy1gbwt8dBzGNcW/iWw9+F7HY19Lr2BO+0vH45V+ayfdKjnE55xyX0D+YtL5CnLQeh8Pc6xp/zAZ7okeycl4ofXE0DiFeNiLFLhrWP1rQF8L8Rfx2IcxU/tb980698OxttT9XgIv1NJCbMyVq54gUtD3Hv5uL3NYQ27fnDA/6SkDZ1HsRH/l1h3SuZv0nKbKh/UtXb8kBnPJgC/6ZKDfqv0pcTuL+m/BE8xrYWhjzD1zgXFqw0bqwNw2xtzpPIXiXHryImQ2Zn/Y8lw+OJsc+pEafrmqw0HU6xCsjR4zXz3nqMk6X1vV/yPKdRx1ZzcFvhhTo3B5fTOIvWcIR7k39BnAWuq66plbeOqeGTwx3rfhV6naIaz7XLjgnHC9P+n7C/ZKpQfvvY2ag8rVknPIHeCbrdU/+Mo55xiPxn2I9rqW4mvFXan/ID13GhncuWL3A81570s=
+   eJyNVc1Kw0AQDr3oEyhdSN7Ci2f1oi/iz5voszQt9KIBwd4CkqQSPIkXqafYm0LrxRmyQ75MZtUPymY38/N9M5NtM46iD/o1gVVQxf0zed4b9feM2ySK7pLheePXSxdFV/TLVZ6M1jcfbxp3uZ/j1raAsy3w0XEY1xT/xtnv8bmOh76WXsGMzheexyu9W4/bVWomPueU+8J1+2Lc+gpy0Hof93Os6Pww6Z+JHsnJeKH1xA17NoF42IsUuGtY/WtA3xriz+OhD2Oqzrd+zzr3R0NtqX9fAi/UsobYmCtXPUGkoO999Lu9zGENuUNzwvykpwycRbET/ZVfd0jnbtJxmigf1rfw/ZIYzCUDvuiTgX6r9qfE7cx1e8ETzGthaGPMAnOBcWrDRurA3DbG3Ok8heJcBvIiZDamf9jyXD54mxz6kRp+uarDget0CFZGj5mvnnPUZH1fW9X/I8p17NpvNwW+GFOj8HlDM4i9ZwhHuTf0N4C11HXVMzcP1D0zeGK8b8OvUrVDWPe5cME54Xp/0v4LzkqlB++9jZqDyteSc8gdEJqt5T/4ynfOMR6N+xDtdS3F14q7VP9Beu40Mrhzxe4H2PrvKA==
   </data>
  </layer>
  <layer id="4" name="Above" width="28" height="18">
   <data encoding="base64" compression="zlib">
-   eJy9VcsNwjAMtdiiPXQBrqgHyiJ8Fil0ERiDWyXUScouOBJWH8ZO0krwpKht4vjZz05KRHQsiU48+oJo5PHkIehWZKIvPr/X1bTX8nNh/105zeO6ttXf1nzg89bxKe975j4A/6D863wQTfXNJ/lo1E6Ogiv7uRmxI1BL3DOCL1mbq1tObh48rph2GoHLs5c+RMT6RGqqgXbbzNxkz93hisHq94CGY9sZ8SGGBXxLgD2EPPoc/AqpHumVDil7Sy/vbKewedeohlrpeDx4PejVXu6NOWfmH4jp6fW3IEfvnHsvcLSszTlxZlLxIh6R2MbMGsTuIG/O85P61+n/lGUjemutrJ59AZeXgso=
+   eJy9lV8OgjAMxhtvwR64gK+GB/Ei/rmIykX0GL6RGE6Cd7EkNnyWdhsk+ksWGNva7ms3iIiOgejErS2Iem4vbkKzIpO2+O6vy3GtZefK9ptgj+u5um99H/x54/iU9z37PoSx3yn7ej9IXU79yX40VZjGgdzYzt2IHUEtcU0PtmRsrm45e/PwfMW00wy+vPlSh0isTiSnGpy3zdybrHk4vmJY9T5Qc2w7Iz6kW+BvCVhD6Eefg1+RqpFW6ZCab+nlne0Um0+OKsiVjsfDq0Ev93JvzDkz/yCmp1ffQo7eOffe4OPM2lwSZyYVL/KMxNZn5iB2B3nfPDupf53+T1lzRG+tlVWzb5PIgqc=
   </data>
  </layer>
  <layer id="5" name="Walkable" width="28" height="18" visible="0">

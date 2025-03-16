@@ -542,7 +542,8 @@
     },
     {
         "id":"brightport_goons",
-        "name":"No price for law",
+        "name":"No price for vengeance",
+        "showInLog":1,
         "stages":[
             {
                 "progress":10,
@@ -551,6 +552,53 @@
             {
                 "progress":20,
                 "logText":"I refused their proposal."
+            }
+        ]
+    },
+    {
+        "id":"brightport_thieves",
+        "name":"Crate Expectations",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":5,
+                "logText":"Elysa, the boss of Brightport\u2019s thieves' guild, wants me to carry out some sort of dealing."
+            },
+            {
+                "progress":10,
+                "logText":"The guild is due to receive some payment but the Guards have been troublesome lately, they need a new face like me to pick a package up discretly."
+            },
+            {
+                "progress":15,
+                "logText":"I accepted the job, I should head to the east of the town and go inside the derelict house. "
+            },
+            {
+                "progress":20,
+                "logText":"I met the courier from Nor city inside the house. He reacted strangely upon seeing me."
+            },
+            {
+                "progress":25,
+                "logText":"I received the package from the courier."
+            },
+            {
+                "progress":30,
+                "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
+            },
+            {
+                "progress":35,
+                "logText":"Thanks to the blackmail I had on the guard commander, I managed to smooth things over and walk away clean."
+            },
+            {
+                "progress":40,
+                "logText":"I got caught. The guards took the package, Elysa won\u2019t be happy about it."
+            },
+            {
+                "progress":45,
+                "logText":"I managed to hide inside a crate and waited. Eventually, the guards left. "
+            },
+            {
+                "progress":50,
+                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future."
             }
         ]
     }
