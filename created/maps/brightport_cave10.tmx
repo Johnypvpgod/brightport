@@ -237,6 +237,11 @@
     <property name="spawngroup" value="brightport_emyro"/>
    </properties>
   </object>
+  <object name="Object" type="spawn" x="608" y="224" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="brightport_lizard"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object name="block" type="key" x="640" y="320" width="96" height="32">

@@ -2322,7 +2322,7 @@
     },
     {
         "id":"brightport_write_3",
-        "message":"Did you see my broth-, no, that's not it. Hello, have you see\u2014Argh! [You crumple the paper into a ball and toss it aside.]",
+        "message":"Did you see my broth-, no, that's not it. Hello, have you see- Argh! [You crumple the paper into a ball and toss it aside.]",
         "replies":[
             {
                 "text":"N",
@@ -3939,6 +3939,24 @@
     {
         "id":"brightport_silvear_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_directions0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":20,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"bucus",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_silvear_directions1",
@@ -6424,11 +6442,11 @@
         "switchToNPC":"brightport_emyro",
         "replies":[
             {
-                "text":"I mean no harm. Bryma said your kind\u2019s been troubling her, so I came to find out why.",
+                "text":"I mean no harm. Bryma said your kind's been troubling her, so I came to find out why.",
                 "nextPhraseID":"brightport_emyrocave2"
             },
             {
-                "text":"I was just out for a stroll, and you bolted like your tail was on fire. Thought I\u2019d see what all the fuss was about",
+                "text":"I was just out for a stroll, and you bolted like your tail was on fire. Thought I'd see what all the fuss was about",
                 "nextPhraseID":"brightport_emyrocave4"
             }
         ]
@@ -7002,11 +7020,11 @@
         "switchToNPC":"brightport_emyro",
         "replies":[
             {
-                "text":"I mean no harm. Bryma said your kind\u2019s been troubling her, so I came to find out why.",
+                "text":"I mean no harm. Bryma said your kind's been troubling her, so I came to find out why.",
                 "nextPhraseID":"brightport_emyrocave2"
             },
             {
-                "text":"Chase you? I was just out for a stroll, and you bolted like your tail was on fire. Thought I\u2019d see what all the fuss was about.",
+                "text":"Chase you? I was just out for a stroll, and you bolted like your tail was on fire. Thought I'd see what all the fuss was about.",
                 "nextPhraseID":"brightport_emyrocave4"
             }
         ],
@@ -7031,7 +7049,7 @@
     },
     {
         "id":"brightport_emyrocave3",
-        "message":"She took what\u2019s not hers. Bones of our elders, sacred to us! We try to recover them, but she sends beasts. You call us trouble? She\u2019s the trouble!",
+        "message":"She took what's not hers. Bones of our elders, sacred to us! We try to recover them, but she sends beasts. You call us trouble? She's the trouble!",
         "switchToNPC":"brightport_emyro",
         "replies":[
             {
@@ -7115,7 +7133,7 @@
     },
     {
         "id":"brightport_emyrocave5",
-        "message":"No! But.. I am only Emyro, the scout. I refuse, but leader must decide. Find our home, and leader Elyzard will tell. Long travels ahead...\n[The lizard cautiously steps back, then leaps out the entrance of the burial cave.]",
+        "message":"No! But.. I am only Emyro, the scout. I refuse, but leader must decide. Find our home, and leader Elyzard will tell...\n[The lizard cautiously steps back, then leaps out the entrance of the burial cave.]",
         "switchToNPC":"brightport_lizard",
         "rewards":[
             {
@@ -8720,7 +8738,7 @@
     },
     {
         "id":"brightport_goons15",
-        "message":"Don\u2019t lump us in with him, Benbyr\u2019s a fool whose greed got the best of him, he started dealing with cursed artifacts. On the other hand we're not doing anything illegal, just inconvenient for the snobby guards. ",
+        "message":"Don't lump us in with him, Benbyr's a fool whose greed got the best of him, he started dealing with cursed artifacts. On the other hand we're not doing anything illegal, just inconvenient for the snobby guards. ",
         "replies":[
             {
                 "text":"That sounds like illegal to me.",
@@ -8745,22 +8763,121 @@
         "id":"brightport_dominio17"
     },
     {
-        "id":"brightport_grave"
+        "id":"brightport_grave",
+        "message":"This mausoleum was comissioned by Sir Rolton of house Ryfarion, for the sacred keeping and memory of the valiant warriors of Nor City. \n\nMay the Feygard scoundrels rot beneath the cursed swamp."
     },
     {
         "id":"brightport_thiefboss_selector",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brigtport_thiefboss"
+                "nextPhraseID":"brigtport_thiefboss",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_thiefboss_introduction",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
     {
-        "id":"brigtport_thiefboss"
+        "id":"brigtport_thiefboss",
+        "message":"Looking for work, or just looking?"
     },
     {
         "id":"brightport_goons17",
         "message":"Listen kid all our goods are legal, But they want us to pay those things called \"taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?"
+    },
+    {
+        "id":"brightport_thiefboss_introduction",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_thiefboss_introduction0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_thiefboss_introduction1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Thieves03",
+                        "value":50,
+                        "negate":false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_directions0",
+        "message":"Yeah I don't think you should speak to me about that, bye."
+    },
+    {
+        "id":"brightport_thiefboss_introduction0",
+        "message":"Well now, a familiar face, but you're not the one im familiar with. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to him.",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_thiefboss_introduction2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_thiefboss_introduction1",
+        "message":"Well, well, if it isn\u2019t one of Umar\u2019s little helpers. Did Umar run out of work for you, or are you just sightseeing? ",
+        "replies":[
+            {
+                "text":"I heard my brother Andor came to speak with you before. I was hoping you could tell me about your meeting with him.",
+                "nextPhraseID":"brightport_thiefboss_introduction2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_thiefboss_introduction2",
+        "message":"I was expecting your visit. Umar wrote to me that you would come. $playername, I can't tell you much that you haven't already heard from Umar, but there is a detail that might intrigue you.",
+        "replies":[
+            {
+                "text":"Let me guess, you want something in return for telling me?",
+                "nextPhraseID":"brightport_thiefboss_introduction3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":130
+            }
+        ]
+    },
+    {
+        "id":"brightport_thiefboss_introduction3",
+        "message":"Yes but only very minor. Once you visit Nor city please send my regards to my sister Claudia.",
+        "replies":[
+            {
+                
+            }
+        ]
     }
 ]
