@@ -462,7 +462,7 @@
         "id":"brightportguardcaptain",
         "name":"Gunfryk",
         "iconID":"monsters_ld1:74",
-        "phraseID":"brightport_gunfryk"
+        "phraseID":"brightport_gunfryk_selector"
     },
     {
         "id":"brightport_sickfawn",
@@ -839,5 +839,10 @@
         "name":"Cavern snake",
         "iconID":"monsters_tometik4:23",
         "monsterClass":"reptile"
+    },
+    {
+        "id":"brightport_agent",
+        "name":"Nor agent",
+        "iconID":"monsters_rltiles1:84"
     }
 ]

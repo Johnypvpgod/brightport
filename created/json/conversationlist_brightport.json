@@ -482,6 +482,10 @@
                 "nextPhraseID":"brightport_priest_story4"
             },
             {
+                "text":"Is there something I could do to help?",
+                "nextPhraseID":"brightport_priest"
+            },
+            {
                 "text":"Thank you for telling me this story.",
                 "nextPhraseID":"X"
             }
@@ -734,7 +738,15 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_silvear_initial"
+                "nextPhraseID":"brightport_silvear_initial",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -861,6 +873,35 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"It happens that Im interested in the local Guard commander. Can you tell me anything about him?",
+                "nextPhraseID":"brightport_silvear0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":132
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80,
+                        "negate":true
+                    }
+                ]
             }
         ],
         "rewards":[
@@ -916,6 +957,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":132
             }
         ]
     },
@@ -3384,7 +3430,42 @@
     },
     {
         "id":"brightport_gunfryk",
-        "message":"I'm Gunfryk, the guard commander. Inform me or my men if you spot any trouble."
+        "message":"I'm Gunfryk, the guard commander. Inform me or my men if you spot any trouble.",
+        "replies":[
+            {
+                "text":"Can you tell me more about your job?",
+                "nextPhraseID":"brightport_gunfryk0"
+            },
+            {
+                "text":"My friend got chased by a lizardman and he went inside the derelict house east, please save him! [Lie]",
+                "nextPhraseID":"brightport_gunfryk2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I heard word you really love Orchids, Sir Gunfryk. [Blackmail the commander.]",
+                "nextPhraseID":"brightport_gunfryk3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":40
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_statue_n",
@@ -7090,6 +7171,34 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_goons25",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_goons13",
                 "requires":[
                     {
@@ -7101,7 +7210,26 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_goons0"
+                "nextPhraseID":"brightport_goons",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":131,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":131
+                    }
+                ]
             }
         ]
     },
@@ -8512,6 +8640,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_goons_selector2"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":131
+            }
         ]
     },
     {
@@ -8660,7 +8795,7 @@
     },
     {
         "id":"brightport_goons8",
-        "message":"Benbyr did? Ha! I guess that guy hasn't lost his flame yet. Say, you want to work for us?",
+        "message":"Benbyr did? Ha! I guess that guy's still up for business! - Say, you want to work for us?",
         "replies":[
             {
                 "text":"The kind of work that sent Benbyr to jail? No thanks.",
@@ -8673,6 +8808,13 @@
             {
                 "text":"Sure, I have a history of getting things done.",
                 "nextPhraseID":"brightport_goons14"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":10
             }
         ]
     },
@@ -8734,20 +8876,33 @@
     },
     {
         "id":"brightport_goons14",
-        "message":"That's the spirit!"
+        "message":"That's the spirit!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons18"
+            }
+        ]
     },
     {
         "id":"brightport_goons15",
-        "message":"Don't lump us in with him, Benbyr's a fool whose greed got the best of him, he started dealing with cursed artifacts. On the other hand we're not doing anything illegal, just inconvenient for the snobby guards. ",
+        "message":"Don't lump us in with him, Benbyr's greed got the best of him, he started dealing with rather questionable merchandise. On the other hand we're not doing anything illegal, just inconvenient for those stuck up guards.",
         "replies":[
             {
-                "text":"That sounds like illegal to me.",
+                "text":"Inconvenient enough that you can't do your work anymore, sound like illegal to me.",
                 "nextPhraseID":"brightport_goons17"
             }
         ]
     },
     {
-        "id":"brightport_goons16"
+        "id":"brightport_goons16",
+        "message":"We have some deliveries to do, we're under watch and can't receive more merchandise, but if we had a new face do it for us we could totally manage it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons18"
+            }
+        ]
     },
     {
         "id":"brightport_dominio16",
@@ -8796,11 +8951,17 @@
     },
     {
         "id":"brigtport_thiefboss",
-        "message":"Looking for work, or just looking?"
+        "message":"Looking for wor"
     },
     {
         "id":"brightport_goons17",
-        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?"
+        "message":"Listen kid all our goods are legal, But they want us to pay those things called \"taxes\" and listen to their \"Trade restrictions\" Completely ridiculous! So you in to work for us or not?",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"brightport_goons18"
+            }
+        ]
     },
     {
         "id":"brightport_thiefboss_introduction",
@@ -8856,10 +9017,10 @@
     },
     {
         "id":"brightport_thiefboss_introduction2",
-        "message":"I was expecting your visit. Umar wrote to me that you would come. $playername, I can't tell you much that you haven't already heard from Umar, but there is a detail that might intrigue you.",
+        "message":"I was expecting your visit. Umar wrote to me that you would come. $playername",
         "replies":[
             {
-                "text":"Let me guess, you want something in return for telling me?",
+                "text":"N",
                 "nextPhraseID":"brightport_thiefboss_introduction3"
             }
         ],
@@ -8873,10 +9034,507 @@
     },
     {
         "id":"brightport_thiefboss_introduction3",
-        "message":"Yes but only very minor. Once you visit Nor city please send my regards to my sister Claudia.",
+        "message":"I can't tell you much that you haven't already heard from Umar, but there is a single detail that might intrigue you.",
         "replies":[
             {
                 
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons",
+        "message":"Who are you, and what do you need from us?",
+        "replies":[
+            {
+                "text":"What do you do around here?",
+                "nextPhraseID":"brightport_goons0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons18",
+        "message":"Hmm, on second thought, I would feel bad about giving you that kind of responsibility, Gunfryk's men are ruthless, if you get caught, you'll have no peace in Brightport.",
+        "replies":[
+            {
+                "text":"Who is this Gunfryk guy?",
+                "nextPhraseID":"brightport_goons19"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons19",
+        "message":"He is the Guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, His men pay no heed to bribes or the Shadow.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_priest",
+        "message":"Unless you could travel to Feygard and speak with Lord Emerion im afraid not my child.",
+        "replies":[
+            {
+                "text":"Thanks for telling me the story, I will be on my way.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons20",
+        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to some of the merchandise we've hid away in a cave.",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"I would rather not put myself at odds with the Feygard soldierly, bye. [Leave]",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Then all that it takes should be getting rid of him.",
+                "nextPhraseID":"brightport_goons21"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons21",
+        "message":"That's a dangerous thing you're saying, there is no way you can do that. He's not exactly a sheep, Gunfryk is a skilled and cunning warior.",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons22"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons22",
+        "message":"Yeah you'd have to be more discrete, we don't want thing to go in a worse direction. If you can pull it off we'll reward you handsomely but if you fail you've got nothing to do with us, understand?",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons23"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons23",
+        "message":"Dangit Dynes don't egg on the kid. Killing is off the list understood? Just make him less of our problem.",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"Got it, I'll \"make\" him not be a problem, heh.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"How else can I deal with him then?",
+                "nextPhraseID":"brightport_goons24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons24",
+        "message":"I don't know, you're our sheep culling expert here. But surely Gunfryk has some secrets he wishes to hide. ",
+        "replies":[
+            {
+                "text":"Got it, just watch.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk0",
+        "message":"We protect Brightport from the critters of the wilderness and barbaric monsters such as those lizardmen. -  All by decree of our king, Lord Geomyr. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"Brightport_gunfryk1"
+            }
+        ]
+    },
+    {
+        "id":"Brightport_gunfryk1",
+        "message":"With us around all those Nor city thugs are shaking in their boots, Brightport has never been safer."
+    },
+    {
+        "id":"brightport_gunfryk2",
+        "message":"Lizardman you say? that is extremely serious, I will call my men and we will hurry on to save him!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":50
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportguardcaptain",
+                "mapName":"brightport_bakery"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons25",
+        "message":"Hey kid, any news on your task?",
+        "replies":[
+            {
+                "text":"It was a hard fight, but I killed him, I made it look like a lizardman attack.",
+                "nextPhraseID":"brightport_goons26",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":134,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I have some good news."
+            },
+            {
+                "text":"I tried to but I couldn't do it, sorry."
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear0",
+        "message":"You mean Gunfryk? Hes on the tail of the harder thieves, who step outside the Feygard law, never bothered to interfere with my work, so I do the same. But his guards gawk at me like a hawks.",
+        "replies":[
+            {
+                "text":"That's interesting but I need something.. That I could use.",
+                "nextPhraseID":"brightport_silvear1_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear1",
+        "message":"I do have something on him in case our current arrangement ever went sour, but you would have to do a good job of convincing me to hear it.",
+        "replies":[
+            {
+                "text":"Is this convincing enough? [Offer 1000 gold.]",
+                "nextPhraseID":"brightport_silvear2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            },
+            {
+                "text":"I can't pay you a lot without being sure if the information will help me, best I can do is this. [Offer 500 gold]",
+                "nextPhraseID":"brightport_silvear4"
+            },
+            {
+                "text":"Im getting rid of your biggest problem without you lifting a finger, Is that not good enough?",
+                "nextPhraseID":"brightport_silvear3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":133,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_silvear1_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear1_2",
+        "message":"We've talked about this before. Im confident in my skill, the information I possess will be enough, With that in mind 1500 gold is sufficient.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1500
+                    }
+                ]
+            },
+            {
+                "text":"I don't have that much gold on me, I'll be back later.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1500,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear2",
+        "message":"Pleasure doing business with you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_gunfryk"
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear3",
+        "message":"I would do better to put my trust in Gunfryk dying of old age, $playername. My plans I carry alone, your plans you better pay and 1,500 is my asking price.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2"
+            },
+            {
+                "text":"I'll be back when I have the money. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":133
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_gunfryk",
+        "message":"When he arrived here and some of my acquittances were sent to the Feygard prisons, I had to collect some information for safety measures. Our guard commander here had a habit of visiting a certain \"establishment\" in Nor city, here are the records.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear4",
+        "message":"Rest assured, I would not risk my contingency on shoddy information, with that in mind 1,500 gold sound like a better price.",
+        "replies":[
+            {
+                "text":"Fine, have your price. [Give him the gold.]",
+                "nextPhraseID":"brightport_silvear2"
+            },
+            {
+                "text":"I'll be back when I have the money. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":133
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk3",
+        "message":"What? [The commander gulps dryly.] Who told you that? Plus I prefer lilies!",
+        "replies":[
+            {
+                "text":"I also heard you love rolling on the flower fields and smelling the roses, I think the others would also love hearing that. [Wave around the records of him visiting a flower shop.]",
+                "nextPhraseID":"brightport_gunfryk4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk4",
+        "message":"Grr, I get it. What is it? What do you want?",
+        "replies":[
+            {
+                "text":"You've put my two acquittances in a tough spot with your rules, I would appreciate it if you gave them some leeway, unless you want others to hear about your \"activities\"",
+                "nextPhraseID":"brightport_gunfryk5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk5",
+        "message":"Have it your way, just don't tell my men about my hobbies, my reputation would be ruined. But don't think this will last for long!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":60
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons26",
+        "message":"You killed him!? You're really tough! -  But him dead. That's not ideal",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons27"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons27",
+        "message":"What\u2019s wrong, Barthold? With Gunfryk dead, we\u2019ve got free rein! ",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons28"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons28",
+        "message":"Free rein? It bought us time. Even if it looked like a lizardman attack, there is no guarrantee the replacement Feygard will send won't be someone more extreme.",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons29"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons29",
+        "message":"Anyway, here is your reward kid and make sure to stay away from those Feygard snobs.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":100
+            }
+        ]
+    },
+    {
+        "id":"brightport_commanderkill_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_commanderkill_script1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_commanderkill_script1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_commanderkill_script2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":135
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_killfail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":135
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":136,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":135,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_killfail"
+    },
+    {
+        "id":"brightport_commanderkill_script2",
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportguardcaptain",
+                "mapName":"brightport_bakery"
             }
         ]
     }

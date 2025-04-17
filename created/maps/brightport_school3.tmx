@@ -183,9 +183,6 @@
  <tileset firstgid="7577" name="map_brightport" tilewidth="32" tileheight="32" tilecount="112" columns="16">
   <image source="../drawable/map_brightport.png" width="512" height="224"/>
  </tileset>
- <tileset firstgid="7689" name="map_indoor_3" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../ATsource/AndorsTrail/res/drawable/map_indoor_3.png" width="512" height="256"/>
- </tileset>
  <layer id="1" name="Ground" width="12" height="11">
   <data encoding="base64" compression="zlib">
    eJz7xMnA8IlEfEqWOAxTf0uWOAwz+zOQvoyEP+PAp6D6nvEj8HN+3OpBahu4ccuj4zqg2gUkqJ/HDfEDPjXPkNyH7F9iMMy/xKoHqX3JiR1/xiEOAIooffs=

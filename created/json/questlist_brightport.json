@@ -402,6 +402,30 @@
             {
                 "progress":130,
                 "logText":"elysa introduction"
+            },
+            {
+                "progress":131,
+                "logText":"Barthold introduction"
+            },
+            {
+                "progress":132,
+                "logText":"check for sequence"
+            },
+            {
+                "progress":133,
+                "logText":"greedy XD"
+            },
+            {
+                "progress":134,
+                "logText":"barthold quest done"
+            },
+            {
+                "progress":135,
+                "logText":"thieve caught"
+            },
+            {
+                "progress":136,
+                "logText":"thieve caught and spoke to gunfryk"
             }
         ]
     },
@@ -546,16 +570,59 @@
     },
     {
         "id":"brightport_goons",
-        "name":"No price for vengeance",
+        "name":"Priceful vengeance",
         "showInLog":1,
         "stages":[
             {
                 "progress":10,
-                "logText":"Barthold and Dynes want me to do a job for them."
+                "logText":"Inside a house in Brightport, I met two people named Benvys and Barthold, turns out they are the friends Benbyr told me to visit, with a rather lacking hospitality I was offered to work for them."
             },
             {
                 "progress":20,
-                "logText":"I refused their proposal."
+                "logText":"Barthold said he is hesitant because any job I could do for them would put me at odds with gunfryk the guard commander, taking that into account I offered to rid them of their problem."
+            },
+            {
+                "progress":30,
+                "logText":"I was told not to kill him, I must find a way to smooth things over for them."
+            },
+            {
+                "progress":40,
+                "logText":"From silvear I received some records that could be useful as blackmail againt Gunfryk."
+            },
+            {
+                "progress":50,
+                "logText":"I lied to the commander that there are some lizardmen in the derelict house east, I should go there and prepare an ambush. "
+            },
+            {
+                "progress":60,
+                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to loosen his grip on Brightport's underworld."
+            },
+            {
+                "progress":70,
+                "logText":"I ambushed and killed Gunfryk in the house east along with the two guards he brought."
+            },
+            {
+                "progress":80,
+                "logText":"I informed the commander on Barthold and Dynes'es scheme, he requested that I find some incriminating evidence on their part. "
+            },
+            {
+                "progress":90,
+                "logText":"Barthold and Dynes were happy with my work. ",
+                "finishesQuest":1
+            },
+            {
+                "progress":100,
+                "logText":"Barthold was a little dissapointed on me killing Gunfryk, It's possible that now Feygard might take more severe action with Brightport.",
+                "finishesQuest":1
+            },
+            {
+                "progress":110,
+                "logText":"I found some of the duo's merchandise in the smuggling cave east of brightport. "
+            },
+            {
+                "progress":120,
+                "logText":"Gunfryk was happy with my work, the duo will soo be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
+                "finishesQuest":1
             }
         ]
     },
