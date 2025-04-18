@@ -9209,7 +9209,8 @@
                 ]
             },
             {
-                "text":"I have some good news."
+                "text":"Good news. The commander\u2019s going to be turning a blind eye to your deals for a while. [Show him the compromising records.]",
+                "nextPhraseID":"brightport_goons30"
             },
             {
                 "text":"I tried to but I couldn't do it, sorry."
@@ -9218,7 +9219,7 @@
     },
     {
         "id":"brightport_silvear0",
-        "message":"You mean Gunfryk? Hes on the tail of the harder thieves, who step outside the Feygard law, never bothered to interfere with my work, so I do the same. But his guards gawk at me like a hawks.",
+        "message":"You mean Gunfryk? He\u2019s after the rougher thieves, the ones who step outside Feygard law. Never bothered my work, so I don\u2019t bother his. But his guards? They gawk at me like hawks too.",
         "replies":[
             {
                 "text":"That's interesting but I need something.. That I could use.",
@@ -9306,7 +9307,12 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_silvear_gunfryk"
+                "nextPhraseID":"brightport_silvear_gunfryk",
+                "requires":[
+                    {
+                        
+                    }
+                ]
             }
         ]
     },
@@ -9365,7 +9371,7 @@
     },
     {
         "id":"brightport_gunfryk3",
-        "message":"What? [The commander gulps dryly.] Who told you that? Plus I prefer lilies!",
+        "message":"What? [The commander gulps dryly.] Who told you that? Plus my favorites are crysanthemes!",
         "replies":[
             {
                 "text":"I also heard you love rolling on the flower fields and smelling the roses, I think the others would also love hearing that. [Wave around the records of him visiting a flower shop.]",
@@ -9375,17 +9381,17 @@
     },
     {
         "id":"brightport_gunfryk4",
-        "message":"Grr, I get it. What is it? What do you want?",
+        "message":"Grr, this is blackmail. I get it. What is it? What do you want?",
         "replies":[
             {
-                "text":"You've put my two acquittances in a tough spot with your rules, I would appreciate it if you gave them some leeway, unless you want others to hear about your \"activities\"",
+                "text":"You've put my two acquittances, Dynes and Barthold in a tough spot with your rules, I would appreciate it if you gave them some leeway, unless you want others to hear about your \"activities\"",
                 "nextPhraseID":"brightport_gunfryk5"
             }
         ]
     },
     {
         "id":"brightport_gunfryk5",
-        "message":"Have it your way, just don't tell my men about my hobbies, my reputation would be ruined. But don't think this will last for long!",
+        "message":"Have it your way! just don't tell my men about my hobbies, my reputation would be ruined. But don't think this will last for long!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -9428,12 +9434,17 @@
     },
     {
         "id":"brightport_goons29",
-        "message":"Anyway, here is your reward kid and make sure to stay away from those Feygard snobs.",
+        "message":"Anyway, here is your reward kid, with skills like yours you would surely find more work to do for our friends in Nor city.",
         "rewards":[
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":100
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
             }
         ]
     },
@@ -9526,7 +9537,14 @@
         ]
     },
     {
-        "id":"brightport_gunfryk_killfail"
+        "id":"brightport_gunfryk_killfail",
+        "message":"Is your friend safe kid?! I sent my men to the abandoned manor and they caught a Nor city spy, but no trace of any lizardmen or your friend! [The commander extends his arm to grab your shoulder.]",
+        "replies":[
+            {
+                "text":"Umm. Ermm. He is alright sir.",
+                "nextPhraseID":"brightport_gunfryk_killfail2"
+            }
+        ]
     },
     {
         "id":"brightport_commanderkill_script2",
@@ -9535,6 +9553,280 @@
                 "rewardType":"deactivateSpawnArea",
                 "rewardID":"brightportguardcaptain",
                 "mapName":"brightport_bakery"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":137
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykhide",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykhide1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":137
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"gunfryk",
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":138,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykhide1",
+        "message":"I should find a spot behind those crates to lie in wait.",
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"gunfryk"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykwait1",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"gunfryk",
+                        "value":15
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":138,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykwait2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":138
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"gunfryk",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":140,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait1",
+        "message":"Just a bit more waiting....",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":138
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykwait3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"guards",
+                "mapName":"brightport_abandoned"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"gunfryk",
+                "mapName":"brightport_abandoned"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportguard2",
+                "mapName":"brightport5"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportguard",
+                "mapName":"brightport5"
+            },
+            {
+                "rewardType":"alignmentChange",
+                "rewardID":"gunfryk",
+                "value":-1000
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait3",
+        "message":"[You hear the heavy thuds of several armored men approaching from outside.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykwait4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":140
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait4",
+        "message":"Men, prepare yourselves!",
+        "switchToNPC":"brightportguardcaptain",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykwait5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykwait5",
+        "message":"Sir, I don't see anything could it be hiding?",
+        "switchToNPC":"brightport_guardfight",
+        "replies":[
+            {
+                "text":"That would be me. [Jump out to attack]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykdead_check",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfrykdead_check2",
+                "requires":[
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightportguardcaptain",
+                        "value":1
+                    },
+                    {
+                        "requireType":"killedMonster",
+                        "requireID":"brightport_guardfight",
+                        "value":2
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfrykdead_check2",
+        "message":"Phew. Job well done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons30",
+        "message":"Show me that! [Barthold skips through some of the pages with a confound expression.]",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons31"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons31",
+        "message":"Ha ha ha ha! - That's soo funny, who would have guessed that stern Feygard dog would have such hobbies, and in Nor city nonetheless! - Feygardians and their pride, he surely wants to avoid his men from finding out.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons32"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons32",
+        "message":"And for a job well done here is your reward, rather generous I say. You would surely find more work to do in Nor city, just tell them Barthold sent you.",
+        "replies":[
+            {
+                "text":"It was my pleasure, Bye. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"If not information on my brother atleast some gold.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":2000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":90
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_killfail2",
+        "message":"Then that is good, and if not for you we wouldn't have went there and found that spy, well done. ",
+        "replies":[
+            {
+                "text":"[Elysa will be mad at me..]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":60
             }
         ]
     }

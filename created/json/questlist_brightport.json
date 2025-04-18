@@ -426,6 +426,22 @@
             {
                 "progress":136,
                 "logText":"thieve caught and spoke to gunfryk"
+            },
+            {
+                "progress":137,
+                "logText":"commander hide check"
+            },
+            {
+                "progress":138,
+                "logText":"gunfryk timer"
+            },
+            {
+                "progress":139,
+                "logText":"barthold quest done"
+            },
+            {
+                "progress":140,
+                "logText":"sequence check gufnryk"
             }
         ]
     },
@@ -607,7 +623,7 @@
             },
             {
                 "progress":90,
-                "logText":"Barthold and Dynes were happy with my work. ",
+                "logText":"Barthold was happy with my work and gave me a reward, he said I could find more. ",
                 "finishesQuest":1
             },
             {
@@ -661,7 +677,8 @@
             },
             {
                 "progress":40,
-                "logText":"I got caught. The guards took the package, Elysa won\u2019t be happy about it."
+                "logText":"I got caught. The guards took the package, Elysa won\u2019t be happy about it.",
+                "finishesQuest":1
             },
             {
                 "progress":45,
@@ -669,7 +686,13 @@
             },
             {
                 "progress":50,
-                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future."
+                "logText":"I delived the package to Elysa, She was pleased with my work and told me the guild may have further opportunities for me in the future.",
+                "finishesQuest":1
+            },
+            {
+                "progress":60,
+                "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
+                "finishesQuest":1
             }
         ]
     }

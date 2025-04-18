@@ -164,6 +164,8 @@
         "name":"Brightport guard",
         "iconID":"monsters_ld1:94",
         "unique":1,
+        "spawnGroup":"brightportguards",
+        "faction":"",
         "phraseID":"brightport_guard1"
     },
     {
@@ -462,6 +464,7 @@
         "id":"brightportguardcaptain",
         "name":"Gunfryk",
         "iconID":"monsters_ld1:74",
+        "faction":"gunfryk",
         "phraseID":"brightport_gunfryk_selector"
     },
     {
@@ -844,5 +847,10 @@
         "id":"brightport_agent",
         "name":"Nor agent",
         "iconID":"monsters_rltiles1:84"
+    },
+    {
+        "id":"brightport_guardfight",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:95"
     }
 ]
