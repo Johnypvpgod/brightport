@@ -9007,7 +9007,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction1",
-        "message":"Well, well, if it isn\u2019t one of Umar\u2019s little helpers. Did Umar run out of work for you, or are you just sightseeing? ",
+        "message":"Well, well, if it isn't one of Umar's little helpers. Did Umar run out of work for you, or are you just sightseeing? ",
         "replies":[
             {
                 "text":"I heard my brother Andor came to speak with you before. I was hoping you could tell me about your meeting with him.",
@@ -9209,7 +9209,7 @@
                 ]
             },
             {
-                "text":"Good news. The commander\u2019s going to be turning a blind eye to your deals for a while. [Show him the compromising records.]",
+                "text":"Good news. The commander's going to be turning a blind eye to your deals for a while. [Show him the compromising records.]",
                 "nextPhraseID":"brightport_goons30"
             },
             {
@@ -9219,7 +9219,7 @@
     },
     {
         "id":"brightport_silvear0",
-        "message":"You mean Gunfryk? He\u2019s after the rougher thieves, the ones who step outside Feygard law. Never bothered my work, so I don\u2019t bother his. But his guards? They gawk at me like hawks too.",
+        "message":"You mean Gunfryk? He's after the rougher thieves, the ones who step outside Feygard law. Never bothered my work, so I don't bother his. But his guards? They gawk at me like hawks too.",
         "replies":[
             {
                 "text":"That's interesting but I need something.. That I could use.",
@@ -9412,7 +9412,7 @@
     },
     {
         "id":"brightport_goons27",
-        "message":"What\u2019s wrong, Barthold? With Gunfryk dead, we\u2019ve got free rein! ",
+        "message":"What's wrong, Barthold? With Gunfryk dead, we've got free rein! ",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
