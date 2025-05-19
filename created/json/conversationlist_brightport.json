@@ -3451,6 +3451,11 @@
                         "requireID":"brightport_goons",
                         "value":60,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30
                     }
                 ]
             },
@@ -8926,7 +8931,18 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brigtport_thiefboss",
+                "nextPhraseID":"brightport_elysa6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -8948,10 +8964,6 @@
                 ]
             }
         ]
-    },
-    {
-        "id":"brigtport_thiefboss",
-        "message":"Looking for wor"
     },
     {
         "id":"brightport_goons17",
@@ -8998,7 +9010,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction0",
-        "message":"Well now, a familiar face, but you're not the one im familiar with. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to him.",
+        "message":"Well now, a familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to him.",
         "replies":[
             {
                 "nextPhraseID":"brightport_thiefboss_introduction2"
@@ -9007,7 +9019,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction1",
-        "message":"Well, well, if it isn't one of Umar's little helpers. Did Umar run out of work for you, or are you just sightseeing? ",
+        "message":"Well, well, if it isn't one of Umar's little helpers. Did Umar run out of work for you already?",
         "replies":[
             {
                 "text":"I heard my brother Andor came to speak with you before. I was hoping you could tell me about your meeting with him.",
@@ -9017,11 +9029,21 @@
     },
     {
         "id":"brightport_thiefboss_introduction2",
-        "message":"I was expecting your visit. Umar wrote to me that you would come. $playername",
+        "message":"I was expecting your visit  $playername. Umar wrote to me that you would come and ask some questions. ",
         "replies":[
             {
                 "text":"N",
                 "nextPhraseID":"brightport_thiefboss_introduction3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_thiefboss_introduction3",
+        "message":" I can't tell you much more than Umar has told you, howerver there is a single detail of your Brother that might help you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa"
             }
         ],
         "rewards":[
@@ -9029,15 +9051,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":130
-            }
-        ]
-    },
-    {
-        "id":"brightport_thiefboss_introduction3",
-        "message":"I can't tell you much that you haven't already heard from Umar, but there is a single detail that might intrigue you.",
-        "replies":[
-            {
-                
             }
         ]
     },
@@ -9131,7 +9144,7 @@
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
-                "text":"Got it, I'll \"make\" him not be a problem, heh.",
+                "text":"Got it, I'll \"make\" him not be a problem, heh. ",
                 "nextPhraseID":"X"
             },
             {
@@ -9307,12 +9320,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_silvear_gunfryk",
-                "requires":[
-                    {
-                        
-                    }
-                ]
+                "nextPhraseID":"brightport_silvear_gunfryk"
             }
         ]
     },
@@ -9474,8 +9482,24 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
-                        "value":15,
+                        "value":10,
                         "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_commanderkill_script3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":25
                     }
                 ]
             }
@@ -9538,7 +9562,7 @@
     },
     {
         "id":"brightport_gunfryk_killfail",
-        "message":"Is your friend safe kid?! I sent my men to the abandoned manor and they caught a Nor city spy, but no trace of any lizardmen or your friend! [The commander extends his arm to grab your shoulder.]",
+        "message":"Is your friend safe kid?! I sent my men to the derelict manor and they caught a Nor city spy, but no trace of any lizardmen or your friend! [The commander extends his arm to grab your shoulder.]",
         "replies":[
             {
                 "text":"Umm. Ermm. He is alright sir.",
@@ -9827,6 +9851,146 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_thieves",
                 "value":60
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa",
+        "message":"But as you know very well, the guild has it's rules, we're not keen on doing charity. - Luckily we have just the right job for you. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa0",
+        "message":"First you must know more about our activities and how the guild operates in Brightport.",
+        "replies":[
+            {
+                "text":"Sure.",
+                "nextPhraseID":"brightport_elysa1"
+            },
+            {
+                "text":"I don't have time, can't we get on with it already?",
+                "nextPhraseID":"brightport_elysa2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa1",
+        "message":"For most of its existence, the guild in Brightport was mostly a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa2",
+        "message":"Sigh, $playername. i'll skip you the details then.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa3",
+        "message":"We need you to pick up a package from the mediator of one of our clients. We've received word that he'll be waiting in the old building east of town. Be discreet, and make sure the guards don't see you.",
+        "replies":[
+            {
+                "text":"Fine, I'll pick up that package for you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa4",
+        "message":"But with Remgard's increasing exports of quality steel over the past hundred years, our guildhall was expanded to accommodate the growing demand for smuggling weapons.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa5",
+        "message":"With the restrictions on the trade of weapons and steel by Feygard, our importance has only increased, but the newly established inspections have made carrying out our activities in town a nuisance. Several of my men have already been captured and sent to Feygard's prisons. This is where your role comes into play.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa6",
+        "message":"How did the deal go, $playername?"
+    },
+    {
+        "id":"brightport_spawnagent_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_spawnagent_script1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":135,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_spawnagent_script1",
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_agent",
+                "mapName":"brightport_abandoned"
+            }
+        ]
+    },
+    {
+        "id":"brightport_commanderkill_script3",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":137
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportguardcaptain",
+                "mapName":"brightport_bakery"
             }
         ]
     }

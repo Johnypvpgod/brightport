@@ -140,7 +140,7 @@
   <image source="../drawable/map_table_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5841" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="5969" name="map_transition_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_transition_1.png" width="512" height="256"/>
@@ -209,7 +209,7 @@
    eJy7KMbAcHEYYBjAx0bm4xJDB/jUoNtPyCxi9RNjDi7/41OPywx8aoh1AyX60fXicyu2OMWXJgipAQAyC1wL
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object name="entrance" type="mapchange" x="224" y="352" width="32" height="32">
    <properties>
     <property name="map" value="brightport8"/>
@@ -248,7 +248,13 @@
     <property name="spawngroup" value="brightportguardcaptain"/>
    </properties>
   </object>
+  <object name="agent" type="spawn" x="288" y="96" width="192" height="96">
+   <properties>
+    <property name="respawnspeed" value="0"/>
+    <property name="spawngroup" value="brightport_Agent"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys" visible="0"/>
  <objectgroup name="Replace"/>
 </map>

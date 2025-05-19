@@ -179,7 +179,7 @@
   <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7865" name="map_trail_1" tilewidth="32" tileheight="32">
-  <image source="../spritesheets/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7993" name="map_ground_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_ground_1.png" width="512" height="256"/>
