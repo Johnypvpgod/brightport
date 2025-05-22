@@ -846,11 +846,27 @@
     {
         "id":"brightport_agent",
         "name":"Nor agent",
-        "iconID":"monsters_rltiles1:84"
+        "iconID":"monsters_rltiles1:84",
+        "phraseID":"brightport_agent"
     },
     {
         "id":"brightport_guardfight",
         "name":"Brightport guard",
         "iconID":"monsters_ld1:95"
+    },
+    {
+        "id":"brightportguardcrate",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:95"
+    },
+    {
+        "id":"brightportguardcrate1",
+        "name":"Guard 1",
+        "iconID":"monsters_ld1:94"
+    },
+    {
+        "id":"brightportguardcrate2",
+        "name":"Guard 2",
+        "iconID":"monsters_ld1:94"
     }
 ]

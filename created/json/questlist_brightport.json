@@ -442,6 +442,26 @@
             {
                 "progress":140,
                 "logText":"sequence check gufnryk"
+            },
+            {
+                "progress":141,
+                "logText":"crate1"
+            },
+            {
+                "progress":142,
+                "logText":"crate2"
+            },
+            {
+                "progress":143,
+                "logText":"crate3"
+            },
+            {
+                "progress":144,
+                "logText":"hide over"
+            },
+            {
+                "progress":145,
+                "logText":"caught outside"
             }
         ]
     },
@@ -657,15 +677,15 @@
             },
             {
                 "progress":20,
-                "logText":"I met the courier from Nor city inside the house. He reacted strangely upon seeing me."
-            },
-            {
-                "progress":25,
-                "logText":"I received the package from the courier."
+                "logText":"I met the courier from Nor city inside the house."
             },
             {
                 "progress":30,
                 "logText":"Before we could conclude the meeting we heard the town guard making noise outside."
+            },
+            {
+                "progress":32,
+                "logText":"I received the package."
             },
             {
                 "progress":35,

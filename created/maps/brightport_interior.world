@@ -179,8 +179,8 @@
             "fileName": "brightport_cave.tmx",
             "height": 480,
             "width": 800,
-            "x": 1056,
-            "y": 608
+            "x": 1031,
+            "y": 583
         },
         {
             "fileName": "brightport_school5.tmx",
@@ -402,6 +402,13 @@
         {
             "fileName": "brightport_crate1.tmx",
             "height": 128,
+            "width": 96,
+            "x": 1031,
+            "y": 327
+        },
+        {
+            "fileName": "brightport_chimney.tmx",
+            "height": 160,
             "width": 96,
             "x": 1287,
             "y": 327
