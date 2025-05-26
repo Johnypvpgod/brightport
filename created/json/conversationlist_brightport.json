@@ -10621,6 +10621,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_crate_failure15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_failure_script0",
                 "requires":[
                     {
@@ -10633,6 +10650,12 @@
                         "requireType":"timerElapsed",
                         "requireID":"brightporthide",
                         "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":40,
+                        "negate":true
                     }
                 ]
             },
@@ -10647,10 +10670,24 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":148
+            }
         ]
     },
     {
-        "id":"brightport_crate_failure_script0"
+        "id":"brightport_crate_failure_script0",
+        "message":"[A few seconds after you snuggle yourself into the crate, 2 sets of footsteps begin to echo]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure"
+            }
+        ]
     },
     {
         "id":"brightport_hide_script_crate2alt",
@@ -10746,7 +10783,7 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_succes_script1",
+                "nextPhraseID":"brightport_crate_failure_script0",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -10772,9 +10809,409 @@
                     }
                 ]
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":149
+            }
         ]
     },
     {
-        "id":"brightport_crate_succes_script1"
+        "id":"brightport_chimney_script",
+        "replies":[
+            {
+                
+            },
+            {
+                "nextPhraseID":"brightport_chimney_hideover"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure",
+        "message":"There doesn't seem to be anyone around.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure1",
+        "message":"You sure? Thought I heard something when we came in.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure2",
+        "message":" Probably just the wind. Or rats. This place is crawling with 'em.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure3",
+        "message":"Still, we got an order to check the place, so let's do it quickly and return to our posts.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure4",
+        "message":"Right. I'll do a quick scan of the room, you check that fireplace.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure5",
+        "message":"...",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure6",
+        "message":"Found nothing, except that fireplace is falling apart.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure7",
+        "message":"Yeah, haven't seen anything unusual either, let's head back.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure8",
+        "message":"Wait, have you checked those crates? ",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure9",
+        "message":"No.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure10",
+        "message":"Then go take a look, If we return without scouring the place he'll say we slacked off.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure11",
+        "message":"[The sound of footsteps gets louder as the guard approaches. You hear a crate being opened, then the guard moves to the next one. They stop right next to yours.].",
+        "replies":[
+            {
+                "text":"[Uh oh.]",
+                "nextPhraseID":"brightport_crate_found_selector"
+            },
+            {
+                "text":"[Hold your breath.]",
+                "nextPhraseID":"brightport_crate_found_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure12",
+        "message":"[With a wooden creak the spot you entered the crate through opens.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure13",
+        "message":"What, there's a kid in here! - What are you doing in there kiddo?!",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"We'll I was playing hide and seek with my mates and... [Lie]",
+                "nextPhraseID":"brightport_crate_failure16"
+            },
+            {
+                "text":"Im searching for my brother Andor, have you seen him?",
+                "nextPhraseID":"brightport_crate_failure14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure14",
+        "message":"Oh, your brother? No, sorry, we haven't seen him. At least, he's not in here. What's that box you're holding?",
+        "replies":[
+            {
+                "text":"I found it inside the crate. ",
+                "nextPhraseID":"brightport_crate_failure15alt"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":147
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure15",
+        "message":"Let me see. [The guard takes the package out of your hands.] Sorry, kid but we need to bring something back to our commander - Oh There's a scroll  inside, Let's see what it says.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure17"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":40
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure16",
+        "message":"Well it's not fair to hide this far away from town, no one will find you. What's that thing you're holding?",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"I found it inside the crate.",
+                "nextPhraseID":"brightport_crate_failure15alt"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":146
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure17",
+        "message":"Huh? what does it say?",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure18"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure15alt",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure18",
+        "message":"500 baguettes.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure19"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure19",
+        "message":"Bhahahah, so we came here to search and found only an old request to the bakery, the commander will laugh his behind off. - Let's return, you kid want to come with us? it's dangerous here you know.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"No, my friends still haven't found me so if I stay here I'll win.",
+                "nextPhraseID":"brightport_crate_failure20",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":146
+                    }
+                ]
+            },
+            {
+                "text":"No I still haven't found my brother.",
+                "nextPhraseID":"brightport_crate_failure_21",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":147
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure20",
+        "message":"We told you it's not fair. Well you sound like a troublemaker.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure22"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure_21",
+        "message":"Your brother? ermm.. Good luck finding him?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure22"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure22",
+        "message":"[The guards leave. Along with the package you were sent here for, in this moment you wonder if it was anything important.]",
+        "replies":[
+            {
+                "text":"time to get out of this crate.",
+                "nextPhraseID":"brightport_crate_hideover1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":144
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_found_selector",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_crate_failure12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":148
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_crate_success",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":149
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_success",
+        "message":"[After what seems like a minute the footsteps move away, you hear the guards discuss something then silence..]",
+        "switchToNPC":"playernametest",
+        "replies":[
+            {
+                "text":"Time to get out of this crate.",
+                "nextPhraseID":"brightport_crate_hideover1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":144
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_thieves",
+                "value":45
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney_hideover"
     }
 ]

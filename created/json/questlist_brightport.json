@@ -462,6 +462,22 @@
             {
                 "progress":145,
                 "logText":"caught outside"
+            },
+            {
+                "progress":146,
+                "logText":"hide n seek option"
+            },
+            {
+                "progress":147,
+                "logText":"brother option"
+            },
+            {
+                "progress":148,
+                "logText":"hide failure"
+            },
+            {
+                "progress":149,
+                "logText":"hide success"
             }
         ]
     },

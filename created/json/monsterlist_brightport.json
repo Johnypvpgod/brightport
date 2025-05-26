@@ -868,5 +868,10 @@
         "id":"brightportguardcrate2",
         "name":"Guard 2",
         "iconID":"monsters_ld1:94"
+    },
+    {
+        "id":"playernametest",
+        "name":"$playername",
+        "iconID":"monsters_fatboy73:64"
     }
 ]
