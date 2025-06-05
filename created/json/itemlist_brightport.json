@@ -291,5 +291,28 @@
         "iconID":"items_japozero:472",
         "name":"Package",
         "displaytype":"quest"
+    },
+    {
+        "id":"brightport_ring",
+        "iconID":"items_newb:259",
+        "name":"Stanwick's signet ring",
+        "displaytype":"quest",
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":3
+            },
+            "increaseAttackChance":15,
+            "increaseCriticalSkill":3,
+            "increaseBlockChance":10,
+            "increaseDamageResistance":3
+        }
+    },
+    {
+        "id":"brightport_sword0",
+        "iconID":"items_misc_2:65",
+        "name":"Nor city made blade",
+        "displaytype":"quest"
     }
 ]

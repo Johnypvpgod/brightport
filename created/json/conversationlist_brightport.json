@@ -1996,6 +1996,23 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor0",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"stanwick",
+                        "value":4
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":130,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_stanwick_end",
                 "requires":[
                     {
@@ -2851,7 +2868,13 @@
     },
     {
         "id":"brightport_stanwick_end",
-        "message":"Thank you $playername. I knew I could entrust this to you."
+        "message":"Thank you $playername. I knew I could entrust this to you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor"
+            }
+        ]
     },
     {
         "id":"brightport_stanwick_common",
@@ -3430,7 +3453,7 @@
     },
     {
         "id":"brightport_gunfryk",
-        "message":"I'm Gunfryk, the guard commander. Inform me or my men if you spot any trouble.",
+        "message":"I'm the guard commander. Inform me or my men if you spot any trouble.",
         "replies":[
             {
                 "text":"Can you tell me more about your job?",
@@ -3456,6 +3479,12 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":150,
+                        "negate":true
                     }
                 ]
             },
@@ -3467,6 +3496,41 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_goons",
                         "value":40
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sir I have some information on two troublemakers in town who wish to see you gone.",
+                "nextPhraseID":"brightport_gunfryk1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50,
+                        "negate":true
                     }
                 ]
             }
@@ -6161,7 +6225,7 @@
     },
     {
         "id":"brightport_bryma9",
-        "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door. I went to look and, a boy of about 17 introduced himself. I think his name was Andor..",
+        "message":"About half a year ago, I was carefully measuring the ingredients for my baking experiments when I heard the door creak. I went to look and, a boy of about 17 introduced himself. I think his name was Andor..",
         "replies":[
             {
                 "text":"N",
@@ -6285,7 +6349,7 @@
     },
     {
         "id":"brightport_bryma15",
-        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my bonemeal research, I came back, patched things up, and moved in. It's pretty cozy - I can drink tea and bake at my leisure.",
+        "message":"I discovered this place in my youth while researching Brightport's fauna. After Lord Geomyr's coronation, fearing I might be arrested for my bonemeal research, I came back, patched things up, and moved in. It's cozy, I can drink tea and bake at my leisure.",
         "replies":[
             {
                 "text":"What are you researching?",
@@ -6315,7 +6379,7 @@
     },
     {
         "id":"brightport_bryma18",
-        "message":"Many things, but mostly on bonemeal potions. their healing potency and various properties left me puzzled for many years. I studied them with the great mind of Feygard and Nor city alike, until the bonemeal ban.",
+        "message":"Many things, but mostly bonemeal potions. their healing potency and various properties left me puzzled for many years. I studied them with the great mind of Feygard and Nor city alike, until the bonemeal ban.",
         "replies":[
             {
                 "text":"What does that have to do with baking?",
@@ -6572,7 +6636,7 @@
     },
     {
         "id":"brightport_bryma23",
-        "message":"What do you think makes bonemeal so desirable, even three years after its ban?",
+        "message":"What do you think makes bonemeal so desirable, even after It's prohibition?",
         "replies":[
             {
                 "text":"It's cheap and offers the best treatment against ailments.",
@@ -6684,7 +6748,7 @@
     },
     {
         "id":"brightport_bryma32",
-        "message":"But my experiments revealed something more. The late Headmaster Dervin rewarded me with an advanced bonemeal potion. that contained a mysterious ingredient called kazarite, which doubled the growth factor of a regular bonemeal potion.",
+        "message":"But my experiments revealed something more. The late Headmaster Dervin rewarded me with an advanced bonemeal potion. that contained a mysterious ingredient called kazarite, which doubled the superb abilities of a regular potion.",
         "replies":[
             {
                 "text":"N",
@@ -6961,7 +7025,7 @@
     },
     {
         "id":"brightport_bryma40",
-        "message":"One day, I ventured into that decrepit basement to see what's around. Curious, I began exploring and carelessly ventured down into a cave. days later, I began hearing the scratching of their monstrous claws echoing through the tunnels. Likely a warning. This repeated until one day I went down to check and the passage was blocked with rubble. ",
+        "message":"One day, I ventured into that decrepit basement to see what's around. Curious, I began exploring and carelessly ventured down into a cave. days later, I began hearing the scratching of their monstrous claws echoing through the tunnels. Like a warning. This repeated until one day I went down to check and the passage was blocked with rubble. ",
         "replies":[
             {
                 "text":"I'll see what I can do about those creatures.",
@@ -7678,7 +7742,7 @@
     },
     {
         "id":"brightport_bryma48",
-        "message":"And I also wish to mention, from Brightport towards Charwood, there used to lay a path traders would take, However an unknown happening led to the awakening of a nearby statue, which barred the path.   ",
+        "message":"I wish to mention, from Brightport towards Charwood, there used to lay a path traders would take, However an unknown happening led to the awakening of a nearby magical statue, which barred the path.   ",
         "replies":[
             {
                 "text":"N",
@@ -8491,7 +8555,7 @@
     },
     {
         "id":"brightport_dominio5",
-        "message":"West of our village lies the entrance to a ruin from which at times beasts of darkness emerged to attack our village.",
+        "message":"West of our village lies the entrance to a ruin from which at times beasts of darkness emerge to attack our village.",
         "replies":[
             {
                 "text":"N",
@@ -8528,7 +8592,7 @@
     },
     {
         "id":"brightport_dominio8",
-        "message":"However. The last human to challenge the ruin was a man named Lutarc. He slayed the beasts and brought back two stone tablets, which shone light on the origin of those creatures. They are not mere animals, but guardians that will manifest as long as the magic maintaining the millennia-old ruins is still active.",
+        "message":"The last human to challenge the ruin was a man named Lutarc. He slayed the beasts and brought back two stone tablets, which shone light on the origin of those creatures. They are not mere animals, but guardians that will manifest as long as the magic maintaining the millennia-old ruins is still active.",
         "replies":[
             {
                 "text":"N",
@@ -8538,7 +8602,7 @@
     },
     {
         "id":"brightport_dominio9",
-        "message":"The source of that lies in two crystals within the ruins. From the two tablets, I uncovered that the key is chanting a specific phrase before them. We need you, human, to finish this centuries old task.",
+        "message":"The source of that lies in two crystals within the ruins. From the two tablets, I uncovered that the key is chanting a specific phrase before them. We need you, a human, to undertake the last step to secure our sanctuary.",
         "replies":[
             {
                 "text":"Sounds easy. I'll do it.",
@@ -8911,7 +8975,7 @@
     },
     {
         "id":"brightport_dominio16",
-        "message":"When the honorable people of Nor city arrived here and requested our assistance in battle, we obliged under the condition that they must cleanse the ruins of the beasts. While the warriors were away I was taught of the Shadow by the priests of the group. ",
+        "message":"When the honorable people of Nor city arrived here and requested our assistance in battle, we obliged under the condition that they must cleanse the ruins of the beasts. While the warriors were away I was taught of the Shadow by the priests of the group, and oh what wonder the Shadow is. It speaks to me in my dreams!",
         "replies":[
             {
                 "text":"N",
@@ -8920,7 +8984,8 @@
         ]
     },
     {
-        "id":"brightport_dominio17"
+        "id":"brightport_dominio17",
+        "message":"[The expression on the lizardman's face is undecipherable, but you can tell it's eyes dazed off into space.]"
     },
     {
         "id":"brightport_grave",
@@ -9076,7 +9141,7 @@
     },
     {
         "id":"brightport_goons19",
-        "message":"He is the Guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, His men pay no heed to bribes or the Shadow.",
+        "message":"He is the Guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, His men pay no heed to bribes or the Shadow, save for some locals.",
         "replies":[
             {
                 "text":"N",
@@ -9222,11 +9287,31 @@
                 ]
             },
             {
-                "text":"Good news. The commander's going to be turning a blind eye to your deals for a while. [Show him the compromising records.]",
-                "nextPhraseID":"brightport_goons30"
+                "text":" I think you guys owe me some gold now.",
+                "nextPhraseID":"brightport_goons33",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_sword0",
+                        "value":1,
+                        "negate":false
+                    }
+                ]
             },
             {
-                "text":"I tried to but I couldn't do it, sorry."
+                "text":"Good news. The commander's going to be turning a blind eye to your deals for a while. [Show him the compromising records.]",
+                "nextPhraseID":"brightport_goons30",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"No but i'll see it through.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -9385,6 +9470,13 @@
                 "text":"I also heard you love rolling on the flower fields and smelling the roses, I think the others would also love hearing that. [Wave around the records of him visiting a flower shop.]",
                 "nextPhraseID":"brightport_gunfryk4"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":150
+            }
         ]
     },
     {
@@ -9453,6 +9545,11 @@
                 "rewardType":"giveItem",
                 "rewardID":"gold",
                 "value":1000
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":139
             }
         ]
     },
@@ -9530,6 +9627,23 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_gunfryk9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_gunfryk_killfail",
                 "requires":[
                     {
@@ -9569,13 +9683,30 @@
             },
             {
                 "text":"N",
+                "nextPhraseID":"brightport_gunfryk",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":150
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_gunfryk"
             }
         ]
     },
     {
         "id":"brightport_gunfryk_killfail",
-        "message":"Is your friend safe kid?! I sent my men to the derelict manor and they caught a Nor city spy, but no trace of any lizardmen or your friend! [The commander extends his arm to grab your shoulder.]",
+        "message":"[The commander extends his arm to grab your shoulder.] Is your friend safe?! I sent my men to the derelict manor and they caught a Nor city spy, but no trace of any lizardmen or your friend! ",
         "replies":[
             {
                 "text":"Umm. Ermm. He is alright sir.",
@@ -9847,6 +9978,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":90
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":139
             }
         ]
     },
@@ -9961,7 +10097,25 @@
     },
     {
         "id":"brightport_elysa6",
-        "message":"How did the deal go, $playername?"
+        "message":"How did it go, $playername?",
+        "replies":[
+            {
+                "text":"Easy as pie.",
+                "nextPhraseID":"brightport_elysa7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Erm, I have to go now. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_spawnagent_script",
@@ -11151,7 +11305,7 @@
         "message":"[The guards leave. Along with the package you were sent here for, in this moment you wonder if it was anything important.]",
         "replies":[
             {
-                "text":"time to get out of this crate.",
+                "text":"Those guards were dumb as bricks, time to get out of this crate.",
                 "nextPhraseID":"brightport_crate_hideover1"
             }
         ],
@@ -11213,5 +11367,570 @@
     },
     {
         "id":"brightport_chimney_hideover"
+    },
+    {
+        "id":"brightport_elysa7",
+        "message":"Good, well then where is the package?",
+        "replies":[
+            {
+                "text":"Here it is.",
+                "nextPhraseID":"brightport_elysa8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightportpackage",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Sorry I think I dropped it somewhere.",
+                "nextPhraseID":"brightport_elysa9",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightportpackage",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa8",
+        "message":""
+    },
+    {
+        "id":"brightport_elysa9",
+        "message":"What incompetence! go pick it up."
+    },
+    {
+        "id":"brightport_stanwick_andor",
+        "message":"Once I recollect my memories I will tell you about Andor. Please come back in a few minutes.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":127
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"stanwick"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor0",
+        "message":"I think I now remembered some things that could be useful in your search.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor1",
+        "message":"Andor is my friend, so when you told me he was missing, of course I was concerned. Not as much as I was about the document, if I\u2019m being honest, but you know as well as I do, that was no trivial thing.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor2",
+        "message":"When it comes to strange details my memory starts sometime a year ago at the start of my third year and Andor's fourth, when we were handed our correspondence. He was handed a sealed envelope, nothing strange except it was sealed with a crest, I don't have the best memory but peculiar details never miss me, so it stuck.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor3",
+        "message":"Later that same evening, I\u2019d fallen asleep at my desk while studying. When I woke, Andor wasn\u2019t in his bed, but at the time I thought little of it. I stepped out to the hallway window for some fresh air and happened to glance outside. Someone was leaving the campus grounds, with another figure waiting just beyond. They wore a robe... red, I think. Or perhaps blue. Maybe even grayish. I can\u2019t say for sure. the moonlight made it seem surreal. Andor came minutes later so I just thought he went to the lavatory. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor4",
+        "message":"Sometimes he'd fidget with a button, I could tell it was Nor city made since my Mother is from there, but your family's never been there right?",
+        "replies":[
+            {
+                "text":"I don't think so.",
+                "nextPhraseID":"brightport_stanwick_andor5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor5",
+        "message":"Yeah, just as I thought. There\u2019s a strange connection I feel between Andor going missing and Nor City. I mean, you\u2019ve heard those Feygard guards. Those who\u2019ve been there know it\u2019s not true, but the others always say it\u2019s a city of trouble. Hmph, to talk that way about the great city... [He mutters to himself.] Though I have been told to stay out of the backstreets.",
+        "replies":[
+            {
+                "text":"Do you think Andor went there?",
+                "nextPhraseID":"brightport_stanwick_andor6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I think so too, on my travels I met a person named Lodar and.. [Tell him the whole story.]",
+                "nextPhraseID":"brightport_stanwick_andor8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":72
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor6",
+        "message":"Perphaps . We've spent hours discussing the visage of the city as you approach it's gates, the craftsmen and merchants going about. Even the unsavory buildings which add to the charm. We've spent equal amounts reading about Feygard but if you ask me it has to be Nor city.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor7",
+        "message":"Listen, $playername. I know that after everything you've done for me, what I'm saying may not seem like much. So instead, I want to entrust you with something far more important.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor8",
+        "message":"What this Lodar man told you matches a little with what I've said,  it's no doubt there is a connection, I don't know who Lady Lydanol is but I don't think they'll just let you meet her that easy. the high priest of Nor city of all places.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_stanwick_andor9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwick_andor9",
+        "message":"This is a signet ring with my family's heraldry. Once you visit Nor City, bring it to my father Jorwick and tell him what you're there for. It will help you get around the city.",
+        "replies":[
+            {
+                "text":"Thank you stanwick, see you later!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It was worth the trouble.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":130
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_ring",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk1",
+        "message":"These Nor city agitators are dime a dozen, however we can only act on Feygard law, and the first thing we need is evidence.",
+        "replies":[
+            {
+                "text":"What could serve as evidence?",
+                "nextPhraseID":"brightport_gunfryk6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk6",
+        "message":"Reputable eye witnesses, records. In case of swindlery or smuggling, illegal merchandise. Word of mouth means nothing.",
+        "replies":[
+            {
+                "text":"I think I heard them mention a smuggling cave of sorts, that they use to evade the law.",
+                "nextPhraseID":"brightport_gunfryk7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk7",
+        "message":"As if they could ever evade the watchful eyes of my men! - Although..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk8",
+        "message":" If you came here to tell me there may be some truth to your words kid. If you want to do the right thing for the Glory of Feygard then see if you can find anything I could order my men for, but don't stick your neck out too much, those savages would stop at nothing. ",
+        "replies":[
+            {
+                "text":"I'll do my best, Glory to feygard!",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Sure, but I'm doing this because I want to, not because of your silly laws.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk9",
+        "message":"Any progress on that investigation of yours?",
+        "replies":[
+            {
+                "text":"I found a bunch of goods hidden in the cave east, here's a blade I took.",
+                "nextPhraseID":"brightport_gunfryk11",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_sword0",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Not yet. But i'll find something substantial soon. ",
+                "nextPhraseID":"brightport_gunfryk10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_selector0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_selectorafter",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_selectorafter",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_help",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_selector_after",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk_fail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk10",
+        "message":"I see, good luck with that."
+    },
+    {
+        "id":"brightport_gunfryk11",
+        "message":"Most interesting, yes that warrants an investigation, what is the name of these criminals?",
+        "replies":[
+            {
+                "text":"Barthold and Dynes sir.",
+                "nextPhraseID":"brightport_gunfryk12"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk12",
+        "message":"Well done $playername, they will be apprehended as soon as I give my men the order, as for you a reward is most deserving, here is some gold.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_gunfryk13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk13",
+        "message":"We sure need more brave law upholding youngsters you like you around! - I'll make sure to write to my superiors about you, after graduating the academy here be sure to give the military academy a try. Glory to Feygard!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":700
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":120
+            }
+        ]
+    },
+    {
+        "id":"brightport_gunfryk_help",
+        "message":"It's good to see you around kid, glory to Feygard. "
+    },
+    {
+        "id":"brightport_gunfryk_selector_after",
+        "message":"It sours my day to see a treacherous criminal rat. You and yours friends will regret this day."
+    },
+    {
+        "id":"brightport_gunfryk_fail",
+        "message":"We only caught that spy because of you kid, but please remember to stay away from the woods, it's dangerous."
+    },
+    {
+        "id":"brightport_goons33",
+        "message":"Ha! what gives, or are you making a joke?",
+        "replies":[
+            {
+                "text":"Right I was joking, sorry.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You don't have the guild's protection. It's either I give this blade I took from your hideout to the guards. Or 2000 gold. You pick.",
+                "nextPhraseID":"brightport_goons34",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_sword0",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons34",
+        "message":"Argh! Dynes hand him our gold!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons35"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons35",
+        "message":"[Dynes begrudgingly takes out a bag of gold and throws iit your way.]",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons36"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":2000
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons36",
+        "message":"Curses on that Benbyr for sending a rat like you our way! now get out breadface, our deal is over!",
+        "switchToNPC":"brightportgoons1"
+    },
+    {
+        "id":"brightport_goon_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_selectorafter",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons_selectorafter",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_after0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_after",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_after1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_after2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":100
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons_after0",
+        "message":"Enjoy your reward, traitor. Just remember, that gold won't keep you safe when my friends put their eyes on you."
+    },
+    {
+        "id":"brightport_goons_after",
+        "message":"How dare you come here after selling us out. Hope the coin was worth it, coward."
+    },
+    {
+        "id":"brightport_goons_after1",
+        "message":"Good to see you again, friend. Business been steadier lately.",
+        "replies":[
+            {
+                "text":"Good to hear. [Leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons_after2",
+        "message":"Nice to see you around $playername. can't say we've been doing better before.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons37"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons37",
+        "message":"The old commander's gone but his mutts have kept their pace, though we've managed to sneak in a few more bribes than usual, he he.",
+        "switchToNPC":"brightportgoons",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons38",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":152
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons38",
+        "message":"Feygard sent a new guy if you haven't seen already, seems like your lie has worked, this guy is more of a warrior than a justiciar, so we'll keep things optimistic for now.",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"If you need someone dead you know who to call. The guard buster $playername.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

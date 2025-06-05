@@ -113,8 +113,12 @@
                 "logText":"While investigating the Brightport theft. I learnt from Bryma that Andor was the one who stole the important document, and brought it to her in exchange for her alchemy knowledge."
             },
             {
+                "progress":127,
+                "logText":"Regaining his peace of mind after I helped him, Stanwick said he'll tell me more about Andor once he gathers his thoughts."
+            },
+            {
                 "progress":130,
-                "logText":"Stanwick ",
+                "logText":"Stanwick gave me an insignia that I should show to his father. Jorwick in Nor city.",
                 "rewardExperience":5000
             }
         ]

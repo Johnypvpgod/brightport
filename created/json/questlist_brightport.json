@@ -416,10 +416,6 @@
                 "logText":"greedy XD"
             },
             {
-                "progress":134,
-                "logText":"barthold quest done"
-            },
-            {
                 "progress":135,
                 "logText":"thieve caught"
             },
@@ -478,6 +474,18 @@
             {
                 "progress":149,
                 "logText":"hide success"
+            },
+            {
+                "progress":150,
+                "logText":"blackmail route"
+            },
+            {
+                "progress":151,
+                "logText":"barthold and dynes not guild"
+            },
+            {
+                "progress":152,
+                "logText":"new guy in town."
             }
         ]
     },
@@ -647,7 +655,7 @@
             },
             {
                 "progress":60,
-                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to loosen his grip on Brightport's underworld."
+                "logText":"I used the records to blackmail Gunfryk, to save his reputation he begrudgingly agreed to give my friends some leeway."
             },
             {
                 "progress":70,
@@ -674,6 +682,11 @@
             {
                 "progress":120,
                 "logText":"Gunfryk was happy with my work, the duo will soo be jailed. He said Feygard needs more brave youngsters like me and that I should give the military academy a try.",
+                "finishesQuest":1
+            },
+            {
+                "progress":130,
+                "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers.",
                 "finishesQuest":1
             }
         ]

@@ -316,7 +316,7 @@
         "id":"brightportgoons1",
         "name":"Barthold",
         "iconID":"monsters_ld1:64",
-        "phraseID":"brightport_goons_selector"
+        "phraseID":"brightport_goon_selector"
     },
     {
         "id":"brightportnpc9",
@@ -465,7 +465,7 @@
         "name":"Gunfryk",
         "iconID":"monsters_ld1:74",
         "faction":"gunfryk",
-        "phraseID":"brightport_gunfryk_selector"
+        "phraseID":"brightport_gunfryk_selector0"
     },
     {
         "id":"brightport_sickfawn",
