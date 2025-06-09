@@ -873,5 +873,17 @@
         "id":"playernametest",
         "name":"$playername",
         "iconID":"monsters_fatboy73:64"
+    },
+    {
+        "id":"brightport_newcommander",
+        "name":"Gavrhil",
+        "iconID":"monsters_men:3",
+        "phraseID":"brightport_newcommander"
+    },
+    {
+        "id":"brightport_guardgoons",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:95",
+        "phraseID":"brightport_guards"
     }
 ]

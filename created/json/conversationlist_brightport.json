@@ -8731,6 +8731,50 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_dynes_superextreme",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":130
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_extreme",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_superhigh",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_high",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":90
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_dynes_medium",
                 "requires":[
                     {
@@ -8755,7 +8799,8 @@
         ]
     },
     {
-        "id":"brightport_dynes_medium"
+        "id":"brightport_dynes_medium",
+        "message":"Got something you want to talk about?"
     },
     {
         "id":"brightport_dynes_low",
@@ -8884,6 +8929,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":10
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":128
             }
         ]
     },
@@ -9154,14 +9204,14 @@
         "message":"Unless you could travel to Feygard and speak with Lord Emerion im afraid not my child.",
         "replies":[
             {
-                "text":"Thanks for telling me the story, I will be on my way.",
+                "text":"Thanks for telling me this story. I'll go now.",
                 "nextPhraseID":"X"
             }
         ]
     },
     {
         "id":"brightport_goons20",
-        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to some of the merchandise we've hid away in a cave.",
+        "message":"Yeah, he really threw a wrench in our cogs, that guard outside was put there to watch on us for a year now. We've only managed to stay afloat thanks to some of the merchandise I've hid away in a cave.",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -9497,6 +9547,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":60
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":139
             }
         ]
     },
@@ -9567,8 +9622,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":32,
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
                         "negate":true
                     }
                 ]
@@ -9609,7 +9664,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
-                        "value":25
+                        "value":32
                     }
                 ]
             }
@@ -9678,23 +9733,6 @@
                         "requireID":"brightport_nondisplay",
                         "value":135,
                         "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_gunfryk",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":60,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":150
                     }
                 ]
             },
@@ -9931,6 +9969,10 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":70
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_new"
             }
         ]
     },
@@ -9972,7 +10014,7 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":2000
+                "value":1200
             },
             {
                 "rewardType":"questProgress",
@@ -10000,6 +10042,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_thieves",
                 "value":60
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":136
             }
         ]
     },
@@ -10114,6 +10161,17 @@
             {
                 "text":"Erm, I have to go now. [Leave.]",
                 "nextPhraseID":"X"
+            },
+            {
+                "text":"The agent got arrested by the guards.",
+                "nextPhraseID":"brightport_elysa10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":60
+                    }
+                ]
             }
         ]
     },
@@ -11699,7 +11757,7 @@
     },
     {
         "id":"brightport_gunfryk11",
-        "message":"Most interesting, yes that warrants an investigation, what is the name of these criminals?",
+        "message":"Most interesting, Nor city made, nothing of that sort passes through our checkpoints without permission. Yes that warrants an investigation, what is the name of these criminals?",
         "replies":[
             {
                 "text":"Barthold and Dynes sir.",
@@ -11727,9 +11785,14 @@
                 "value":700
             },
             {
+                "rewardType":"spawnAll",
+                "rewardID":"arrest",
+                "mapName":"brightport_benbyr"
+            },
+            {
                 "rewardType":"questProgress",
-                "rewardID":"brightport_goons",
-                "value":120
+                "rewardID":"brightport_nondisplay",
+                "value":139
             }
         ]
     },
@@ -11739,7 +11802,7 @@
     },
     {
         "id":"brightport_gunfryk_selector_after",
-        "message":"It sours my day to see a treacherous criminal rat. You and yours friends will regret this day."
+        "message":"It sours my day to see a treacherous criminal rat. You and yours friends will regret this one day."
     },
     {
         "id":"brightport_gunfryk_fail",
@@ -11778,7 +11841,7 @@
     },
     {
         "id":"brightport_goons35",
-        "message":"[Dynes begrudgingly takes out a bag of gold and throws iit your way.]",
+        "message":"[Dynes begrudgingly takes out a bag of gold and throws it your way.]",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -11790,7 +11853,12 @@
             {
                 "rewardType":"giveItem",
                 "rewardID":"gold",
-                "value":2000
+                "value":1869
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":139
             }
         ]
     },
@@ -11878,11 +11946,23 @@
     },
     {
         "id":"brightport_goons_after0",
-        "message":"Enjoy your reward, traitor. Just remember, that gold won't keep you safe when my friends put their eyes on you."
+        "message":"How dare you come back after selling us out! Hope the coin was worth it, coward."
     },
     {
         "id":"brightport_goons_after",
-        "message":"How dare you come here after selling us out. Hope the coin was worth it, coward."
+        "message":"Enjoy your reward, traitor. Just remember, that gold won't keep you safe when my friends put their eyes on you!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_after3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_arrest"
+            }
+        ]
     },
     {
         "id":"brightport_goons_after1",
@@ -11924,7 +12004,7 @@
     },
     {
         "id":"brightport_goons38",
-        "message":"Feygard sent a new guy if you haven't seen already, seems like your lie has worked, this guy is more of a warrior than a justiciar, so we'll keep things optimistic for now.",
+        "message":"Feygard sent a new guy if you haven't seen already. Seems like your lie has worked. This guy is more of a warrior than a justiciar, so we'll keep things optimistic for now.",
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
@@ -11932,5 +12012,237 @@
                 "nextPhraseID":"X"
             }
         ]
+    },
+    {
+        "id":"brightport_newcommander_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_newcommander_script2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":153,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_new",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_newcommander_script2",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":153
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_newcommander",
+                "mapName":"brightport_bakery"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa10"
+    },
+    {
+        "id":"brightport_smugglercave",
+        "message":"behind the planks is a cave entrance, and a wind draft going in. ",
+        "replies":[
+            {
+                "text":"[Squeeze in through the gap.]",
+                "nextPhraseID":"brightport_smugglercave_teleport"
+            },
+            {
+                "text":"[Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smugglercave_teleport",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"entrance",
+                "mapName":"brightport_smugglercave"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smugglersign",
+        "message":"[DANGER, do not go past this sign!]"
+    },
+    {
+        "id":"brightport_emptycrate",
+        "message":"Just an empty crate. "
+    },
+    {
+        "id":"brightport_coal",
+        "message":"A crate filled with dusty brown rocks.",
+        "replies":[
+            {
+                "text":"[Examine them.]",
+                "nextPhraseID":"brightport_coal2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_coal2",
+        "message":"Nothing, just brown rocks."
+    },
+    {
+        "id":"brightport_smuggler_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_smuggler_selector2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":154,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_smuggler_selector2",
+        "message":"Behind the rocks a small crate is tucked away.",
+        "replies":[
+            {
+                "text":"[Open it.]",
+                "nextPhraseID":"brightport_smuggler_selector3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smuggler_selector3",
+        "message":"You try to open it but it's locked.",
+        "replies":[
+            {
+                "text":"Meh, no one will notice. [Smash it open.] ",
+                "nextPhraseID":"brightport_smuggler_selector4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_smuggler_selector4",
+        "message":"[After smashing the lid open with a rock, you see a dozen unsharpened blades, even at first glance the material seems super high quality. You grab one hoping it will be good enough proof for the commander.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":154
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_sword0",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_guards",
+        "message":"You're the kid who gave us the information on these two right? Good work on that."
+    },
+    {
+        "id":"brightport_arrest",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_arrest2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":155,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_arrest",
+                        "value":10
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_arrest2",
+        "rewards":[
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportgoons",
+                "mapName":"brightport_benbyr"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"brightportgoons1",
+                "mapName":"brightport_benbyr"
+            },
+            {
+                "rewardType":"deactivateSpawnArea",
+                "rewardID":"arrest",
+                "mapName":"brightport_benbyr"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":155
+            }
+        ]
+    },
+    {
+        "id":"brightport_newcommander",
+        "message":"It's unfortunate what happened to the honorable commander Gunfryk, but we'll make sure there is nothing to worry about now.",
+        "replies":[
+            {
+                "text":"Does this mean Feygard will finally do something about those creatures?",
+                "nextPhraseID":"brightport_newcommander0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":152
+            }
+        ]
+    },
+    {
+        "id":"brightport_newcommander0",
+        "message":"What- Erm. Look, kid, I\u2019m busy right now. Could you just go away?"
+    },
+    {
+        "id":"brightport_dynes_high",
+        "message":"It's nice to see you around, friend. "
+    },
+    {
+        "id":"brightport_dynes_extreme",
+        "message":"You traitor! Watch your back in Nor City\u2019s alleys, our friends won\u2019t forget what you did!"
+    },
+    {
+        "id":"brightport_goons_after3",
+        "message":"Oh shut up, we still have an investigation to do here.",
+        "switchToNPC":"brightport_guardgoons"
+    },
+    {
+        "id":"brightport_dynes_superhigh",
+        "message":"You really showed that Feygard dog whose boss, haha!"
+    },
+    {
+        "id":"brightport_dynes_superextreme",
+        "message":"Tch, get out of here, you greedy sellout. Money can be earned again. Trust doesn\u2019t come back."
     }
 ]

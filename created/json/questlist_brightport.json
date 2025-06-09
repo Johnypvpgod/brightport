@@ -486,6 +486,18 @@
             {
                 "progress":152,
                 "logText":"new guy in town."
+            },
+            {
+                "progress":153,
+                "logText":"new commander script"
+            },
+            {
+                "progress":154,
+                "logText":"crate opened"
+            },
+            {
+                "progress":155,
+                "logText":"arrest"
             }
         ]
     },
