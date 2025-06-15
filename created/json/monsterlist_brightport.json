@@ -451,7 +451,7 @@
     },
     {
         "id":"brightportnpc10",
-        "name":"Thyrmo",
+        "name":"Delon",
         "iconID":"monsters_ld1:195"
     },
     {
@@ -566,7 +566,8 @@
         "id":"brightportstoragenpc",
         "name":"Allares",
         "iconID":"monsters_johny:0",
-        "monsterClass":"humanoid"
+        "monsterClass":"humanoid",
+        "phraseID":"brightport_allares"
     },
     {
         "id":"brightport_chef",

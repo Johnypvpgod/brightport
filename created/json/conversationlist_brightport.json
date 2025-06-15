@@ -70,7 +70,7 @@
         "switchToNPC":"brightportstudent10",
         "replies":[
             {
-                "text":"Can you tell me who this professor is",
+                "text":"Can you tell me who this professor is?",
                 "nextPhraseID":"brightport_student_2_reply"
             }
         ]
@@ -504,7 +504,7 @@
     },
     {
         "id":"brightport_priest_story5",
-        "message":"I have heard stories from adventurer's of lizardmen with scales of different colors, displaying more reason than the red-scaled ones, but stay safe my child.",
+        "message":"I have heard stories from adventurers of lizardmen with scales of different colors, displaying more reason than the red-scaled ones, but stay safe my child.",
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
@@ -539,22 +539,22 @@
     },
     {
         "id":"brightport_loudmouth",
-        "message":"Hey kid, have you met my brother outside? Haha, that guy's a real Scrooge, they say we're nothing alike,  I'm telling you. He's just like Mom - We'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
+        "message":"Hey kid, have you met my brother outside? Haha, that guy's a real scrooge, they say we're nothing alike,  I'm telling you. He's just like mom - We'd ask her to tell us a bedtime story, and she'd have us pay for it with shiny stones or rainbow beetles. Hic. Speaking of bedtime stories..",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
-                "text":"Im all ears.",
+                "text":"I'm all ears.",
                 "nextPhraseID":"brightport_loudmouth1"
             },
             {
-                "text":"Im afraid if I let you speak it will never end.",
+                "text":"I'm afraid if I let you speak it will never end.",
                 "nextPhraseID":"brightport_loudmouth3"
             }
         ]
     },
     {
         "id":"brightport_loudmouth1",
-        "message":"I once heard a story about a guy who visited a kingdom ruled by rats - They call it the Ratdom! Haha! People say he disappeared as a child and reappeared a decade later, wearing clothes made entirely of ratskin. He even spoke Rattish! Imagine that, speaking Rattish! Hic. speaking of rats...",
+        "message":"I once heard a story about a guy who visited a kingdom ruled by rats - They call it \"Ratdom\"! Haha! People say he disappeared as a child and reappeared a decade later, wearing clothes made entirely of ratskin. He even spoke Rattish! Imagine that, speaking Rattish! Hic. speaking of rats...",
         "switchToNPC":"brightportthieves",
         "replies":[
             {
@@ -580,7 +580,7 @@
         "switchToNPC":"brightportthieves",
         "replies":[
             {
-                "text":"Interesting, but i must go now.",
+                "text":"Interesting, but I must go now.",
                 "nextPhraseID":"X"
             }
         ]
@@ -605,7 +605,7 @@
                 "nextPhraseID":"brightport_inn2"
             },
             {
-                "text":"Nevermind.",
+                "text":"Never mind.",
                 "nextPhraseID":"X"
             }
         ]
@@ -616,11 +616,11 @@
         "switchToNPC":"brightportinn",
         "replies":[
             {
-                "text":"Alright, bye.",
+                "text":"That's too bad, it seems like a lovely place.",
                 "nextPhraseID":"X"
             },
             {
-                "text":"[This place is disappointing.]",
+                "text":"This place is disappointing.",
                 "nextPhraseID":"X"
             }
         ]
@@ -826,7 +826,7 @@
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
-                "text":"Andor is my dear brother, i will do whatever it takes to find him, tell me what you know.",
+                "text":"Andor is my dear brother, Ii will do whatever it takes to find him, tell me what you know.",
                 "nextPhraseID":"brightport_silvear_andor2"
             },
             {
@@ -859,7 +859,7 @@
     },
     {
         "id":"brightport_silvear",
-        "message":"I specialize in trading information, rumors, stories, and the like. not something I could sell to a kid like you.  ",
+        "message":"I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.  ",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -875,7 +875,7 @@
                 ]
             },
             {
-                "text":"It happens that Im interested in the local Guard commander. Can you tell me anything about him?",
+                "text":"It happens that I'm interested in the local guard commander. Can you tell me anything about him?",
                 "nextPhraseID":"brightport_silvear0",
                 "requires":[
                     {
@@ -914,7 +914,7 @@
     },
     {
         "id":"brightport_silvear_andor2",
-        "message":"As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold.",
+        "message":"As I mentioned, I'm a merchant. I can tell you about Andor, but it will cost you. Say, 500 gold?",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1034,7 +1034,7 @@
     },
     {
         "id":"brightport_silvear_boss",
-        "message":"Our boss? let me think.",
+        "message":"Our boss? Let me think.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1050,7 +1050,7 @@
     },
     {
         "id":"brightport_silvear_directions1",
-        "message":"For you, it'll be 2,000 gold coins. It's our hideout, kid, I can't just give out access for free.",
+        "message":"For you, it'll be 2000 gold coins. It's our hideout, kid, I can't just give out access for free.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1102,7 +1102,7 @@
     },
     {
         "id":"brightport_silvear_direction4",
-        "message":"Sure, that was impressive for someone your age, but what goes down in Umar's turf has little to do with the guild here in Brightport.",
+        "message":"Sure, that was impressive for someone your age, but what goes down in Umar's turf has little to do with the Guild here in Brightport.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1124,7 +1124,7 @@
     },
     {
         "id":"brightport_silvear_directions5",
-        "message":"OK OK. fine, I apologize, the guild's policy is for me to inform new members and useful visitors of the hideout for free.",
+        "message":"OK OK. fine, I apologize.. The Guild's policy is for me to inform new members and useful visitors of the hideout for free.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1135,7 +1135,7 @@
     },
     {
         "id":"brightport_silvear_directions6",
-        "message":"The entire fee thing was my own idea. please don't tell the boss.",
+        "message":"The entire fee thing was my own idea. Please don't tell the boss.",
         "switchToNPC":"brightportthieves1",
         "replies":[
             {
@@ -1146,7 +1146,7 @@
     },
     {
         "id":"brightport_silvear_directions7",
-        "message":"To find our hideout, head inside via the door on the right, then check behind a stool in the upper left corner. best of luck to you kid.",
+        "message":"To find our hideout, head inside via the door on the right, then check behind a stool in the upper left corner. Best of luck to you kid.",
         "switchToNPC":"brightportthieves1",
         "rewards":[
             {
@@ -1186,7 +1186,7 @@
     },
     {
         "id":"brightport_breadgolem1",
-        "message":"[The mass of dough is slowly pulsating]",
+        "message":"[The mass of pulsating dough is slowly expanding.]",
         "replies":[
             {
                 "text":"N",
@@ -1204,7 +1204,7 @@
                 "nextPhraseID":"X"
             },
             {
-                "text":"Sorry, i didn't know.",
+                "text":"Sorry, I didn't know.",
                 "nextPhraseID":"X"
             }
         ]
@@ -1228,7 +1228,7 @@
     },
     {
         "id":"brightport_armor1",
-        "message":"Hi kid, Im Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.",
+        "message":"Hi kid, I'm Janus the armorsmith, if you want some brand new equipment you would do right to visit my house.",
         "switchToNPC":"brightportbakery1",
         "replies":[
             {
@@ -1364,7 +1364,7 @@
     },
     {
         "id":"brightport_oseanpry2",
-        "message":"Im Oseanpry, a hunter, and the guild's cook. I've hunted the deer of brightport for many years. until the boss hired me to hunt for people.",
+        "message":"Im Oseanpry, a hunter, and the Guild's cook. I've hunted the deer of brightport for many years. until the boss hired me to hunt for people.",
         "switchToNPC":"Brightportthieves5",
         "replies":[
             {
@@ -1421,7 +1421,7 @@
     },
     {
         "id":"brightport_elynard",
-        "message":"Hello, my name is Elynard, I came here from a beautiful village called Luthaven. You should visit it sometime."
+        "message":"Hello, my name is Elynard, I came here from a beautiful town called Sullengard. You should visit it sometime."
     },
     {
         "id":"brightport_janwick",
@@ -1493,7 +1493,7 @@
     },
     {
         "id":"brightport_dibella1",
-        "message":"It's the time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
+        "message":"It's time for the history lecture. If you hurry, you might still make it to the lecture room on time!",
         "replies":[
             {
                 "text":"My brother has been missing, so I'm here to ask his friend Stanwick for a clue on his whereabouts. Could you tell me where I can find Stanwick?",
@@ -1656,7 +1656,7 @@
     },
     {
         "id":"brightport_dibella4",
-        "message":"Have you not heard of it? Stanwick is on strict house arrest following the recent library incident. No one is allowed to enter his room except for his roommate and family.",
+        "message":"Stanwick is on strict house arrest following the recent library incident, have you not heard of it? No one is allowed to enter his room except for his roommate and family.",
         "replies":[
             {
                 "text":"What incident?",
@@ -1673,7 +1673,7 @@
     },
     {
         "id":"brightport_dibella2",
-        "message":"Let me see... that should be fine. I can make an exception if Grandpa Janwick asked you.",
+        "message":"Let me see... that should be fine. I can make an exception if grandpa Janwick asked you.",
         "replies":[
             {
                 "text":"N",
@@ -1683,7 +1683,7 @@
     },
     {
         "id":"brightport_dibella3",
-        "message":"Go via the hallway on the left until you reach the dorms, Stanwick's room is the second door in the middle.",
+        "message":"Go via the hallway on the left until you reach the dorms, Stanwick's room is the second door in the middle, if you knock twice he should open it.",
         "replies":[
             {
                 "text":"Thank you miss.",
@@ -1730,7 +1730,7 @@
         "message":"Stanwick looks after the library, so after questioning the teachers and students, the Headmaster decided that Stanwick would stay in his room until the end of the investigation.",
         "replies":[
             {
-                "text":"What was soo important about this document anyway?",
+                "text":"You mentioned a missing document, what was so important about it?",
                 "nextPhraseID":"brightport_dibella8"
             }
         ],
@@ -1744,7 +1744,7 @@
     },
     {
         "id":"brightport_dibella8",
-        "message":"Im not aware, my job entails depositing paperwork in the archive, not reading it. Any necessary document I keep in my desk. Besides, the important documents are locked in a box that only the principal is allowed to open.",
+        "message":"I'm not aware, I keep any documents necessary for my work inside of my desk. The important ones are locked in a box in the archive, that only the principal is allowed to open.",
         "replies":[
             {
                 "text":"I see, thanks.",
@@ -1820,7 +1820,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"franz_note_read_timer",
-                        "value":20,
+                        "value":15,
                         "negate":true
                     },
                     {
@@ -1848,7 +1848,7 @@
                     {
                         "requireType":"timerElapsed",
                         "requireID":"franz_note_read_timer",
-                        "value":20,
+                        "value":15,
                         "negate":false
                     },
                     {
@@ -1898,7 +1898,7 @@
     },
     {
         "id":"brightport_dibella9",
-        "message":"I take it you are looking to help your friend Stanwick. Very well.",
+        "message":"I take it you are looking to help your friend Stanwick? Very well.",
         "replies":[
             {
                 "text":"N",
@@ -1955,7 +1955,7 @@
     },
     {
         "id":"brightport_milena3",
-        "message":"A longer time ago than the incident, even before the last graduation class, one evening I was preparing the soup stock for the next day when I noticed a dark figure going outside from the direction of the dormitory.",
+        "message":"A long time ago last year, one evening I was preparing the soup stock for the next day, when I noticed a dark figure going outside from the direction of the dormitory.",
         "replies":[
             {
                 "text":"N",
@@ -1972,7 +1972,7 @@
     },
     {
         "id":"brightport_milena4",
-        "message":"I assumed that I was just tired and didn't give it much thought. I told the headmaster, but it didn't seem to be related to the theft. That's all.",
+        "message":"One evening last year, while I was preparing the soup stock for the next day, I noticed a dark figure going out from the direction of the dormitory.",
         "replies":[
             {
                 "text":"Interesting, thanks.",
@@ -2326,7 +2326,7 @@
                 ]
             },
             {
-                "text":"Evidently. a tale of my adventures!",
+                "text":"Evidently. A tale of my adventures!",
                 "nextPhraseID":"brightport_write_2",
                 "requires":[
                     {
@@ -2701,12 +2701,17 @@
                 "rewardType":"questProgress",
                 "rewardID":"Stanwickquest",
                 "value":20
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":126
             }
         ]
     },
     {
         "id":"brightport_stanwick8",
-        "message":"At this rate I will be freed of suspicion, but if they don't find the stolen document while im still on room arrest, my reputation might never recover.",
+        "message":"At this rate I will be freed of suspicion, but if they don't find the stolen document while I'm still on room arrest, my reputation might never recover.",
         "replies":[
             {
                 "text":"I heard of the incident. I could help you with it.",
@@ -2746,7 +2751,7 @@
     },
     {
         "id":"brightport_stanwick10",
-        "message":"Thank you $playername, Im convinced I can entrust this to you.",
+        "message":"Thank you $playername, I'm convinced I can entrust this to you.",
         "replies":[
             {
                 "text":"N",
@@ -2756,7 +2761,7 @@
     },
     {
         "id":"brightport_stanwick11",
-        "message":"OK. You should start by asking people around the academy. maybe it will send you in the right direction. Good luck.",
+        "message":"OK. You should start by asking people around the academy. Maybe it will send you in the right direction. Good luck.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -2953,14 +2958,14 @@
     },
     {
         "id":"brightport_bryma",
-        "message":"A visitor, how unusual. I presume you haven't simply stumbled upon my cabin by accident.",
+        "message":"A visitor, how unusual. I presume, you haven't simply stumbled upon my cabin by accident?",
         "replies":[
             {
                 "text":"Are you the person named Bryma?",
                 "nextPhraseID":"brightport_bryma0"
             },
             {
-                "text":"Yuck, what are those things behind your cabin?",
+                "text":"Yuck, what is that thing inside your kitchen?",
                 "nextPhraseID":"brightport_bryma7"
             }
         ],
@@ -3006,17 +3011,7 @@
     },
     {
         "id":"brightport_oswald2",
-        "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. But the safety of the academy comes first. I am sure Stanwick is innocent, but we can't be safe enough, when it comes to matters as this.",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_oswald3"
-            }
-        ]
-    },
-    {
-        "id":"brightport_oswald3",
-        "message":"If the lord in charge of the town of Brightport learns of the contents of the scroll, we will be accused of treason, heads might roll, and our town's standing will be greatly diminished. Do you understand what's at stake now?",
+        "message":"I admit that this decision might put Stanwick's future employment in Nor city at risk. But the safety of the academy comes first. I am sure Stanwick is innocent, but we can't be safe enough, when it comes to matters as this. Do you understand what's at stake now?",
         "replies":[
             {
                 "text":"Yes, it was a reasonable action.",
@@ -3025,6 +3020,16 @@
             {
                 "text":"That still doesn't make it right.",
                 "nextPhraseID":"brightport_oswald5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_oswald3",
+        "message":"If the lord in charge of the town of Brightport had learnt what was on that scroll, we'd have been accused of treason, and heads would\u2019ve rolled. This was for the best. And thanks to you, it's all behind us now.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_oswald18"
             }
         ]
     },
@@ -3533,6 +3538,13 @@
                         "negate":true
                     }
                 ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":156
             }
         ]
     },
@@ -4283,7 +4295,7 @@
     },
     {
         "id":"brightport_statue_central2",
-        "message":"After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.\n\nStraight and cluttered lines. they don't look like any of the symbols you know. next to them is a an odd pictogram\n\n                                           *            \n\n*                 \n                                   #\n                                                   *",
+        "message":"After a bit of examination you notice something engraved on the statue's base. Strange symbols unlike any you have seen before.\n\nStraight and cluttered lines. They don't look like any of the symbols you know. Next to them is an odd pictogram\n\n                                           *            \n\n*                 \n                                   #\n                                                   *",
         "replies":[
             {
                 "text":"N",
@@ -5832,6 +5844,10 @@
             {
                 "text":"A former baker named Bryma was in possesion of it. How she acquired it im unaware.",
                 "nextPhraseID":"brightport_oswald16"
+            },
+            {
+                "text":"Hey, I spent a lot of time to find it! Why did you burn it?",
+                "nextPhraseID":"brightport_oswald3"
             }
         ]
     },
@@ -5847,7 +5863,7 @@
     },
     {
         "id":"brightport_oswald16",
-        "message":"As I suspected, it was someone interested in its contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock.",
+        "message":"As I suspected, it was someone interested in it's contents. Anyhow, that name is of little importance to us now. The academy's priority should be increasing the security of the library, and we'll start by changing the archive's lock. [The headmaster looks at you sternly]",
         "replies":[
             {
                 "text":"N",
@@ -5965,10 +5981,10 @@
     },
     {
         "id":"brightport_bryma0",
-        "message":"It's an odd coincidence that the only 2 visitors I have had in years are asking the same question. You two could almost be twins.",
+        "message":"It's an odd coincidence that the only two visitors I have had in years are asking the same question. You two could almost be twins.",
         "replies":[
             {
-                "text":"So you are Bryma then. I'm looking for a document from the brightport archive that was stolen.",
+                "text":"So you are Bryma then. I'm looking for a document from the Brightport archive that was stolen.",
                 "nextPhraseID":"brightport_bryma2"
             },
             {
@@ -6173,7 +6189,7 @@
     },
     {
         "id":"brightport_bryma7",
-        "message":"Those are the bread golems I managed to create after years of research and study, with the great minds of Nor city.",
+        "message":"That is one of the bread golems I invented, after years of research and study, with the great minds of Nor city.",
         "replies":[
             {
                 "text":"N",
@@ -6576,7 +6592,14 @@
     },
     {
         "id":"brightport_storemaster3",
-        "message":"You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days, huh."
+        "message":"You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days, huh.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":157
+            }
+        ]
     },
     {
         "id":"brightport_emyro_selector",
@@ -6819,7 +6842,7 @@
     },
     {
         "id":"brightport_councilor",
-        "message":"Ho ho, younglin', how goes the day? coughs Don't mind me, just speak your piece.",
+        "message":"Ho ho, younglin', how goes the day? [The old man coughs]  Don't mind me, just speak your piece.",
         "replies":[
             {
                 "text":"Sorry, I've got nothing to say."
@@ -6846,7 +6869,7 @@
     },
     {
         "id":"brightport_mayor0",
-        "message":"Your brother, you say? Let's see...\"\n\n[Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.]\n\nAndor, Andor...",
+        "message":"Your brother, you say? Let's see...\n\n[Rubiano pulls out a small folder from his desk and starts browsing through it, muttering to himself.]\n\nAndor, Andor...",
         "replies":[
             {
                 "text":"N",
@@ -6859,7 +6882,7 @@
         "message":"The Doughe is the one who oversees Brightport, much like a mayor. The title is chosen by the council from among the De Lucent family, as we've guided the township's administration since its founding.",
         "replies":[
             {
-                "text":"Begging your pardon, but are you of noble blood, Sir?",
+                "text":"Begging your pardon, but are you of noble blood, sir?",
                 "nextPhraseID":"brightport_mayor2"
             }
         ]
@@ -6894,7 +6917,7 @@
     },
     {
         "id":"brightport_mayor5",
-        "message":"Brightport was founded by my ancestors over 700 years ago. Sir Lucient of House De Lucent and his loyal squires were the first to set foot on this shore of the Bright lake.",
+        "message":"Brightport was founded by my ancestors over 700 years ago. Sir Lucient of House De Lucent and his loyal squires were the first to set foot on this shore of the Bright Lake.",
         "replies":[
             {
                 "text":"N",
@@ -6914,7 +6937,7 @@
     },
     {
         "id":"brightport_mayor7",
-        "message":"We of the De Lucent family have been guiding the town ever since. But regrettably, the past Doughe, my father, was executed by decree of the king for having sided with lord Emeric of Nor city. Since then, we've had to answer not to the king directly but to a foreign nobleman ruling over our lands.",
+        "message":"We of the De Lucent family have been guiding the town ever since. But regrettably, the past Doughe, my father, was executed by decree of the king for having sided with Lord Emeric of Nor city. Since then, we've had to answer not to the king directly but to a foreign nobleman ruling over our lands.",
         "replies":[
             {
                 "text":"Thanks for telling me this story, I'll be on my way.",
@@ -7010,6 +7033,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Not yet, I wish to ask you about other things.",
+                "nextPhraseID":"brightport_bryma14"
             }
         ]
     },
@@ -8471,14 +8498,14 @@
     },
     {
         "id":"brightport_dominio0",
-        "message":"You returned the bones of our people back to us, shadow be with you, human.",
+        "message":"You returned the bones of our people back to us, Shadow be with you, human.",
         "replies":[
             {
                 "text":"The chieftain told me, you have a task for me.",
                 "nextPhraseID":"brightport_dominio4"
             },
             {
-                "text":"Why is a shadow priest in this place?",
+                "text":"Why is a Shadow priest in this place?",
                 "nextPhraseID":"Brightport_dominio1"
             }
         ]
@@ -8495,7 +8522,7 @@
     },
     {
         "id":"brightport_dominio2",
-        "message":"I see you are longing for the wisdom of the shadow, but you have been sent to me with a purpose, is that not the case?",
+        "message":"I see you are longing for the wisdom of the Shadow, but you have been sent to me with a purpose, is that not the case?",
         "replies":[
             {
                 "text":"The chieftain told me you have a task for me.",
@@ -8612,7 +8639,7 @@
     },
     {
         "id":"brightport_dominio10",
-        "message":"Good, the specific phrase you must chant is \"Kazaul thu'um kha'zan\" after that deliver a solid blow to these crystals, report back to me if this truly works. May the shadow watch over you.",
+        "message":"Good, the specific phrase you must chant is \"Kazaul thu'um kha'zan\" after that deliver a solid blow to these crystals, report back to me if this truly works. May the Shadow watch over you.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -8668,7 +8695,7 @@
         "message":"Shadow welcomes you, friend.",
         "replies":[
             {
-                "text":"How did the shadow end up in a place like this?",
+                "text":"How did the Shadow end up in a place like this?",
                 "nextPhraseID":"brightport_dominio16"
             }
         ]
@@ -8703,7 +8730,7 @@
     },
     {
         "id":"brightport_goons0",
-        "message":"Who in Dhayavar are you? you better get out of here before we mess you up.",
+        "message":"Who in Dhayavar are you? You better get out of here before we mess you up.",
         "replies":[
             {
                 "text":"N",
@@ -8834,7 +8861,7 @@
     },
     {
         "id":"brightport_goons2",
-        "message":"Wait, wait Barthold! isn't that the kid?",
+        "message":"Wait, wait Barthold! Isn't that the kid?",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -8909,7 +8936,7 @@
     },
     {
         "id":"brightport_goons8",
-        "message":"Benbyr did? Ha! I guess that guy's still up for business! - Say, you want to work for us?",
+        "message":"Benbyr did? Ha! I guess that guy's still up for business! Say, you want to work for us?",
         "replies":[
             {
                 "text":"The kind of work that sent Benbyr to jail? No thanks.",
@@ -8929,11 +8956,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_goons",
                 "value":10
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":128
             }
         ]
     },
@@ -9057,7 +9079,7 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_elysa",
+                "nextPhraseID":"brightport_elysa_greeting",
                 "requires":[
                     {
                         "requireType":"questProgress",
@@ -9154,7 +9176,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction3",
-        "message":" I can't tell you much more than Umar has told you, howerver there is a single detail of your Brother that might help you.",
+        "message":" I can't tell you much more than Umar has told you, howerver there is a single detail of your brother that might help you.",
         "replies":[
             {
                 "text":"N",
@@ -9185,13 +9207,31 @@
         "replies":[
             {
                 "text":"Who is this Gunfryk guy?",
-                "nextPhraseID":"brightport_goons19"
+                "nextPhraseID":"brightport_goons19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":156
+                    }
+                ]
+            },
+            {
+                "text":"I met Gunfryk, he didn't seem like a bad guy.",
+                "nextPhraseID":"brightport_goons_gunfryk",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":156
+                    }
+                ]
             }
         ]
     },
     {
         "id":"brightport_goons19",
-        "message":"He is the Guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, His men pay no heed to bribes or the Shadow, save for some locals.",
+        "message":"He is the guard captain, Brightport used to be a hub of smuggling, well, we still are. But Gunfryk has significantly stopped it, his men pay no heed to bribes or the Shadow, save for some enlisted locals.",
         "replies":[
             {
                 "text":"N",
@@ -9201,7 +9241,7 @@
     },
     {
         "id":"brightport_priest",
-        "message":"Unless you could travel to Feygard and speak with Lord Emerion im afraid not my child.",
+        "message":"Unless you could travel to Feygard and speak with Lord Emerion I'm afraid not my child.",
         "replies":[
             {
                 "text":"Thanks for telling me this story. I'll go now.",
@@ -9215,7 +9255,7 @@
         "switchToNPC":"brightportgoons",
         "replies":[
             {
-                "text":"I would rather not put myself at odds with the Feygard soldierly, bye. [Leave]",
+                "text":"I would rather not put myself at odds with the Feygard soldierly, bye.",
                 "nextPhraseID":"X"
             },
             {
@@ -9226,7 +9266,7 @@
     },
     {
         "id":"brightport_goons21",
-        "message":"That's a dangerous thing you're saying, there is no way you can do that. He's not exactly a sheep, Gunfryk is a skilled and cunning warior.",
+        "message":"That's a dangerous thing you're saying, there is no way you can do that. He's not exactly a sheep, Gunfryk is a skilled and cunning warrior.",
         "switchToNPC":"brightportgoons1",
         "replies":[
             {
@@ -9244,7 +9284,7 @@
     },
     {
         "id":"brightport_goons22",
-        "message":"Yeah you'd have to be more discrete, we don't want thing to go in a worse direction. If you can pull it off we'll reward you handsomely but if you fail you've got nothing to do with us, understand?",
+        "message":"Yeah you'd have to be more discrete, we don't want things to go in a worse direction. If you can pull it off we'll reward you handsomely but if you fail you've got nothing to do with us, understand?",
         "switchToNPC":"brightportgoons",
         "replies":[
             {
@@ -9287,7 +9327,7 @@
     },
     {
         "id":"brightport_gunfryk0",
-        "message":"We protect Brightport from the critters of the wilderness and barbaric monsters such as those lizardmen. -  All by decree of our king, Lord Geomyr. ",
+        "message":"We protect Brightport from the critters of the wilderness and barbaric monsters such as those lizardmen.  All by decree of our king, Lord Geomyr. ",
         "replies":[
             {
                 "text":"N",
@@ -9297,11 +9337,11 @@
     },
     {
         "id":"Brightport_gunfryk1",
-        "message":"With us around all those Nor city thugs are shaking in their boots, Brightport has never been safer."
+        "message":"With us around all those Nor City thugs are shaking in their boots, Brightport has never been safer."
     },
     {
         "id":"brightport_gunfryk2",
-        "message":"Lizardman you say? that is extremely serious, I will call my men and we will hurry on to save him!",
+        "message":"Lizardman you say? That is extremely serious, I will call my men and we will hurry on to save him!",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -9370,7 +9410,7 @@
         "message":"You mean Gunfryk? He's after the rougher thieves, the ones who step outside Feygard law. Never bothered my work, so I don't bother his. But his guards? They gawk at me like hawks too.",
         "replies":[
             {
-                "text":"That's interesting but I need something.. That I could use.",
+                "text":"That's interesting but I need something that I can \"use\"",
                 "nextPhraseID":"brightport_silvear1_selector"
             }
         ]
@@ -10052,24 +10092,21 @@
     },
     {
         "id":"brightport_elysa",
-        "message":"But as you know very well, the guild has it's rules, we're not keen on doing charity. - Luckily we have just the right errand for you. ",
+        "message":"But as you know very well, the Guild has it's rules, we're not keen on doing charity. Luckily we have just the right errand for you. ",
         "replies":[
             {
-                "text":"N",
-                "nextPhraseID":"brightport_elysa0"
-            }
-        ],
-        "rewards":[
+                "text":"Sure. what is it?",
+                "nextPhraseID":"brightport_elysa12"
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_thieves",
-                "value":5
+                "text":"I don't feel like working for you right now.",
+                "nextPhraseID":"brightport_elysa11"
             }
         ]
     },
     {
         "id":"brightport_elysa0",
-        "message":"First you must know more about our activities and how the guild operates in Brightport.",
+        "message":"First you must know more about our activities and how the Guild operates in Brightport.",
         "replies":[
             {
                 "text":"Sure.",
@@ -10083,7 +10120,7 @@
     },
     {
         "id":"brightport_elysa1",
-        "message":"For most of its existence, the guild in Brightport was mostly a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
+        "message":"For most of its existence, the Guild in Brightport was mostly a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
         "replies":[
             {
                 "text":"N",
@@ -10193,6 +10230,11 @@
                         "requireID":"brightport_thieves",
                         "value":20,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":10
                     }
                 ]
             }
@@ -12244,5 +12286,89 @@
     {
         "id":"brightport_dynes_superextreme",
         "message":"Tch, get out of here, you greedy sellout. Money can be earned again. Trust doesn\u2019t come back."
+    },
+    {
+        "id":"brightport_elysa11",
+        "message":"Is that so? I believe you'll change your mind soon."
+    },
+    {
+        "id":"brightport_elysa12",
+        "message":"Just a little errand for the guild, I believe you are well acquainted with those.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_greeting",
+        "message":"Hello, $playername. Here to work for us? If so we still have that errand for you. ",
+        "replies":[
+            {
+                "text":"Fine I'll do it. ",
+                "nextPhraseID":"brightport_elysa0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_goons_gunfryk",
+        "message":"On the surface hes done good for the locals, they like him, like sheep love the shepherd. But for us who keep the economy of this town alive the laws hes upholding have done us more harm than good.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_stanwickdoor",
+        "message":"The door seems to be locked."
+    },
+    {
+        "id":"brightport_allares",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_allares0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares0",
+        "message":"Please don't bother the cooks. We are very busy today. We've got some big orders for the festival down in Sullengard.",
+        "replies":[
+            {
+                "text":"Perhaps I could help?",
+                "nextPhraseID":"brightport_allares1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":157,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Allares told me to see you.",
+                "nextPhraseID":"brightport_allares2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":157
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares1",
+        "message":"Today we're swamped, so we'll pay you a full day's wage just for a bit of work. Go down to the storage area and see what Delon asks of you."
+    },
+    {
+        "id":"brightport_allares2",
+        "message":"Very good, very good !Go down to the storage roome and speak with Delon. He will put you to use."
     }
 ]

@@ -6,7 +6,7 @@
         "stages":[
             {
                 "progress":5,
-                "logText":"I arrived at Brightport's school,  to be told that Stanwick is under investigation and that he is not allowed visitors."
+                "logText":"I arrived at Brightport's school, only to be told that Stanwick is under investigation and that he is not allowed visitors."
             },
             {
                 "progress":10,
@@ -34,7 +34,7 @@
             },
             {
                 "progress":31,
-                "logText":"Dibella the Lady from the desk at the entrance, had told me that, as a honor student Stanwick's reputation is respectable but even so, as the library supervisor he must be considered a suspect."
+                "logText":"Dibella the Lady from the desk at the entrance. Had told me that Stanwick's reputation is respectable but even so, as the library supervisor he must be considered a suspect."
             },
             {
                 "progress":35,
@@ -70,23 +70,23 @@
             },
             {
                 "progress":65,
-                "logText":"Inside Richimor's house i found a bundle of papers left by Bryma, In there amongst the trivial writings, one paper stood out to as it talked about four strange statues in the vicinity of brightport."
+                "logText":"Inside Richimor's house, I found a bundle of papers left by Bryma, In there amongst the trivial writings, one paper stood out to as it talked about four strange statues in the vicinity of brightport."
             },
             {
                 "progress":66,
-                "logText":"I discovered a strange statue in the forest south of Brightport. with several undecipherable symbols. perhaps this is one of the statues mentioned in the writings of Bryma."
+                "logText":"I discovered a strange statue in the forest south of Brightport.With several undecipherable symbols. Perhaps this is one of the statues mentioned in the writings of Bryma."
             },
             {
                 "progress":70,
-                "logText":"I examined a statue north of Brightport. Carved onto the statue were the symbols for the letters l and h."
+                "logText":"I examined a statue north of Brightport. Carved onto the statue were the symbols for the letters L and H."
             },
             {
                 "progress":75,
-                "logText":"I examined a statue southeast of Brightport. Carved onto the statue were the symbols for the letters t and e."
+                "logText":"I examined a statue southeast of Brightport. Carved onto the statue were the symbols for the letters T and E."
             },
             {
                 "progress":80,
-                "logText":"I examined a statue far southwest of brightport. Carved onto the statue were the symbols for the letters a g, and r."
+                "logText":"I examined a statue far southwest of brightport. Carved onto the statue were the symbols for the letters A G, and R."
             },
             {
                 "progress":85,
@@ -94,11 +94,11 @@
             },
             {
                 "progress":86,
-                "logText":"Inside the forest was a cabin, in which I found Bryma and some strange golems made of bread."
+                "logText":"Inside the forest was a cabin, in which I found Bryma and some strange creature made of bread."
             },
             {
                 "progress":92,
-                "logText":"I received the secret scroll from Bryma."
+                "logText":"I received the secret scroll from Bryma I should return it to the headmaster now."
             },
             {
                 "progress":95,
@@ -498,6 +498,14 @@
             {
                 "progress":155,
                 "logText":"arrest"
+            },
+            {
+                "progress":156,
+                "logText":"gunfryk met"
+            },
+            {
+                "progress":157,
+                "logText":"eatloni work"
             }
         ]
     },
@@ -705,16 +713,12 @@
     },
     {
         "id":"brightport_thieves",
-        "name":"Crate Expectations",
+        "name":"Crate expectations",
         "showInLog":1,
         "stages":[
             {
-                "progress":5,
-                "logText":"Elysa, the boss of Brightport\u2019s thieves' guild, knows something about Andor, but she first wants me to carry out some work."
-            },
-            {
                 "progress":10,
-                "logText":"The guild is due to receive a package but the Guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
+                "logText":"The Guild is due to receive a package but the guards have been troublesome lately, they need a new face like me to pick a package up discretly, I was told to head east of the town."
             },
             {
                 "progress":20,
@@ -750,6 +754,68 @@
                 "progress":60,
                 "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
                 "finishesQuest":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_bakery",
+        "name":"Delon's bakery errands",
+        "stages":[
+            {
+                "progress":1,
+                "logText":"I\u2019ve started some work for Allares at the bakery in Brightport. He asked me to help Delon down in the storage area."
+            },
+            {
+                "progress":5,
+                "logText":"Delon\u2019s slacking off and wants me to do everything! At least I\u2019m getting paid."
+            },
+            {
+                "progress":10,
+                "logText":"He told me to start by sifting through a batch of flour."
+            },
+            {
+                "progress":15,
+                "logText":"Flour\u2019s all sifted. Now he wants me to sweep the floor."
+            },
+            {
+                "progress":20,
+                "logText":"Floor sweeped. One last errand, The apple delivery hasn\u2019t arrived. Allares told me to ask Eatloni outside about it."
+            },
+            {
+                "progress":25,
+                "logText":"The apples never arrived. I could go looking for them, or just head straight to the orchard myself."
+            },
+            {
+                "progress":30,
+                "logText":"I went to see Deebo at the orchard. Apparently, the merchant sent by Eatloni already picked up the apples."
+            },
+            {
+                "progress":35,
+                "logText":"I found some half eaten apples in the woods north of the duleian, perhaps this is the right way?"
+            },
+            {
+                "progress":40,
+                "logText":"I found two crates of apples. One was intact, but the other was half-eaten. The mountain cats attacked the merchant for food to feed their cubs."
+            },
+            {
+                "progress":45,
+                "logText":"I payed for a new shipment out of my own pocket. Deebo promised to hurry his workers and get them picked quickly."
+            },
+            {
+                "progress":50,
+                "logText":"I got the apples from Deebo."
+            },
+            {
+                "progress":60,
+                "logText":"I brought the apples back to Eatloni and he reimbursed me for the cost of the apples, what a nice guy! Time to let Allares know I\u2019m done with everything."
+            },
+            {
+                "progress":65,
+                "logText":"I brought the apples back to Eatloni. Surprisingly the merchant responsible for the apples was not eaten alive! Time to let Allares know I\u2019m done with everything."
+            },
+            {
+                "progress":70,
+                "logText":"I completed all the tasks at the bakery. Hopefully this earns me a decent wage."
             }
         ]
     }
