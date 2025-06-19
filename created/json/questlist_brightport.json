@@ -34,7 +34,7 @@
             },
             {
                 "progress":31,
-                "logText":"Dibella the Lady from the desk at the entrance. Had told me that Stanwick's reputation is respectable but even so, as the library supervisor he must be considered a suspect."
+                "logText":"Dibella the Lady from the desk at the entrance. Had told me that Stanwick's reputation is respectable, but as the library supervisor he must be considered a suspect."
             },
             {
                 "progress":35,
@@ -54,7 +54,7 @@
             },
             {
                 "progress":47,
-                "logText":"I stole the library's key from a shelf while the headmaster was distracted. This will have consequences."
+                "logText":"I stole the library's key from a shelf while the headmaster was distracted. Hopefully there will be no consequences."
             },
             {
                 "progress":50,
@@ -506,6 +506,10 @@
             {
                 "progress":157,
                 "logText":"eatloni work"
+            },
+            {
+                "progress":158,
+                "logText":"locked the door for the crate quest"
             }
         ]
     },
@@ -734,7 +738,7 @@
             },
             {
                 "progress":35,
-                "logText":"Thanks to the blackmail I had on the guard commander, I managed to smooth things over and walk away clean."
+                "logText":"Thanks to some previous interactions I've had with the commander, I convinced the guards to let me go."
             },
             {
                 "progress":40,

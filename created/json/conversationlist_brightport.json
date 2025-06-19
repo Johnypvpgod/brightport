@@ -2599,7 +2599,7 @@
     },
     {
         "id":"oswald_end",
-        "message":"How unfortunate to be stuck inside, when the sun's soo dazling."
+        "message":"How unfortunate to be stuck inside, when the sun's so dazling."
     },
     {
         "id":"oswald_quest",
@@ -2782,6 +2782,12 @@
                         "requireType":"questProgress",
                         "requireID":"Stanwickquest",
                         "value":45
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"Stanwickquest",
+                        "value":47,
+                        "negate":true
                     }
                 ]
             },
@@ -2905,6 +2911,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"Stanwickquest",
+                "value":96
             }
         ]
     },
@@ -5824,7 +5835,7 @@
     },
     {
         "id":"brightport_oswald14",
-        "message":"Before we discuss what is next. Have you learnt who the culprit of the theft was?",
+        "message":"Before we discuss what is next. Have you learned who the culprit of the theft was?",
         "replies":[
             {
                 "text":"It was my brother Andor. He stole it many months ago, and gave it away in exchange for forbidden knowledge.",
@@ -5838,11 +5849,11 @@
                 ]
             },
             {
-                "text":"I prefer not saying, it would cause trouble to the people who helped me.",
+                "text":"I prefer not to say, it would cause trouble to the people who helped me.",
                 "nextPhraseID":"brightport_oswald17"
             },
             {
-                "text":"A former baker named Bryma was in possesion of it. How she acquired it im unaware.",
+                "text":"A former baker named Bryma was in possesion of it. How she acquired it I'm unaware.",
                 "nextPhraseID":"brightport_oswald16"
             },
             {
@@ -6202,7 +6213,8 @@
         "message":"[ The upper part of the sign has been scratched off]\nEast: Brightport\nSouth: Duleian road"
     },
     {
-        "id":"brightport_library"
+        "id":"brightport_library",
+        "message":"The door is locked."
     },
     {
         "id":"brightport_bakery3",
@@ -6659,7 +6671,7 @@
     },
     {
         "id":"brightport_bryma23",
-        "message":"What do you think makes bonemeal so desirable, even after It's prohibition?",
+        "message":"What do you think makes bonemeal such a potent creation, that people seek it out despite the abolition of it's usage?",
         "replies":[
             {
                 "text":"It's cheap and offers the best treatment against ailments.",
@@ -6818,21 +6830,17 @@
     },
     {
         "id":"brightport_bryma36",
-        "message":"Not to say it's all the same. Some things, despite containing high essence, can be harmful to us, such as poisons, or diseases, which drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain attributes or balance. But nonetheless, there is much to explain. I was working to publish this among the scholars of Feygard before the bonemeal ban.",
+        "message":"Not to say it's all the same. Some things, despite containing high essence, can be harmful to us, such as poisons, or diseases, which drain our lifeforce. Merely consuming more has no benefit, and indeed there have to be certain attributes or balance. ",
         "replies":[
             {
-                "text":"Can we talk about something else?",
-                "nextPhraseID":"brightport_bryma14"
-            },
-            {
-                "text":"That's too much to digest. I'm gonna have to go now.",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"brightport_bryma51"
             }
         ]
     },
     {
         "id":"brightport_bryma37",
-        "message":"Those statues are intriguing. The 'Lethgar' password refers to the Lethgar people, but they lived over 2,000 years ago. There's little chance the statues are that old. How the barrier works remains a mystery.",
+        "message":"Those statues are intriguing. The 'Lethgar' password refers to the Lethgar people, but they lived over 2000 years ago. There's little chance the statues are that old. How the barrier works is a mystery.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -12370,5 +12378,222 @@
     {
         "id":"brightport_allares2",
         "message":"Very good, very good !Go down to the storage roome and speak with Delon. He will put you to use."
+    },
+    {
+        "id":"brightport_guards_spawn_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_guards_spawn_script0",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_hide",
+                        "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_guards_spawn_script0",
+        "message":"The sound of footsteps grows louder as two guards enter through the door.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":145
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"brightport_guardcrate",
+                "mapName":"brightport_abandoned"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
+            }
+        ]
+    },
+    {
+        "id":"brightport_cratelockedroom",
+        "message":"Where do you think you're going?",
+        "switchToNPC":"brightport_guardcrate"
+    },
+    {
+        "id":"brightport_crateguard",
+        "message":"Halt! What are you doing here, kid?",
+        "replies":[
+            {
+                "text":"Nothing.",
+                "nextPhraseID":"brightport_crateguard8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"That\u2019s private. Nothing you need to worry about.",
+                "nextPhraseID":"brightport_crateguard0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"Gentlemen. Has Sir Gunfryk not told you to keep your noses out of places they don\u2019t belong?",
+                "nextPhraseID":"brightport_crateguard2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60
+                    }
+                ]
+            },
+            {
+                "text":"I was patrolling the place to keep it safe from troublemakers, obviously.",
+                "nextPhraseID":"brightport_crateguard3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":120
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_bryma51",
+        "message":"Either way, this is merely my theory. I was working to publish and discuss this among the scholars of Feygard before the bonemeal ban.",
+        "replies":[
+            {
+                "text":"Can we talk about something else?",
+                "nextPhraseID":"brightport_bryma14"
+            },
+            {
+                "text":"That's a lot to digest, I think i'll leave now. ",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard0",
+        "message":"What's with that tone?! We came here on a simple patrol but I think we might have caught a spy. We should arrest him, right partner?",
+        "replies":[
+            {
+                "text":"Think about it twice. You try and arrest me, and by tomorrow morning you might find yourself discharged, or on a carriage to Feygard prison, signed off by Gunfryk himself.",
+                "nextPhraseID":"brightport_crateguard1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard1",
+        "message":"Alright, alright, no need to get worked up. I think I\u2019ve heard your name mentioned by the captain, so we'll trust him with this. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard2",
+        "message":"Ha, you're funny kid. And suspicious. Funny and suspicious. The commander himself told us to go on a patrol. So I think we\u2019ve caught a troublemaker.",
+        "replies":[
+            {
+                "text":"He might have ordered you to come here, but did he not tell you to keep your hands off Barthold and his friends? I happen to be one of those friends.",
+                "nextPhraseID":"brightport_crateguard7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard3",
+        "message":"Wait, I think I know you. You're the kid who helped us with capturing those two criminals!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard4",
+        "message":"I guess you were the one the lookout spotted, so there is nothing else suspicious here. Eitherway you did an impressive work with those two, but I wouldn't be hanging out around here, it's dangerous.",
+        "replies":[
+            {
+                "text":"Anything for the glory of Feygard.",
+                "nextPhraseID":"brightport_crateguard5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard5",
+        "message":"That\u2019s the spirit. We\u2019ll be heading back now, so follow behind us. Wouldn\u2019t want a future squire getting hurt, would we?",
+        "replies":[
+            {
+                "text":"Sure, I'll be right behind you.",
+                "nextPhraseID":"brightport_crateguard6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard6",
+        "message":"[The two guards exchange a glance, then turn and leave the building.]",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_guardcrate",
+                "mapName":"brightport_abandoned"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":144
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard7",
+        "message":"Alright, got it. Never thought the commander would let someone suspicious like you run around, but we\u2019ll trust his judgment.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard8",
+        "message":""
+    },
+    {
+        "id":"brightport_crateguard_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard"
+            }
+        ]
     }
 ]

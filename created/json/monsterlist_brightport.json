@@ -877,7 +877,7 @@
     },
     {
         "id":"brightport_newcommander",
-        "name":"Gavrhil",
+        "name":"Garvhel",
         "iconID":"monsters_men:3",
         "phraseID":"brightport_newcommander"
     },
@@ -886,5 +886,12 @@
         "name":"Brightport guard",
         "iconID":"monsters_ld1:95",
         "phraseID":"brightport_guards"
+    },
+    {
+        "id":"brightport_guardcrate",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:94",
+        "movementAggressionType":"wholeMap",
+        "phraseID":"brightport_crateguard_selector"
     }
 ]
