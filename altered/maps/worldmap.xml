@@ -458,6 +458,8 @@
     <map id="brightportwild15" x="565" y="446"/>
     <map id="brightportwild16" x="574" y="446"/>
     <map id="brightportwild17" x="591" y="445"/>
+    <map id="brightport9" x="661" y="333"/>
+    <map id="brightportwild20" x="687" y="359"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
     <namedarea id="charwoodh" name="Charwood" type="settlement"/>
@@ -475,6 +477,6 @@
     <namedarea id="deebo_orchard" name="Deebo's Orchard" type="other"/>
     <namedarea id="laeroth_area" name="Lake Laeroth" type="other"/>
     <namedarea id="wexlow_village" name="Wexlow Village" type="settlement"/>
-    <namedarea id="brightport" name="brightport" type="settlement"/>
+    <namedarea id="brightport" name="Brightport" type="settlement"/>
   </segment>
 </worldmap>

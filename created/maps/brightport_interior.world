@@ -102,8 +102,8 @@
             "fileName": "brightport_house.tmx",
             "height": 256,
             "width": 576,
-            "x": 2528,
-            "y": -576
+            "x": 2524,
+            "y": -574
         },
         {
             "fileName": "brightport_inn.tmx",
@@ -414,18 +414,53 @@
             "y": 327
         },
         {
-            "fileName": "brightport_smugglercave.tmx",
-            "height": 480,
-            "width": 640,
-            "x": 2367,
-            "y": 239
-        },
-        {
             "fileName": "brightport_smugglercave1.tmx",
             "height": 352,
             "width": 416,
-            "x": 3039,
-            "y": 367
+            "x": 4993,
+            "y": -526
+        },
+        {
+            "fileName": "brightport_guards.tmx",
+            "height": 544,
+            "width": 192,
+            "x": 2879,
+            "y": -1137
+        },
+        {
+            "fileName": "brightport_guards2.tmx",
+            "height": 512,
+            "width": 224,
+            "x": 3135,
+            "y": -1009
+        },
+        {
+            "fileName": "brightport_jail.tmx",
+            "height": 256,
+            "width": 512,
+            "x": 3391,
+            "y": -1009
+        },
+        {
+            "fileName": "brightport_smugglercave.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 4319,
+            "y": -657
+        },
+        {
+            "fileName": "brightport_escape_cave.tmx",
+            "height": 384,
+            "width": 768,
+            "x": 3919,
+            "y": -1057
+        },
+        {
+            "fileName": "brightport_tunnel.tmx",
+            "height": 224,
+            "width": 608,
+            "x": 4047,
+            "y": -1313
         }
     ],
     "onlyShowAdjacentMaps": false,

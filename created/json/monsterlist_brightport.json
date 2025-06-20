@@ -791,7 +791,8 @@
     {
         "id":"brightport_scorpion",
         "name":"Cave scorpion",
-        "iconID":"monsters_tometik3:76"
+        "iconID":"monsters_tometik3:76",
+        "monsterClass":"insect"
     },
     {
         "id":"brightport_wraith",
@@ -823,7 +824,8 @@
         "monsterClass":"reptile",
         "movementAggressionType":"none",
         "spawnGroup":"lizard1",
-        "faction":"lizardfight"
+        "faction":"lizardfight",
+        "phraseID":"brightport_vyro"
     },
     {
         "id":"brightport_beast",
@@ -893,5 +895,23 @@
         "iconID":"monsters_ld1:94",
         "movementAggressionType":"wholeMap",
         "phraseID":"brightport_crateguard_selector"
+    },
+    {
+        "id":"brightport_gunfrykassistant",
+        "name":"Leorio",
+        "iconID":"monsters_ld1:11",
+        "phraseID":"brightport_leorio"
+    },
+    {
+        "id":"brightport_guardbase",
+        "name":"Brightport guard",
+        "iconID":"monsters_ld1:94",
+        "phraseID":"brightport_guardbase"
+    },
+    {
+        "id":"brightport_jailguard",
+        "name":"Brightport guard",
+        "iconID":"monsters_karvis2:2",
+        "phraseID":"brightport_jailguard"
     }
 ]

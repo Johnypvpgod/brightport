@@ -10363,7 +10363,37 @@
         ]
     },
     {
-        "id":"brightport_hide_script_fireplace"
+        "id":"brightport_hide_script_fireplace",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_hide_script_fireplace1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":35
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_hide_script_crate2",
@@ -10679,7 +10709,7 @@
     },
     {
         "id":"brightport_agent7",
-        "message":"Take this package and hide somewhere before the guard get to us, I will escape through the chimney. Shadow be with you.",
+        "message":"Take this package and hide somewhere before the guards get here, I will escape through the chimney. Shadow be with you.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -10699,6 +10729,11 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"brightporthide"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
             }
         ]
     },
@@ -10762,6 +10797,11 @@
             {
                 "rewardType":"createTimer",
                 "rewardID":"brightporthide"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
             }
         ]
     },
@@ -10943,7 +10983,7 @@
     },
     {
         "id":"brightport_crate_failure_script0",
-        "message":"[A few seconds after you snuggle yourself into the crate, 2 sets of footsteps begin to echo]",
+        "message":"A few seconds after you snuggle yourself into the crate, two sets of footsteps begin to echo",
         "replies":[
             {
                 "text":"N",
@@ -11084,10 +11124,26 @@
         "id":"brightport_chimney_script",
         "replies":[
             {
-                
+                "text":"N",
+                "nextPhraseID":"brightport_chimney_script1",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightporthide",
+                        "value":5
+                    }
+                ]
             },
             {
-                "nextPhraseID":"brightport_chimney_hideover"
+                "text":"N",
+                "nextPhraseID":"brightport_chimney_hideover",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144
+                    }
+                ]
             }
         ]
     },
@@ -11270,7 +11326,7 @@
     },
     {
         "id":"brightport_crate_failure15",
-        "message":"Let me see. [The guard takes the package out of your hands.] Sorry, kid but we need to bring something back to our commander - Oh There's a scroll  inside, Let's see what it says.",
+        "message":"Let me see. [The guard takes the package out of your hands.] Sorry, kid but we need to bring something back to our commander - Oh There's a scroll  inside, Let's see what it says!",
         "switchToNPC":"brightportguardcrate1",
         "replies":[
             {
@@ -11474,7 +11530,18 @@
         ]
     },
     {
-        "id":"brightport_chimney_hideover"
+        "id":"brightport_chimney_hideover",
+        "message":"I got caught, there is no reason to hide here anymore.",
+        "replies":[
+            {
+                "text":"I'll leave.",
+                "nextPhraseID":"brightport_chimney_hideover1"
+            },
+            {
+                "text":"Maybe i'll stay here a bit longer.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_elysa7",
@@ -12424,8 +12491,24 @@
     },
     {
         "id":"brightport_cratelockedroom",
-        "message":"Where do you think you're going?",
-        "switchToNPC":"brightport_guardcrate"
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_cratelockedroomguard",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":145
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_cratelockedroom1"
+            }
+        ]
     },
     {
         "id":"brightport_crateguard",
@@ -12595,5 +12678,283 @@
                 "nextPhraseID":"brightport_crateguard"
             }
         ]
+    },
+    {
+        "id":"brightport_hide_script_fireplace1",
+        "message":"A dirty and grimy fireplace, the one the Agent used to climb out through the chimney.",
+        "replies":[
+            {
+                "text":"I'll hide here. ",
+                "nextPhraseID":"brightport_hide_script_fireplaceteleport"
+            },
+            {
+                "text":"Maybe this is not a great spot. [Leave]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_cratelockedroomguard",
+        "message":"Where do you think you're going?",
+        "switchToNPC":"brightport_guardcrate"
+    },
+    {
+        "id":"brightport_cratelockedroom1",
+        "message":"I can't leave now, the guards are coming."
+    },
+    {
+        "id":"brightport_hide_script_fireplaceteleport",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"chimney",
+                "mapName":"brightport_chimney"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney_hideover1",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"chimney",
+                "mapName":"brightport_abandoned"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney_script1",
+        "message":"After doing your best to hide in the back of the fireplace. And getting soot all over yourself, two sets of footsteps begin to echo.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney",
+        "message":"There doesn't seem to be anyone around.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney0",
+        "message":"You sure? Thought I heard something when we came in.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney1",
+        "message":"Maybe it was a lizardman! A big, scary lizardman. Maybe we\u2019ll find one who knows.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney2",
+        "message":"Quit joking. You know I\u2019m afraid of them. So let\u2019s search this place quickly and get back to our posts..",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney3",
+        "message":"Sure, but you check that fireplace in the back.",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney4",
+        "message":"[The guard seems hesitant but moves further into the room, toward you. You see him from your hiding spot, but his eyes haven\u2019t adjusted to the dark yet, so you remain hidden.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney5",
+        "message":"[The guard moves in closer, and suddenly stops.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney6",
+        "message":"I think there\u2019s something in that damned fireplace! Come here!",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney7",
+        "message":"Come on, you\u2019re just paranoid. I bet there\u2019s nothing there... Huh?",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney8",
+        "message":"[The guard moves over to the fireplace, leans in, and takes a good look at you.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney9",
+        "message":"You're not a lizardman, are you?",
+        "switchToNPC":"brightportguardcrate1",
+        "replies":[
+            {
+                "text":"No?",
+                "nextPhraseID":"brightport_chimney10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney10",
+        "message":"Good, then what are you doing in there?",
+        "replies":[
+            {
+                "text":"Oh, I\u2019m just collecting soot. Yeah, needed some for ink."
+            }
+        ]
+    },
+    {
+        "id":"brightport_leorio",
+        "message":"Im Leorio, the commander's assistant. If you're looking for the commander he is inside the bakery.",
+        "replies":[
+            {
+                "text":"What do you do here?",
+                "nextPhraseID":"brightport_leorio1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_leorio1",
+        "message":"I help manage the Feygard troops and make sure Brightport\u2019s wealth gets collected in taxes. All for the glory of Lord Geomyr and Feygard's prosperity.",
+        "replies":[
+            {
+                "text":"Makes sense, running a kingdom is expensive. ",
+                "nextPhraseID":"brightport_leorio3"
+            },
+            {
+                "text":"Oh so you're stealing from the rural populace, got it. ",
+                "nextPhraseID":"brightport_leorio2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_leorio2",
+        "message":"Ah, pesky kid. I shouldn\u2019t have entertained you in the first place. Go play your silly ba game, here is for adults. "
+    },
+    {
+        "id":"brightport_leorio3",
+        "message":"Exactly. It returns to the public, as it always should."
+    },
+    {
+        "id":"brightport_guardbase",
+        "message":"Another uneventful day out in the boonies.",
+        "replies":[
+            {
+                "text":"Seems like a pretty nice place to me.",
+                "nextPhraseID":"brightport_guardbase1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardbase1",
+        "message":"You kidding? Feygard's much grander, if I knew i'd be sent here I wouldn't have joined the academy.",
+        "replies":[
+            {
+                "text":"Academy? Where is that?",
+                "nextPhraseID":"brightport_guardbase2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardbase2",
+        "message":"Feygard's military academy, the most famous military institution in all of Aewhata, you should have already been taught that.",
+        "replies":[
+            {
+                "text":"Can i join it too?",
+                "nextPhraseID":"brightport_guardbase3"
+            },
+            {
+                "text":"Now, I know. Bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_guardbase3",
+        "message":"Well, to put it mildly, no. You need citizenship and some well-off connections. Sorry to shatter your dream.",
+        "replies":[
+            {
+                "text":"I'll get there someday.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I wasn't planning on doing that eitherway.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jailguard",
+        "message":"Im on cooking duty today, feels nice to enjoy the weather without that bulky armor on. ",
+        "replies":[
+            {
+                "text":"Do you often use that jail cell?",
+                "nextPhraseID":"brightport_jailguard1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jailguard1",
+        "message":"No, not at all. Rarely do we ever put anyone in there, and even then, it's mostly drunks to cool off for a night. On the rare occasion we do have a criminal, they are sent to court and then to the Feygard prison."
+    },
+    {
+        "id":"brightport_vyro",
+        "message":"[The lizardman moves it's mouth to speak but no sound comes out, it seems to be mute]"
     }
 ]
