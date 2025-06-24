@@ -510,6 +510,14 @@
             {
                 "progress":158,
                 "logText":"locked the door for the crate quest"
+            },
+            {
+                "progress":159,
+                "logText":"arrested. "
+            },
+            {
+                "progress":160,
+                "logText":"arrest escape"
             }
         ]
     },

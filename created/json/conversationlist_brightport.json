@@ -10922,6 +10922,22 @@
         "id":"brightport_crate_failure_script",
         "replies":[
             {
+                "nextPhraseID":"brightport_crate_failure19arrest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"brightport_crate_failure15",
                 "requires":[
@@ -11326,12 +11342,12 @@
     },
     {
         "id":"brightport_crate_failure15",
-        "message":"Let me see. [The guard takes the package out of your hands.] Sorry, kid but we need to bring something back to our commander - Oh There's a scroll  inside, Let's see what it says!",
+        "message":"Let me see. [The guard takes the package out of your hands.] ",
         "switchToNPC":"brightportguardcrate1",
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure17"
+                "nextPhraseID":"brightport_crate_failure17alt"
             }
         ],
         "rewards":[
@@ -11362,7 +11378,7 @@
     },
     {
         "id":"brightport_crate_failure17",
-        "message":"Huh? what does it say?",
+        "message":"A scroll? what does it say?",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -11410,13 +11426,13 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_crate_failure19"
+                "nextPhraseID":"brightport_crate_failure19alt"
             }
         ]
     },
     {
         "id":"brightport_crate_failure19",
-        "message":"Bhahahah, so we came here to search and found only an old request to the bakery, the commander will laugh his behind off. - Let's return, you kid want to come with us? it's dangerous here you know.",
+        "message":"It's dangerous here kid, you want to come with us?",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -12789,7 +12805,7 @@
     },
     {
         "id":"brightport_chimney4",
-        "message":"[The guard seems hesitant but moves further into the room, toward you. You see him from your hiding spot, but his eyes haven\u2019t adjusted to the dark yet, so you remain hidden.]",
+        "message":"[The guard seems hesitant but moves further into the room toward you. You see him from your hiding spot, but his eyes haven\u2019t adjusted to the dark yet, so you remain hidden.]",
         "replies":[
             {
                 "text":"N",
@@ -12956,5 +12972,168 @@
     {
         "id":"brightport_vyro",
         "message":"[The lizardman moves it's mouth to speak but no sound comes out, it seems to be mute]"
+    },
+    {
+        "id":"brightport_crate_failure17alt",
+        "message":"Sorry, kid but we need to bring something back to our commander. Oh, There's a scroll  inside.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure19alt",
+        "message":"Bhahahah, so we came here to search and found only an old request to the bakery, the commander will laugh his behind off.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_crate_arrest"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_arrest",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_crate_failure19arrest",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"40"
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_crate_failure19",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure19arrest",
+        "message":"And you, kid, do you take us for fools? Your suspiciousness is through the roof. You're coming with us.",
+        "switchToNPC":"brightportguardcrate2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":159
+            }
+        ]
+    },
+    {
+        "id":"brightport_nothing "
+    },
+    {
+        "id":"brightport_jail_escape",
+        "message":"",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_jail_escape0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":160,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_jail",
+                        "value":5
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_jail"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jail_escape0",
+        "message":"The guard's snoring is too loud I can't even rest properly, and there's a cold draft, brr...",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_jail_escape1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jail_escape1",
+        "message":"Zzz... Zzz... Zzz...",
+        "switchToNPC":"brightport_jailguard",
+        "replies":[
+            {
+                "text":"What life choices led me to this..?",
+                "nextPhraseID":"brightport_jail_escape2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jail_escape2",
+        "message":"[After quite an uneventful time waiting, with nothing but the sound of the guard snoring, you hear some new footsteps in the room.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_jail_escape3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jail_escape3",
+        "message":"It\u2019s me! I\u2019m here to help. We wouldn't leave any of our own stuck in a place like this.",
+        "switchToNPC":"brightportthieves4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_jail_escape4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_jail_escape4",
+        "message":"See that cloth on the wall to the right of the bucket? Apparently, when they were digging into the mountain, it opened up into a cave that they covered up with rubble. With your size, you could probably crawl in there. Good luck, kid.",
+        "switchToNPC":"brightportthieves4",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":160
+            }
+        ]
+    },
+    {
+        "id":"brightport_crate_failure_arrest",
+        "message":"[The guards grab you by your shoulders and restrain you. You try shaking around but you can't resist them. They put a blindfold over your eyes, and next thing you know, you're in a jail cell.]",
+        "rewards":[
+            {
+                "rewardType":"mapchange",
+                "rewardID":"jail",
+                "mapName":"brightport_jail"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":144
+            }
+        ]
     }
 ]
