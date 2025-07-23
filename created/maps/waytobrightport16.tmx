@@ -227,12 +227,12 @@
  </layer>
  <layer id="4" name="Above" width="30" height="22">
   <data encoding="base64" compression="zlib">
-   eJzFVMENwjAM9KNsAN8gmtHaReBZGIMl4AlTwI8PHyagiApHyGpkqHGKCydFimonF/uurnKAJa4VrlQcHMDRpZ/7J0Y96rRAltty37wu7zwDmBjyXpS8VGv1hb/68m7Qk1sjX2p5rfWtE+q11FeL4KsAqW6K7XDto5xS0OaOsUaI053j/PVbHKN9keADN233XefCnXPUZuGfPSCesCffWeqx9m2vrbytvSOL6vjV3Izfxjklr1GPUsB9aP0PE67IUwt+4uDvsNC8QB+VbKak1KvJ1eRI8S4NLXQZSttPGJKT5tA7nFgvNXNamy/hAUDmM3A=
+   eJzrUmJg6AbiHiAmFdyUY2C4JYdd7qcg6ebRA7CS4U9qABYl6tr9W5k4dc8UGRhEqWjvayLthfm1i4L0Ra69O4FpcheOdEkre6kdv79I8C8145dYAEpXIIDP3zC5Q0B8GElNCp64+QuU+4dHHmamiBKmGLIcjJ1MQjqQk0ewcekDmdkIjJsmZUgYwOwBsWHpjprxsUQZEdbUStvEmsGC5A96lZvIbkO3E19ag4URKQA9HVI7D8PAT6A9v/CkJ3SA7g5qxHkyMB2loJUppPiXGLXEqMEnjysOqREvtIpbQoCWdsLKIWzgIVpYElNOE6seHwAAnRs0eg==
   </data>
  </layer>
  <layer id="5" name="Walkable" width="30" height="22" visible="0">
   <data encoding="base64" compression="zlib">
-   eJy9k8kRgDAMA9ML/RdEN/whMlof0QwvHK3sOGt9dV/629Up/fkoP5ef5VKmm8E9l2FGsyOZO7jZOZ3mVvs+mVmdpbtFuK5c5q5W9VJh7zwjNuFEXDLnrLI7U2ESbgeDsqcU3beT++1RyTHRJ82t3kB3BuLr1Lo19N/kzk9r+t2o/XkAuWwrUA==
+   eJy9k8ERwCAIBO0l/ReUbvwTILcg3owvgT0Q1/rqffJj4zwpNWzuX07EImzqk3igc6seOzvi+QS3Oqfb3G7fNz1HuXS3CFeVyvRio146bK9mxiacjEvmXFV1ZzpMwj3BoOwpZe+t+LY1Oj4m+qS+oz9w2gOpq8SqMfRucuenNf1vov3ZgfItSA==
   </data>
  </layer>
  <objectgroup id="6" name="Mapevents" visible="0">
@@ -291,7 +291,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Spawn" visible="0">
+ <objectgroup id="7" name="Spawn">
   <object id="10" name="brightport_deer2" type="spawn" x="64" y="448" width="416" height="192">
    <properties>
     <property name="quantity" value="4"/>

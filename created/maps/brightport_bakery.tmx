@@ -233,6 +233,11 @@
     <property name="place" value="west"/>
    </properties>
   </object>
+  <object name="brightport_dirt" type="script" x="480" y="288" width="128" height="64">
+   <properties>
+    <property name="when" value="enter"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="brightportbakery" type="spawn" x="160" y="192" width="32" height="32">

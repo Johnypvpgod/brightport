@@ -231,7 +231,7 @@
    eJyzlGPACSzlEJiQGmx8QnphagjJ4zOHFP3Y1AIAYjsGdg==
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents">
+ <objectgroup id="5" name="Mapevents" visible="0">
   <object id="1" name="east" type="mapchange" x="224" y="96" width="32" height="160">
    <properties>
     <property name="map" value="brightportwild16"/>

@@ -180,6 +180,15 @@
  <tileset firstgid="7481" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7609" name="map_plant_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_plant_2.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7737" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_rock_1.png" width="512" height="256"/>
+ </tileset>
+ <tileset firstgid="7865" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
    eJy7yMnAcHEUj+JRPIqHAAYA3Xz/eQ==
@@ -187,7 +196,7 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJyFU0EKwkAMzElF6iEtCO1P/P8fFPSkQmurB29CT27ojh3SbQ2UZjeb2ckkKyJSFiJZJbKrxv9bRa6lyC18ZvDX+bA+7ac5Zuy3AaPWwf9oIh6xgcdx/JHPXMDBrA/xc8g9uu9J/F4R415OObCBD7g8dIx5XqvIweMgjlzTwPDqRP3wmT/vI2cb7zoUaa2MN+NavNGBA++zblwf8Ho6jzt7HeOo1+vHfTTOXTh/oZyfFqSv19Nj+nUX9THczNUxxy/VZ95rdMT1swO+HqvV+Rn2hrpZV8bi/vC7S81ITbPYLsyln0/mYbbJp7nsz+nnZ+nfG/I5Sz2BWT8sH2899Wa+DZdeuw==
+   eJx9U8sKwkAMzElF9LCKQgXb7/CXevNnFfSkgo/qwZtQPLixO3aabg0sTTebyWQ2KyKSTEVGC5Hxov4+ncghETn6pQa/P6n+t/N2jhr7N49xdpX/cpF4wAYex/FFPnMBB7XSx3c+d2PWnfg9AsYpadbIU2kY+IDL1dUxy6sXOKAXew65qoHinSP9w2f+vI+cYai1msa1Ut6Mq/GLqzjwPuvG/QGvpPOoWbo6jn4ZUzXke1TOhT+/p5yfFqSv1ZMxrU5qRdBHcUemjy5+FsPiXlyNa2cHfC3WzXXPsDX0zboyFt8Pvzv467Q9C9+af+aS53OWicyz5hwP/P572dYixo/jzDVP49paPWL9deXhPjQfbz32Zj5Qt2Jk
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
@@ -197,7 +206,7 @@
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytklEKACAIQztF979SN4o+gpC5TUkIivI5l2uOscQ68e5vqBwUkZndR47islqxXsZydCNd6J3iKB2OPsf3qm+ufuYBy0WcH/8dPc08qXAdbV1WphfxK3PZ6Y9xWN/dGe3M1z1vfRp0aA==
+   eJytklEKACAIQztF979SN4o+gpC5TUkIkvK5lmuOscQ68e5vqBoUkZmdR47isl6xX8ZydCNd6J7iKB2OPsf3qm+ufuYBq0WcH/8dPc08qXAdbV1WphfxK3PZqWUc9u7ujHbm6+Yb9/l2Ng==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">

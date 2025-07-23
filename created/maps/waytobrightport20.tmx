@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="23" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="8">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="23" height="16" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="11">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -183,29 +183,32 @@
  <tileset firstgid="8025" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="8153" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../../altered/drawable/map_plant_1.png" width="512" height="256"/>
+ </tileset>
  <layer id="9" name="Base" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRECCDYFvK4FZHihpsZmPjkwsA+EAB7w==
+   eJxjYBgFo4A4ECAz0C4YBYMdWA7hNIKcvonxByl+Rc871MpLAPTGArA=
   </data>
  </layer>
  <layer id="1" name="Ground" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJyzlGFgsBzFo5gADoDioWY2CFsPgvAbxYMbg9IfCMD48+QZGJaI4U+befLEmz1RHpIOraF8kPkws5Exqe4GAGqkfOw=
+   eJyzlGFgsBzFo5gADgDiZnnamR1AQ7dbD4LwGym4j0ZphNYYlP5AAMafB/THEjH8aTOPSL+C9E+Uh6RDaygfZD7MbGRMqrsBqmV9eg==
   </data>
  </layer>
  <layer id="2" name="Objects" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKAu+CLDwPBVhsqGYrGDVubS0u0g8yfKY4pHyjIwRMlSZnYEBwPDJKDZE+Sx20EJqACavQBoZjMQF1DZbJDfQW6eLA9xP7Xd3gw1rwlIL6TQ7CSg/jgkPA8tTPpIcD96nMej6QPJzYO6uQ8aPuSGPbLZoHSCDEB2LKAgbJDNzuAgLQxIMRuUBmFpBAb6oOkdhkmxF2Z2hiADw0UZSPpoRjMLxIeJT0KTmw2Mnzk48izMbFh5MgmaVsrEGBiOcCHS+UJ5RPgvQLOnH6oGXzoBmQ8AMfZCww==
+   eJx9U0tOw0AM9bIUNtkgRUo0B4ADURZUYkETAVJXpapYUYlShAINKz6N2rtwATY9CeyxNXbHY6VYGiWZeX5+Hr/0coBTXJMEtlHw+08G8JuFZ4+x8n3DuAE/NwpLQViJjcJbXqp9iWsvBeimEIVokdpS4wPfP/O4PsVVErBPScw1MfX1Pi3d163K1Xhdax+1HuzQ26adeBYuPiuVXop54nvUob/npieJkw5AjdwvztcYGVzRkqc16LD9jpF7hZxjfB+6gFui5iaPc3Turnnfq3rUO2l+dV4/aSddS8Yc4f0ep7FXbPx3NkW+Ge7f4XPN2gl3bWYzaMl9MHvnmH+mVuM8v9xJ5cJ8LQf5sjCzprjg876LZ0SYhjVXfD9Dxlh/WD/b6CtN5BPdK9VYcR3xwRvWfs/DfDW/rU3cj5xXdLxHFqYXmbfs6X9X/3caQxpFd8keFI9IVOx3Wfrudf1Zy2yFm3DfmffH1HDRt+zX5kz3IFEmMbf0VbNXRocAX93g87UL978ydZ4ZY/0i3HJvf+EbmiI=
   </data>
  </layer>
  <layer id="3" name="Above" width="23" height="16">
   <data encoding="base64" compression="zlib">
-   eJxjYKANeCJDO3Of0shsmPnYgKUsA4OVLO3sHczAcgT7G1+cj9T0QCyoBIZPFZXC6JAMqpkzgXgWmtno9lUD2TUE7EcuT7CZCQP45PClE0rLQUJpEAC2ahRB
+   eJyzkmWAg2MyCPYTIPupDIKGgZ8SDAy/JBiwAkugWVayEHNA+qqB7BpZ/GpxAXR7yRX/DXTrHxzuxeaeJ1jMwObeY2jq0Pm0Btj8WyOIqa4W6OY6WVQ92PTik7NEiyd0e6QlGRhkJHHHAS73EgsIpRVqA2Ltg6mpxhLu6OmBEv9jA5VAu6tkEfGLbD410iJ63iXH/TA3UgMckkE1cyYQz0IzG90+fOUPDCD7C5uZMIBPDl96wVWeEAsIpUUAPHRE+A==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="23" height="16" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYKAuiJSHYFoCWplPa7fjMpsa9g6Euwe72YMZEIpzWqZxWgF6mk3NvAozB5+Z6HLE2E9MHCNjUs0AiQMADKMQaQ==
+   eJytVEEOACAI6ie9y/9/pI6tgULG5sFUhmbFHCO2IcTMTck/YyzvPnO0ZHkMVS3Tq/K4mrJZIV/h6EDVw+4P5WcxRYszPwWoh1c49c7OqDGnB3df0TvtcJ/8zFe4f+97xfmqWfnPOhwLsSI0gQ==
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -228,7 +231,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn"/>
+ <objectgroup id="6" name="Spawn">
+  <object id="8" name="brightport_deer2" type="spawn" x="224" y="64" width="416" height="192">
+   <properties>
+    <property name="quantity" value="4"/>
+    <property name="spawngroup" value="brightport_deer"/>
+   </properties>
+  </object>
+  <object id="9" name="squirmer" type="spawn" x="256" y="160" width="352" height="288">
+   <properties>
+    <property name="quantity" value="2"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+  <object id="10" name="squirmer" type="spawn" x="64" y="96" width="160" height="288">
+   <properties>
+    <property name="quantity" value="3"/>
+    <property name="spawngroup" value="brightport_squirrel"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="7" name="Keys"/>
  <objectgroup id="8" name="Replace"/>
 </map>

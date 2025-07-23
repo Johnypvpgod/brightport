@@ -771,7 +771,7 @@
         "replies":[
             {
                 "text":"What is it that you sell?",
-                "nextPhraseID":"brightport_silvear"
+                "nextPhraseID":"brightport_silvear_selector0"
             },
             {
                 "text":"How do you know my name?",
@@ -805,7 +805,7 @@
         "replies":[
             {
                 "text":"What is it that you were selling again",
-                "nextPhraseID":"brightport_silvear"
+                "nextPhraseID":"brightport_silvear_selector0"
             },
             {
                 "text":"Can you tell me about Andor again?",
@@ -870,35 +870,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":30,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"It happens that I'm interested in the local guard commander. Can you tell me anything about him?",
-                "nextPhraseID":"brightport_silvear0",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":132
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":40,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":50,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_goons",
-                        "value":80,
                         "negate":true
                     }
                 ]
@@ -1313,7 +1284,7 @@
     },
     {
         "id":"brightport_hortensia3",
-        "message":"It is surprising for someone visiting Brightport not to know about its Academy. Head to the western part of town, and you will find it.",
+        "message":"It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you're a student.  Head to the western part of town, and you will find it.",
         "replies":[
             {
                 "text":"I don't have time to attend classes, I must find my brother Andor.",
@@ -3500,6 +3471,18 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":150,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":136,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50,
                         "negate":true
                     }
                 ]
@@ -6921,7 +6904,17 @@
     },
     {
         "id":"brightport_mayor4",
-        "message":"Braving these lands for your brother, impressive. You have courage. May the shadow watch over you."
+        "message":"Braving these lands for your brother, impressive. You have courage, but I cannot help you more than to pray the shadow to watch over you.",
+        "replies":[
+            {
+                "text":"I have no shadow of a doubt it won't be doing that.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"May the shadow watch over you too.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_mayor5",
@@ -8382,6 +8375,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave20"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave20"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystaldestroyed",
+                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8402,6 +8405,16 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
+                "mapName":"brightport_cave20"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave20"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystaldestroyed",
                 "mapName":"brightport_cave20"
             }
         ]
@@ -8424,6 +8437,16 @@
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
                 "mapName":"brightport_cave6"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystaldestroyed",
+                "mapName":"brightport_cave20"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave20"
             }
         ]
     },
@@ -8444,6 +8467,16 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
+                "mapName":"brightport_cave6"
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave6"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystaldestroyed",
                 "mapName":"brightport_cave6"
             }
         ]
@@ -8835,7 +8868,28 @@
     },
     {
         "id":"brightport_dynes_medium",
-        "message":"Got something you want to talk about?"
+        "message":"Got something you want to talk about?",
+        "replies":[
+            {
+                "text":"I was just wondering how you manage to keep business with all those watchful eyes around, I remember you mentioned some cave.",
+                "nextPhraseID":"brightport_dynes_medium1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80
+                    }
+                ]
+            },
+            {
+                "text":"I feel like I'm not up to the task. ",
+                "nextPhraseID":"brightport_dynes_medium3"
+            },
+            {
+                "text":"No, not really.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_dynes_low",
@@ -11141,12 +11195,69 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_chimney15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":174
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":173
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_chimney_script1",
                 "requires":[
                     {
                         "requireType":"timerElapsed",
                         "requireID":"brightporthide",
                         "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":144,
+                        "negate":true
                     }
                 ]
             },
@@ -12074,6 +12185,17 @@
                         "value":100
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_goons_gaveup",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":135
+                    }
+                ]
             }
         ]
     },
@@ -12359,7 +12481,13 @@
     },
     {
         "id":"brightport_dynes_high",
-        "message":"It's nice to see you around, friend. "
+        "message":"It's nice to see you around, friend. ",
+        "replies":[
+            {
+                "text":"Good to see you too.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_dynes_extreme",
@@ -12372,7 +12500,13 @@
     },
     {
         "id":"brightport_dynes_superhigh",
-        "message":"You really showed that Feygard dog whose boss, haha!"
+        "message":"You really showed that Feygard dog whose boss, haha!",
+        "replies":[
+            {
+                "text":"Yup, I did.",
+                "nextPhraseID":"X"
+            }
+        ]
     },
     {
         "id":"brightport_dynes_superextreme",
@@ -12438,6 +12572,12 @@
                         "requireID":"brightport_nondisplay",
                         "value":157,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             },
@@ -12449,6 +12589,12 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":157
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":1,
+                        "negate":true
                     }
                 ]
             }
@@ -12456,11 +12602,25 @@
     },
     {
         "id":"brightport_allares1",
-        "message":"Today we're swamped, so we'll pay you a full day's wage just for a bit of work. Go down to the storage area and see what Delon asks of you."
+        "message":"Today we're swamped, so we'll pay you a full day's wage just for a bit of work. Go down to the storage area and see what Delon asks of you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":1
+            }
+        ]
     },
     {
         "id":"brightport_allares2",
-        "message":"Very good, very good !Go down to the storage roome and speak with Delon. He will put you to use."
+        "message":"Very good, very good! Go down to the storage roome and speak with Delon. You two will be working together.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":1
+            }
+        ]
     },
     {
         "id":"brightport_guards_spawn_script",
@@ -12597,7 +12757,7 @@
         "replies":[
             {
                 "text":"Think about it twice. You try and arrest me, and by tomorrow morning you might find yourself discharged, or on a carriage to Feygard prison, signed off by Gunfryk himself.",
-                "nextPhraseID":"brightport_crateguard1"
+                "nextPhraseID":"brightport_crateguard_arrest_selector"
             }
         ]
     },
@@ -12617,7 +12777,7 @@
         "replies":[
             {
                 "text":"He might have ordered you to come here, but did he not tell you to keep your hands off Barthold and his friends? I happen to be one of those friends.",
-                "nextPhraseID":"brightport_crateguard7"
+                "nextPhraseID":"brightport_crateguard_arrest2"
             }
         ]
     },
@@ -12643,7 +12803,7 @@
     },
     {
         "id":"brightport_crateguard5",
-        "message":"That\u2019s the spirit. We\u2019ll be heading back now, so follow behind us. Wouldn\u2019t want a future squire getting hurt, would we?",
+        "message":"That\u2019s the spirit. We\u2019ll be heading back now, so follow behind us. Wouldn\u2019t want a future knight of Feygard getting hurt.",
         "replies":[
             {
                 "text":"Sure, I'll be right behind you.",
@@ -12689,6 +12849,28 @@
     {
         "id":"brightport_crateguard_selector",
         "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard_arrest3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":173
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard_arrest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    }
+                ]
+            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_crateguard"
@@ -12863,6 +13045,10 @@
             {
                 "text":"No?",
                 "nextPhraseID":"brightport_chimney10"
+            },
+            {
+                "text":"Yes.",
+                "nextPhraseID":"brightport_chimney11"
             }
         ]
     },
@@ -12871,7 +13057,8 @@
         "message":"Good, then what are you doing in there?",
         "replies":[
             {
-                "text":"Oh, I\u2019m just collecting soot. Yeah, needed some for ink."
+                "text":"Oh, I\u2019m just collecting soot. Yeah, needed some for ink.",
+                "nextPhraseID":"brightport_chimney13"
             }
         ]
     },
@@ -13133,7 +13320,1402 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":144
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":158
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"brightport_guardcrate",
+                "mapName":"brightport_abandoned"
             }
         ]
+    },
+    {
+        "id":"brightport_crystals_script",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crystals_script1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crystals_script1",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave6"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_crystalIntact",
+                "mapName":"brightport_cave20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dirt",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dirt1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":161,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_dirt1",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_0",
+                "mapName":"brightport_bakery1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_1",
+                "mapName":"brightport_bakery1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_2",
+                "mapName":"brightport_bakery"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":161
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon0",
+        "message":"What do you want? Can\u2019t you see I\u2019m busy resti- I mean, working.",
+        "replies":[
+            {
+                "text":"What do you do here?",
+                "nextPhraseID":"brightport_delon1"
+            },
+            {
+                "text":"Allares hired me for today, he told me to see you.",
+                "nextPhraseID":"brightport_delon3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":1,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brighport_broom_sweep1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":165
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":166
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon1",
+        "message":"Me? Well it might look like I\u2019m just laying around in the warehouse, but I\u2019ve got a secret, and I\u2019m only gonna tell you this. One day I\u2019ll open my own bakery in Nor City, ten times better than here.",
+        "replies":[
+            {
+                "text":"There\u2019s no harm in dreaming",
+                "nextPhraseID":"brightport_delon2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon2",
+        "message":"Like bread I rest, and great I rise."
+    },
+    {
+        "id":"brightport_delon3",
+        "message":"Allares, my assistant, he did well acquiring me an underling. Hmm.. now what work should I have you do?",
+        "replies":[
+            {
+                "text":"Huh aren't we working together?",
+                "nextPhraseID":"brightport_delon4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon4",
+        "message":"What?! Of course not. I\u2019m the supervisor, you\u2019re the worker. Now go sweep the floor so I can see what you\u2019re capable of.",
+        "replies":[
+            {
+                "text":"Fine. And with what am I supposed to sweep the floor? Do you have a broom?",
+                "nextPhraseID":"brightport_delon5"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon5",
+        "message":"Hmm. We might have had something like that, I'm not sure, but it's fine you can go and buy a new one.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":10
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon6",
+        "message":"Yes my underling, how is the sweeping going.",
+        "replies":[
+            {
+                "text":"Floor is all sweeped.",
+                "nextPhraseID":"brightport_delon8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162
+                    }
+                ]
+            },
+            {
+                "text":"I'm not done yet.",
+                "nextPhraseID":"brightport_delon7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sift0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":168,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":15
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift0",
+        "message":"For such a large establishment, this flour sure has a lot of black specks in it.",
+        "replies":[
+            {
+                "text":"Time to get sifting.",
+                "nextPhraseID":"brightport_sift1"
+            },
+            {
+                "text":"Why is the flour so bad?",
+                "nextPhraseID":"brightport_sift4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift1"
+    },
+    {
+        "id":"brightport_sift2",
+        "message":"I\u2019ve been taking some of the good stuff home and replacing it with older flour. It\u2019s fine, I gave myself permission. Now go and sift it.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"OK, time to get to work. ",
+                "nextPhraseID":"brightport_sift1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift3",
+        "message":"You place the sift in the bag and begin sifting.",
+        "replies":[
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_sift_selector"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightoirt_sift_flour"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightoirt_sift_flour"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_sift_selector"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightoirt_sift_flour"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_sift_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift_selector"
+    },
+    {
+        "id":"brightoirt_sift_flour"
+    },
+    {
+        "id":"brightport_chimney11",
+        "message":"Funny kid, what are you doing in there?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney12"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard_arrest_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard_arrest",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard_arrest",
+        "message":"Ha! The commander can forgive a mistake or two. Grab him. We\u2019ll interrogate him later.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":159
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard_arrest2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard_arrest3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"5"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard7",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crateguard_arrest3",
+        "message":"I don't think so, we follow the law not the commander. You will be coming with us. We'll interrogate you later on what you were doing here.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":173
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney12",
+        "message":"Oh whatever, we don't need to hear your excuses here, you'll answer us from behind bars.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":159
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney13",
+        "message":"Oh a student making his own ink..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney14",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"20"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_chimney15"
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney14",
+        "message":"The lookout spotted a suspicious cloaked figure entering the house. That was probably you. Good, we can return to our posts now. Just don\u2019t hang around here too much, okay?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crateguard6"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":173
+            }
+        ]
+    },
+    {
+        "id":"brightport_chimney15",
+        "message":"This place has been abandoned for ages, there can\u2019t be any soot. But we\u2019re kind, so we\u2019ll let you gather some from our fireplaces after you spend the night in jail.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crate_failure_arrest"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":174
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium1",
+        "message":"Yes, an old mine to the east. It was really ingenious of us to use an old mining cave for that purpose, but it\u2019s teeming with bugs. And if you\u2019re not watchful, a lizardman could swim up to the shore and snab you on the way.",
+        "replies":[
+            {
+                "text":"That sounds nasty. It's not as if I would be going there. ",
+                "nextPhraseID":"brightport_dynes_medium2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium2",
+        "message":"Haha, yeah. You\u2019ve still got that request from us to do, unless you feel like you\u2019re not up to the task?",
+        "replies":[
+            {
+                "text":"Nope, I'm on my way.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium3",
+        "message":"That makes sense, we weren't betting on you to fix our problems or anything. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_medium4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium4",
+        "message":"If you want to give up that's fine. ",
+        "switchToNPC":"brightportgoons1",
+        "replies":[
+            {
+                "text":"Yes I would like to give up. ",
+                "nextPhraseID":"brightport_dynes_medium5"
+            },
+            {
+                "text":"I suddenly got motivated, I can do it!",
+                "nextPhraseID":"brightport_dynes_medium6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium5",
+        "message":"Better than disappearing without a word. You can still hang around here if you want though.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_goons",
+                "value":135
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":139
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_medium6",
+        "message":"That\u2019s the true warrior spirit of a Dhayavarian speaking. Just remember, we need the commander out of the picture."
+    },
+    {
+        "id":"brightport_goons_gaveup",
+        "message":"Hello, friend. It\u2019s a shame you helped our friend but couldn\u2019t help us.",
+        "replies":[
+            {
+                "text":"We'll I'm a bit busy searching for my brother after all.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester0",
+        "message":"Do you need something, or are you just wandering into people\u2019s houses?",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sylvester1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia",
+        "message":"Ah, hello. I don\u2019t believe we know each other. "
+    },
+    {
+        "id":"brightport_silvear_selector0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_silvear_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":30
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_silvear_1",
+        "message":"I specialize in trading information, rumors, stories, and the like. Not something I could sell to a kid like you.  ",
+        "replies":[
+            {
+                "text":"It happens that I'm interested in the local guard commander. Can you tell me anything about him?",
+                "nextPhraseID":"brightport_silvear0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":132
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":80,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_broom_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_broom_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_broom_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_1",
+        "message":"The floor is too dusty for an establishment like this, "
+    },
+    {
+        "id":"brightport_broom_2"
+    },
+    {
+        "id":"brightport_broom_3"
+    },
+    {
+        "id":"brightport_broom2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_sweep2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":167
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":165
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_sweep3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"brightport_broom",
+                        "value":1
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":167
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":166
+            }
+        ]
+    },
+    {
+        "id":"brighport_broom_sweep1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":167
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_sweep3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":165
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_sweep2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":166
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon7",
+        "message":"Well, then go and do it."
+    },
+    {
+        "id":"brightport_delon8",
+        "message":"[Yawning] See that sack of flour over there? Go sift through it so there\u2019s no rat dung inside or anything.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":15
+            }
+        ]
+    },
+    {
+        "id":"brightport_sift4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sift2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_arulir_lavarocks",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_arulir_lavarocks0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_fiamma",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_arulir_lavarocks0",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":175
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave3"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave2"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave4"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects0",
+                "mapName":"arulircave1"
+            },
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Brightport_objects1",
+                "mapName":"arulircave1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":180,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock1_1",
+                "requires":[
+                    {
+                        "requireType":"questLatestProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":176,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock0_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":181,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":177,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":178,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_rock4_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":179,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "replies":[
+            {
+                "text":"Neat.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":180
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock1_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects1",
+                "mapName":"arulircave1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":175
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock0_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":181
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects0"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock2_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":177
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock3_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":178
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock4_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":179
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Brightport_objects",
+                "mapName":"arulircave4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester1",
+        "message":"Ah, he\u2019s always grumpy when he\u2019s working. Did you wish to ask something child?",
+        "switchToNPC":"brightportforenza1",
+        "replies":[
+            {
+                "text":"Have you seen my brother Andor?",
+                "nextPhraseID":"brightport_florencia1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia1",
+        "message":"No sorry, I don't think we have, but you could ask the Doughe. His chambers are on the Bakery's second floor.",
+        "switchToNPC":"brightportforenza1",
+        "replies":[
+            {
+                "text":"Thanks.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylverster_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sylvester2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":182
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sylvester0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":110,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":183,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"odd_coin_collector",
+                        "value":115
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":183,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":183
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sylvester2",
+        "message":"You are our guest, $playername. Feel free to use our couch to rest while you\u2019re here. I will be returning to my work now, if you don\u2019t mind.",
+        "switchToNPC":"brightportforenza"
+    },
+    {
+        "id":"brightport_florencia0",
+        "message":"Hello, $playername! I got a letter from my father, Forenza, about how much you helped him on his travel.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_null"
+    },
+    {
+        "id":"brightport_vault",
+        "message":"You can't go there, that room isn\u2019t for visitors.",
+        "switchToNPC":"brightportforenza1"
+    },
+    {
+        "id":"brightport_florencia2",
+        "message":"Hello $playername, you're always welcome to come here and rest.",
+        "replies":[
+            {
+                "text":"What is that vault there for.",
+                "nextPhraseID":"brightport_florencia6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia3",
+        "message":"Please feel free to rest at our house any time you're in Brightport. And yes, father did mention a reward, you may go into the vault and take some gold. Mindfully.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":182
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":183
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia4",
+        "message":"Hello, might you be $playername? I received a letter from my father, Forenza, about your assistance to him during his travels.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_florencia5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia5",
+        "message":"You\u2019re welcome to rest here whenever you need, $playername. The couch is right behind Sylvester.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":183
+            }
+        ]
+    },
+    {
+        "id":"brightport_florencia6",
+        "message":"When my father Forenza returned from Feygard, he brought a collection he stored in there. But now my Husband. Who is the Bakery's accountant, keeps most of his paperwork there."
     }
 ]

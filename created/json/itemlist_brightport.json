@@ -314,5 +314,55 @@
         "iconID":"items_misc_2:65",
         "name":"Nor city made blade",
         "displaytype":"quest"
+    },
+    {
+        "id":"brutal_steel_mace",
+        "iconID":"items_newb:466",
+        "name":"Brutal steel mace",
+        "displaytype":"ordinary",
+        "hasManualPrice":0,
+        "baseMarketCost":2522,
+        "category":"mace",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":17
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":5,
+            "setCriticalMultiplier":3.25,
+            "setNonWeaponDamageModifier":146
+        }
+    },
+    {
+        "id":"brutal_hammer",
+        "iconID":"items_newb:473",
+        "name":"Brutal hammer",
+        "displaytype":"ordinary",
+        "hasManualPrice":0,
+        "baseMarketCost":2522,
+        "category":"hammer",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":4,
+                "max":19
+            },
+            "increaseAttackCost":7,
+            "increaseAttackChance":17,
+            "increaseCriticalSkill":5,
+            "setCriticalMultiplier":3.25,
+            "setNonWeaponDamageModifier":157
+        }
+    },
+    {
+        "id":"brightport_broom",
+        "iconID":"items_weapons:55",
+        "name":"Broom",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":100,
+        "category":"pole",
+        "description":"A broom for sweeping."
     }
 ]

@@ -518,6 +518,98 @@
             {
                 "progress":160,
                 "logText":"arrest escape"
+            },
+            {
+                "progress":161,
+                "logText":"dirt"
+            },
+            {
+                "progress":162,
+                "logText":"dirt removed 3"
+            },
+            {
+                "progress":163,
+                "logText":"dirt removed 2"
+            },
+            {
+                "progress":164,
+                "logText":"dirt removed 1"
+            },
+            {
+                "progress":165,
+                "logText":"sweep 3"
+            },
+            {
+                "progress":166,
+                "logText":"sweep 2"
+            },
+            {
+                "progress":167,
+                "logText":"sweep 1"
+            },
+            {
+                "progress":168,
+                "logText":"sift over"
+            },
+            {
+                "progress":169,
+                "logText":"sift * 1"
+            },
+            {
+                "progress":170,
+                "logText":"sift * 2"
+            },
+            {
+                "progress":171,
+                "logText":"sift * 3"
+            },
+            {
+                "progress":172,
+                "logText":"sift * 4"
+            },
+            {
+                "progress":173,
+                "logText":"arrested #2"
+            },
+            {
+                "progress":174,
+                "logText":"arrested 3"
+            },
+            {
+                "progress":175,
+                "logText":"Arulir spawn"
+            },
+            {
+                "progress":176,
+                "logText":"arulir2"
+            },
+            {
+                "progress":177,
+                "logText":"arulir3"
+            },
+            {
+                "progress":178,
+                "logText":"arulir4"
+            },
+            {
+                "progress":179,
+                "logText":"arulir5"
+            },
+            {
+                "progress":180,
+                "logText":"arulir1"
+            },
+            {
+                "progress":181,
+                "logText":"arulir0"
+            },
+            {
+                "progress":182,
+                "logText":"forenza reward"
+            },
+            {
+                "progress":183,
+                "logText":"forenza bed"
             }
         ]
     },
@@ -720,6 +812,11 @@
                 "progress":130,
                 "logText":"I opted to blackmail the duo instead for some quick cash, should've had the guild's protection, suckers.",
                 "finishesQuest":1
+            },
+            {
+                "progress":135,
+                "logText":"I was not up to the task and gave up.",
+                "finishesQuest":1
             }
         ]
     },
@@ -783,15 +880,15 @@
             },
             {
                 "progress":10,
-                "logText":"He told me to start by sifting through a batch of flour."
+                "logText":"He told me to start by sweeping the floor, and to do that I must find a broom."
             },
             {
                 "progress":15,
-                "logText":"Flour\u2019s all sifted. Now he wants me to sweep the floor."
+                "logText":"Floor's all sweeped, now he wants me to sift through a batch of flour."
             },
             {
                 "progress":20,
-                "logText":"Floor sweeped. One last errand, The apple delivery hasn\u2019t arrived. Allares told me to ask Eatloni outside about it."
+                "logText":"Flour sifted. One last errand, The apple delivery hasn\u2019t arrived. Allares told me to ask Eatloni outside about it."
             },
             {
                 "progress":25,

@@ -25,6 +25,14 @@
                     "min":5,
                     "max":5
                 }
+            },
+            {
+                "itemID":"brightport_broom",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":1
+                }
             }
         ]
     },

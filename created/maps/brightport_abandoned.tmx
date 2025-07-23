@@ -257,6 +257,7 @@
   </object>
   <object name="agent" type="spawn" x="288" y="96" width="192" height="96">
    <properties>
+    <property name="active" value="false"/>
     <property name="respawnspeed" value="0"/>
     <property name="spawngroup" value="brightport_Agent"/>
    </properties>

@@ -107,12 +107,14 @@
     {
         "id":"brightportforenza",
         "name":"Sylvester",
-        "iconID":"monsters_ld1:101"
+        "iconID":"monsters_ld1:101",
+        "phraseID":"brightport_sylverster_selector"
     },
     {
         "id":"brightportforenza1",
         "name":"Florencia",
-        "iconID":"monsters_ld1:206"
+        "iconID":"monsters_ld1:206",
+        "phraseID":"brightport_florencia_selector"
     },
     {
         "id":"brightportpriest1",
@@ -452,7 +454,8 @@
     {
         "id":"brightportnpc10",
         "name":"Delon",
-        "iconID":"monsters_ld1:195"
+        "iconID":"monsters_ld1:195",
+        "phraseID":"brightport_delon_selector"
     },
     {
         "id":"brightportchapelguard",
@@ -620,15 +623,15 @@
     },
     {
         "id":"brightport_squirrel",
-        "name":"Forest muskrat",
+        "name":"Muskrat",
         "iconID":"monsters_tometik5:26",
-        "maxHP":130,
+        "maxHP":100,
         "maxAP":12,
         "moveCost":4,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":18,
+            "min":10,
             "max":25
         },
         "attackCost":4,
@@ -640,15 +643,15 @@
     },
     {
         "id":"brightport_squirrel2",
-        "name":"Rash forest muskrat",
+        "name":"Rash Muskrat",
         "iconID":"monsters_tometik5:27",
-        "maxHP":180,
+        "maxHP":140,
         "maxAP":12,
         "moveCost":4,
         "monsterClass":"animal",
         "movementAggressionType":"protectSpawn",
         "attackDamage":{
-            "min":20,
+            "min":15,
             "max":30
         },
         "attackCost":4,
@@ -674,7 +677,7 @@
         "attackCost":5,
         "attackChance":225,
         "criticalSkill":4,
-        "criticalMultiplier":20.0,
+        "criticalMultiplier":1.0,
         "blockChance":170,
         "damageResistance":4
     },
@@ -695,7 +698,7 @@
         "attackCost":4,
         "attackChance":240,
         "criticalSkill":4,
-        "criticalMultiplier":20.0,
+        "criticalMultiplier":1.0,
         "blockChance":180,
         "damageResistance":4
     },
@@ -737,14 +740,14 @@
     },
     {
         "id":"brightport_goblin",
-        "name":"Goblin beast rider",
+        "name":"Charwood goblin hogrider",
         "iconID":"monsters_newb_1:48",
         "monsterClass":"humanoid",
         "movementAggressionType":"protectSpawn"
     },
     {
         "id":"brightport_goblin2",
-        "name":"Goblin raider",
+        "name":"Charwood goblin raider",
         "iconID":"monsters_newb_1:92",
         "monsterClass":"humanoid",
         "movementAggressionType":"none"
