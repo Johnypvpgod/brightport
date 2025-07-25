@@ -290,7 +290,8 @@
         "id":"brightportpackage",
         "iconID":"items_japozero:472",
         "name":"Package",
-        "displaytype":"quest"
+        "displaytype":"quest",
+        "category":"other"
     },
     {
         "id":"brightport_ring",

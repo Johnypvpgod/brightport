@@ -10827,6 +10827,13 @@
                 "text":" I have the captain under my thumb, they can't touch me.",
                 "nextPhraseID":"brightport_agent8"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":30
+            }
         ]
     },
     {
@@ -15165,12 +15172,12 @@
         "message":"Sweep sweep sweep.",
         "replies":[
             {
-                "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom23"
-            },
-            {
                 "text":"Easy.",
                 "nextPhraseID":"brightport_broom22"
+            },
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom23"
             }
         ]
     },
