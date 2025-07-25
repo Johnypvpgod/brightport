@@ -14058,13 +14058,21 @@
     },
     {
         "id":"brightport_broom_1",
-        "message":"The floor is too dusty for an establishment like this, "
+        "message":"The floor has no business being this dusty.",
+        "replies":[
+            {
+                "text":"Time to get sweeping.",
+                "nextPhraseID":"brightport_broom_selector1"
+            }
+        ]
     },
     {
-        "id":"brightport_broom_2"
+        "id":"brightport_broom_2",
+        "message":"One spot is done already, if Delon weren't so annoying I could be doing things faster."
     },
     {
-        "id":"brightport_broom_3"
+        "id":"brightport_broom_3",
+        "message":"Almost done, and Delon hasn't been bothering me that much."
     },
     {
         "id":"brightport_broom2",
@@ -14717,5 +14725,474 @@
     {
         "id":"brightport_florencia6",
         "message":"When my father Forenza returned from Feygard, he brought a collection he stored in there. But now my Husband. Who is the Bakery's accountant, keeps most of his paperwork there."
+    },
+    {
+        "id":"brightport_broom0",
+        "message":"My underling! Have you found a broom? Well then, get sweeping.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_sweep_stage1"
+            },
+            {
+                "text":"I was about to start before you interrupted me.",
+                "nextPhraseID":"brightport_broom"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom",
+        "message":"Nonsense, where would this warehouse go without me.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_sweep_stage0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage0",
+        "message":"That's right, listen to your superiors when they teach you something useful. ",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom4"
+            },
+            {
+                "text":"[I need a break.]",
+                "nextPhraseID":"brightport_broom_savepoint1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage1",
+        "message":"Yes just like that, grab it by the handle and move it that way.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_sweep_stage2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_savepoint1",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":184
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom19",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":186
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":185
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sweep_stage3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":184
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage2",
+        "message":"You're not doing it correctly!",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_sweep_stage4"
+            },
+            {
+                "text":"Yes I am, could you please let me finish the work?",
+                "nextPhraseID":"brightport_broom"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage3",
+        "message":"Just started and already took a break? You are really lazy.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom9"
+            },
+            {
+                "text":"Yes, because you won't let me sweep properly.",
+                "nextPhraseID":"brightport_sweep_stage5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage4",
+        "message":"No! Let me show you how to do it! ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom4",
+        "message":"I don't like this style, it's not how I would do this, you need to be faster.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom6"
+            },
+            {
+                "text":"I'm already working fast enough, how could I be any faster.",
+                "nextPhraseID":"brightport_broom7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom5",
+        "message":"[Delon yanks the broom out of your hands and chaotically sweeps, spreading the dust all across the floor.]",
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":186
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom6",
+        "message":"Sigh, you're so bad at this, why would you gather it into a pile if we have to disperse it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom7",
+        "message":"Like this.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom9",
+        "message":"Yes good, work on the corners.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage5",
+        "message":"The kids who worked here before you weren't half as slow as you are, maybe you just need to get better.",
+        "replies":[
+            {
+                "text":"Yes boss. ",
+                "nextPhraseID":"brightport_broom10"
+            },
+            {
+                "text":"[I need a break.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom10",
+        "message":"I might ask Eatloni for a bonus if you finish this quickly enough. I deserve it since it's so hard looking after you.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom9"
+            },
+            {
+                "text":"You're not the one to speak.",
+                "nextPhraseID":"brightport_broom11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom11",
+        "message":"Really? Let me show you what I can do. [Delon takes the handle and sweeps the dust wildly around, getting it under shelves and crates.] See it wasn't that hard.",
+        "replies":[
+            {
+                "text":"[I think he just made things worse.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom12",
+        "message":"Actually, now that all the dust is under the shelves and crates then little of it is on the floor!",
+        "replies":[
+            {
+                "text":"[Sweep a little more under the shelves.]",
+                "nextPhraseID":"brighport_broom_1_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom13",
+        "message":"First section, done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":164
+            }
+        ]
+    },
+    {
+        "id":"brighport_broom_1_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_removedirt1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_removedirt2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_removedirt3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_removedirt1",
+        "message":"First section, done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":164
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_0",
+                "mapName":"brightport_bakery1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_removedirt2",
+        "message":"First section, done!",
+        "rewards":[
+            {
+                "rewardType":"activateMapObjectGroup",
+                "rewardID":"Objects_1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":164
+            }
+        ]
+    },
+    {
+        "id":"brightport_removedirt3",
+        "message":"First section, done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":164
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom14",
+        "message":"Why would you sweep all the dust into the same place, that makes it dirtier.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom15"
+            },
+            {
+                "text":"That's how sweeping works.",
+                "nextPhraseID":"brightport_broom16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom15",
+        "message":"Not making much progress are we.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom18"
+            },
+            {
+                "text":"Hey you haven't done anything to help me!",
+                "nextPhraseID":"brightport_broom17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom16",
+        "message":"No it's not, and you are not going to argue about it with me.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom9"
+            },
+            {
+                "text":"You sweep like you haven't touched a broom in your life.",
+                "nextPhraseID":"brightport_broom17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom17",
+        "message":"I think you need a break, you are getting emotional."
+    },
+    {
+        "id":"brightport_broom18",
+        "message":"I'm gonna go drink some fresh water, wait until come back so I can tell you how to sweep properly.",
+        "replies":[
+            {
+                "text":"[Now is my chance to finish.]",
+                "nextPhraseID":"brightport_broom_savepoint"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_savepoint",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":186
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom19",
+        "message":"With Delon off my neck I have to hurry and finish this.",
+        "replies":[
+            {
+                "text":"Time to get sweeping.",
+                "nextPhraseID":"brightport_20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_20",
+        "message":"Sweep.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom20"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom20",
+        "message":"Sweep sweep.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom21"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom21",
+        "message":"Sweep sweep sweep.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom23"
+            },
+            {
+                "text":"Easy.",
+                "nextPhraseID":"brightport_broom22"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom22",
+        "message":"I'm back, and you haven't done anything?  I'm refreshed so i'll take it from here.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom23",
+        "message":"All of the dust and dirt is gathered into a pile, I guess I'll sweep it into an empty sack. They'll throw it out later.",
+        "replies":[
+            {
+                "text":"[Sweep the dirt mound into the sack.]",
+                "nextPhraseID":"brighport_broom_1_selector"
+            }
+        ]
     }
 ]

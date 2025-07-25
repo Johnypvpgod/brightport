@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="17" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="10">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="17" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="13">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="160" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -195,17 +195,17 @@
  </layer>
  <layer id="3" name="Objects_0" width="17" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDGfgJEyZfkYK9KPbTalbcAEAnMABFA==
+   eJxjYBgFo2AUjALcgFGYfL1OaHp/CFLmFlwAAI8BAXM=
   </data>
  </layer>
  <layer id="4" name="Objects_1" width="17" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUYAOMwgwMTsLk6SVX3yggDwAALQYAvw==
+   eJxjYBgFo2AU0BIwCjMwOAmTp/eHIHXdMlwBAMe4AXM=
   </data>
  </layer>
  <layer id="5" name="Objects_2" width="17" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4Ay4CTMwMAoTD2zRsEoIBUAAMkKAL8=
+   eJxjYBgFo2D4ACdhBgZGYfL1/xBENWsUDA0AACinAcg=
   </data>
  </layer>
  <layer id="6" name="Above" width="17" height="18">
@@ -223,13 +223,16 @@
    eJy7KMbAcHEYYXSATQ6ZT6p52AAtzKAEUNMMXOaQIk+uGbjMIia8SYljbHrR7SfFHEr9gc1ecsKB3DRPzXihRngSgwGEN7HE
   </data>
  </layer>
- <objectgroup id="9" name="Mapevents" visible="0">
+ <objectgroup id="9" name="Mapevents">
   <object id="1" name="west" type="mapchange" x="0" y="192" width="32" height="64">
    <properties>
     <property name="map" value="brightport_bakery"/>
     <property name="place" value="east"/>
    </properties>
   </object>
+  <object id="10" name="brightport_broom1" type="script" x="352" y="320" width="32" height="32"/>
+  <object id="11" name="brightport_broom2" type="script" x="416" y="384" width="32" height="32"/>
+  <object id="12" name="brightport_broom3" type="script" x="352" y="512" width="32" height="32"/>
  </objectgroup>
  <objectgroup id="10" name="Spawn">
   <object id="2" name="brightport_chef2" type="spawn" x="160" y="128" width="96" height="32">
@@ -253,11 +256,8 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="11" name="Keys" visible="0">
-  <object id="6" name="brightport_broom1" type="script" x="320" y="256" width="32" height="32"/>
-  <object id="7" name="brightport_broom2" type="script" x="384" y="352" width="32" height="32"/>
-  <object id="8" name="brightport_broom3" type="script" x="320" y="480" width="32" height="32"/>
-  <object id="9" name="Object" type="key" x="352" y="512" width="32" height="32">
+ <objectgroup id="11" name="Keys">
+  <object id="9" name="Object" type="key" x="320" y="480" width="32" height="32">
    <properties>
     <property name="phrase" value="brightport_sift"/>
     <property name="requireId" value="andor"/>
