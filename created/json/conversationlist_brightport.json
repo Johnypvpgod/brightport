@@ -13165,7 +13165,7 @@
     },
     {
         "id":"brightport_vyro",
-        "message":"[The lizardman moves it's mouth to speak but no sound comes out, it seems to be mute]"
+        "message":"[The lizardman moves it's mouth to speak but no sound comes out.]"
     },
     {
         "id":"brightport_crate_failure17alt",
@@ -14840,7 +14840,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_sweep_stage4"
+                "nextPhraseID":"brightport_broom_random"
             },
             {
                 "text":"Yes I am, could you please let me finish the work?",
@@ -14944,7 +14944,7 @@
     },
     {
         "id":"brightport_broom10",
-        "message":"I might ask Eatloni for a bonus if you finish this quickly enough. I deserve it since it's so hard looking after you.",
+        "message":"I might ask Eatloni for a bonus if you finish this quickly enough. I deserve one since it's so hard looking after you.",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -15046,8 +15046,9 @@
         "message":"First section, done!",
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_1"
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_1",
+                "mapName":"brightport_bakery1"
             },
             {
                 "rewardType":"questProgress",
@@ -15067,7 +15068,8 @@
             },
             {
                 "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_2"
+                "rewardID":"Objects_2",
+                "mapName":"brightport_bakery1"
             }
         ]
     },
@@ -15119,7 +15121,7 @@
     },
     {
         "id":"brightport_broom18",
-        "message":"I'm gonna go drink some fresh water, wait until come back so I can tell you how to sweep properly.",
+        "message":"I'm gonna go drink some fresh water, wait until I come back so I can tell you how to sweep properly.",
         "replies":[
             {
                 "text":"[Now is my chance to finish.]",
@@ -15177,13 +15179,13 @@
             },
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom23"
+                "nextPhraseID":"brightport_broom_random2"
             }
         ]
     },
     {
         "id":"brightport_broom22",
-        "message":"I'm back, and you haven't done anything?  I'm refreshed so i'll take it from here.",
+        "message":"I'm back, and you haven't finished yet?  I'm refreshed so i'll take it from here.",
         "switchToNPC":"brightportnpc10",
         "replies":[
             {
@@ -15201,5 +15203,637 @@
                 "nextPhraseID":"brighport_broom_1_selector"
             }
         ]
+    },
+    {
+        "id":"brightport_broom_random",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50/100"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sweep_stage4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100/100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_random2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom23",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"50"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom22",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100/100"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_androni",
+        "message":"Ah hello, like the smell?",
+        "replies":[
+            {
+                "text":"Do you have butter or dough?",
+                "nextPhraseID":"brightport_androni1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio",
+        "message":"I am very busy, I hope you haven't intruded into the kitchen for some silly game.",
+        "replies":[
+            {
+                "text":"Can you cook me something?",
+                "nextPhraseID":"brightport_crescenzio_selector"
+            },
+            {
+                "text":"Do you have butter or dough?",
+                "nextPhraseID":"brightport_crescenzio1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio1",
+        "message":"Do I have? No. Do we have? Yes, quite a lot of both. But no, I will not give you any, if that's what you're about to ask. I have a great deal of work, and you'd do well not to intrude on it."
+    },
+    {
+        "id":"brightport_crescenzio0",
+        "message":"Do you not like the menu? Ah, I understand. You wish for a taste of your hometown. Wherever you're from, I'm quite busy now, but if you could come later, I could do it. Child from?",
+        "replies":[
+            {
+                "text":"Crossglen.",
+                "nextPhraseID":"brightport_crescenzio2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio2",
+        "message":"Understood. Now, I wouldn\u2019t mind your presence here if we weren\u2019t so busy, so please.",
+        "replies":[
+            {
+                "text":"Got it, bye.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":187
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":187
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":187
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":187,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio3",
+        "message":"The child from Crossglen. We're still swamped with work, but I haven't forgotten.",
+        "replies":[
+            {
+                "text":"Got it, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_androni1",
+        "replies":[
+            {
+                "nextPhraseID":"brightport_androni2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":188
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"brightport_androni3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":188,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_androni2",
+        "message":"I already gave you some, don't be cheeky."
+    },
+    {
+        "id":"brightport_androni3",
+        "message":"You want some? Here, since I have a bit left over after preparing a roulette cake. I wouldn't eat those raw if I were you.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":188
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"dough",
+                "value":1
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"butter",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio4",
+        "message":"Thanks to the delivery you made we started baking the first batch of apple tarts for the festival, I can cook you a Crossglen recipe while I keep an eye on the oven. ",
+        "replies":[
+            {
+                "text":"What do you want to cook me?",
+                "nextPhraseID":"brightport_crescenzio5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio5",
+        "message":"Delicious rice stuffed peppers. In Crossglen they\u2019d make it with millet, but here we get rice from Nor City.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio6"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio6",
+        "message":"To prepare some for you, I\u2019ll need peppers and rice. And an appropriate fee of 20 gold. The peppers come in different colors, and each affects the flavor, so I like to cook them separately. ",
+        "replies":[
+            {
+                "text":"Yes I would like you to cook me some.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio7",
+        "message":"...",
+        "replies":[
+            {
+                "text":"Here's 1 green pepper and rice.",
+                "nextPhraseID":"brightport_crescenzio8",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"green_pepper",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here are 5 green peppers and rice.",
+                "nextPhraseID":"brightport_crescenzio_1",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"green_pepper",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Here's 1 yellow pepper and rice.",
+                "nextPhraseID":"brightport_crescenzio_2",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"yellow_pepper",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Here are 5 yellow peppers and rice.",
+                "nextPhraseID":"brightport_crescenzio_3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"yellow_pepper",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"Here's 1 red pepper and rice.",
+                "nextPhraseID":"brightport_crescenzio_4",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"red_pepper",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"Here are 5 red peppers and rice.",
+                "nextPhraseID":"brightport_crescnezio_5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":100
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"red_pepper",
+                        "value":5
+                    },
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rice",
+                        "value":5
+                    }
+                ]
+            },
+            {
+                "text":"I don't have the ingredients now, I'll be back again.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio8",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio9"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio9",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_green",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":189
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio"
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_1",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_2",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio11"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_3",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio12"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio_4",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio13"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescnezio_5",
+        "message":"Just a moment..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_crescenzio14"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":189
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio10",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_green",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio11",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_yellow",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio12",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"yellow_pepper",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio13",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_red",
+                "value":1
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio14",
+        "message":"Here it is.",
+        "replies":[
+            {
+                "text":"I would like you to cook me more.",
+                "nextPhraseID":"brightport_crescenzio7"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"brightport_red",
+                "value":5
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescenzio15",
+        "message":"Hello, child from Crossglen. Back for my cooking?",
+        "replies":[
+            {
+                "text":"Yes, I want you to cook me some stuffed peppers.",
+                "nextPhraseID":"brightport_crescenzio6"
+            },
+            {
+                "text":"Do you have butter and dough?",
+                "nextPhraseID":"brightport_crescnezio16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"feygard_delicacy",
+                        "value":5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_crescnezio16",
+        "message":"Ask my colleague Androni, he is working with the ingredients right now."
     }
 ]

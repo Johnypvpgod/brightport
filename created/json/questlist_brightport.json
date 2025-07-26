@@ -622,6 +622,18 @@
             {
                 "progress":186,
                 "logText":"broom savepoint 3"
+            },
+            {
+                "progress":187,
+                "logText":"chef recipe"
+            },
+            {
+                "progress":188,
+                "logText":"butter  and dough"
+            },
+            {
+                "progress":189,
+                "logText":"cooked once"
             }
         ]
     },

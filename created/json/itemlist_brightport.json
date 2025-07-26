@@ -168,6 +168,7 @@
         "category":"hnd_lthr",
         "description":"Fire-proof gloves crafted out of arulir skin. somehow named after a lizard instead.",
         "equipEffect":{
+            "increaseBlockChance":3,
             "addedConditions":[
                 {
                     "condition":"brightportflame",
@@ -365,5 +366,83 @@
         "baseMarketCost":100,
         "category":"pole",
         "description":"A broom for sweeping."
+    },
+    {
+        "id":"brightport_green",
+        "iconID":"items_consumables:16",
+        "name":"Stuffed pepper",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"A traditional Crossglen recipe. Mild taste but filling.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":8,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sated",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"brightport_yellow",
+        "iconID":"items_consumables:17",
+        "name":"Stuffed pepper",
+        "displaytype":"ordinary",
+        "category":"food",
+        "description":"A traditional Crossglen recipe. Flavourful and pleasant.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"food",
+                    "magnitude":4,
+                    "duration":10,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sated",
+                    "magnitude":2,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
+    },
+    {
+        "id":"brightport_red",
+        "iconID":"items_consumables:18",
+        "name":"Stuffed pepper",
+        "displaytype":"rare",
+        "category":"food",
+        "description":"A traditional Crossglen recipe. Perhaps a bit too spicy.",
+        "useEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"brightportflame",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"30"
+                },
+                {
+                    "condition":"food",
+                    "magnitude":5,
+                    "duration":10,
+                    "chance":"100"
+                },
+                {
+                    "condition":"sated",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"100"
+                }
+            ]
+        }
     }
 ]

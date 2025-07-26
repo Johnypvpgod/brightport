@@ -574,13 +574,15 @@
     },
     {
         "id":"brightport_chef",
-        "name":"Crescenzio",
-        "iconID":"monsters_ld1:23"
+        "name":"Androni",
+        "iconID":"monsters_ld1:23",
+        "phraseID":"brightport_androni"
     },
     {
         "id":"brightport_chef2",
-        "name":"Androni",
-        "iconID":"monsters_ld1:22"
+        "name":"Crescenzio",
+        "iconID":"monsters_ld1:22",
+        "phraseID":"brightport_crescenzio_0"
     },
     {
         "id":"brightport_mayor",
