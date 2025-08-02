@@ -11643,7 +11643,7 @@
     {
         "id":"brightport_crate_success",
         "message":"[After what seems like a minute the footsteps move away, you hear the guards discuss something then silence..]",
-        "switchToNPC":"playernametest",
+        "switchToNPC":"$playername",
         "replies":[
             {
                 "text":"Time to get out of this crate.",
@@ -13419,6 +13419,78 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_delon12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon11",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":162,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":163,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":195
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":164,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_delon6",
                 "requires":[
                     {
@@ -13428,8 +13500,8 @@
                     },
                     {
                         "requireType":"questProgress",
-                        "requireID":"brightport_bakery",
-                        "value":70,
+                        "requireID":"brightport_nondisplay",
+                        "value":195,
                         "negate":true
                     }
                 ]
@@ -13490,6 +13562,18 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_broom",
                         "value":1
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":192,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":191,
+                        "negate":true
                     }
                 ]
             }
@@ -13585,7 +13669,7 @@
                 ]
             },
             {
-                "text":"I'm not done yet.",
+                "text":"I haven't even started.",
                 "nextPhraseID":"brightport_delon7"
             }
         ]
@@ -14069,17 +14153,29 @@
         "replies":[
             {
                 "text":"Time to get sweeping.",
-                "nextPhraseID":"brightport_broom_selector1"
+                "nextPhraseID":"brightport_broom_selector_1"
             }
         ]
     },
     {
         "id":"brightport_broom_2",
-        "message":"One spot is done already, if Delon weren't so annoying I could be doing things faster."
+        "message":"One spot is done already, if Delon weren't so annoying I could be doing things faster.",
+        "replies":[
+            {
+                "text":"Time to get sweeping.",
+                "nextPhraseID":"brightport_broom_selector2"
+            }
+        ]
     },
     {
         "id":"brightport_broom_3",
-        "message":"Almost done, and Delon hasn't been bothering me that much."
+        "message":"Almost done. Final stretch of effort!",
+        "replies":[
+            {
+                "text":"Time to get sweeping.",
+                "nextPhraseID":"brightport_broom_selector3"
+            }
+        ]
     },
     {
         "id":"brightport_broom2",
@@ -14103,6 +14199,21 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_broom",
                         "value":1
+                    },
+                    {
+                        
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":190,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":192,
+                        "negate":true
                     }
                 ]
             }
@@ -14142,6 +14253,21 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_broom",
                         "value":1
+                    },
+                    {
+                        
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":190,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":191,
+                        "negate":true
                     }
                 ]
             }
@@ -14214,6 +14340,12 @@
     {
         "id":"brightport_delon8",
         "message":"[Yawning] See that sack of flour over there? Go sift through it so there\u2019s no rat dung inside or anything.",
+        "replies":[
+            {
+                "text":"More work? Aww dang.",
+                "nextPhraseID":"X"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -14832,6 +14964,13 @@
                 "text":"N",
                 "nextPhraseID":"brightport_broom0"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":195
+            }
         ]
     },
     {
@@ -14889,7 +15028,7 @@
     },
     {
         "id":"brightport_broom5",
-        "message":"[Delon yanks the broom out of your hands and chaotically sweeps, spreading the dust all across the floor.]",
+        "message":"[Delon yanks the broom out of your hands and sweeps chaotically, spreading the dust all across the floor.]",
         "rewards":[
             {
                 "rewardType":"removeQuestProgress",
@@ -14958,10 +15097,10 @@
     },
     {
         "id":"brightport_broom11",
-        "message":"Really? Let me show you what I can do. [Delon takes the handle and sweeps the dust wildly around, getting it under shelves and crates.] See it wasn't that hard.",
+        "message":"Really? Let me show you what I can do. [Delon takes the broom and sweeps the dust wildly around, getting it under shelves and crates.] See it wasn't that hard.",
         "replies":[
             {
-                "text":"[I think he just made things worse.]",
+                "text":"[I think you just made things worse.]",
                 "nextPhraseID":"X"
             }
         ]
@@ -15121,7 +15260,7 @@
     },
     {
         "id":"brightport_broom18",
-        "message":"I'm gonna go drink some fresh water, wait until I come back so I can tell you how to sweep properly.",
+        "message":"I'm gonna go drink some water cause I'm getting tired, wait until I come back so I can show you how to sweep properly.",
         "replies":[
             {
                 "text":"[Now is my chance to finish.]",
@@ -15196,7 +15335,7 @@
     },
     {
         "id":"brightport_broom23",
-        "message":"All of the dust and dirt is gathered into a pile, I guess I'll sweep it into an empty sack. They'll throw it out later.",
+        "message":"All of the dirt and dust is gathered into a pile, I guess I'll sweep it into an empty sack. They'll throw it out later.",
         "replies":[
             {
                 "text":"[Sweep the dirt mound into the sack.]",
@@ -15835,5 +15974,665 @@
     {
         "id":"brightport_crescnezio16",
         "message":"Ask my colleague Androni, he is working with the ingredients right now."
+    },
+    {
+        "id":"brightport_broom24",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom38",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":193
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom34",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":194
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":193,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom25_selector"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom25",
+        "message":"Yawn. You missed a spot over there.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom26"
+            },
+            {
+                "text":"Where?",
+                "nextPhraseID":"brightport_broom27"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom26",
+        "message":"Hey, I told you that you missed a spot. Go do that first.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom28"
+            },
+            {
+                "text":"I'll go there when I finish here.",
+                "nextPhraseID":"brightport_broom33"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom27",
+        "message":"Look, over there.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom29"
+            },
+            {
+                "text":"I don't know where \"there\" is. Could you show me exactly?",
+                "nextPhraseID":"brightport_broom30"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom28",
+        "message":"OK. I'll have to show you myself. ",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]"
+            },
+            {
+                "text":"[Oh no! now he'll walk over and scatter all the dust!]",
+                "nextPhraseID":"brightport_broom31"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom29",
+        "message":"Are you not listening to me? I said sweep over there.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom32"
+            },
+            {
+                "text":"I don't know where \"there\" is. Could you show me exactly?",
+                "nextPhraseID":"brightport_broom30"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":190
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":191
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_selector1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":192
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin1_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin3_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin1_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":190
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin3_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":192
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin_2_1",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom24"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":191
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom30",
+        "message":"Sure.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom31"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector3",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin1_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin2_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_lockedin3_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin1_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom43"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":190
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin2_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom43"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":191
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_lockedin3_2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom43"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":192
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom31",
+        "message":"[Delon sluggishly drags his feet across the floor, less energetic than you expected, but still dragging some dust.] See? Right here where I'm standing, now get back to work.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":194
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom32",
+        "message":"Fine, ignore your superior. See if I care.",
+        "replies":[
+            {
+                "text":"[Finally peace..?]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":193
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom33",
+        "message":"No, no, no. You do what I say when I say it.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom32"
+            },
+            {
+                "text":"Yes boss.",
+                "nextPhraseID":"brightport_broom37"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom25_selector",
+        "message":"Sweep Sweep.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom25"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom34",
+        "message":"This spot right here. My underling, $playername.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom35"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom35",
+        "message":"This spot that I've shown you here is the most dusty.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom36"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom36",
+        "message":"Hm. Looks a little bit cleaner now, so go clean that spot over there. [Delon points to the place you were previously sweeping.]",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom29"
+            },
+            {
+                "text":"I''ll go there when I finish here.",
+                "nextPhraseID":"brightport_broom33"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom37",
+        "message":"Good, let me show you where to sweep.",
+        "replies":[
+            {
+                "text":"[Oh no! now he'll walk over and scatter all the dust!]",
+                "nextPhraseID":"brightport_broom31"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom38",
+        "message":"Yawn. Keep playing around with the broom, if you don't want to listen to my instructions.",
+        "switchToNPC":"brightportnpc10",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom39"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom39",
+        "message":"Sweep sweep.",
+        "switchToNPC":"$playername",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom40"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon9",
+        "message":"You have a broom, what are you doing here instead of sweeping?",
+        "replies":[
+            {
+                "text":"Im on it. ",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon10",
+        "message":"You did a good job sweeping that part of the warehouse. With my help, ofcourse. Now finish the rest."
+    },
+    {
+        "id":"brightport_delon11",
+        "message":"Mmm, yeah sweep over there.."
+    },
+    {
+        "id":"brightport_delon12",
+        "message":"Zzzz. pastries... Zzzz",
+        "replies":[
+            {
+                "text":"Oh so that's why you've been so quiet.",
+                "nextPhraseID":"brightport_delon13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon13",
+        "message":"Zzz\u2026 huh? Er\u2026 wha, what?",
+        "replies":[
+            {
+                "text":"I finally finished sweeping the whole warehouse!",
+                "nextPhraseID":"brightport_delon8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom40",
+        "message":"Sweep sweep sweep.",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom41"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom41",
+        "message":"Seems that Delon is no longer watching over my shoulder [Sweep sweep sweep.]",
+        "replies":[
+            {
+                "text":"[Sweep in silence.]",
+                "nextPhraseID":"brightport_broom42"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom42",
+        "message":"The work is easy now. OK I got all the dust in a pile now.",
+        "replies":[
+            {
+                "text":"[Sweep the mound inside of the sack with dust and dirt.]",
+                "nextPhraseID":"brightport_broom_selector4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_selector4",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_finished1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":167
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_finished2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":166
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom_finished3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":165
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_finished1",
+        "message":"Second section done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":164
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_finished2",
+        "message":"Second section, done!",
+        "rewards":[
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_2",
+                "mapName":"brightport_bakery1"
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":163
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom_finished3",
+        "message":"Second section, done!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":162
+            },
+            {
+                "rewardType":"deactivateMapObjectGroup",
+                "rewardID":"Objects_2",
+                "mapName":"brightport_bakery1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom43",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom44"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom44",
+        "message":"Sweep sweep."
     }
 ]

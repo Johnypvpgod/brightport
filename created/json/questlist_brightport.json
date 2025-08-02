@@ -634,6 +634,30 @@
             {
                 "progress":189,
                 "logText":"cooked once"
+            },
+            {
+                "progress":190,
+                "logText":"sweeping locked in 1"
+            },
+            {
+                "progress":191,
+                "logText":"sweeping locked in 2"
+            },
+            {
+                "progress":192,
+                "logText":"sweeping locked in 3"
+            },
+            {
+                "progress":193,
+                "logText":"peace in sweeping"
+            },
+            {
+                "progress":194,
+                "logText":"mess in sweeping"
+            },
+            {
+                "progress":195,
+                "logText":"Sweeping started"
             }
         ]
     },

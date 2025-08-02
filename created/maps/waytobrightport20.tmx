@@ -231,7 +231,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn">
+ <objectgroup id="6" name="Spawn" visible="0">
   <object id="8" name="brightport_deer2" type="spawn" x="224" y="64" width="416" height="192">
    <properties>
     <property name="quantity" value="4"/>

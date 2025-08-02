@@ -878,11 +878,6 @@
         "iconID":"monsters_ld1:94"
     },
     {
-        "id":"playernametest",
-        "name":"$playername",
-        "iconID":"monsters_fatboy73:64"
-    },
-    {
         "id":"brightport_newcommander",
         "name":"Garvhel",
         "iconID":"monsters_men:3",
@@ -918,5 +913,10 @@
         "name":"Brightport guard",
         "iconID":"monsters_karvis2:2",
         "phraseID":"brightport_jailguard"
+    },
+    {
+        "id":"$playername",
+        "name":"$playername",
+        "iconID":"monsters_fatboy73:64"
     }
 ]
