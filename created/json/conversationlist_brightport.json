@@ -14201,9 +14201,6 @@
                         "value":1
                     },
                     {
-                        
-                    },
-                    {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":190,
@@ -14253,9 +14250,6 @@
                         "requireType":"inventoryKeep",
                         "requireID":"brightport_broom",
                         "value":1
-                    },
-                    {
-                        
                     },
                     {
                         "requireType":"questProgress",
