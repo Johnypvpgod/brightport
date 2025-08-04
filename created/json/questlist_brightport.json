@@ -944,7 +944,11 @@
             },
             {
                 "progress":22,
-                "logText":"Allares refused to accept my help until I brought him some Deer meat. I should ask Eatloni outside for further information."
+                "logText":"Allares refuses to accept my help until I bring him some Deer meat to show my capabilities."
+            },
+            {
+                "progress":23,
+                "logText":"After bringing the deer meat to Allares, he accepted my help, I should speak to Eatloni outside."
             },
             {
                 "progress":25,

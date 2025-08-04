@@ -12561,12 +12561,36 @@
         "id":"brightport_allares",
         "replies":[
             {
+                "text":"N",
+                "nextPhraseID":"brightport_allares4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":22
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":23,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_allares3",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_bakery",
-                        "value":20
+                        "value":5
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":22,
+                        "negate":true
                     }
                 ]
             },
@@ -16805,6 +16829,39 @@
         ]
     },
     {
-        "id":"brightport_allares3"
+        "id":"brightport_allares3",
+        "message":"Hello, how is the work?"
+    },
+    {
+        "id":"brightport_allares4",
+        "message":"Have you brought me the deer meat?",
+        "replies":[
+            {
+                "text":"Yes, here you go.",
+                "nextPhraseID":"brightport_allares5",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"brightport_rawmeat",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, not yet.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares5",
+        "message":"Very good, you've convinced me of your capabilities. Please talk to Eatloni outside, he was in charge of the apple delivery and should know more.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":22
+            }
+        ]
     }
 ]
