@@ -12561,6 +12561,16 @@
         "id":"brightport_allares",
         "replies":[
             {
+                "nextPhraseID":"brightport_allares3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":20
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"brightport_allares0"
             }
@@ -12620,7 +12630,7 @@
     },
     {
         "id":"brightport_allares2",
-        "message":"Very good, very good! Go down to the storage roome and speak with Delon. You two will be working together.",
+        "message":"Very good, very good! Go down to the storage room and speak with Delon. You two will be working together.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -13648,27 +13658,6 @@
         "message":"Yes my underling, how is the sweeping going.",
         "replies":[
             {
-                "text":"Floor is all sweeped.",
-                "nextPhraseID":"brightport_delon8",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":164
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":163
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":162
-                    }
-                ]
-            },
-            {
                 "text":"I haven't even started.",
                 "nextPhraseID":"brightport_delon7"
             }
@@ -14344,7 +14333,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_bakery",
-                "value":15
+                "value":16
             }
         ]
     },
@@ -16696,7 +16685,7 @@
     },
     {
         "id":"brightport_broom50",
-        "message":"I remember the times Mikhail made me sweep the floors and I didn't want to. Strangely here I'm more motivated.",
+        "message":"I remember the times Mikhail made me sweep the floors and I didn't want to.",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -16765,6 +16754,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":15
             }
         ]
     },
@@ -16774,12 +16768,18 @@
         "rewards":[
             {
                 "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_1"
+                "rewardID":"Objects_1",
+                "mapName":"brightport_bakery1"
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":163
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":15
             }
         ]
     },
@@ -16796,7 +16796,15 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":162
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":15
             }
         ]
+    },
+    {
+        "id":"brightport_allares3"
     }
 ]
