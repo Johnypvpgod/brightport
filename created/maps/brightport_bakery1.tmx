@@ -228,7 +228,7 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west" type="mapchange" x="256" y="480" width="160" height="64">
+  <object name="west" type="mapchange" x="0" y="192" width="32" height="64">
    <properties>
     <property name="map" value="brightport_bakery"/>
     <property name="place" value="east"/>
@@ -283,11 +283,17 @@
   <object name="dirt2" type="replace" x="352" y="384" width="128" height="64">
    <properties>
     <property name="Objects" value="Objects_1"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="163"/>
    </properties>
   </object>
-  <object name="dirt3" type="replace" x="0" y="0" width="32" height="32">
+  <object name="dirt3" type="replace" x="256" y="480" width="160" height="64">
    <properties>
     <property name="Objects" value="Objects_2"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="162"/>
    </properties>
   </object>
  </objectgroup>
