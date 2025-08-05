@@ -162,10 +162,6 @@
         "switchToNPC":"brightportpriest1",
         "replies":[
             {
-                "text":"Could you provide me with supplies?",
-                "nextPhraseID":"S"
-            },
-            {
                 "text":"I'm searching for my brother, Andor. Have you seen him?",
                 "nextPhraseID":"brightport_priest_1_reply1"
             },
@@ -174,8 +170,8 @@
                 "nextPhraseID":"brightport_priest_1_reply2"
             },
             {
-                "text":"Bah, all this shadow stuff--what a bunch of nonsense.",
-                "nextPhraseID":"brightport_priest_1_reply"
+                "text":"Could you provide me with supplies?",
+                "nextPhraseID":"S"
             },
             {
                 "text":"I've visited the chapel, and for a town of this size, it's surprisingly small.",
@@ -205,6 +201,10 @@
                         "value":10
                     }
                 ]
+            },
+            {
+                "text":"All this shadow stuff. What a bunch of nonsense.",
+                "nextPhraseID":"brightport_priest_1_reply"
             }
         ]
     },
@@ -1284,7 +1284,7 @@
     },
     {
         "id":"brightport_hortensia3",
-        "message":"It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you're a student.  Head to the western part of town, and you will find it.",
+        "message":"It is surprising for someone visiting Brightport not to know about its Academy, and here I thought you were a student.  Head to the western part of town, and you will find it.",
         "replies":[
             {
                 "text":"I don't have time to attend classes, I must find my brother Andor.",
@@ -1701,7 +1701,7 @@
         "message":"Stanwick looks after the library, so after questioning the teachers and students, the Headmaster decided that Stanwick would stay in his room until the end of the investigation.",
         "replies":[
             {
-                "text":"You mentioned a missing document, what was so important about it?",
+                "text":"By the sounds of it that document was super important, do you know what it was?",
                 "nextPhraseID":"brightport_dibella8"
             }
         ],
@@ -1715,7 +1715,7 @@
     },
     {
         "id":"brightport_dibella8",
-        "message":"I'm not aware, I keep any documents necessary for my work inside of my desk. The important ones are locked in a box in the archive, that only the principal is allowed to open.",
+        "message":"I'm not aware, I keep any documents necessary for my work inside of my desk. The important ones are locked in a box in the archive, that only the principal is allowed to open. It surely was very important.",
         "replies":[
             {
                 "text":"I see, thanks.",
@@ -9209,9 +9209,10 @@
     },
     {
         "id":"brightport_thiefboss_introduction0",
-        "message":"Well now, a familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to him.",
+        "message":"A familiar face, but you're not exactly the one I remember. Pleased to meet you, $playername. I must admit, you do bear a striking resemblance to your brother.",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_thiefboss_introduction2"
             }
         ]
@@ -9228,7 +9229,7 @@
     },
     {
         "id":"brightport_thiefboss_introduction2",
-        "message":"I was expecting your visit  $playername. Umar wrote to me that you would come and ask some questions. ",
+        "message":"I was expecting you to visit after I received a letter from Fallhaven,  $playername. Umar wrote to me that you would come and ask some questions. ",
         "replies":[
             {
                 "text":"N",
@@ -9238,10 +9239,10 @@
     },
     {
         "id":"brightport_thiefboss_introduction3",
-        "message":" I can't tell you much more than Umar has told you, howerver there is a single detail of your brother that might help you.",
+        "message":" I don't know anything more than what Umar has told. However there is a single detail of your brother that might help you.",
         "replies":[
             {
-                "text":"N",
+                "text":"A detail about my Brother? I'm all ears.",
                 "nextPhraseID":"brightport_elysa"
             }
         ],
@@ -11761,7 +11762,7 @@
     },
     {
         "id":"brightport_stanwick_andor3",
-        "message":"Later that same evening, I\u2019d fallen asleep at my desk while studying. When I woke, Andor wasn\u2019t in his bed, but at the time I thought little of it. I stepped out to the hallway window for some fresh air and happened to glance outside. Someone was leaving the campus grounds, with another figure waiting just beyond. They wore a robe... red, I think. Or perhaps blue. Maybe even grayish. I can\u2019t say for sure. the moonlight made it seem surreal. Andor came minutes later so I just thought he went to the lavatory. ",
+        "message":"Later that same week, I\u2019d fallen asleep at my desk while studying. When I woke, Andor wasn\u2019t in his bed, but at the time I thought little of it. I stepped out to the hallway window for some fresh air and happened to glance outside. Someone was leaving the campus grounds, with another figure waiting just beyond. They wore a robe... red, I think. Or perhaps blue. Maybe even grayish. I can\u2019t say for sure. the moonlight made it seem surreal. Andor came minutes later so I just thought he went to the lavatory. ",
         "replies":[
             {
                 "text":"N",
@@ -11781,7 +11782,7 @@
     },
     {
         "id":"brightport_stanwick_andor5",
-        "message":"Yeah, just as I thought. There\u2019s a strange connection I feel between Andor going missing and Nor City. I mean, you\u2019ve heard those Feygard guards. Those who\u2019ve been there know it\u2019s not true, but the others always say it\u2019s a city of trouble. Hmph, to talk that way about the great city... [He mutters to himself.] Though I have been told to stay out of the backstreets.",
+        "message":"Yeah, just as I thought. There\u2019s a strange connection I feel between Andor going missing and Nor City. I mean, you\u2019ve heard what those Feygard folk speak of it. Those who\u2019ve been there know it\u2019s not true, but the others always say it\u2019s a city of trouble. Hmph, to talk that way about the great city... Though I have been told to stay out of the backstreets.  [He mutters to himself.]",
         "replies":[
             {
                 "text":"Do you think Andor went there?",
@@ -12535,7 +12536,7 @@
     },
     {
         "id":"brightport_elysa_greeting",
-        "message":"Hello, $playername. Here to work for us? If so we still have that errand for you. ",
+        "message":"Hello, $playername. Here to work for us? If so we still have that errand for you.",
         "replies":[
             {
                 "text":"Fine I'll do it. ",
@@ -13439,7 +13440,7 @@
             {
                 "rewardType":"activateMapObjectGroup",
                 "rewardID":"Objects_2",
-                "mapName":"brightport_bakery"
+                "mapName":"brightport_bakery1"
             },
             {
                 "rewardType":"questProgress",
@@ -14107,6 +14108,11 @@
                         "requireID":"brightport_nondisplay",
                         "value":139,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30
                     }
                 ]
             }
@@ -15179,11 +15185,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_0",
-                "mapName":"brightport_bakery1"
             }
         ]
     },
@@ -15191,11 +15192,6 @@
         "id":"brightport_removedirt2",
         "message":"First section, done!",
         "rewards":[
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_1",
-                "mapName":"brightport_bakery1"
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
@@ -15211,11 +15207,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_2",
-                "mapName":"brightport_bakery1"
             }
         ]
     },
@@ -15508,7 +15499,7 @@
     },
     {
         "id":"brightport_crescenzio3",
-        "message":"The child from Crossglen. We're still swamped with work, but I haven't forgotten.",
+        "message":"We're still swamped with work, but I haven't forgotten, child from Crossglen.",
         "replies":[
             {
                 "text":"Got it, bye.",
@@ -15592,7 +15583,7 @@
         "message":"To prepare some for you, I\u2019ll need peppers and rice. And an appropriate fee of 20 gold. The peppers come in different colors, and each affects the flavor, so I like to cook them separately. ",
         "replies":[
             {
-                "text":"Yes I would like you to cook me some.",
+                "text":"I would like you to cook me some.",
                 "nextPhraseID":"brightport_crescenzio7"
             }
         ]
@@ -16590,11 +16581,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_0",
-                "mapName":"brightport_bakery1"
             }
         ]
     },
@@ -16606,11 +16592,6 @@
                 "rewardType":"deactivateMapObjectGroup",
                 "rewardID":"Objects_2",
                 "mapName":"brightport_bakery1"
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":163
             }
         ]
     },
@@ -16622,11 +16603,6 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":162
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_2",
-                "mapName":"brightport_bakery1"
             }
         ]
     },
@@ -16770,11 +16746,6 @@
         "message":"All of the floors in the warehouse have been sweeped, I should tell Delon about it.",
         "rewards":[
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_0",
-                "mapName":"brightport_bakery1"
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
@@ -16791,11 +16762,6 @@
         "message":"All of the floors in the warehouse have been sweeped, I should tell Delon about it.",
         "rewards":[
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_1",
-                "mapName":"brightport_bakery1"
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":163
@@ -16811,11 +16777,6 @@
         "id":"brightport_broom55",
         "message":"All of the floors in the warehouse have been sweeped, I should tell Delon about it.",
         "rewards":[
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_2",
-                "mapName":"brightport_bakery1"
-            },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",

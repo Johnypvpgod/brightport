@@ -365,7 +365,14 @@
         "hasManualPrice":1,
         "baseMarketCost":100,
         "category":"pole",
-        "description":"A broom for sweeping."
+        "description":"A broom for sweeping.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":1,
+                "max":4
+            },
+            "increaseAttackChance":5
+        }
     },
     {
         "id":"brightport_green",

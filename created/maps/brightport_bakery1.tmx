@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map SYSTEM "https://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="17" height="18" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="colorfilter" value="none"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="320"/>
  </tileset>
@@ -191,22 +194,22 @@
  </layer>
  <layer name="Objects" width="17" height="18">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgsGRiwACOwqh8ZDXociBgKsDAICPLwGABpLeyIfimUL41Gt8CyocBd6iZOlCx1Wyk8bH5AQTYgPawC0Doj2IQMRYgu4kVIQ/DcABk/+NnYPjNj91MdABSC8J/kdRzA83gE4DQxABuqFpeIHbGEr6kgCRWyvSDwDwCZsDc2IRD3Vqg+DpW3PGCDBJZEXFDDoDZATJHiQ1iljKQVoGmkWYSwgOktxHNPc1QPjHxkobHL41EuMMFasdnoNrFUPXiUH9MJsEfIHdosiHcwsMGwSA+Ixtx8bKYgH1ORKZTWHjC0gqMT4p/CAEACOArYA==
+   eJxjYGBgsGRiwACOwqh8ZDXociBgKsDAICPLwGABpLeyIfimUL41Gt8CyocBd6iZOlCx1Wyk8bH5AQTYgPawC0Doj2IQMRYgu4kVIQ/DcABk/+NnYPjNj91MdABSC8J/kdRzA83gE4DQxABuqFpeIHbGEr6kgCRWyvSDwDwCZsDc2IRD3Vqg+DpW3PGCDBJZEXFDDoDZATLHCeguRiBWBqYPFWgaaSYhPH4IMjA0Qt3jJIzQD+ITEy9pWPwCcg/IrEYi3OECteMzUO1iVoh7xKH+mEyCP0Du0GRDuIWHDYJBfEY24uJlMSvC/diAExHhAfM3yN4mVtTwJcU/hAAAZXkt1Q==
   </data>
  </layer>
- <layer name="Objects_0" width="17" height="18">
+ <layer name="Objects_0" width="17" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjALcgFGYfL1OaHp/CFLmFlwAAI8BAXM=
+   eJxjYBgFo2B4AT0u6uilxJxRQF8AAC/5AKk=
   </data>
  </layer>
- <layer name="Objects_1" width="17" height="18">
+ <layer name="Objects_1" width="17" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AU0BIwCjMwOAmTp/eHIHXdMlwBAMe4AXM=
+   eJxjYBgFo2AU0BLocUEwuXpHAWEAAOBKAKk=
   </data>
  </layer>
- <layer name="Objects_2" width="17" height="18">
+ <layer name="Objects_2" width="17" height="18" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2D4ACdhBgZGYfL1/xBENWsUDA0AACinAcg=
+   eJxjYBgFo2AUjALcQI+LenopMQsfAABSigCp
   </data>
  </layer>
  <layer name="Above" width="17" height="18">
@@ -225,7 +228,7 @@
   </data>
  </layer>
  <objectgroup name="Mapevents">
-  <object name="west" type="mapchange" x="0" y="192" width="32" height="64">
+  <object name="west" type="mapchange" x="256" y="480" width="160" height="64">
    <properties>
     <property name="map" value="brightport_bakery"/>
     <property name="place" value="east"/>
@@ -268,5 +271,24 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace"/>
+ <objectgroup name="Replace">
+  <object name="dirt1" type="replace" x="288" y="320" width="128" height="64">
+   <properties>
+    <property name="Objects" value="Objects_0"/>
+    <property name="requireId" value="brightport_nondisplay"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="164"/>
+   </properties>
+  </object>
+  <object name="dirt2" type="replace" x="352" y="384" width="128" height="64">
+   <properties>
+    <property name="Objects" value="Objects_1"/>
+   </properties>
+  </object>
+  <object name="dirt3" type="replace" x="0" y="0" width="32" height="32">
+   <properties>
+    <property name="Objects" value="Objects_2"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

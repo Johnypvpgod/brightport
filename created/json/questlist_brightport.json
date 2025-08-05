@@ -917,6 +917,7 @@
     {
         "id":"brightport_bakery",
         "name":"Delon's bakery errands",
+        "showInLog":1,
         "stages":[
             {
                 "progress":1,
