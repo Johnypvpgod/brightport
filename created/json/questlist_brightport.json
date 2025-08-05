@@ -497,7 +497,7 @@
             },
             {
                 "progress":155,
-                "logText":"arrest"
+                "logText":"benbyr arrest"
             },
             {
                 "progress":156,
@@ -513,7 +513,7 @@
             },
             {
                 "progress":159,
-                "logText":"arrested. "
+                "logText":"arrested by the guards."
             },
             {
                 "progress":160,
@@ -658,6 +658,10 @@
             {
                 "progress":195,
                 "logText":"Sweeping started"
+            },
+            {
+                "progress":196,
+                "logText":"elysa quest done"
             }
         ]
     },
@@ -895,8 +899,7 @@
             },
             {
                 "progress":40,
-                "logText":"I got caught. The guards took the package, Elysa won\u2019t be happy about it.",
-                "finishesQuest":1
+                "logText":"I got caught and the guards took the package."
             },
             {
                 "progress":45,
@@ -910,6 +913,11 @@
             {
                 "progress":60,
                 "logText":"I lied to Gunfryk in a plot to kill him and in the process the courier I was supposed to meet got arrested.",
+                "finishesQuest":1
+            },
+            {
+                "progress":70,
+                "logText":"I failed to deliver the package to Elysa. She was not happy.",
                 "finishesQuest":1
             }
         ]

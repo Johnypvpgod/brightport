@@ -124,6 +124,10 @@
                 "progress":130,
                 "logText":"Stanwick gave me an insignia that I should show to his father. Jorwick in Nor city.",
                 "rewardExperience":5000
+            },
+            {
+                "progress":131,
+                "logText":"Elysa in the Brightport's thieves guild told me that Andor has bought a map to the sewers of Feygard."
             }
         ]
     }

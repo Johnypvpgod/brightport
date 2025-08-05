@@ -9130,12 +9130,40 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_elysa_common",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":196
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_meeting",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_elysa6",
                 "requires":[
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
                         "value":10
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":20,
+                        "negate":true
                     }
                 ]
             },
@@ -9726,35 +9754,16 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":139,
+                        "value":137,
                         "negate":true
                     }
                 ]
-            }
-        ],
-        "rewards":[
-            {
-                "rewardType":"removeQuestProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":135
             }
         ]
     },
     {
         "id":"brightport_commanderkill_script1",
         "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_commanderkill_script2",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":10,
-                        "negate":true
-                    }
-                ]
-            },
             {
                 "text":"N",
                 "nextPhraseID":"brightport_commanderkill_script3",
@@ -9767,16 +9776,22 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_thieves",
-                        "value":32
+                        "value":32,
+                        "negate":true
                     }
                 ]
-            }
-        ],
-        "rewards":[
+            },
             {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":135
+                "text":"N",
+                "nextPhraseID":"brightport_commanderkill_script2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -10244,34 +10259,11 @@
     },
     {
         "id":"brightport_elysa6",
-        "message":"How did it go, $playername?",
+        "message":"Have you went the to the meeting place yet?",
         "replies":[
             {
-                "text":"Easy as pie.",
-                "nextPhraseID":"brightport_elysa7",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":40,
-                        "negate":true
-                    }
-                ]
-            },
-            {
-                "text":"Erm, I have to go now. [Leave.]",
+                "text":"Not yet. [Leave.]",
                 "nextPhraseID":"X"
-            },
-            {
-                "text":"The agent got arrested by the guards.",
-                "nextPhraseID":"brightport_elysa10",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_thieves",
-                        "value":60
-                    }
-                ]
             }
         ]
     },
@@ -10319,12 +10311,7 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":137
-            },
-            {
-                "rewardType":"deactivateSpawnArea",
-                "rewardID":"brightportguardcaptain",
-                "mapName":"brightport_bakery"
+                "value":135
             }
         ]
     },
@@ -10984,6 +10971,7 @@
         "id":"brightport_crate_failure_script",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_failure19arrest",
                 "requires":[
                     {
@@ -11497,7 +11485,7 @@
     },
     {
         "id":"brightport_crate_failure17",
-        "message":"A scroll? what does it say?",
+        "message":"A note? what does it say?",
         "switchToNPC":"brightportguardcrate2",
         "replies":[
             {
@@ -11620,6 +11608,7 @@
         "id":"brightport_crate_found_selector",
         "replies":[
             {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_failure12",
                 "requires":[
                     {
@@ -11630,6 +11619,7 @@
                 ]
             },
             {
+                "text":"N",
                 "nextPhraseID":"brightport_crate_success",
                 "requires":[
                     {
@@ -11709,7 +11699,13 @@
     },
     {
         "id":"brightport_elysa8",
-        "message":""
+        "message":"[Elysa opens the small box, glances at the item inside, then closes it again.]",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa13"
+            }
+        ]
     },
     {
         "id":"brightport_elysa9",
@@ -12314,7 +12310,13 @@
         ]
     },
     {
-        "id":"brightport_elysa10"
+        "id":"brightport_elysa10",
+        "message":"Sigh, yes I know. I've heard.",
+        "rewards":[
+            {
+                "rewardType":"questProgress"
+            }
+        ]
     },
     {
         "id":"brightport_smugglercave",
@@ -13204,7 +13206,7 @@
     },
     {
         "id":"brightport_crate_failure17alt",
-        "message":"Sorry, kid but we need to bring something back to our commander. Oh, There's a scroll  inside.",
+        "message":"Sorry, kid but we need to bring something back to our commander. Oh, There's a note inside.",
         "replies":[
             {
                 "text":"N",
@@ -16822,6 +16824,291 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_bakery",
                 "value":22
+            }
+        ]
+    },
+    {
+        "id":"brightport_meeting",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_jail",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_caught",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_package",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":40,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":32
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught",
+        "message":"$playername, you're all covered in grime, how did it go. ",
+        "replies":[
+            {
+                "text":"The guards came in after I got it from the Agent, I tried hiding but they found me and took the package with them. ",
+                "nextPhraseID":"brightport_elysa_caught1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_jail",
+        "message":"You don't have to tell me, I know, $playername, you got caught, they took the package. We don't have much left to discuss. I will still tell you about your brother Andor, but not for free.",
+        "replies":[
+            {
+                "text":"For how much?",
+                "nextPhraseID":"brightport_elysa_jail1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":196
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_package",
+        "message":"$playername, you're all covered in grime, how did it go. ",
+        "replies":[
+            {
+                "text":"Easy as pie.",
+                "nextPhraseID":"brightport_elysa7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught1",
+        "message":"And they haven't arrested you, at least that\u2019s good. Have they opened the package to see what's inside?",
+        "replies":[
+            {
+                "text":"Yes. [Tell her what happened.]",
+                "nextPhraseID":"brightport_elysa_caught2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught2",
+        "message":"They will never be able to tell that was a code. We will simply have to ask the client directly for any additional details.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_caught3"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught3",
+        "message":"And now, let's talk about you, $playername. I\u2019m a bit disheartened that you got caught, but I\u2019m still willing to tell you what I know of your brother. I was planning on telling you in the first place, but a good opportunity arose.",
+        "replies":[
+            {
+                "text":"I'm ready to hear.",
+                "nextPhraseID":"brightport_elysa_caught4"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":70
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":196
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught4",
+        "message":"First. As Umar told you, he was looking for the directions to the potion maker named Lodar, and second he wanted Information.",
+        "replies":[
+            {
+                "text":"What information?",
+                "nextPhraseID":"brightport_elysa_caught5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_caught5",
+        "message":"On our dealings, who our members are, how he can contact them, I shared as much as it benefits the guild. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. The cost was not cheap.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"andor",
+                "value":131
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_jail1",
+        "message":"Your work was supposed to pay for it, however now I feel inclined to put a price. 1000 gold.",
+        "replies":[
+            {
+                "text":"Here it is.",
+                "nextPhraseID":"brightport_elysa_gold",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1000
+                    }
+                ]
+            },
+            {
+                "text":"I don't have the gold now. I will come later.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_common",
+        "message":"Hello $playername, I don't have any work to delegate to you.",
+        "replies":[
+            {
+                "text":"You haven't told me about Andor.",
+                "nextPhraseID":"brightport_elysa_andor_selector",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_thieves",
+                        "value":70
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":131,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me about Andor again?",
+                "nextPhraseID":"brightport_elysa_caught4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":131
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_andor",
+        "message":"Yes, because YOU, were rude enough to leave in the middle of the conversation. You have no patience, and you should genuinely feel ashamed.",
+        "replies":[
+            {
+                "text":"I'm sorry, please tell me the information.",
+                "nextPhraseID":"brightport_elysa_caught4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_gold",
+        "message":"Thank you for your business.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_caught4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa13",
+        "message":"Very good work, $playername. I heard the guards went on patrol at the time you were there, and you skillfully avoided them. The Guild would very much like to have your skills in the future.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa14"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_thieves",
+                "value":50
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa_andor_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_andor",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"andor",
+                        "value":131,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_jail1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":159
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_elysa14",
+        "message":"And now the information I promised you. Your brother Andor came to me and asked a few questions. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_elysa_caught4"
             }
         ]
     }

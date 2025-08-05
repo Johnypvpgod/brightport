@@ -192,15 +192,10 @@
  </layer>
  <layer id="3" name="Objects" width="10" height="11">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfxLJBaEsmTDmQ2G4oOxeobicOM34IMDAcYkXwH4tB6INIYszCCLYrBwR/EsPtrj9CCDa7MHY1jwUIi7Hg0IvPXJhbebDII7sLGXwG2suExy5sAADKGQ2h
+   eJxjYCAfxLJBaEsmTDmQ2G4oOxeobieQviGAqe4HUOwQK4L/WIyB4QVQ7CCSGLMwgu3KAcGfxHC7648Qgs0ujF3NYyxuQRdjwaEXn7kwt/JgkUd2FzL4DLSXCY9d2AAAEeYPgQ==
   </data>
  </layer>
- <layer id="4" name="Objects_crystalIntact" width="10" height="11">
-  <data encoding="base64" compression="zlib">
-   eJxjYKAfuCFAnLoXRKobyQAASXYB4Q==
-  </data>
- </layer>
- <layer id="5" name="Objects_crystaldestroyed" width="10" height="11" visible="0">
+ <layer id="5" name="Objects_crystaldestroyed" width="10" height="11">
   <data encoding="base64" compression="zlib">
    eJxjYBh84KMAYTVMwgwMHMLEm8lEgtqhAABnRgFH
   </data>
