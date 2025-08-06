@@ -236,11 +236,6 @@
     <property name="place" value="north"/>
    </properties>
   </object>
-  <object name="brightport_crystals_script" type="script" x="64" y="32" width="128" height="64">
-   <properties>
-    <property name="when" value="enter"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup name="Spawn">
   <object name="brightport_scorpion1" type="spawn" x="96" y="96" width="160" height="160">

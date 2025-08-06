@@ -8321,12 +8321,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":122
+                "value":121
             },
             {
                 "rewardType":"removeQuestProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":121
+                "value":123
             }
         ]
     },
@@ -8374,16 +8374,6 @@
             {
                 "rewardType":"removeSpawnArea",
                 "rewardID":"beast",
-                "mapName":"brightport_cave20"
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave20"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystaldestroyed",
                 "mapName":"brightport_cave20"
             }
         ]
@@ -13378,38 +13368,6 @@
         ]
     },
     {
-        "id":"brightport_crystals_script",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_crystals_script1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_lizard",
-                        "value":70,
-                        "negate":true
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"brightport_crystals_script1",
-        "rewards":[
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave6"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Objects_crystalIntact",
-                "mapName":"brightport_cave20"
-            }
-        ]
-    },
-    {
         "id":"brightport_dirt",
         "replies":[
             {
@@ -14410,61 +14368,9 @@
         "id":"brightport_arulir_lavarocks0",
         "rewards":[
             {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave1"
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":175
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave3"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave2"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave4"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects0",
-                "mapName":"arulircave1"
-            },
-            {
-                "rewardType":"activateMapObjectGroup",
-                "rewardID":"Brightport_objects1",
-                "mapName":"arulircave1"
-            }
-        ]
-    },
-    {
-        "id":"brightport_rock",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_rock_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":175
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":180,
-                        "negate":true
-                    }
-                ]
             }
         ]
     },
@@ -14476,36 +14382,14 @@
                 "nextPhraseID":"brightport_rock1_1",
                 "requires":[
                     {
-                        "requireType":"questLatestProgress",
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
                         "value":176,
-                        "negate":true
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":175
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id":"brightport_rock0",
-        "replies":[
-            {
-                "text":"N",
-                "nextPhraseID":"brightport_rock0_1",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":175
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":181,
                         "negate":true
                     }
                 ]
@@ -14520,15 +14404,15 @@
                 "nextPhraseID":"brightport_rock2_1",
                 "requires":[
                     {
-                        "requireType":"questProgress",
+                        "requireType":"questLatestProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":175
+                        "value":177,
+                        "negate":true
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":177,
-                        "negate":true
+                        "value":175
                     }
                 ]
             }
@@ -14544,13 +14428,13 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":178,
-                        "negate":true
+                        "value":175
                     },
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":175
+                        "value":178,
+                        "negate":true
                     }
                 ]
             }
@@ -14579,29 +14463,46 @@
         ]
     },
     {
-        "id":"brightport_rock_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "id":"brightport_rock5",
         "replies":[
             {
-                "text":"Neat.",
-                "nextPhraseID":"X"
+                "text":"N",
+                "nextPhraseID":"brightport_rock5_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":180,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    }
+                ]
             }
-        ],
-        "rewards":[
+        ]
+    },
+    {
+        "id":"brightport_rock6",
+        "replies":[
             {
-                "rewardType":"giveItem",
-                "rewardID":"lava_rock_cold",
-                "value":3
-            },
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":180
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave1"
+                "text":"N",
+                "nextPhraseID":"brightport_rock6_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":175
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":181,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -14610,39 +14511,14 @@
         "message":"[You rummage through the pile and find a few cooled lava rocks.]",
         "rewards":[
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects1",
-                "mapName":"arulircave1"
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
             },
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":175
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"lava_rock_cold",
-                "value":3
-            }
-        ]
-    },
-    {
-        "id":"brightport_rock0_1",
-        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"brightport_nondisplay",
-                "value":181
-            },
-            {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects0"
-            },
-            {
-                "rewardType":"giveItem",
-                "rewardID":"lava_rock_cold",
-                "value":3
+                "value":176
             }
         ]
     },
@@ -14651,19 +14527,14 @@
         "message":"[You rummage through the pile and find a few cooled lava rocks.]",
         "rewards":[
             {
-                "rewardType":"giveItem",
-                "rewardID":"lava_rock_cold",
-                "value":3
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":177
             },
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave2"
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
             }
         ]
     },
@@ -14672,19 +14543,14 @@
         "message":"[You rummage through the pile and find a few cooled lava rocks.]",
         "rewards":[
             {
-                "rewardType":"giveItem",
-                "rewardID":"lava_rock_cold",
-                "value":3
-            },
-            {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":178
             },
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave3"
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
             }
         ]
     },
@@ -14701,11 +14567,38 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":179
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock5_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
             },
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Brightport_objects",
-                "mapName":"arulircave4"
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":180
+            }
+        ]
+    },
+    {
+        "id":"brightport_rock6_1",
+        "message":"[You rummage through the pile and find a few cooled lava rocks.]",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"lava_rock_cold",
+                "value":3
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":181
             }
         ]
     },
@@ -15126,7 +15019,7 @@
         "replies":[
             {
                 "text":"[Sweep a little more under the shelves.]",
-                "nextPhraseID":"brighport_broom_1_selector"
+                "nextPhraseID":"brightport_broom_1_selector"
             }
         ]
     },
@@ -15142,7 +15035,7 @@
         ]
     },
     {
-        "id":"brighport_broom_1_selector",
+        "id":"brightport_broom_1_selector",
         "replies":[
             {
                 "text":"N",
@@ -15173,7 +15066,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":162
+                        "value":165
                     }
                 ]
             }
@@ -15339,7 +15232,7 @@
         "replies":[
             {
                 "text":"[Sweep the dirt mound into the sack.]",
-                "nextPhraseID":"brighport_broom_1_selector"
+                "nextPhraseID":"brightport_broom_1_selector"
             }
         ]
     },
