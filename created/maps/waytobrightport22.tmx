@@ -243,15 +243,13 @@
   </object>
  </objectgroup>
  <objectgroup name="Spawn">
-  <object name="fawn" type="spawn" x="64" y="256" width="160" height="256">
+  <object name="fawn" type="spawn" x="64" y="192" width="256" height="160">
    <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
   <object name="fawn2" type="spawn" x="352" y="192" width="128" height="96">
    <properties>
-    <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
@@ -264,6 +262,11 @@
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="brightport_fawn"/>
+   </properties>
+  </object>
+  <object name="fawn4" type="spawn" x="64" y="384" width="224" height="128">
+   <properties>
+    <property name="spawngroup" value="brightport_sickfawn"/>
    </properties>
   </object>
  </objectgroup>

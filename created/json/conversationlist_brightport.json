@@ -6278,7 +6278,7 @@
     },
     {
         "id":"brightport_bryma12",
-        "message":"I had no choice. I told him everything he wanted to know. And he left me with the scroll before leaving.  It might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
+        "message":"I had no choice. I told him everything he wanted to know. And he left me with the scroll before leaving. It might have been useful to me 20 years ago, but i've already researched past it to develop my own baking theory.",
         "replies":[
             {
                 "text":"Can we talk about something else?",
@@ -6552,6 +6552,18 @@
                 "nextPhraseID":"brightport_storemaster2"
             },
             {
+                "text":"Allares sent me to help find the apple delivery.",
+                "nextPhraseID":"brightport_storemaster4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":25,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"Who are you?",
                 "nextPhraseID":"brightport_storemaster1"
             }
@@ -6563,7 +6575,15 @@
         "replies":[
             {
                 "text":"Is there any work for me to do here?",
-                "nextPhraseID":"brightport_storemaster3"
+                "nextPhraseID":"brightport_storemaster3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"That explains the mess.",
@@ -6573,11 +6593,19 @@
     },
     {
         "id":"brightport_storemaster2",
-        "message":"Our bakery bakes the finest bread in all of Dhayavar. Of course, there's bound to be a bit of a jumble getting it onto the rich folk's tables.",
+        "message":"Our bakery bakes the finest bread in all of Dhayavar. There's bound to be a bit of a jumble getting it onto the rich folk's tables.",
         "replies":[
             {
                 "text":"Is there any work for me to do here?",
-                "nextPhraseID":"brightport_storemaster3"
+                "nextPhraseID":"brightport_storemaster3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"Who are you?",
@@ -6587,7 +6615,7 @@
     },
     {
         "id":"brightport_storemaster3",
-        "message":"You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days, huh.",
+        "message":"You're better off asking my brother Allares, you can find him in the bakery. Either way, they sure do make you youngsters work hard these days.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -6600,7 +6628,27 @@
         "id":"brightport_emyro_selector",
         "replies":[
             {
-                
+                "text":"N",
+                "nextPhraseID":"brightport_emyro0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_emyro1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_lizard",
+                        "value":95
+                    }
+                ]
             }
         ]
     },
@@ -6665,7 +6713,8 @@
                 "nextPhraseID":"brightport_bryma24",
                 "requires":[
                     {
-                        "requireType":"consumedBonemeals",
+                        "requireType":"usedItem",
+                        "requireID":"bonemeal_potion",
                         "value":1,
                         "negate":true
                     }
@@ -6746,7 +6795,7 @@
     },
     {
         "id":"brightport_bryma30",
-        "message":"Oh  right, my apologies. I got a bit sidetracked. Yes, where do I begin.",
+        "message":"Oh right, my apologies. I got a bit sidetracked. Yes, where do I begin.",
         "replies":[
             {
                 "text":"N",
@@ -6833,12 +6882,7 @@
     },
     {
         "id":"brightport_councilor",
-        "message":"Ho ho, younglin', how goes the day? [The old man coughs]  Don't mind me, just speak your piece.",
-        "replies":[
-            {
-                "text":"Sorry, I've got nothing to say."
-            }
-        ]
+        "message":"Ho ho, younglin', how goes the day? [The old man coughs]  Don't mind me, just speak your piece."
     },
     {
         "id":"brightport_mayor",
@@ -8837,8 +8881,26 @@
                 "requires":[
                     {
                         "requireType":"questProgress",
+                        "requireID":"brightport_goons",
+                        "value":30,
+                        "negate":false
+                    },
+                    {
+                        "requireType":"questProgress",
                         "requireID":"brightport_nondisplay",
-                        "value":128
+                        "value":139,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_dynes_mediumlow",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":129
                     }
                 ]
             },
@@ -9288,14 +9350,7 @@
         "replies":[
             {
                 "text":"Who is this Gunfryk guy?",
-                "nextPhraseID":"brightport_goons19",
-                "requires":[
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_nondisplay",
-                        "value":156
-                    }
-                ]
+                "nextPhraseID":"brightport_goons19"
             },
             {
                 "text":"I met Gunfryk, he didn't seem like a bad guy.",
@@ -10188,7 +10243,7 @@
     },
     {
         "id":"brightport_elysa1",
-        "message":"For most of its existence, the Guild in Brightport was mostly a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
+        "message":"For most of its existence, the Guild in Brightport was a place to train new recruits, away from the soldiers of Feygard and the more established thievery in Nor City.",
         "replies":[
             {
                 "text":"N",
@@ -10220,16 +10275,12 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_thieves",
                 "value":10
-            },
-            {
-                "rewardType":"createTimer",
-                "rewardID":"Brightport_package"
             }
         ]
     },
     {
         "id":"brightport_elysa4",
-        "message":"But with Remgard's increasing exports of quality steel over the past hundred years, our guildhall was expanded to accommodate the growing demand for smuggling weapons.",
+        "message":"But with Remgard's increasing exports of quality steel over the past hundred years, our guildhall was expanded to accommodate the growing demand for weapon smuggling.",
         "replies":[
             {
                 "text":"N",
@@ -11384,6 +11435,7 @@
     {
         "id":"brightport_crate_failure11",
         "message":"[The sound of footsteps gets louder as the guard approaches. You hear a crate being opened, then the guard moves to the next one. They stop right next to yours.].",
+        "switchToNPC":"$playername",
         "replies":[
             {
                 "text":"[Uh oh.]",
@@ -11580,6 +11632,7 @@
     {
         "id":"brightport_crate_failure22",
         "message":"[The guards leave. Along with the package you were sent here for, in this moment you wonder if it was anything important.]",
+        "switchToNPC":"$playername",
         "replies":[
             {
                 "text":"Those guards were dumb as bricks, time to get out of this crate.",
@@ -12300,15 +12353,6 @@
         ]
     },
     {
-        "id":"brightport_elysa10",
-        "message":"Sigh, yes I know. I've heard.",
-        "rewards":[
-            {
-                "rewardType":"questProgress"
-            }
-        ]
-    },
-    {
         "id":"brightport_smugglercave",
         "message":"behind the planks is a cave entrance, and a wind draft going in. ",
         "replies":[
@@ -12555,6 +12599,17 @@
         "replies":[
             {
                 "text":"N",
+                "nextPhraseID":"brightport_allares_end",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":70
+                    }
+                ]
+            },
+            {
+                "text":"N",
                 "nextPhraseID":"brightport_allares4",
                 "requires":[
                     {
@@ -12578,12 +12633,6 @@
                         "requireType":"questProgress",
                         "requireID":"brightport_bakery",
                         "value":5
-                    },
-                    {
-                        "requireType":"questProgress",
-                        "requireID":"brightport_bakery",
-                        "value":22,
-                        "negate":true
                     }
                 ]
             },
@@ -12631,6 +12680,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"That's nice. But I don't care. See you later.",
+                "nextPhraseID":"X"
             }
         ]
     },
@@ -14002,7 +14055,7 @@
     },
     {
         "id":"brightport_florencia",
-        "message":"Ah, hello. I don\u2019t believe we know each other. "
+        "message":"Hello. I don\u2019t believe we know each other. "
     },
     {
         "id":"brightport_silvear_selector0",
@@ -14352,7 +14405,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_fiamma",
-                        "value":20
+                        "value":15
                     },
                     {
                         "requireType":"questProgress",
@@ -14780,7 +14833,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_sweep_stage1"
+                "nextPhraseID":"brightport_sweep_stage1_1"
             },
             {
                 "text":"I was about to start before you interrupted me.",
@@ -14815,6 +14868,7 @@
     {
         "id":"brightport_sweep_stage1",
         "message":"Yes just like that, grab it by the handle and move it that way.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -14902,7 +14956,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom9"
+                "nextPhraseID":"brightport_broom9_1"
             },
             {
                 "text":"Yes, because you won't let me sweep properly.",
@@ -14968,10 +15022,11 @@
     {
         "id":"brightport_broom9",
         "message":"Yes good, work on the corners.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom14"
+                "nextPhraseID":"brightport_broom14_1"
             }
         ]
     },
@@ -14995,7 +15050,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom9"
+                "nextPhraseID":"brightport_broom9_1"
             },
             {
                 "text":"You're not the one to speak.",
@@ -15080,6 +15135,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":190
             }
         ]
     },
@@ -15090,7 +15150,12 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":164
+                "value":163
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":191
             }
         ]
     },
@@ -15101,17 +15166,23 @@
             {
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
-                "value":164
+                "value":162
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":192
             }
         ]
     },
     {
         "id":"brightport_broom14",
         "message":"Why would you sweep all the dust into the same place, that makes it dirtier.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom15"
+                "nextPhraseID":"brightport_broom15_1"
             },
             {
                 "text":"That's how sweeping works.",
@@ -15122,6 +15193,7 @@
     {
         "id":"brightport_broom15",
         "message":"Not making much progress are we.",
+        "switchToNPC":"brightportnpc10",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -15139,7 +15211,7 @@
         "replies":[
             {
                 "text":"[Sweep in silence.]",
-                "nextPhraseID":"brightport_broom9"
+                "nextPhraseID":"brightport_broom9_1"
             },
             {
                 "text":"You sweep like you haven't touched a broom in your life.",
@@ -15953,9 +16025,6 @@
         "message":"OK. I'll have to show you myself. ",
         "replies":[
             {
-                "text":"[Sweep in silence.]"
-            },
-            {
                 "text":"[Oh no! now he'll walk over and scatter all the dust!]",
                 "nextPhraseID":"brightport_broom31"
             }
@@ -16354,7 +16423,7 @@
     {
         "id":"brightport_broom39",
         "message":"Sweep sweep.",
-        "switchToNPC":"$playername",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -16403,6 +16472,7 @@
     {
         "id":"brightport_broom40",
         "message":"Sweep sweep sweep.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -16413,6 +16483,7 @@
     {
         "id":"brightport_broom41",
         "message":"Seems that Delon is no longer watching over my shoulder [Sweep sweep sweep.]",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -16423,6 +16494,7 @@
     {
         "id":"brightport_broom42",
         "message":"The work is easy now. OK I got all the dust in a pile now.",
+        "switchToNPC":"none",
         "replies":[
             {
                 "text":"[Sweep the mound inside of the sack with the dust and dirt.]",
@@ -16476,6 +16548,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":164
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":190
             }
         ]
     },
@@ -16484,9 +16561,14 @@
         "message":"Second section, done!",
         "rewards":[
             {
-                "rewardType":"deactivateMapObjectGroup",
-                "rewardID":"Objects_2",
-                "mapName":"brightport_bakery1"
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":163
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":191
             }
         ]
     },
@@ -16498,6 +16580,11 @@
                 "rewardType":"questProgress",
                 "rewardID":"brightport_nondisplay",
                 "value":162
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":192
             }
         ]
     },
@@ -16570,7 +16657,7 @@
     },
     {
         "id":"brightport_broom49",
-        "message":"Ill add this part later.",
+        "message":"Tell me why, tell me what you want...",
         "replies":[
             {
                 "text":"[Sweep in silence.]",
@@ -16686,7 +16773,66 @@
     },
     {
         "id":"brightport_allares3",
-        "message":"Hello, how is the work?"
+        "message":"Hello, how is the work?",
+        "replies":[
+            {
+                "text":"I brought the apples to Eatloni, he'll have them brought in soon.",
+                "nextPhraseID":"brightport_allares9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":198
+                    }
+                ]
+            },
+            {
+                "text":"Delon said there was an apple delivery that was supposed to arrive but it didn't.",
+                "nextPhraseID":"brightport_allares6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":22,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm still doing it.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":23,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I'm still looking for those apples.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":23
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
     },
     {
         "id":"brightport_allares4",
@@ -16861,6 +17007,12 @@
     {
         "id":"brightport_elysa_caught5",
         "message":"On our dealings, who our members are, how he can contact them, I shared as much as it benefits the guild. Lastly, he asked for a map of Feygard's sewers, and more importantly, the area directly under the palace. The cost was not cheap.",
+        "replies":[
+            {
+                "text":"Interesting, is that all?",
+                "nextPhraseID":"brightport_elysa15"
+            }
+        ],
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -16926,7 +17078,7 @@
     },
     {
         "id":"brightport_elysa_andor",
-        "message":"Yes, because YOU, were rude enough to leave in the middle of the conversation. You have no patience, and you should genuinely feel ashamed.",
+        "message":"Yes, because YOU, were rude enough to leave in the middle of the conversation. You have no patience, and you should feel ashamed.",
         "replies":[
             {
                 "text":"I'm sorry, please tell me the information.",
@@ -17004,5 +17156,450 @@
                 "nextPhraseID":"brightport_elysa_caught4"
             }
         ]
+    },
+    {
+        "id":"brightport_allares6",
+        "message":"Yes it should have arrived quite a while ago, usually they are on time, that is terrible for today of all times as we have a big order for the next few days.",
+        "replies":[
+            {
+                "text":"I could go help look for it.",
+                "nextPhraseID":"brightport_allares7"
+            }
+        ]
+    },
+    {
+        "id":"brightport_dynes_mediumlow",
+        "message":"Hello kid, It's nice to see you around."
+    },
+    {
+        "id":"brightport_elysa15",
+        "message":"Yes that should be all. ",
+        "replies":[
+            {
+                "text":"Thanks, bye.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_emyro0",
+        "message":"Hss, speak to the leader."
+    },
+    {
+        "id":"brightport_emyro1",
+        "message":"You are friend of us now."
+    },
+    {
+        "id":"brightport_allares7",
+        "message":"Hmm, maybe you could. But I'm a little hesitant, if the merchant went missing, this could mean danger, and I don't want to be responsible for you.",
+        "replies":[
+            {
+                "text":"Don't worry I'm an experienced adventurer.",
+                "nextPhraseID":"brightport_allares8"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares8",
+        "message":"You do have some shiny knick-knacks on you, which shows me you\u2019re a bit experienced, but I\u2019d rather you prove it by bringing me something tough to get. Some venison, or in other words, deer meat. And yes I will pay you, it's just that it's been tough to get lately. ",
+        "replies":[
+            {
+                "text":"Easy enough. ",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":22
+            }
+        ]
+    },
+    {
+        "id":"brightport_sweep_stage1_1",
+        "message":"Sweep sweep.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_sweep_stage1"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom9_1",
+        "message":"Sweep sweep.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom9"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom14_1",
+        "message":"Sweep sweep.",
+        "switchToNPC":"none",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_broom14"
+            }
+        ]
+    },
+    {
+        "id":"brightport_broom15_1",
+        "message":"Sweep sweep.",
+        "switchToNPC":"none"
+    },
+    {
+        "id":"brightport_allares_end",
+        "message":"Hello, kid. You\u2019ve done good work today. Saved us quite a bit of trouble.",
+        "replies":[
+            {
+                "text":"It was a nice distraction. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster4",
+        "message":"Yes, it\u2019s unusual that it hasn\u2019t arrived. According to the contract, the merchant I hired will only get half pay for being late, that is if they even arrive.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_storemaster5"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster5",
+        "message":"But it's not about the money this time, we need them for an order and we can't be late ourselves. It would be nice if you could visit Deebo's orchard south of the duleian road to see if the order of 30 apples had been picked up. ",
+        "replies":[
+            {
+                "text":"Sure, can do.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":25
+            }
+        ]
+    },
+    {
+        "id":"brightport_apples"
+    },
+    {
+        "id":"brightport_foundapples",
+        "replies":[
+            {
+                "text":"N",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":35,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_storemaster_apples",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":25
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":198,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_storemaster"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster_apples",
+        "message":"Have you learnt what happened with the apple delivery?",
+        "replies":[
+            {
+                "text":"I got the shipment from Deebo. ",
+                "nextPhraseID":"brightport_storemaster6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":50
+                    }
+                ]
+            },
+            {
+                "text":"Apparantly the merchant picked them up. ",
+                "nextPhraseID":"brightport_storemaster12",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":40,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I found the apples in a mountain cat nest. The poor merchant probably got eaten.",
+                "nextPhraseID":"brightport_storemaster9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":45,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":40
+                    }
+                ]
+            },
+            {
+                "text":"Not yet. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster6",
+        "message":"Thank you, $playername, that\u2019s excellent. However, I haven\u2019t contacted the merchant\u2019s guild for a reimbursement yet, so I can\u2019t repay you in full. I can only offer you half the price. Once you hand over the 30 apples.",
+        "replies":[
+            {
+                "text":"Here you go. [Hand over the apples.]",
+                "nextPhraseID":"brightport_storemaster7",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"deebo_apples",
+                        "value":30
+                    }
+                ]
+            },
+            {
+                "text":"I think I might have eaten some.",
+                "nextPhraseID":"brightport_storemaster8",
+                "requires":[
+                    {
+                        "requireType":"usedItem",
+                        "requireID":"deebo_apples",
+                        "value":1
+                    },
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"deebo_apples",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster7",
+        "message":"Here you go, that's 700 gold, now go inside and tell my brother the apples will be coming soon, I just need to write them in my ledger.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":198
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":60
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":700
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster8",
+        "message":"That's not good. I need all 30, if you don't have them then I can't repay you.",
+        "replies":[
+            {
+                "text":"I'll be back.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares9",
+        "message":"Very good $playername, you've been our most useful temporary worker so far. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_allares10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares10",
+        "message":"And now let's discuss your payment. 50 gold for the bakery work.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_allares11"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares11",
+        "message":"50 for the venison.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_allares12"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares12",
+        "message":"And 100 for bringing us the apples. Any complaints?",
+        "replies":[
+            {
+                "text":"Just give me the gold already.",
+                "nextPhraseID":"brightport_allares13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_allares13",
+        "message":"OK, here you go. Don't spend them all in one place, ideally spend them at our bakery.",
+        "replies":[
+            {
+                "text":"Back to my journey.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"So little...",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":200
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":70
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster9",
+        "message":"The merchant arrived safe and sound shortly before you did. Well not quite, apparently he got robbed by highwaymen and had to run for it with nothing but his cloak and a sack of 15 apples.",
+        "replies":[
+            {
+                "text":"Coincidentally I found 15 apples myself.",
+                "nextPhraseID":"brightport_storemaster10"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster10",
+        "message":"In total 30. That should be enough for the first round of baking. If you would mind giving them to me. ",
+        "replies":[
+            {
+                "text":"Here you go. [Hand over the apples.]",
+                "nextPhraseID":"brightport_storemaster11",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"deebo_apples",
+                        "value":15
+                    }
+                ]
+            },
+            {
+                "text":"I think I might have eaten some.",
+                "nextPhraseID":"brightport_storemaster8",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"deebo_apples",
+                        "value":15,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"usedItem",
+                        "requireID":"deebo_apples",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster11",
+        "message":"Thank you $playername, that is excellent. Head inside and tell my brother the apples will be brought inside soon. As for your remuneration he will reward you sufficiently.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":65
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":198
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster12",
+        "message":"So? He hasn't delivered them. If you went through the trouble of going there you could have atleast gotten a new batch of 30 apples.",
+        "replies":[
+            {
+                "text":"But you didn't tell me to..",
+                "nextPhraseID":"brightport_storemaster13"
+            }
+        ]
+    },
+    {
+        "id":"brightport_storemaster13",
+        "message":"Use your brain, $playername."
     }
 ]

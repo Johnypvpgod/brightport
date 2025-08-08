@@ -356,7 +356,7 @@
         "name":"Eatloni",
         "iconID":"monsters_ld1:98",
         "unique":1,
-        "phraseID":"brightport_storemaster"
+        "phraseID":"brightport_storemaster_selector"
     },
     {
         "id":"brightportnpc11",
