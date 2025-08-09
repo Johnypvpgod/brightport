@@ -553,19 +553,19 @@
             },
             {
                 "progress":169,
-                "logText":"sift * 1"
+                "logText":"1sift"
             },
             {
                 "progress":170,
-                "logText":"sift * 2"
+                "logText":"2sift"
             },
             {
                 "progress":171,
-                "logText":"sift * 3"
+                "logText":"3sift"
             },
             {
                 "progress":172,
-                "logText":"sift * 4"
+                "logText":"4sift"
             },
             {
                 "progress":173,
@@ -670,6 +670,30 @@
             {
                 "progress":198,
                 "logText":"apples returned to eatloni"
+            },
+            {
+                "progress":199,
+                "logText":"5sift"
+            },
+            {
+                "progress":200,
+                "logText":"6sift"
+            },
+            {
+                "progress":201,
+                "logText":"7sift"
+            },
+            {
+                "progress":202,
+                "logText":"8sift"
+            },
+            {
+                "progress":203,
+                "logText":"9sift"
+            },
+            {
+                "progress":204,
+                "logText":"10sift"
             }
         ]
     },
