@@ -13471,6 +13471,33 @@
         "id":"brightport_delon_selector",
         "replies":[
             {
+                "nextPhraseID":"brightport_delon18",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":20
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon14",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":16
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
                 "text":"N",
                 "nextPhraseID":"brightport_delon12",
                 "requires":[
@@ -13722,7 +13749,7 @@
                     {
                         "requireType":"questProgress",
                         "requireID":"brightport_bakery",
-                        "value":15
+                        "value":16
                     }
                 ]
             }
@@ -13744,10 +13771,27 @@
     },
     {
         "id":"brightport_sift1",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something in the sift.]",
+        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
         "replies":[
             {
-                
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
             }
         ]
     },
@@ -16488,7 +16532,7 @@
     },
     {
         "id":"brightport_delon12",
-        "message":"Zzzz. pastries... Zzzz",
+        "message":"Zzzz. Pastries... Zzzz",
         "replies":[
             {
                 "text":"Oh so that's why you've been so quiet.",
@@ -17293,7 +17337,7 @@
     },
     {
         "id":"brightport_allares_end",
-        "message":"Hello, kid. You\u2019ve done good work today. Saved us quite a bit of trouble.",
+        "message":"Hello, kid. You\u2019ve done good work today. Saved us quite a bit of time.",
         "replies":[
             {
                 "text":"It was a nice distraction. [Leave.]",
@@ -17583,7 +17627,7 @@
     },
     {
         "id":"brightport_allares13",
-        "message":"OK, here you go. Don't spend them all in one place, ideally spend them at our bakery.",
+        "message":"OK, here you go. Don't spend them all in useless shops. Ideally buy some pastries at our bakery.",
         "replies":[
             {
                 "text":"Back to my journey.",
@@ -17832,7 +17876,7 @@
     },
     {
         "id":"brightport_sift1_2",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something in the sift.]",
+        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
         "replies":[
             {
                 "text":"*",
@@ -17858,7 +17902,7 @@
     },
     {
         "id":"brightport_sift1_3",
-        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something in the sift.]",
+        "message":"[You take the sift that was inside the sack and use it to take a handful of flour, after a few shakes of the sift you're left with something.]",
         "replies":[
             {
                 "text":".",
@@ -17877,8 +17921,8 @@
                 "nextPhraseID":"brightport_count0"
             },
             {
-                "text":".",
-                "nextPhraseID":"brightport_count0"
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
             }
         ]
     },
@@ -17902,7 +17946,125 @@
         "id":"brightport_random_sift",
         "replies":[
             {
-                "nextPhraseID":"brightport_pattern1"
+                "text":"N",
+                "nextPhraseID":"brightport_pattern1",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14",
+                        "negate":false
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern2",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern3",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern4",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern5",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern6",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern7",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern8",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern9",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern10",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern11",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"14"
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_pattern12",
+                "requires":[
+                    {
+                        "requireType":"random",
+                        "requireID":"100"
+                    }
+                ]
             }
         ]
     },
@@ -17912,11 +18074,11 @@
         "replies":[
             {
                 "text":".",
-                "nextPhraseID":"brightport_random_sift"
+                "nextPhraseID":"brightport_count0"
             },
             {
                 "text":".",
-                "nextPhraseID":"brightport_random_sift"
+                "nextPhraseID":"brightport_count0"
             },
             {
                 "text":"*",
@@ -17924,11 +18086,11 @@
             },
             {
                 "text":".",
-                "nextPhraseID":"brightport_random_sift"
+                "nextPhraseID":"brightport_count0"
             },
             {
-                "text":"*",
-                "nextPhraseID":"brightport_random_sift"
+                "text":".",
+                "nextPhraseID":"brightport_count0"
             }
         ]
     },
@@ -17937,43 +18099,179 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count1"
+                "nextPhraseID":"brightport_count1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":169,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count2"
+                "nextPhraseID":"brightport_count2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":169
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":170,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count3"
+                "nextPhraseID":"brightport_count3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":170
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":171,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count4"
+                "nextPhraseID":"brightport_count4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":171
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":172,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count5"
+                "nextPhraseID":"brightport_count5",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":172
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":199,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count6"
+                "nextPhraseID":"brightport_count6",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":199
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":200,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count7"
+                "nextPhraseID":"brightport_count7",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":200
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":201,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count8"
+                "nextPhraseID":"brightport_count8",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":201
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":202,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count9"
+                "nextPhraseID":"brightport_count9",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":202
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":203,
+                        "negate":true
+                    }
+                ]
             },
             {
                 "text":"N",
-                "nextPhraseID":"brightport_count10"
+                "nextPhraseID":"brightport_count10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":203
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":204,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_siftend0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":204
+                    }
+                ]
             }
         ]
     },
@@ -18063,11 +18361,650 @@
         "replies":[
             {
                 "text":"N",
-                "nextPhraseID":"brightport_siftend"
+                "nextPhraseID":"brightport_random_sift"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":204
             }
         ]
     },
     {
-        "id":"brightport_siftend"
+        "id":"brightport_siftend",
+        "message":"I sifted but it still seems to have a lot of black specks in it. ",
+        "replies":[
+            {
+                "text":"I'll take a break and then sift more.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_siftend0",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_siftend",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"sift",
+                        "value":5
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"sift",
+                        "value":15,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_siftend1",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"sift",
+                        "value":15
+                    },
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"25",
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_siftend2",
+                "requires":[
+                    {
+                        "requireType":"factionScore",
+                        "requireID":"sift",
+                        "value":25
+                    }
+                ]
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":169
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":170
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":171
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":172
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":199
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":200
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":201
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":202
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":203
+            },
+            {
+                "rewardType":"removeQuestProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":204
+            }
+        ]
+    },
+    {
+        "id":"brightport_siftend1",
+        "message":"The flour looks clean now but when I stick my hand in and grab some I still find some specks occasionally. ",
+        "replies":[
+            {
+                "text":"I'll take a break and then sift more.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_siftend2",
+        "message":"That seems to have been most of it, the flour is as white as fresh coated snow. ",
+        "replies":[
+            {
+                "text":"I hope that's all for today. ",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":168
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern2",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern3",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern4",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern5",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern6",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern7",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern8",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern9",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern10",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern11",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":"*",
+                "nextPhraseID":"brightport_speck"
+            }
+        ]
+    },
+    {
+        "id":"brightport_pattern12",
+        "message":"Sift sift.",
+        "replies":[
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            },
+            {
+                "text":".",
+                "nextPhraseID":"brightport_count0"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon14",
+        "message":"Yawn.. Is the flour sifted yet?",
+        "replies":[
+            {
+                "text":"As white as powdered snow.",
+                "nextPhraseID":"brightport_delon15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_nondisplay",
+                        "value":168
+                    }
+                ]
+            },
+            {
+                "text":"Not yet.",
+                "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon15",
+        "message":"Good work $playername. Now what should I have you do next..",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_delon16"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon16",
+        "message":"Hmm, I think that was all of it, I would have made you peel apples but I don't see any fresh apples from the orchard around, which is odd cause they were supposed to delivered already.",
+        "replies":[
+            {
+                "text":"Can you tell me more about it?",
+                "nextPhraseID":"brightport_delon17"
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon17",
+        "message":"No I can't that's not my job, go ask Allares if you want. Now, I'm glad you're finally getting off my back, I don't want you interrupting my important work. ",
+        "replies":[
+            {
+                "text":"Sure, whatever you say sleepyhead. [Leave.]",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":20
+            }
+        ]
+    },
+    {
+        "id":"brightport_delon18",
+        "message":"Yawn.. Your job's over go away."
+    },
+    {
+        "id":"brightport_deebo",
+        "message":"You came for naught kid. The apples were picked up recently. Should be on their way, if not already delivered.",
+        "replies":[
+            {
+                "text":"Well, they were supposed to arrive, but didn't .",
+                "nextPhraseID":"brightport_deebo1"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":30
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo1",
+        "message":"Oh no! I just hope nothing happened to my precious apples.",
+        "replies":[
+            {
+                "text":"Can I get a new batch of apples?",
+                "nextPhraseID":"brightport_deebo_selector"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_nondisplay",
+                "value":205
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo0",
+        "message":"I don't sell my harvest to just anyone, but because I have a contract with the bakery I can give you a batch.",
+        "replies":[
+            {
+                "text":"Sounds good.",
+                "nextPhraseID":"brightport_deebo2"
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo2",
+        "message":"That would be 1600 gold. ",
+        "replies":[
+            {
+                "text":"Ok, here you go. [Give him the gold.]",
+                "nextPhraseID":"brightport_deebo3",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1600
+                    }
+                ]
+            },
+            {
+                "text":"Whaat, I don't have that gold!",
+                "nextPhraseID":"brightport_deebo4"
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo3",
+        "message":"I'll have my workers pick them soon. Circle around the orchard if you want.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":45
+            },
+            {
+                "rewardType":"createTimer",
+                "rewardID":"brightport_apple"
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo4",
+        "message":"Then no apples for you because I don't lend!"
+    },
+    {
+        "id":"brightport_deebo_selector",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_deebo0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"brightport_bakery",
+                        "value":45,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_deebo5",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_apple",
+                        "value":4,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"brightport_deebo6",
+                "requires":[
+                    {
+                        "requireType":"timerElapsed",
+                        "requireID":"brightport_apple",
+                        "value":4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"brightport_deebo5",
+        "message":"I already told you they'll be picked soon, just go look at my magnificent orchard for now."
+    },
+    {
+        "id":"brightport_deebo6",
+        "message":"Here you go. Make sure they reach the bakery this time!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"deebo_apples",
+                "value":30
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"brightport_bakery",
+                "value":50
+            }
+        ]
     }
 ]

@@ -694,6 +694,10 @@
             {
                 "progress":204,
                 "logText":"10sift"
+            },
+            {
+                "progress":205,
+                "logText":"deebo question"
             }
         ]
     },
@@ -981,7 +985,7 @@
             },
             {
                 "progress":20,
-                "logText":"Flour sifted. One last errand. An apple delivery hasn\u2019t arrived. I should ask Allares about it."
+                "logText":"One last errand. An apple delivery hasn\u2019t arrived. I should ask Allares about it."
             },
             {
                 "progress":22,
@@ -1005,7 +1009,7 @@
             },
             {
                 "progress":40,
-                "logText":"I found two crates of apples. One was intact, but the other was half-eaten. Did the mountain cats attack the merchant for food to feed their cubs?"
+                "logText":"I found two crates of apples. One was intact, but the other was empty. Did the mountain cats attack the merchant for food to feed their cubs?"
             },
             {
                 "progress":45,
