@@ -1,0 +1,38 @@
+[
+    {
+        "id":"glaive_butcher",
+        "iconID":"items_weapons:33",
+        "name":"Glaive of Imeria",
+        "displaytype":"extraordinary",
+        "category":"pole",
+        "description":"Shiny, and sharp, carries a long history of conflict.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":5,
+                "max":12
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":15,
+            "increaseCriticalSkill":10,
+            "increaseBlockChance":7,
+            "setCriticalMultiplier":2.0,
+            "setNonWeaponDamageModifier":158
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":2,
+                    "duration":4,
+                    "chance":"20"
+                },
+                {
+                    "condition":"crit1",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"7"
+                }
+            ]
+        }
+    }
+]
