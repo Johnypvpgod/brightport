@@ -1,0 +1,4248 @@
+{
+    "maps": [
+        {
+            "fileName": "blackwater_mountain0.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 1696,
+            "y": 15008
+        },
+        {
+            "fileName": "blackwater_mountain1.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 1024,
+            "y": 14336
+        },
+        {
+            "fileName": "blackwater_mountain2.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 1024,
+            "y": 13984
+        },
+        {
+            "fileName": "blackwater_mountain3.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 1024,
+            "y": 13632
+        },
+        {
+            "fileName": "blackwater_mountain4.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 1024,
+            "y": 13120
+        },
+        {
+            "fileName": "blackwater_mountain10.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1056,
+            "y": 11776
+        },
+        {
+            "fileName": "blackwater_mountain11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1056,
+            "y": 10784
+        },
+        {
+            "fileName": "blackwater_mountain12.tmx",
+            "height": 864,
+            "width": 896,
+            "x": 128,
+            "y": 11456
+        },
+        {
+            "fileName": "blackwater_mountain14.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 1728,
+            "y": 11776
+        },
+        {
+            "fileName": "blackwater_mountain15.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 2400,
+            "y": 10784
+        },
+        {
+            "fileName": "blackwater_mountain16.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 2912,
+            "y": 10784
+        },
+        {
+            "fileName": "blackwater_mountain30.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 3648,
+            "y": 13024
+        },
+        {
+            "fileName": "blackwater_mountain32.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2656,
+            "y": 13088
+        },
+        {
+            "fileName": "blackwater_mountain40.tmx",
+            "height": 352,
+            "width": 352,
+            "x": 2272,
+            "y": 12448
+        },
+        {
+            "fileName": "blackwater_mountain53.tmx",
+            "height": 288,
+            "width": 960,
+            "x": 2752,
+            "y": 10464
+        },
+        {
+            "fileName": "blackwater_mountain54.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 3744,
+            "y": 10272
+        },
+        {
+            "fileName": "blackwater_mountain55.tmx",
+            "height": 608,
+            "width": 736,
+            "x": 2656,
+            "y": 12448
+        },
+        {
+            "fileName": "blackwater_mountain56.tmx",
+            "height": 640,
+            "width": 672,
+            "x": 2720,
+            "y": 11776
+        },
+        {
+            "fileName": "crossglen.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4736,
+            "y": 11360
+        },
+        {
+            "fileName": "crossroads.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5728,
+            "y": 9600
+        },
+        {
+            "fileName": "fallhaven_ne.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 7712,
+            "y": 12224
+        },
+        {
+            "fileName": "fallhaven_nw.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6720,
+            "y": 12224
+        },
+        {
+            "fileName": "fallhaven_se.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 7712,
+            "y": 13216
+        },
+        {
+            "fileName": "fallhaven_sw.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 6720,
+            "y": 13216
+        },
+        {
+            "fileName": "fields0.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 5728,
+            "y": 9088
+        },
+        {
+            "fileName": "fields1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5728,
+            "y": 8096
+        },
+        {
+            "fileName": "fields10.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 3072,
+            "y": 9088
+        },
+        {
+            "fileName": "fields11.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 7616,
+            "y": 6976
+        },
+        {
+            "fileName": "fields12.tmx",
+            "height": 608,
+            "width": 608,
+            "x": 8288,
+            "y": 6848
+        },
+        {
+            "fileName": "fields2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4736,
+            "y": 8096
+        },
+        {
+            "fileName": "fields3.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 4064,
+            "y": 8416
+        },
+        {
+            "fileName": "fields4.tmx",
+            "height": 768,
+            "width": 864,
+            "x": 6720,
+            "y": 8096
+        },
+        {
+            "fileName": "fields5.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4736,
+            "y": 7104
+        },
+        {
+            "fileName": "fields6.tmx",
+            "height": 896,
+            "width": 960,
+            "x": 5728,
+            "y": 7168
+        },
+        {
+            "fileName": "fields7.tmx",
+            "height": 768,
+            "width": 864,
+            "x": 6720,
+            "y": 7296
+        },
+        {
+            "fileName": "fields8.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 4736,
+            "y": 9088
+        },
+        {
+            "fileName": "fields9.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 3744,
+            "y": 9088
+        },
+        {
+            "fileName": "flagstone0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3040,
+            "y": 15008
+        },
+        {
+            "fileName": "gapfiller1.tmx",
+            "height": 384,
+            "width": 384,
+            "x": 8288,
+            "y": 13888
+        },
+        {
+            "fileName": "gapfiller2.tmx",
+            "height": 832,
+            "width": 736,
+            "x": 5952,
+            "y": 13024
+        },
+        {
+            "fileName": "gapfiller3.tmx",
+            "height": 320,
+            "width": 448,
+            "x": 5728,
+            "y": 12000
+        },
+        {
+            "fileName": "gapfiller4.tmx",
+            "height": 768,
+            "width": 480,
+            "x": 6208,
+            "y": 12224
+        },
+        {
+            "fileName": "lodar0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8000,
+            "y": 9312
+        },
+        {
+            "fileName": "lodar1.tmx",
+            "height": 384,
+            "width": 544,
+            "x": 7424,
+            "y": 9888
+        },
+        {
+            "fileName": "lodar10.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 11968,
+            "y": 8864
+        },
+        {
+            "fileName": "lodar11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10976,
+            "y": 9696
+        },
+        {
+            "fileName": "lodar12.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 11968,
+            "y": 9696
+        },
+        {
+            "fileName": "lodar13.tmx",
+            "height": 384,
+            "width": 960,
+            "x": 8384,
+            "y": 11296
+        },
+        {
+            "fileName": "lodar14.tmx",
+            "height": 960,
+            "width": 608,
+            "x": 9376,
+            "y": 11296
+        },
+        {
+            "fileName": "lodar15.tmx",
+            "height": 608,
+            "width": 608,
+            "x": 9376,
+            "y": 12288
+        },
+        {
+            "fileName": "lodar16.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 10016,
+            "y": 11296
+        },
+        {
+            "fileName": "lodar17.tmx",
+            "height": 608,
+            "width": 928,
+            "x": 10016,
+            "y": 12288
+        },
+        {
+            "fileName": "lodar18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10976,
+            "y": 10688
+        },
+        {
+            "fileName": "lodar19.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 10976,
+            "y": 11680
+        },
+        {
+            "fileName": "lodar2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8992,
+            "y": 8800
+        },
+        {
+            "fileName": "lodar20.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 11968,
+            "y": 10688
+        },
+        {
+            "fileName": "lodar21.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 11968,
+            "y": 11680
+        },
+        {
+            "fileName": "lodar3.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 9984,
+            "y": 8800
+        },
+        {
+            "fileName": "lodar4.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 9984,
+            "y": 9472
+        },
+        {
+            "fileName": "lodar5.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 8992,
+            "y": 9792
+        },
+        {
+            "fileName": "lodar6.tmx",
+            "height": 960,
+            "width": 576,
+            "x": 8384,
+            "y": 10304
+        },
+        {
+            "fileName": "lodar7.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8992,
+            "y": 10304
+        },
+        {
+            "fileName": "lodar8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 9984,
+            "y": 10304
+        },
+        {
+            "fileName": "lodar9.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 10976,
+            "y": 8864
+        },
+        {
+            "fileName": "loneford1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6720,
+            "y": 8896
+        },
+        {
+            "fileName": "loneford2.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 7616,
+            "y": 8032
+        },
+        {
+            "fileName": "lostmine0.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 13632,
+            "y": 11552
+        },
+        {
+            "fileName": "mountainlake0.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 22464,
+            "y": 5088
+        },
+        {
+            "fileName": "mountainlake1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 22464,
+            "y": 4096
+        },
+        {
+            "fileName": "mountainlake10.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 23424,
+            "y": 0
+        },
+        {
+            "fileName": "mountainlake10a.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 23168,
+            "y": 992
+        },
+        {
+            "fileName": "mountainlake11.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 22432,
+            "y": 128
+        },
+        {
+            "fileName": "mountainlake12.tmx",
+            "height": 704,
+            "width": 928,
+            "x": 21472,
+            "y": 256
+        },
+        {
+            "fileName": "mountainlake13.tmx",
+            "height": 928,
+            "width": 960,
+            "x": 20480,
+            "y": 640
+        },
+        {
+            "fileName": "mountainlake13a.tmx",
+            "height": 800,
+            "width": 1024,
+            "x": 20480,
+            "y": 1600
+        },
+        {
+            "fileName": "mountainlake2.tmx",
+            "height": 960,
+            "width": 704,
+            "x": 23456,
+            "y": 4096
+        },
+        {
+            "fileName": "mountainlake3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 24192,
+            "y": 4096
+        },
+        {
+            "fileName": "mountainlake4.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 24352,
+            "y": 3552
+        },
+        {
+            "fileName": "mountainlake5.tmx",
+            "height": 640,
+            "width": 928,
+            "x": 25184,
+            "y": 3328
+        },
+        {
+            "fileName": "mountainlake6.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 25440,
+            "y": 2368
+        },
+        {
+            "fileName": "mountainlake7.tmx",
+            "height": 640,
+            "width": 512,
+            "x": 25600,
+            "y": 1696
+        },
+        {
+            "fileName": "mountainlake8.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 24928,
+            "y": 992
+        },
+        {
+            "fileName": "mountainlake9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 24416,
+            "y": 0
+        },
+        {
+            "fileName": "lakecave1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 22240,
+            "y": -1664
+        },
+        {
+            "fileName": "remgard0.tmx",
+            "height": 960,
+            "width": 1024,
+            "x": 20480,
+            "y": 2432
+        },
+        {
+            "fileName": "remgard1.tmx",
+            "height": 960,
+            "width": 1152,
+            "x": 21536,
+            "y": 2656
+        },
+        {
+            "fileName": "remgard2.tmx",
+            "height": 640,
+            "width": 896,
+            "x": 21536,
+            "y": 3648
+        },
+        {
+            "fileName": "remgard3.tmx",
+            "height": 864,
+            "width": 640,
+            "x": 20864,
+            "y": 3424
+        },
+        {
+            "fileName": "remgard4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 19872,
+            "y": 3424
+        },
+        {
+            "fileName": "road1.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 11392,
+            "y": 14240
+        },
+        {
+            "fileName": "road2.tmx",
+            "height": 608,
+            "width": 640,
+            "x": 12224,
+            "y": 14560
+        },
+        {
+            "fileName": "road3.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 12896,
+            "y": 14688
+        },
+        {
+            "fileName": "road4.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 13728,
+            "y": 14528
+        },
+        {
+            "fileName": "road4_gargoylecave.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 13600,
+            "y": 14016
+        },
+        {
+            "fileName": "road5.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 14560,
+            "y": 14784
+        },
+        {
+            "fileName": "roadbeforecrossroads.tmx",
+            "height": 672,
+            "width": 672,
+            "x": 6720,
+            "y": 9888
+        },
+        {
+            "fileName": "roadbeforecrossroads1.tmx",
+            "height": 896,
+            "width": 928,
+            "x": 7424,
+            "y": 10304
+        },
+        {
+            "fileName": "roadbeforecrossroads2.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 7424,
+            "y": 11232
+        },
+        {
+            "fileName": "roadbeforecrossroads3.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 8384,
+            "y": 11712
+        },
+        {
+            "fileName": "roadbeforecrossroads4.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 8704,
+            "y": 12224
+        },
+        {
+            "fileName": "roadbeforecrossroads5.tmx",
+            "height": 704,
+            "width": 640,
+            "x": 8704,
+            "y": 12896
+        },
+        {
+            "fileName": "roadbeforecrossroads6.tmx",
+            "height": 992,
+            "width": 640,
+            "x": 9376,
+            "y": 12928
+        },
+        {
+            "fileName": "roadbeforecrossroads7.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 10048,
+            "y": 13440
+        },
+        {
+            "fileName": "roadbeforecrossroads8.tmx",
+            "height": 864,
+            "width": 640,
+            "x": 10720,
+            "y": 13440
+        },
+        {
+            "fileName": "roadbeforecrossroads9.tmx",
+            "height": 768,
+            "width": 800,
+            "x": 11392,
+            "y": 13440
+        },
+        {
+            "fileName": "roadtocarntower0.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 4736,
+            "y": 9600
+        },
+        {
+            "fileName": "roadtocarntower1.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 3744,
+            "y": 9600
+        },
+        {
+            "fileName": "roadtocarntower2.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 2752,
+            "y": 9600
+        },
+        {
+            "fileName": "vilegard_n.tmx",
+            "height": 640,
+            "width": 672,
+            "x": 11520,
+            "y": 15072
+        },
+        {
+            "fileName": "vilegard_s.tmx",
+            "height": 832,
+            "width": 736,
+            "x": 11520,
+            "y": 15744
+        },
+        {
+            "fileName": "vilegard_sw.tmx",
+            "height": 320,
+            "width": 320,
+            "x": 11168,
+            "y": 16160
+        },
+        {
+            "fileName": "waterway0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8928,
+            "y": 6144
+        },
+        {
+            "fileName": "waterway1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 9920,
+            "y": 5472
+        },
+        {
+            "fileName": "waterway10.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 17600,
+            "y": 8288
+        },
+        {
+            "fileName": "waterway11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 18592,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway11_east.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 19584,
+            "y": 7328
+        },
+        {
+            "fileName": "waterway12.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14624,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway13.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 15616,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway14.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12896,
+            "y": 5312
+        },
+        {
+            "fileName": "waterway15.tmx",
+            "height": 960,
+            "width": 704,
+            "x": 13152,
+            "y": 6304
+        },
+        {
+            "fileName": "waterway2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10912,
+            "y": 4800
+        },
+        {
+            "fileName": "waterway3.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 9920,
+            "y": 4800
+        },
+        {
+            "fileName": "waterway4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 11904,
+            "y": 5312
+        },
+        {
+            "fileName": "waterway5.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12160,
+            "y": 6304
+        },
+        {
+            "fileName": "waterway6.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12640,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway7.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13632,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 16608,
+            "y": 7296
+        },
+        {
+            "fileName": "waterway9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 17600,
+            "y": 7296
+        },
+        {
+            "fileName": "waterwayextention.tmx",
+            "height": 480,
+            "width": 512,
+            "x": 10912,
+            "y": 5792
+        },
+        {
+            "fileName": "waytobrimhaven0.tmx",
+            "height": 736,
+            "width": 1024,
+            "x": 8608,
+            "y": 8032
+        },
+        {
+            "fileName": "waytobrimhaven1.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 9664,
+            "y": 7904
+        },
+        {
+            "fileName": "waytobrimhaven2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10656,
+            "y": 7584
+        },
+        {
+            "fileName": "waytobrimhaven3.tmx",
+            "height": 928,
+            "width": 960,
+            "x": 11648,
+            "y": 7648
+        },
+        {
+            "fileName": "waytolake0.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 20768,
+            "y": 8512
+        },
+        {
+            "fileName": "waytolake1.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 21440,
+            "y": 8160
+        },
+        {
+            "fileName": "waytolake2.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 21440,
+            "y": 7328
+        },
+        {
+            "fileName": "waytolake3.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 21504,
+            "y": 6656
+        },
+        {
+            "fileName": "waytolostmine0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12640,
+            "y": 11104
+        },
+        {
+            "fileName": "waytolostmine1.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 12640,
+            "y": 10208
+        },
+        {
+            "fileName": "waytolostmine2.tmx",
+            "height": 896,
+            "width": 960,
+            "x": 13632,
+            "y": 9632
+        },
+        {
+            "fileName": "waytolostmine3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13632,
+            "y": 10560
+        },
+        {
+            "fileName": "waytominingtown0.tmx",
+            "height": 480,
+            "width": 896,
+            "x": 10048,
+            "y": 12928
+        },
+        {
+            "fileName": "waytominingtown1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10976,
+            "y": 12448
+        },
+        {
+            "fileName": "waytominingtown1a.tmx",
+            "height": 384,
+            "width": 640,
+            "x": 11968,
+            "y": 13024
+        },
+        {
+            "fileName": "waytominingtown2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 11968,
+            "y": 12352
+        },
+        {
+            "fileName": "waytominingtown3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12640,
+            "y": 12096
+        },
+        {
+            "fileName": "waytomountaincave0.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 20064,
+            "y": 8160
+        },
+        {
+            "fileName": "waytomountaincave1.tmx",
+            "height": 608,
+            "width": 864,
+            "x": 19872,
+            "y": 9120
+        },
+        {
+            "fileName": "waytomountaincave2.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 19904,
+            "y": 9760
+        },
+        {
+            "fileName": "wild0.tmx",
+            "height": 672,
+            "width": 672,
+            "x": 5728,
+            "y": 10592
+        },
+        {
+            "fileName": "wild1.tmx",
+            "height": 672,
+            "width": 672,
+            "x": 5728,
+            "y": 11296
+        },
+        {
+            "fileName": "wild10.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 6944,
+            "y": 13888
+        },
+        {
+            "fileName": "wild11.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 7616,
+            "y": 13888
+        },
+        {
+            "fileName": "wild11_clearing.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 7616,
+            "y": 14560
+        },
+        {
+            "fileName": "wild12.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 8704,
+            "y": 13632
+        },
+        {
+            "fileName": "wild13.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 9376,
+            "y": 13952
+        },
+        {
+            "fileName": "wild14.tmx",
+            "height": 512,
+            "width": 640,
+            "x": 10048,
+            "y": 14112
+        },
+        {
+            "fileName": "wild14_clearing.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 10048,
+            "y": 14656
+        },
+        {
+            "fileName": "wild15.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 10720,
+            "y": 14336
+        },
+        {
+            "fileName": "wild16.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 2368,
+            "y": 15008
+        },
+        {
+            "fileName": "wild17.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 1024,
+            "y": 15008
+        },
+        {
+            "fileName": "wild2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 4864,
+            "y": 12352
+        },
+        {
+            "fileName": "wild3.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 5536,
+            "y": 12352
+        },
+        {
+            "fileName": "wild4.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 6432,
+            "y": 11232
+        },
+        {
+            "fileName": "wild5.tmx",
+            "height": 640,
+            "width": 832,
+            "x": 5088,
+            "y": 13024
+        },
+        {
+            "fileName": "wild6.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4960,
+            "y": 13696
+        },
+        {
+            "fileName": "wild7.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 4704,
+            "y": 14688
+        },
+        {
+            "fileName": "wild8.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 4032,
+            "y": 14976
+        },
+        {
+            "fileName": "wild9.tmx",
+            "height": 768,
+            "width": 960,
+            "x": 5952,
+            "y": 13888
+        },
+        {
+            "fileName": "woodcave0.tmx",
+            "height": 608,
+            "width": 960,
+            "x": 6432,
+            "y": 10592
+        },
+        {
+            "fileName": "woodsettlement0.tmx",
+            "height": 448,
+            "width": 960,
+            "x": 6432,
+            "y": 11744
+        },
+        {
+            "fileName": "stoutford_gate.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1024,
+            "y": 16672
+        },
+        {
+            "fileName": "stoutford_ne.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1696,
+            "y": 16672
+        },
+        {
+            "fileName": "stoutford_se.tmx",
+            "height": 576,
+            "width": 1024,
+            "x": 1312,
+            "y": 17344
+        },
+        {
+            "fileName": "stoutford_sw.tmx",
+            "height": 576,
+            "width": 768,
+            "x": 512,
+            "y": 17344
+        },
+        {
+            "fileName": "stoutford_nw.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 352,
+            "y": 16672
+        },
+        {
+            "fileName": "wild18.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 2368,
+            "y": 16000
+        },
+        {
+            "fileName": "wild19.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1696,
+            "y": 16000
+        },
+        {
+            "fileName": "wild20.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 1024,
+            "y": 16000
+        },
+        {
+            "fileName": "wild21.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 352,
+            "y": 16000
+        },
+        {
+            "fileName": "wild22.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 2368,
+            "y": 16992
+        },
+        {
+            "fileName": "wild23.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 32,
+            "y": 15008
+        },
+        {
+            "fileName": "waytogalmore1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3040,
+            "y": 16992
+        },
+        {
+            "fileName": "waytogalmore0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3040,
+            "y": 16000
+        },
+        {
+            "fileName": "fields11b.tmx",
+            "height": 512,
+            "width": 640,
+            "x": 7616,
+            "y": 7488
+        },
+        {
+            "fileName": "graveyard0.tmx",
+            "height": 480,
+            "width": 416,
+            "x": 11456,
+            "y": 5792
+        },
+        {
+            "fileName": "graveyard1.tmx",
+            "height": 960,
+            "width": 672,
+            "x": 11456,
+            "y": 6304
+        },
+        {
+            "fileName": "loneford11.tmx",
+            "height": 512,
+            "width": 608,
+            "x": 8288,
+            "y": 7488
+        },
+        {
+            "fileName": "loneford12.tmx",
+            "height": 544,
+            "width": 256,
+            "x": 7712,
+            "y": 9312
+        },
+        {
+            "fileName": "loneford13.tmx",
+            "height": 384,
+            "width": 864,
+            "x": 7712,
+            "y": 8896
+        },
+        {
+            "fileName": "loneford14.tmx",
+            "height": 480,
+            "width": 352,
+            "x": 8608,
+            "y": 8800
+        },
+        {
+            "fileName": "waterwaya1.tmx",
+            "height": 512,
+            "width": 288,
+            "x": 10592,
+            "y": 6464
+        },
+        {
+            "fileName": "waterwaya2.tmx",
+            "height": 960,
+            "width": 512,
+            "x": 10912,
+            "y": 6304
+        },
+        {
+            "fileName": "waterwaya3.tmx",
+            "height": 256,
+            "width": 704,
+            "x": 10912,
+            "y": 7296
+        },
+        {
+            "fileName": "waterwaya5.tmx",
+            "height": 320,
+            "width": 960,
+            "x": 11648,
+            "y": 7296
+        },
+        {
+            "fileName": "waterwaya6.tmx",
+            "height": 512,
+            "width": 640,
+            "x": 9920,
+            "y": 6464
+        },
+        {
+            "fileName": "waterwayb1.tmx",
+            "height": 288,
+            "width": 960,
+            "x": 9664,
+            "y": 7584
+        },
+        {
+            "fileName": "waterwayb2.tmx",
+            "height": 416,
+            "width": 704,
+            "x": 8928,
+            "y": 7584
+        },
+        {
+            "fileName": "waterwayb3.tmx",
+            "height": 416,
+            "width": 960,
+            "x": 8928,
+            "y": 7136
+        },
+        {
+            "fileName": "waterwayb4.tmx",
+            "height": 544,
+            "width": 960,
+            "x": 9920,
+            "y": 7008
+        },
+        {
+            "fileName": "waytobrimhaven4.tmx",
+            "height": 192,
+            "width": 288,
+            "x": 10656,
+            "y": 8576
+        },
+        {
+            "fileName": "waytobrimhaven5.tmx",
+            "height": 256,
+            "width": 640,
+            "x": 10976,
+            "y": 8576
+        },
+        {
+            "fileName": "waytobrimhaven6.tmx",
+            "height": 224,
+            "width": 960,
+            "x": 11648,
+            "y": 8608
+        },
+        {
+            "fileName": "waytolake6.tmx",
+            "height": 544,
+            "width": 864,
+            "x": 21696,
+            "y": 6080
+        },
+        {
+            "fileName": "waytolake7.tmx",
+            "height": 800,
+            "width": 832,
+            "x": 20576,
+            "y": 7328
+        },
+        {
+            "fileName": "waytolake7b.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 20768,
+            "y": 8160
+        },
+        {
+            "fileName": "waytolake8.tmx",
+            "height": 640,
+            "width": 896,
+            "x": 20576,
+            "y": 6656
+        },
+        {
+            "fileName": "waytolake9.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 20704,
+            "y": 5984
+        },
+        {
+            "fileName": "waytolake10.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 20704,
+            "y": 4992
+        },
+        {
+            "fileName": "waytolake11.tmx",
+            "height": 640,
+            "width": 736,
+            "x": 21696,
+            "y": 4896
+        },
+        {
+            "fileName": "guynmart.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2752,
+            "y": 5600
+        },
+        {
+            "fileName": "guynmart_wood_1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2752,
+            "y": 6592
+        },
+        {
+            "fileName": "guynmart_wood_2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2752,
+            "y": 4608
+        },
+        {
+            "fileName": "guynmart_wood_3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1760,
+            "y": 4608
+        },
+        {
+            "fileName": "guynmart_wood_4.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 1248,
+            "y": 4608
+        },
+        {
+            "fileName": "guynmart_wood_5.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1248,
+            "y": 5600
+        },
+        {
+            "fileName": "guynmart_wood_6.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 2240,
+            "y": 5600
+        },
+        {
+            "fileName": "guynmart_wood_7.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 3744,
+            "y": 4608
+        },
+        {
+            "fileName": "guynmart_wood_8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1760,
+            "y": 6112
+        },
+        {
+            "fileName": "guynmart_wood_9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3744,
+            "y": 5120
+        },
+        {
+            "fileName": "guynmart_wood_10.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3744,
+            "y": 6112
+        },
+        {
+            "fileName": "guynmart_wood_11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3744,
+            "y": 7104
+        },
+        {
+            "fileName": "guynmart_wood_12.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 2752,
+            "y": 7584
+        },
+        {
+            "fileName": "guynmart_wood_13.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 2240,
+            "y": 7104
+        },
+        {
+            "fileName": "guynmart_wood_14.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 1728,
+            "y": 7104
+        },
+        {
+            "fileName": "waytolake12.tmx",
+            "height": 480,
+            "width": 736,
+            "x": 21696,
+            "y": 5568
+        },
+        {
+            "fileName": "arulirmountain1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 26144,
+            "y": 3008
+        },
+        {
+            "fileName": "arulirmountain2.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 27136,
+            "y": 3072
+        },
+        {
+            "fileName": "brimhaven1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13632,
+            "y": 8288
+        },
+        {
+            "fileName": "brimhaven4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12640,
+            "y": 8288
+        },
+        {
+            "fileName": "brimhaven2.tmx",
+            "height": 896,
+            "width": 960,
+            "x": 12640,
+            "y": 9280
+        },
+        {
+            "fileName": "brimhaven3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14624,
+            "y": 8480
+        },
+        {
+            "fileName": "brimhaven7.tmx",
+            "height": 160,
+            "width": 960,
+            "x": 14624,
+            "y": 8288
+        },
+        {
+            "fileName": "brimhaven8.tmx",
+            "height": 320,
+            "width": 960,
+            "x": 13632,
+            "y": 9280
+        },
+        {
+            "fileName": "brimhaven_exit.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14624,
+            "y": 9472
+        },
+        {
+            "fileName": "bogsten0.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 9376,
+            "y": 14464
+        },
+        {
+            "fileName": "bogsten5.tmx",
+            "height": 480,
+            "width": 320,
+            "x": 9024,
+            "y": 14304
+        },
+        {
+            "fileName": "mywild18.tmx",
+            "height": 640,
+            "width": 736,
+            "x": 5376,
+            "y": 14688
+        },
+        {
+            "fileName": "mywild19.tmx",
+            "height": 640,
+            "width": 768,
+            "x": 6144,
+            "y": 14688
+        },
+        {
+            "fileName": "mywild20.tmx",
+            "height": 768,
+            "width": 640,
+            "x": 6944,
+            "y": 14560
+        },
+        {
+            "fileName": "mywildcave.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6144,
+            "y": 15360
+        },
+        {
+            "fileName": "blackwater_mountain70.tmx",
+            "height": 960,
+            "width": 320,
+            "x": 2048,
+            "y": 10784
+        },
+        {
+            "fileName": "cabin_norcity_road1.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15232,
+            "y": 14784
+        },
+        {
+            "fileName": "cabin_norcity_road2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15232,
+            "y": 14272
+        },
+        {
+            "fileName": "cabin_norcity_road3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15904,
+            "y": 14272
+        },
+        {
+            "fileName": "cabin_norcity_road4.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15904,
+            "y": 14784
+        },
+        {
+            "fileName": "way_to_sullengard_east1.tmx",
+            "height": 800,
+            "width": 352,
+            "x": 16192,
+            "y": 15296
+        },
+        {
+            "fileName": "way_to_sullengard_east2.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 16064,
+            "y": 16128
+        },
+        {
+            "fileName": "way_to_sullengard_east4.tmx",
+            "height": 512,
+            "width": 640,
+            "x": 14080,
+            "y": 17760
+        },
+        {
+            "fileName": "way_to_sullengard_east5.tmx",
+            "height": 512,
+            "width": 1280,
+            "x": 14752,
+            "y": 17760
+        },
+        {
+            "fileName": "sullengard10.tmx",
+            "height": 320,
+            "width": 864,
+            "x": 9920,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard9.tmx",
+            "height": 320,
+            "width": 1120,
+            "x": 10816,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard6.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 11296,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard3.tmx",
+            "height": 960,
+            "width": 352,
+            "x": 9920,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10304,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard4.tmx",
+            "height": 960,
+            "width": 320,
+            "x": 9952,
+            "y": 20960
+        },
+        {
+            "fileName": "sullengard5.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 11296,
+            "y": 20960
+        },
+        {
+            "fileName": "sullengard7.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 10816,
+            "y": 21952
+        },
+        {
+            "fileName": "sullengard8.tmx",
+            "height": 384,
+            "width": 832,
+            "x": 9952,
+            "y": 21952
+        },
+        {
+            "fileName": "way_to_sullengard_east6.tmx",
+            "height": 1280,
+            "width": 800,
+            "x": 15744,
+            "y": 18304
+        },
+        {
+            "fileName": "way_to_sullengard_east7.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 15744,
+            "y": 19968
+        },
+        {
+            "fileName": "way_to_sullengard_east8.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 15744,
+            "y": 20960
+        },
+        {
+            "fileName": "way_to_sullengard_east9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14752,
+            "y": 20960
+        },
+        {
+            "fileName": "way_to_sullengard_pond_road.tmx",
+            "height": 640,
+            "width": 1120,
+            "x": 11808,
+            "y": 21952
+        },
+        {
+            "fileName": "way_to_sullengard_east10.tmx",
+            "height": 640,
+            "width": 1056,
+            "x": 12960,
+            "y": 21952
+        },
+        {
+            "fileName": "way_to_sullengard_east11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13120,
+            "y": 20960
+        },
+        {
+            "fileName": "sullengard_pond.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 11968,
+            "y": 20960
+        },
+        {
+            "fileName": "way_to_sullengard_east_ravine_north.tmx",
+            "height": 480,
+            "width": 1280,
+            "x": 14752,
+            "y": 16608
+        },
+        {
+            "fileName": "way_to_sullengard_east_ravine.tmx",
+            "height": 608,
+            "width": 1280,
+            "x": 14752,
+            "y": 17120
+        },
+        {
+            "fileName": "sullengard_apple_farm_east.tmx",
+            "height": 1280,
+            "width": 960,
+            "x": 14752,
+            "y": 18304
+        },
+        {
+            "fileName": "sullengard_apple_farm_west.tmx",
+            "height": 1280,
+            "width": 640,
+            "x": 14080,
+            "y": 18304
+        },
+        {
+            "fileName": "sullengard_apple_farm_south.tmx",
+            "height": 320,
+            "width": 960,
+            "x": 14752,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 10304,
+            "y": 20960
+        },
+        {
+            "fileName": "sullengard_west_ravine.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 13088,
+            "y": 16800
+        },
+        {
+            "fileName": "sullengard_woods_gj1.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 14080,
+            "y": 16128
+        },
+        {
+            "fileName": "sullengard_woods1.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 13088,
+            "y": 16128
+        },
+        {
+            "fileName": "sullengard_woods2.tmx",
+            "height": 608,
+            "width": 960,
+            "x": 13088,
+            "y": 17664
+        },
+        {
+            "fileName": "sullengard_woods3.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 13088,
+            "y": 18304
+        },
+        {
+            "fileName": "sullengard_woods4.tmx",
+            "height": 608,
+            "width": 960,
+            "x": 13088,
+            "y": 18976
+        },
+        {
+            "fileName": "sullengard_woods5.tmx",
+            "height": 320,
+            "width": 1632,
+            "x": 13088,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard_woods6.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14752,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard_woods7.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13760,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard_woods8.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 13088,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard_woods9.tmx",
+            "height": 960,
+            "width": 1088,
+            "x": 11968,
+            "y": 19968
+        },
+        {
+            "fileName": "sullengard_woods10.tmx",
+            "height": 320,
+            "width": 1088,
+            "x": 11968,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard_woods11.tmx",
+            "height": 608,
+            "width": 1088,
+            "x": 11968,
+            "y": 18976
+        },
+        {
+            "fileName": "sullengard_woods12.tmx",
+            "height": 640,
+            "width": 1088,
+            "x": 11968,
+            "y": 18304
+        },
+        {
+            "fileName": "sullengard_woods13.tmx",
+            "height": 608,
+            "width": 1088,
+            "x": 11968,
+            "y": 17664
+        },
+        {
+            "fileName": "sullengard_woods14.tmx",
+            "height": 1024,
+            "width": 1088,
+            "x": 11968,
+            "y": 16608
+        },
+        {
+            "fileName": "vilegard_sullengard_filler1.tmx",
+            "height": 448,
+            "width": 768,
+            "x": 12288,
+            "y": 16128
+        },
+        {
+            "fileName": "way_to_sullengard_east9a.tmx",
+            "height": 960,
+            "width": 608,
+            "x": 14112,
+            "y": 20960
+        },
+        {
+            "fileName": "way_to_sullengard_east7a.tmx",
+            "height": 320,
+            "width": 800,
+            "x": 15744,
+            "y": 19616
+        },
+        {
+            "fileName": "sullengard_pond_east.tmx",
+            "height": 960,
+            "width": 160,
+            "x": 12928,
+            "y": 20960
+        },
+        {
+            "fileName": "way_to_sullengard_east_ravine_cabin.tmx",
+            "height": 448,
+            "width": 1280,
+            "x": 14752,
+            "y": 16128
+        },
+        {
+            "fileName": "way_to_sullengard_east4_bridge.tmx",
+            "height": 928,
+            "width": 640,
+            "x": 14080,
+            "y": 16800
+        },
+        {
+            "fileName": "way_to_sullengard_east5_filler.tmx",
+            "height": 512,
+            "width": 480,
+            "x": 16064,
+            "y": 17760
+        },
+        {
+            "fileName": "way_to_sullengard_east2a.tmx",
+            "height": 448,
+            "width": 480,
+            "x": 16064,
+            "y": 16640
+        },
+        {
+            "fileName": "sullengard_ravine2.tmx",
+            "height": 608,
+            "width": 480,
+            "x": 16064,
+            "y": 17120
+        },
+        {
+            "fileName": "gapfillerhole.tmx",
+            "height": 192,
+            "width": 192,
+            "x": 6208,
+            "y": 12000
+        },
+        {
+            "fileName": "haunted_forest1.tmx",
+            "height": 320,
+            "width": 320,
+            "x": 15840,
+            "y": 15552
+        },
+        {
+            "fileName": "haunted_forest2.tmx",
+            "height": 224,
+            "width": 384,
+            "x": 15776,
+            "y": 15296
+        },
+        {
+            "fileName": "haunted_forest3.tmx",
+            "height": 192,
+            "width": 256,
+            "x": 15904,
+            "y": 15904
+        },
+        {
+            "fileName": "haunted_forest4.tmx",
+            "height": 192,
+            "width": 224,
+            "x": 15648,
+            "y": 15904
+        },
+        {
+            "fileName": "haunted_forest_coffin1.tmx",
+            "height": 192,
+            "width": 288,
+            "x": 15328,
+            "y": 15904
+        },
+        {
+            "fileName": "haunted_forest_coffin2.tmx",
+            "height": 192,
+            "width": 288,
+            "x": 15008,
+            "y": 15904
+        },
+        {
+            "fileName": "haunted_forest5.tmx",
+            "height": 320,
+            "width": 256,
+            "x": 15552,
+            "y": 15552
+        },
+        {
+            "fileName": "haunted_forest6.tmx",
+            "height": 224,
+            "width": 352,
+            "x": 15392,
+            "y": 15296
+        },
+        {
+            "fileName": "haunted_forest7.tmx",
+            "height": 192,
+            "width": 512,
+            "x": 15008,
+            "y": 15680
+        },
+        {
+            "fileName": "haunted_forest8.tmx",
+            "height": 96,
+            "width": 512,
+            "x": 15008,
+            "y": 15552
+        },
+        {
+            "fileName": "haunted_forest9.tmx",
+            "height": 224,
+            "width": 352,
+            "x": 15008,
+            "y": 15296
+        },
+        {
+            "fileName": "haunted_forest12.tmx",
+            "height": 416,
+            "width": 224,
+            "x": 14752,
+            "y": 15680
+        },
+        {
+            "fileName": "haunted_forest13.tmx",
+            "height": 224,
+            "width": 224,
+            "x": 14752,
+            "y": 15424
+        },
+        {
+            "fileName": "haunted_forest_filler.tmx",
+            "height": 96,
+            "width": 416,
+            "x": 14560,
+            "y": 15296
+        },
+        {
+            "fileName": "haunted_forest14.tmx",
+            "height": 192,
+            "width": 544,
+            "x": 13984,
+            "y": 15200
+        },
+        {
+            "fileName": "haunted_forest15.tmx",
+            "height": 192,
+            "width": 512,
+            "x": 13440,
+            "y": 15200
+        },
+        {
+            "fileName": "haunted_forest_way_to_house1.tmx",
+            "height": 64,
+            "width": 320,
+            "x": 14400,
+            "y": 16032
+        },
+        {
+            "fileName": "haunted_forest_way_to_house2.tmx",
+            "height": 64,
+            "width": 640,
+            "x": 13728,
+            "y": 16032
+        },
+        {
+            "fileName": "haunted_forest_way_to_house4.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 13312,
+            "y": 15840
+        },
+        {
+            "fileName": "haunted_forest_way_to_house5.tmx",
+            "height": 256,
+            "width": 192,
+            "x": 13088,
+            "y": 15840
+        },
+        {
+            "fileName": "haunted_forest16.tmx",
+            "height": 384,
+            "width": 256,
+            "x": 13440,
+            "y": 15424
+        },
+        {
+            "fileName": "haunted_forest17.tmx",
+            "height": 288,
+            "width": 320,
+            "x": 13088,
+            "y": 15520
+        },
+        {
+            "fileName": "haunted_forest19.tmx",
+            "height": 288,
+            "width": 320,
+            "x": 13088,
+            "y": 15200
+        },
+        {
+            "fileName": "haunted_forest20.tmx",
+            "height": 256,
+            "width": 448,
+            "x": 12608,
+            "y": 15200
+        },
+        {
+            "fileName": "haunted_forest21.tmx",
+            "height": 352,
+            "width": 448,
+            "x": 12288,
+            "y": 15744
+        },
+        {
+            "fileName": "haunted_forest22.tmx",
+            "height": 352,
+            "width": 288,
+            "x": 12768,
+            "y": 15744
+        },
+        {
+            "fileName": "haunted_forest23.tmx",
+            "height": 224,
+            "width": 288,
+            "x": 12768,
+            "y": 15488
+        },
+        {
+            "fileName": "haunted_forest24.tmx",
+            "height": 256,
+            "width": 352,
+            "x": 12224,
+            "y": 15200
+        },
+        {
+            "fileName": "haunted_forest25.tmx",
+            "height": 224,
+            "width": 512,
+            "x": 12224,
+            "y": 15488
+        },
+        {
+            "fileName": "haunted_cemetery1.tmx",
+            "height": 576,
+            "width": 640,
+            "x": 14080,
+            "y": 15424
+        },
+        {
+            "fileName": "haunted_cemetery2.tmx",
+            "height": 576,
+            "width": 320,
+            "x": 13728,
+            "y": 15424
+        },
+        {
+            "fileName": "lake_shore_road_0.tmx",
+            "height": 704,
+            "width": 640,
+            "x": 4704,
+            "y": 15360
+        },
+        {
+            "fileName": "lake_shore_road_1.tmx",
+            "height": 960,
+            "width": 736,
+            "x": 5376,
+            "y": 15360
+        },
+        {
+            "fileName": "lake_shore_road_2.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 4704,
+            "y": 16096
+        },
+        {
+            "fileName": "lake_shore_road_4.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 6144,
+            "y": 16352
+        },
+        {
+            "fileName": "lake_shore_road_3.tmx",
+            "height": 736,
+            "width": 736,
+            "x": 5376,
+            "y": 16352
+        },
+        {
+            "fileName": "lake_shore_road_5.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 4704,
+            "y": 16768
+        },
+        {
+            "fileName": "lake_shore_road_6.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 5376,
+            "y": 17120
+        },
+        {
+            "fileName": "lake_shore_road_7.tmx",
+            "height": 864,
+            "width": 864,
+            "x": 6048,
+            "y": 17120
+        },
+        {
+            "fileName": "lake_shore_road_8.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 6048,
+            "y": 18016
+        },
+        {
+            "fileName": "lake_shore_road_9.tmx",
+            "height": 704,
+            "width": 960,
+            "x": 6048,
+            "y": 18560
+        },
+        {
+            "fileName": "galmore_10a.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 5056,
+            "y": 18752
+        },
+        {
+            "fileName": "way_to_sullengard_west_0.tmx",
+            "height": 800,
+            "width": 480,
+            "x": 7040,
+            "y": 18560
+        },
+        {
+            "fileName": "way_to_sullengard_west_1.tmx",
+            "height": 864,
+            "width": 480,
+            "x": 7040,
+            "y": 19392
+        },
+        {
+            "fileName": "way_to_sullengard_west_2.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 7040,
+            "y": 21280
+        },
+        {
+            "fileName": "way_to_sullengard_west_3.tmx",
+            "height": 960,
+            "width": 480,
+            "x": 7040,
+            "y": 20288
+        },
+        {
+            "fileName": "way_to_sullengard_west_4.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 7872,
+            "y": 21280
+        },
+        {
+            "fileName": "way_to_sullengard_west_5.tmx",
+            "height": 1056,
+            "width": 384,
+            "x": 8704,
+            "y": 21280
+        },
+        {
+            "fileName": "way_to_sullengard_west_6.tmx",
+            "height": 384,
+            "width": 800,
+            "x": 9120,
+            "y": 21952
+        },
+        {
+            "fileName": "way_to_aidem_camp_1.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 16576,
+            "y": 20960
+        },
+        {
+            "fileName": "aidem_camp.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 16576,
+            "y": 20128
+        },
+        {
+            "fileName": "sullengard_hill_west.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 9120,
+            "y": 21280
+        },
+        {
+            "fileName": "lake_shore_road7a.tmx",
+            "height": 864,
+            "width": 576,
+            "x": 6944,
+            "y": 17120
+        },
+        {
+            "fileName": "lake_shore_road_8a.tmx",
+            "height": 512,
+            "width": 480,
+            "x": 7040,
+            "y": 18016
+        },
+        {
+            "fileName": "flagstone_filler_east_1.tmx",
+            "height": 576,
+            "width": 640,
+            "x": 4032,
+            "y": 15488
+        },
+        {
+            "fileName": "flagstone_filler_east_2.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 4032,
+            "y": 16096
+        },
+        {
+            "fileName": "rat_mountain_1.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 4032,
+            "y": 16544
+        },
+        {
+            "fileName": "rat_mountain_2.tmx",
+            "height": 416,
+            "width": 640,
+            "x": 4032,
+            "y": 16992
+        },
+        {
+            "fileName": "rat_mountain_3.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 4032,
+            "y": 17440
+        },
+        {
+            "fileName": "rat_mountain_4.tmx",
+            "height": 512,
+            "width": 480,
+            "x": 4864,
+            "y": 17440
+        },
+        {
+            "fileName": "rat_mountain_5.tmx",
+            "height": 928,
+            "width": 640,
+            "x": 5376,
+            "y": 17792
+        },
+        {
+            "fileName": "rat_mountain_6.tmx",
+            "height": 736,
+            "width": 480,
+            "x": 4864,
+            "y": 17984
+        },
+        {
+            "fileName": "rat_mountain_7.tmx",
+            "height": 736,
+            "width": 800,
+            "x": 4032,
+            "y": 17984
+        },
+        {
+            "fileName": "rat_mountain_8.tmx",
+            "height": 512,
+            "width": 992,
+            "x": 4032,
+            "y": 18752
+        },
+        {
+            "fileName": "ratdom_bwm1.tmx",
+            "height": 960,
+            "width": 320,
+            "x": 4384,
+            "y": 11360
+        },
+        {
+            "fileName": "bwmfill1.tmx",
+            "height": 1056,
+            "width": 960,
+            "x": 4736,
+            "y": 10272
+        },
+        {
+            "fileName": "bwmfill2.tmx",
+            "height": 544,
+            "width": 1280,
+            "x": 3424,
+            "y": 10784
+        },
+        {
+            "fileName": "bwmfill4.tmx",
+            "height": 704,
+            "width": 192,
+            "x": 3424,
+            "y": 12352
+        },
+        {
+            "fileName": "bwmfill5.tmx",
+            "height": 640,
+            "width": 704,
+            "x": 3648,
+            "y": 12352
+        },
+        {
+            "fileName": "bwmfill6.tmx",
+            "height": 640,
+            "width": 448,
+            "x": 4384,
+            "y": 12352
+        },
+        {
+            "fileName": "bwmfill7.tmx",
+            "height": 640,
+            "width": 416,
+            "x": 4640,
+            "y": 13024
+        },
+        {
+            "fileName": "bwmfill8.tmx",
+            "height": 960,
+            "width": 288,
+            "x": 4640,
+            "y": 13696
+        },
+        {
+            "fileName": "bwmfill3.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 3424,
+            "y": 11360
+        },
+        {
+            "fileName": "laerothcave0.tmx",
+            "height": 640,
+            "width": 928,
+            "x": 25184,
+            "y": 4000
+        },
+        {
+            "fileName": "laerothisland0.tmx",
+            "height": 640,
+            "width": 864,
+            "x": 23776,
+            "y": 1664
+        },
+        {
+            "fileName": "laerothisland1.tmx",
+            "height": 736,
+            "width": 864,
+            "x": 23776,
+            "y": 2336
+        },
+        {
+            "fileName": "laerothisland2.tmx",
+            "height": 960,
+            "width": 1024,
+            "x": 22720,
+            "y": 2176
+        },
+        {
+            "fileName": "laerothisland3.tmx",
+            "height": 896,
+            "width": 1024,
+            "x": 22720,
+            "y": 3168
+        },
+        {
+            "fileName": "island3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 17760,
+            "y": 3264
+        },
+        {
+            "fileName": "island2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 17760,
+            "y": 2272
+        },
+        {
+            "fileName": "island1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 16768,
+            "y": 2272
+        },
+        {
+            "fileName": "island4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 16768,
+            "y": 3264
+        },
+        {
+            "fileName": "korhald_cave_outdoor1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 17600,
+            "y": 8896
+        },
+        {
+            "fileName": "remgard2a.tmx",
+            "height": 416,
+            "width": 224,
+            "x": 22464,
+            "y": 3648
+        },
+        {
+            "fileName": "waterway_forest1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 18592,
+            "y": 8288
+        },
+        {
+            "fileName": "waterway_forest2.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 18592,
+            "y": 8896
+        },
+        {
+            "fileName": "waterway_forest3.tmx",
+            "height": 928,
+            "width": 448,
+            "x": 19584,
+            "y": 8160
+        },
+        {
+            "fileName": "waytobrightport21.tmx",
+            "height": 576,
+            "width": 992,
+            "x": 17600,
+            "y": 9504
+        },
+        {
+            "fileName": "waytobrightport22.tmx",
+            "height": 576,
+            "width": 928,
+            "x": 18624,
+            "y": 9504
+        },
+        {
+            "fileName": "waytobrightport23.tmx",
+            "height": 480,
+            "width": 928,
+            "x": 18624,
+            "y": 10112
+        },
+        {
+            "fileName": "brightport2.tmx",
+            "height": 480,
+            "width": 928,
+            "x": 18624,
+            "y": 10624
+        },
+        {
+            "fileName": "brightport1.tmx",
+            "height": 960,
+            "width": 928,
+            "x": 18624,
+            "y": 11136
+        },
+        {
+            "fileName": "brightport3.tmx",
+            "height": 960,
+            "width": 544,
+            "x": 19584,
+            "y": 10912
+        },
+        {
+            "fileName": "brightport4.tmx",
+            "height": 448,
+            "width": 544,
+            "x": 19584,
+            "y": 10432
+        },
+        {
+            "fileName": "brightport5.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 20160,
+            "y": 10912
+        },
+        {
+            "fileName": "brightport6.tmx",
+            "height": 448,
+            "width": 960,
+            "x": 20160,
+            "y": 10432
+        },
+        {
+            "fileName": "brightport7.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 20160,
+            "y": 11904
+        },
+        {
+            "fileName": "brightport8.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 21152,
+            "y": 11488
+        },
+        {
+            "fileName": "brightportwild19.tmx",
+            "height": 608,
+            "width": 256,
+            "x": 19584,
+            "y": 9120
+        },
+        {
+            "fileName": "brightportwild18.tmx",
+            "height": 640,
+            "width": 288,
+            "x": 19584,
+            "y": 9760
+        },
+        {
+            "fileName": "waytobrightport20.tmx",
+            "height": 512,
+            "width": 736,
+            "x": 17856,
+            "y": 11424
+        },
+        {
+            "fileName": "waytobrightport17.tmx",
+            "height": 704,
+            "width": 704,
+            "x": 18848,
+            "y": 11968
+        },
+        {
+            "fileName": "waytobrightport16.tmx",
+            "height": 704,
+            "width": 960,
+            "x": 17856,
+            "y": 11968
+        },
+        {
+            "fileName": "waytobrightport19.tmx",
+            "height": 512,
+            "width": 832,
+            "x": 17856,
+            "y": 12704
+        },
+        {
+            "fileName": "waytobrightport18.tmx",
+            "height": 512,
+            "width": 832,
+            "x": 18720,
+            "y": 12704
+        },
+        {
+            "fileName": "waytobrightport15.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 17024,
+            "y": 12032
+        },
+        {
+            "fileName": "waytobrightport14.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 17024,
+            "y": 12704
+        },
+        {
+            "fileName": "waytobrightport13.tmx",
+            "height": 576,
+            "width": 896,
+            "x": 16096,
+            "y": 12832
+        },
+        {
+            "fileName": "waytobrightport12.tmx",
+            "height": 576,
+            "width": 896,
+            "x": 16096,
+            "y": 12224
+        },
+        {
+            "fileName": "waytobrightport9.tmx",
+            "height": 352,
+            "width": 640,
+            "x": 15424,
+            "y": 12448
+        },
+        {
+            "fileName": "waytobrightport7.tmx",
+            "height": 576,
+            "width": 640,
+            "x": 15424,
+            "y": 12832
+        },
+        {
+            "fileName": "waytobrightport11.tmx",
+            "height": 544,
+            "width": 640,
+            "x": 15424,
+            "y": 13440
+        },
+        {
+            "fileName": "waytobrightport10.tmx",
+            "height": 256,
+            "width": 960,
+            "x": 15104,
+            "y": 12160
+        },
+        {
+            "fileName": "waytobrightport6.tmx",
+            "height": 224,
+            "width": 640,
+            "x": 15424,
+            "y": 14016
+        },
+        {
+            "fileName": "waytobrightport8.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 14560,
+            "y": 14272
+        },
+        {
+            "fileName": "waytobrightport5.tmx",
+            "height": 608,
+            "width": 768,
+            "x": 14624,
+            "y": 12448
+        },
+        {
+            "fileName": "waytobrightport4.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 14752,
+            "y": 13088
+        },
+        {
+            "fileName": "waytobrightport3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 14752,
+            "y": 13760
+        },
+        {
+            "fileName": "waytobrightport0.tmx",
+            "height": 608,
+            "width": 960,
+            "x": 13632,
+            "y": 12448
+        },
+        {
+            "fileName": "waytobrightport1.tmx",
+            "height": 192,
+            "width": 640,
+            "x": 13632,
+            "y": 12224
+        },
+        {
+            "fileName": "waytobrightport2.tmx",
+            "height": 256,
+            "width": 768,
+            "x": 14304,
+            "y": 12160
+        },
+        {
+            "fileName": "brightportwild1.tmx",
+            "height": 800,
+            "width": 480,
+            "x": 16096,
+            "y": 13440
+        },
+        {
+            "fileName": "brightportwild2.tmx",
+            "height": 800,
+            "width": 384,
+            "x": 16608,
+            "y": 13440
+        },
+        {
+            "fileName": "brightportwild3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 17024,
+            "y": 13760
+        },
+        {
+            "fileName": "brightportwild4.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 17696,
+            "y": 13760
+        },
+        {
+            "fileName": "brightportwild5.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 17024,
+            "y": 13248
+        },
+        {
+            "fileName": "brightportwild6.tmx",
+            "height": 128,
+            "width": 512,
+            "x": 18368,
+            "y": 13760
+        },
+        {
+            "fileName": "brightportwild7.tmx",
+            "height": 480,
+            "width": 832,
+            "x": 18720,
+            "y": 13248
+        },
+        {
+            "fileName": "brightportwild8.tmx",
+            "height": 480,
+            "width": 768,
+            "x": 17696,
+            "y": 13248
+        },
+        {
+            "fileName": "brightportwild9.tmx",
+            "height": 480,
+            "width": 192,
+            "x": 18496,
+            "y": 13248
+        },
+        {
+            "fileName": "brightportwild11.tmx",
+            "height": 320,
+            "width": 512,
+            "x": 18368,
+            "y": 13920
+        },
+        {
+            "fileName": "brightportwild12.tmx",
+            "height": 448,
+            "width": 640,
+            "x": 18912,
+            "y": 13760
+        },
+        {
+            "fileName": "brightportwild10.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 19584,
+            "y": 13408
+        },
+        {
+            "fileName": "brightportwild13.tmx",
+            "height": 256,
+            "width": 512,
+            "x": 17536,
+            "y": 14272
+        },
+        {
+            "fileName": "brightportwild14.tmx",
+            "height": 288,
+            "width": 800,
+            "x": 17536,
+            "y": 14560
+        },
+        {
+            "fileName": "brightportwild15.tmx",
+            "height": 256,
+            "width": 256,
+            "x": 18080,
+            "y": 14272
+        },
+        {
+            "fileName": "brightportwild16.tmx",
+            "height": 576,
+            "width": 512,
+            "x": 18368,
+            "y": 14272
+        },
+        {
+            "fileName": "brightportwild17.tmx",
+            "height": 608,
+            "width": 640,
+            "x": 18912,
+            "y": 14240
+        },
+        {
+            "fileName": "guynmart_wood_15.tmx",
+            "height": 960,
+            "width": 704,
+            "x": 992,
+            "y": 6592
+        },
+        {
+            "fileName": "guynmart_wood_16.tmx",
+            "height": 448,
+            "width": 480,
+            "x": 1248,
+            "y": 6112
+        },
+        {
+            "fileName": "guynmart_wood_17.tmx",
+            "height": 480,
+            "width": 480,
+            "x": 736,
+            "y": 6080
+        },
+        {
+            "fileName": "guynmart_wood_17b.tmx",
+            "height": 448,
+            "width": 960,
+            "x": 256,
+            "y": 5600
+        },
+        {
+            "fileName": "guynmart_wood_18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 256,
+            "y": 4608
+        },
+        {
+            "fileName": "guynmart_wood_19.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 256,
+            "y": 4096
+        },
+        {
+            "fileName": "swamp1.tmx",
+            "height": 288,
+            "width": 640,
+            "x": 4064,
+            "y": 8096
+        },
+        {
+            "fileName": "swamp2.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 8096
+        },
+        {
+            "fileName": "swamp3.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 2240,
+            "y": 8096
+        },
+        {
+            "fileName": "swamp4.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 2240,
+            "y": 8608
+        },
+        {
+            "fileName": "swamp5.tmx",
+            "height": 640,
+            "width": 800,
+            "x": 1408,
+            "y": 8928
+        },
+        {
+            "fileName": "swamp6.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 1408,
+            "y": 8096
+        },
+        {
+            "fileName": "wayto_feygard_duleian_1.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 256,
+            "y": 3584
+        },
+        {
+            "fileName": "wayto_feygard_duleian_2.tmx",
+            "height": 480,
+            "width": 960,
+            "x": -384,
+            "y": 3072
+        },
+        {
+            "fileName": "wexlow_village.tmx",
+            "height": 480,
+            "width": 960,
+            "x": 1248,
+            "y": 4096
+        },
+        {
+            "fileName": "beekeeper1.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 12224,
+            "y": 13728
+        },
+        {
+            "fileName": "beekeeper2.tmx",
+            "height": 256,
+            "width": 384,
+            "x": 12224,
+            "y": 13440
+        },
+        {
+            "fileName": "way_to_wexlow1.tmx",
+            "height": 480,
+            "width": 608,
+            "x": 608,
+            "y": 3072
+        },
+        {
+            "fileName": "way_to_wexlow2.tmx",
+            "height": 992,
+            "width": 480,
+            "x": 1248,
+            "y": 3072
+        },
+        {
+            "fileName": "way_to_wexlow3.tmx",
+            "height": 576,
+            "width": 448,
+            "x": 1760,
+            "y": 3488
+        },
+        {
+            "fileName": "plateau1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12992,
+            "y": 4320
+        },
+        {
+            "fileName": "plateau2.tmx",
+            "height": 480,
+            "width": 1056,
+            "x": 11904,
+            "y": 4800
+        },
+        {
+            "fileName": "plateau3.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 13408,
+            "y": 3552
+        },
+        {
+            "fileName": "plateau4.tmx",
+            "height": 1120,
+            "width": 384,
+            "x": 12992,
+            "y": 3168
+        },
+        {
+            "fileName": "plateau8.tmx",
+            "height": 960,
+            "width": 448,
+            "x": 13984,
+            "y": 4320
+        },
+        {
+            "fileName": "plateau5.tmx",
+            "height": 352,
+            "width": 960,
+            "x": 13408,
+            "y": 3168
+        },
+        {
+            "fileName": "plateau6.tmx",
+            "height": 640,
+            "width": 928,
+            "x": 13568,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau7.tmx",
+            "height": 640,
+            "width": 544,
+            "x": 12992,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau9.tmx",
+            "height": 640,
+            "width": 1056,
+            "x": 11904,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau10.tmx",
+            "height": 640,
+            "width": 448,
+            "x": 11424,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau11.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 10432,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau12.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 10432,
+            "y": 3392
+        },
+        {
+            "fileName": "plateau13.tmx",
+            "height": 608,
+            "width": 960,
+            "x": 10432,
+            "y": 4160
+        },
+        {
+            "fileName": "plateau14.tmx",
+            "height": 928,
+            "width": 544,
+            "x": 9856,
+            "y": 2496
+        },
+        {
+            "fileName": "plateau15.tmx",
+            "height": 672,
+            "width": 544,
+            "x": 9856,
+            "y": 3456
+        },
+        {
+            "fileName": "plateau16.tmx",
+            "height": 608,
+            "width": 544,
+            "x": 9856,
+            "y": 4160
+        },
+        {
+            "fileName": "plateau17.tmx",
+            "height": 640,
+            "width": 1056,
+            "x": 11904,
+            "y": 3168
+        },
+        {
+            "fileName": "plateau18.tmx",
+            "height": 768,
+            "width": 448,
+            "x": 11424,
+            "y": 3168
+        },
+        {
+            "fileName": "plateau19.tmx",
+            "height": 800,
+            "width": 448,
+            "x": 11424,
+            "y": 3968
+        },
+        {
+            "fileName": "plateau20.tmx",
+            "height": 928,
+            "width": 1056,
+            "x": 11904,
+            "y": 3840
+        },
+        {
+            "fileName": "moesforest_00.tmx",
+            "height": 896,
+            "width": 800,
+            "x": 3904,
+            "y": 3680
+        },
+        {
+            "fileName": "moesforest_01.tmx",
+            "height": 544,
+            "width": 960,
+            "x": 4736,
+            "y": 6528
+        },
+        {
+            "fileName": "moesforest_02.tmx",
+            "height": 832,
+            "width": 960,
+            "x": 4736,
+            "y": 5664
+        },
+        {
+            "fileName": "moesforest_03.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4736,
+            "y": 4672
+        },
+        {
+            "fileName": "moesforest_04.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4736,
+            "y": 3680
+        },
+        {
+            "fileName": "moesforest_05.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 5728,
+            "y": 6272
+        },
+        {
+            "fileName": "moesforest_06.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 5728,
+            "y": 5664
+        },
+        {
+            "fileName": "moesforest_07.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5728,
+            "y": 4672
+        },
+        {
+            "fileName": "moesforest_08.tmx",
+            "height": 288,
+            "width": 864,
+            "x": 6720,
+            "y": 6976
+        },
+        {
+            "fileName": "moesforest_09.tmx",
+            "height": 672,
+            "width": 960,
+            "x": 6720,
+            "y": 6272
+        },
+        {
+            "fileName": "moesforest_10.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 6720,
+            "y": 5600
+        },
+        {
+            "fileName": "moesforest_11.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 6720,
+            "y": 4608
+        },
+        {
+            "fileName": "moesforest_12.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 6720,
+            "y": 4096
+        },
+        {
+            "fileName": "moesforest_13.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 5728,
+            "y": 3840
+        },
+        {
+            "fileName": "moesforest_14.tmx",
+            "height": 800,
+            "width": 544,
+            "x": 7712,
+            "y": 6144
+        },
+        {
+            "fileName": "moesforest_15.tmx",
+            "height": 672,
+            "width": 608,
+            "x": 8288,
+            "y": 6144
+        },
+        {
+            "fileName": "moesforest_16.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 7712,
+            "y": 5600
+        },
+        {
+            "fileName": "moesforest_17.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 7552,
+            "y": 4608
+        },
+        {
+            "fileName": "moesforest_18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 8544,
+            "y": 5152
+        },
+        {
+            "fileName": "moesforest_19.tmx",
+            "height": 640,
+            "width": 352,
+            "x": 9536,
+            "y": 5472
+        },
+        {
+            "fileName": "moesplateau_01.tmx",
+            "height": 640,
+            "width": 352,
+            "x": 9536,
+            "y": 4800
+        },
+        {
+            "fileName": "galmore_13.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_14.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_15.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_16.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_17.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_18.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_19.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6048,
+            "y": 19296
+        },
+        {
+            "fileName": "galmore_23.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_24.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_25.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_26.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_27.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_28.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_29.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6048,
+            "y": 20288
+        },
+        {
+            "fileName": "galmore_32.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -896,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_33.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_34.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_35.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_36.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_37.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_38.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_39.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 6048,
+            "y": 21280
+        },
+        {
+            "fileName": "galmore_41.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -1888,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_42.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -896,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_43.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_44.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_45.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_46.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_47.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_48.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 22272
+        },
+        {
+            "fileName": "galmore_52.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -896,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_53.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_54.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_55.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_56.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_57.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_58.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 23264
+        },
+        {
+            "fileName": "galmore_62.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -896,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_63.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_64.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_65.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_66.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_67.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_68.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 5056,
+            "y": 24256
+        },
+        {
+            "fileName": "galmore_71.tmx",
+            "height": 960,
+            "width": 480,
+            "x": -1408,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_72.tmx",
+            "height": 960,
+            "width": 960,
+            "x": -896,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_73.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 96,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_74.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 1088,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_75.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_76.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_77.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 4064,
+            "y": 25248
+        },
+        {
+            "fileName": "galmore_85.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 2080,
+            "y": 26240
+        },
+        {
+            "fileName": "galmore_86.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 3072,
+            "y": 26240
+        },
+        {
+            "fileName": "galmore_9.tmx",
+            "height": 736,
+            "width": 960,
+            "x": 3040,
+            "y": 17984
+        },
+        {
+            "fileName": "galmore_10.tmx",
+            "height": 512,
+            "width": 960,
+            "x": 3040,
+            "y": 18752
+        },
+        {
+            "fileName": "galmore_11.tmx",
+            "height": 512,
+            "width": 928,
+            "x": 2080,
+            "y": 18752
+        },
+        {
+            "fileName": "galmore_12.tmx",
+            "height": 512,
+            "width": 928,
+            "x": 1120,
+            "y": 18752
+        },
+        {
+            "fileName": "galmore_12a.tmx",
+            "height": 512,
+            "width": 992,
+            "x": 96,
+            "y": 18752
+        },
+        {
+            "fileName": "brightportwild20.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 21984,
+            "y": 11488
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytomountaincave0.tmx",
+            "height": 928,
+            "width": 672,
+            "x": 20063,
+            "y": 8156
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytomountaincave2.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 19904,
+            "y": 9760
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytomountaincave1.tmx",
+            "height": 608,
+            "width": 864,
+            "x": 19872,
+            "y": 9120
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/korhald_cave_outdoor1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 17599,
+            "y": 8892
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway11.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 18591,
+            "y": 7292
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway10.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 17599,
+            "y": 8284
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway9.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 17599,
+            "y": 7292
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway11_east.tmx",
+            "height": 800,
+            "width": 960,
+            "x": 19583,
+            "y": 7324
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway_forest1.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 18591,
+            "y": 8284
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway_forest3.tmx",
+            "height": 928,
+            "width": 448,
+            "x": 19583,
+            "y": 8156
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway_forest2.tmx",
+            "height": 576,
+            "width": 960,
+            "x": 18591,
+            "y": 8892
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake10.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 20639,
+            "y": 4988
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake9.tmx",
+            "height": 640,
+            "width": 960,
+            "x": 20639,
+            "y": 5980
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake8.tmx",
+            "height": 640,
+            "width": 896,
+            "x": 20575,
+            "y": 6652
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake7b.tmx",
+            "height": 320,
+            "width": 640,
+            "x": 20767,
+            "y": 8156
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake7.tmx",
+            "height": 800,
+            "width": 832,
+            "x": 20575,
+            "y": 7324
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake6.tmx",
+            "height": 544,
+            "width": 864,
+            "x": 21631,
+            "y": 6076
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake3.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 21503,
+            "y": 6652
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake2.tmx",
+            "height": 800,
+            "width": 640,
+            "x": 21471,
+            "y": 7292
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake1.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 21439,
+            "y": 8156
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake0.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 20767,
+            "y": 8508
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake12.tmx",
+            "height": 480,
+            "width": 736,
+            "x": 21631,
+            "y": 5580
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolake11.tmx",
+            "height": 640,
+            "width": 736,
+            "x": 21631,
+            "y": 4924
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/mountainlake4.tmx",
+            "height": 512,
+            "width": 800,
+            "x": 24287,
+            "y": 3548
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/mountainlake0.tmx",
+            "height": 960,
+            "width": 640,
+            "x": 22399,
+            "y": 5084
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/mountainlake1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 22399,
+            "y": 4092
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/mountainlake2.tmx",
+            "height": 960,
+            "width": 704,
+            "x": 23391,
+            "y": 4092
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/mountainlake3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 24127,
+            "y": 4092
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road3.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15904,
+            "y": 14252
+        },
+        {
+            "fileName": "../../altered/maps/cabin_norcity_road2.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 15233,
+            "y": 14272
+        },
+        {
+            "fileName": "../../altered/maps/waytominingtown3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12641,
+            "y": 12096
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/lostmine0.tmx",
+            "height": 640,
+            "width": 640,
+            "x": 13633,
+            "y": 11552
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolostmine2.tmx",
+            "height": 896,
+            "width": 960,
+            "x": 13633,
+            "y": 9632
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolostmine1.tmx",
+            "height": 864,
+            "width": 960,
+            "x": 12641,
+            "y": 10208
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolostmine0.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12641,
+            "y": 11104
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waytolostmine3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13633,
+            "y": 10560
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven4.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12641,
+            "y": 8288
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven2.tmx",
+            "height": 896,
+            "width": 960,
+            "x": 12641,
+            "y": 9280
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven1.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13633,
+            "y": 8288
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven7.tmx",
+            "height": 160,
+            "width": 960,
+            "x": 14624,
+            "y": 8096
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven3.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14625,
+            "y": 8288
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven8.tmx",
+            "height": 320,
+            "width": 960,
+            "x": 13633,
+            "y": 9280
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway12.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14624,
+            "y": 7104
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway13.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 15617,
+            "y": 7296
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway6.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 12640,
+            "y": 7264
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway7.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 13632,
+            "y": 7264
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/waterway8.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 16608,
+            "y": 7296
+        },
+        {
+            "fileName": "../../../../Source/andors-trail-AT_Source_Next_Release/AndorsTrail/res/xml/brimhaven_exit.tmx",
+            "height": 960,
+            "width": 960,
+            "x": 14609,
+            "y": 9288
+        },
+        {
+            "fileName": "brightport9.tmx",
+            "height": 800,
+            "width": 416,
+            "x": 21153,
+            "y": 10656
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
