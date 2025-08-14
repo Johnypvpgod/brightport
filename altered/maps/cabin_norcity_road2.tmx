@@ -181,25 +181,25 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_ground_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_ground_1.png" width="512" height="256"/>
+  <image source="../drawable/map_ground_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7705" name="map_tree_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_tree_1.png" width="512" height="256"/>
+  <image source="../drawable/map_tree_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7833" name="map_rock_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_rock_1.png" width="512" height="256"/>
+  <image source="../drawable/map_rock_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7961" name="map_plant_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_plant_1.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8089" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
+  <image source="../drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8217" name="map_outdoor_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_outdoor_1.png" width="512" height="256"/>
+  <image source="../drawable/map_outdoor_1.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="8345" name="map_plant_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../created/drawable/map_plant_2.png" width="512" height="256"/>
+  <image source="../drawable/map_plant_2.png" width="512" height="256"/>
  </tileset>
  <layer id="1" name="Ground" width="20" height="15">
   <data encoding="base64" compression="zlib">
@@ -208,17 +208,17 @@
  </layer>
  <layer id="2" name="Objects" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJx9U0FOQkEMnZNMSQgLJfFnIgZ2xiUuzF9I8AocQK+gN3CHCdxATwA7XZgQXbJxwzlo+VPn2V95yWR+O9P+19dOTeGA2xjCJIZfzDohnFPx31H7ziP7nhy/2nYX3FBoQc9H+WxA7dg6n1V5T5CnhvsnvE6jX5OgD/aC4+ZmLSHvyOFq68PYN15To8eLsT1NVEdEBfY9fz/wSnz/FXgmh9+2U75T9P/9DHFjtq9jw1O1TP9w/jC29El4ov47qNtiAD6J+6TSr1nmfQV3Nuw/o5KvOjJrkuuL2n6vx9orxZD+1oi51H8BPDzdBdhH1Qpzia9n5lHyfceiiae7/s/WKJhADM6HXasjvN6zb03NzHeBo7473VPuCb4zj5fk+qGm3l7036LFBrS/hHyaS2ZjDxhba7U=
+   eJyFUzFOA0EMXPEIynUklAIKTisSkQ6FDgp0RSL4Qh4AXyA/oAMJfpC8IHRQIEVJSZMm74jNrdnBZ4WRrD1713Pesbem8INRDGEcwy8mnRDOqMTvqH3mkWNTJ66+XQU3FFrQ/UHe61E7t857VV4T8NRw/pjtJPp3snjlvGdjb8A7cGq198PcOdut0ePF+J4mqiOiAv+evx/YEp+fQZ3Jqe+7U75T9P/9BHlX7F/Hpk5BnXm9vE/jS5+kTtR/C/e26EFM8r6o9GuS6x7CmSXHT6nwVXtmTbhW1I57PdZeKc7p7x2RS+N9qMPTXYB9VK2QS2JdM4/Ct45FE093/R9yXeZ1DDk4H9YWe+r6yLF3amb+CGrUd6dryj3Bd2a1PzxouDbU3Lcb/3+LgiVofwF8yiWzsQNtIWvl
   </data>
  </layer>
  <layer id="3" name="Above" width="20" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYGBgcJFjYHCVw6RxAWzyxOpFVy8JxFJyuM2VJsIsYu1ywWEWur3IfFL9hQwUyVCPzW5kYAnkW2ExF58+fPFFKkCOL2IAMW4hxz3UModSQCi+8OkhNX2QA2B2UBpv1AKkljXIwBGoDgCJLhvO
+   eJxjYGBgcJFjYHCVw6RxAWzyxOpFVy8JxFJyuM2lBkB2Gz55bHxS/YUMFMlQj81uZGAJ5FthMRefPnzxRSpAji9iADFuIcc91DKHUkAovvDpITV9kANgdlAab9QCpJY1yMARqA4Aoa0blQ==
   </data>
  </layer>
  <layer id="4" name="Walkable" width="20" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJytksENACAIA93Eud3W+ONh28NIQiIK9DCsOcYCfqyea0xdmdIhtYrF8VJTuYnL6RLONFeHP+movqpO8RA+p1P7k5lS3Pkvl/+ygynH3dG9uPF198P1c++U7Tffqd/1WlNh
+   eJytkkEKACAIBPtJ7+634c1Ds66SIGSpO4lnr3UMD8vnHLtORjpOLbEQb8cov+KiObmcpDXhr3SoL9URj8OndHJ/509V3JmXyp/sYJWj7ty9ePF190P1U+8u22++qL9DW1Kp
   </data>
  </layer>
  <objectgroup id="5" name="Mapevents">
@@ -234,13 +234,13 @@
     <property name="place" value="west"/>
    </properties>
   </object>
-  <object id="8" name="west" type="mapchange" x="0" y="128" width="32" height="64">
+  <object id="3" name="west" type="mapchange" x="0" y="96" width="32" height="96">
    <properties>
     <property name="map" value="waytobrightport8"/>
     <property name="place" value="east"/>
    </properties>
   </object>
-  <object id="9" name="north" type="mapchange" x="320" y="0" width="32" height="32">
+  <object id="4" name="north" type="mapchange" x="320" y="0" width="32" height="32">
    <properties>
     <property name="map" value="waytobrightport6"/>
     <property name="place" value="south"/>
@@ -248,29 +248,29 @@
   </object>
  </objectgroup>
  <objectgroup id="6" name="Spawn">
-  <object id="3" name="duleian_mountain_cat_spawn" type="spawn" x="64" y="96" width="96" height="96">
+  <object id="5" name="duleian_mountain_cat_spawn" type="spawn" x="64" y="96" width="96" height="96">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="4" name="duleian_mountain_cat_spawn2" type="spawn" x="320" y="160" width="224" height="96">
+  <object id="6" name="duleian_mountain_cat_spawn2" type="spawn" x="320" y="160" width="224" height="96">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="5" name="duleian_mountain_cat_spawn3" type="spawn" x="128" y="256" width="64" height="160">
+  <object id="7" name="duleian_mountain_cat_spawn3" type="spawn" x="128" y="256" width="64" height="160">
    <properties>
     <property name="spawngroup" value="duleian_hornet"/>
    </properties>
   </object>
-  <object id="6" name="hardshell_beetle_spawn" type="spawn" x="416" y="320" width="64" height="64">
+  <object id="8" name="hardshell_beetle_spawn" type="spawn" x="416" y="320" width="64" height="64">
    <properties>
     <property name="quantity" value="2"/>
     <property name="spawngroup" value="hardshell_beetle"/>
    </properties>
   </object>
-  <object id="7" name="duleian_hornet_spawn" type="spawn" x="224" y="320" width="224" height="96">
+  <object id="9" name="duleian_hornet_spawn" type="spawn" x="224" y="320" width="224" height="96">
    <properties>
     <property name="quantity" value="3"/>
     <property name="spawngroup" value="duleian_hornet"/>
